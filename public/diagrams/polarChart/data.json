@@ -1,0 +1,31 @@
+{
+  "originalData": {
+    "title": "Title",
+    "titleFontSize": "1em",
+    "titleFontColor": "#0c5393",
+    "data": {
+      "labels": [
+        "Accelerators",
+        "Government Offices",
+        "Incubators",
+        "Industrials Hubs",
+        "R & D Hubs"
+      ],
+      "datasets": [
+        {
+          "data": [12, 15, 41, 13, 23],
+          "backgroundColor": [
+            "rgba(255, 99, 132, 0.9)",
+            "rgba(54, 162, 235, 0.9)",
+            "rgba(255, 206, 86, 0.9)",
+            "rgba(75, 192, 192, 0.9)",
+            "rgba(153, 102, 255, 0.9)",
+            "rgba(255, 159, 64, 0.9)"
+          ],
+          "borderWidth": 2,
+          "borderColor": "#fff"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,760 @@
+{
+  "originalData": {
+    "mapTitle": "AI Ecosystem UK Map",
+    "statsFooter": [
+      {
+        "label": "AI Economy Size",
+        "value": "$1.7 T",
+        "iconBackground": "rgba(115, 103, 240, 0.12)",
+        "icon": "bag"
+      },
+      {
+        "label": "AI-focused Companies",
+        "value": "1,333",
+        "iconBackground": "rgba(115, 103, 240, 0.12)",
+        "icon": "fourSquares"
+      },
+      {
+        "label": "AI-related Companies",
+        "value": "2,488",
+        "iconBackground": "rgba(40, 199, 111, 0.12)",
+        "icon": "flower"
+      },
+      {
+        "label": "AI Subsectors",
+        "value": "200",
+        "iconBackground": "rgba(0, 207, 232, 0.12)",
+        "icon": "person"
+      },
+      {
+        "label": "AI Government Projects",
+        "value": "280",
+        "iconBackground": "rgba(234, 84, 85, 0.12)",
+        "icon": "cube"
+      },
+      {
+        "label": "AI Specialists",
+        "value": "500,000",
+        "iconBackground": "rgba(115, 103, 240, 0.12)",
+        "icon": "arrow"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Companies",
+        "value": "8900",
+        "iconBackground": "rgba(115, 103, 240, 0.12)",
+        "icon": "bag"
+      },
+      {
+        "label": "Total Investors",
+        "value": "4100",
+        "iconBackground": "rgba(115, 103, 240, 0.12)",
+        "icon": "fourSquares"
+      },
+      {
+        "label": "Investors based in UK",
+        "value": "600",
+        "iconBackground": "rgba(40, 199, 111, 0.12)",
+        "icon": "flower"
+      },
+      {
+        "label": "Leaders",
+        "value": "1600",
+        "iconBackground": "rgba(0, 207, 232, 0.12)",
+        "icon": "person"
+      },
+      {
+        "label": "Hubs",
+        "value": "300",
+        "iconBackground": "rgba(234, 84, 85, 0.12)",
+        "icon": "cube"
+      },
+      {
+        "label": "Public Companies",
+        "value": "70",
+        "iconBackground": "rgba(115, 103, 240, 0.12)",
+        "icon": "arrow"
+      }
+    ],
+    "dataForBArChart": {
+      "Scotland": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          {
+            "name": "Education, Research & SocialTech",
+            "value1": 1,
+            "value2": 43
+          },
+          {
+            "name": "Natural Resources & Enviornment",
+            "value1": 23,
+            "value2": 11
+          },
+          { "name": "Manufacturing & Agriculture", "value1": 6, "value2": 1 },
+          { "name": "Transportation & Logistics", "value1": 5, "value2": 3 },
+          { "name": "AI Infrastructure", "value1": 4, "value2": 3 },
+          { "name": "BioTech & HealthTech", "value1": 2, "value2": 2 },
+          {
+            "name": "Energy, Realstate & construction",
+            "value1": 2,
+            "value2": 2
+          },
+          { "name": "Finance & Banking", "value1": 2, "value2": 2 },
+          { "name": "GovTech & Public Sector", "value1": 2, "value2": 2 },
+          { "name": "Media, Entertainment & Gaming", "value1": 2, "value2": 2 },
+          { "name": "Retail & E-commerce", "value1": 2, "value2": 2 },
+          { "name": "SpaceTech & AdvanceTech", "value1": 2, "value2": 2 },
+          { "name": "other", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Wales": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          {
+            "name": "Education, Research & SocialTech",
+            "value1": 23,
+            "value2": 26
+          },
+          {
+            "name": "Natural Resources & Enviornment",
+            "value1": 23,
+            "value2": 11
+          },
+          { "name": "Manufacturing & Agriculture", "value1": 6, "value2": 1 },
+          { "name": "Transportation & Logistics", "value1": 5, "value2": 3 },
+          { "name": "AI Infrastructure", "value1": 4, "value2": 3 },
+          { "name": "BioTech & HealthTech", "value1": 2, "value2": 2 },
+          {
+            "name": "Energy, Realstate & construction",
+            "value1": 2,
+            "value2": 2
+          },
+          { "name": "Finance & Banking", "value1": 2, "value2": 2 },
+          { "name": "GovTech & Public Sector", "value1": 2, "value2": 2 },
+          { "name": "Media, Entertainment & Gaming", "value1": 2, "value2": 2 },
+          { "name": "Retail & E-commerce", "value1": 2, "value2": 2 },
+          { "name": "SpaceTech & AdvanceTech", "value1": 2, "value2": 2 },
+          { "name": "other", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Northern Ireland": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          {
+            "name": "Education, Research & SocialTech",
+            "value1": 23,
+            "value2": 26
+          },
+          {
+            "name": "Natural Resources & Enviornment",
+            "value1": 23,
+            "value2": 11
+          },
+          { "name": "Manufacturing & Agriculture", "value1": 6, "value2": 1 },
+          { "name": "Transportation & Logistics", "value1": 5, "value2": 3 },
+          { "name": "AI Infrastructure", "value1": 4, "value2": 3 },
+          { "name": "BioTech & HealthTech", "value1": 2, "value2": 2 },
+          {
+            "name": "Energy, Realstate & construction",
+            "value1": 2,
+            "value2": 2
+          },
+          { "name": "Finance & Banking", "value1": 2, "value2": 2 },
+          { "name": "GovTech & Public Sector", "value1": 2, "value2": 2 },
+          { "name": "Media, Entertainment & Gaming", "value1": 2, "value2": 2 },
+          { "name": "Retail & E-commerce", "value1": 2, "value2": 2 },
+          { "name": "SpaceTech & AdvanceTech", "value1": 2, "value2": 2 },
+          { "name": "other", "value1": 2, "value2": 2 }
+        ]
+      },
+      "South West": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          {
+            "name": "Education, Research & SocialTech",
+            "value1": 23,
+            "value2": 26
+          },
+          {
+            "name": "Natural Resources & Enviornment",
+            "value1": 23,
+            "value2": 11
+          },
+          { "name": "Manufacturing & Agriculture", "value1": 6, "value2": 1 },
+          { "name": "Transportation & Logistics", "value1": 5, "value2": 3 },
+          { "name": "AI Infrastructure", "value1": 4, "value2": 3 },
+          { "name": "BioTech & HealthTech", "value1": 2, "value2": 2 },
+          {
+            "name": "Energy, Realstate & construction",
+            "value1": 2,
+            "value2": 2
+          },
+          { "name": "Finance & Banking", "value1": 2, "value2": 2 },
+          { "name": "GovTech & Public Sector", "value1": 2, "value2": 2 },
+          { "name": "Media, Entertainment & Gaming", "value1": 2, "value2": 2 },
+          { "name": "Retail & E-commerce", "value1": 2, "value2": 2 },
+          { "name": "SpaceTech & AdvanceTech", "value1": 2, "value2": 2 },
+          { "name": "other", "value1": 2, "value2": 2 }
+        ]
+      },
+      "South East": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          {
+            "name": "Education, Research & SocialTech",
+            "value1": 23,
+            "value2": 26
+          },
+          {
+            "name": "Natural Resources & Enviornment",
+            "value1": 23,
+            "value2": 11
+          },
+          { "name": "Manufacturing & Agriculture", "value1": 6, "value2": 1 },
+          { "name": "Transportation & Logistics", "value1": 5, "value2": 3 },
+          { "name": "AI Infrastructure", "value1": 4, "value2": 3 },
+          { "name": "BioTech & HealthTech", "value1": 2, "value2": 2 },
+          {
+            "name": "Energy, Realstate & construction",
+            "value1": 2,
+            "value2": 2
+          },
+          { "name": "Finance & Banking", "value1": 2, "value2": 2 },
+          { "name": "GovTech & Public Sector", "value1": 2, "value2": 2 },
+          { "name": "Media, Entertainment & Gaming", "value1": 2, "value2": 2 },
+          { "name": "Retail & E-commerce", "value1": 2, "value2": 2 },
+          { "name": "SpaceTech & AdvanceTech", "value1": 2, "value2": 2 },
+          { "name": "other", "value1": 2, "value2": 2 }
+        ]
+      },
+      "London": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          {
+            "name": "Education, Research & SocialTech",
+            "value1": 23,
+            "value2": 26
+          },
+          {
+            "name": "Natural Resources & Enviornment",
+            "value1": 23,
+            "value2": 11
+          },
+          { "name": "Manufacturing & Agriculture", "value1": 6, "value2": 1 },
+          { "name": "Transportation & Logistics", "value1": 5, "value2": 3 },
+          { "name": "AI Infrastructure", "value1": 4, "value2": 3 },
+          { "name": "BioTech & HealthTech", "value1": 2, "value2": 2 },
+          {
+            "name": "Energy, Realstate & construction",
+            "value1": 2,
+            "value2": 2
+          },
+          { "name": "Finance & Banking", "value1": 2, "value2": 2 },
+          { "name": "GovTech & Public Sector", "value1": 2, "value2": 2 },
+          { "name": "Media, Entertainment & Gaming", "value1": 2, "value2": 2 },
+          { "name": "Retail & E-commerce", "value1": 2, "value2": 2 },
+          { "name": "SpaceTech & AdvanceTech", "value1": 2, "value2": 2 },
+          { "name": "other", "value1": 2, "value2": 2 }
+        ]
+      },
+      "East of England": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          {
+            "name": "Education, Research & SocialTech",
+            "value1": 23,
+            "value2": 26
+          },
+          {
+            "name": "Natural Resources & Enviornment",
+            "value1": 23,
+            "value2": 11
+          },
+          { "name": "Manufacturing & Agriculture", "value1": 6, "value2": 1 },
+          { "name": "Transportation & Logistics", "value1": 5, "value2": 3 },
+          { "name": "AI Infrastructure", "value1": 4, "value2": 3 },
+          { "name": "BioTech & HealthTech", "value1": 2, "value2": 2 },
+          {
+            "name": "Energy, Realstate & construction",
+            "value1": 2,
+            "value2": 2
+          },
+          { "name": "Finance & Banking", "value1": 2, "value2": 2 },
+          { "name": "GovTech & Public Sector", "value1": 2, "value2": 2 },
+          { "name": "Media, Entertainment & Gaming", "value1": 2, "value2": 2 },
+          { "name": "Retail & E-commerce", "value1": 2, "value2": 2 },
+          { "name": "SpaceTech & AdvanceTech", "value1": 2, "value2": 2 },
+          { "name": "other", "value1": 2, "value2": 2 }
+        ]
+      },
+      "West Midlands": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          {
+            "name": "Education, Research & SocialTech",
+            "value1": 23,
+            "value2": 26
+          },
+          {
+            "name": "Natural Resources & Enviornment",
+            "value1": 23,
+            "value2": 11
+          },
+          { "name": "Manufacturing & Agriculture", "value1": 6, "value2": 1 },
+          { "name": "Transportation & Logistics", "value1": 5, "value2": 3 },
+          { "name": "AI Infrastructure", "value1": 4, "value2": 3 },
+          { "name": "BioTech & HealthTech", "value1": 2, "value2": 2 },
+          {
+            "name": "Energy, Realstate & construction",
+            "value1": 2,
+            "value2": 2
+          },
+          { "name": "Finance & Banking", "value1": 2, "value2": 2 },
+          { "name": "GovTech & Public Sector", "value1": 2, "value2": 2 },
+          { "name": "Media, Entertainment & Gaming", "value1": 2, "value2": 2 },
+          { "name": "Retail & E-commerce", "value1": 2, "value2": 2 },
+          { "name": "SpaceTech & AdvanceTech", "value1": 2, "value2": 2 },
+          { "name": "other", "value1": 2, "value2": 2 }
+        ]
+      },
+      "East Midlands": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          {
+            "name": "Education, Research & SocialTech",
+            "value1": 23,
+            "value2": 26
+          },
+          {
+            "name": "Natural Resources & Enviornment",
+            "value1": 23,
+            "value2": 11
+          },
+          { "name": "Manufacturing & Agriculture", "value1": 6, "value2": 1 },
+          { "name": "Transportation & Logistics", "value1": 5, "value2": 3 },
+          { "name": "AI Infrastructure", "value1": 4, "value2": 3 },
+          { "name": "BioTech & HealthTech", "value1": 2, "value2": 2 },
+          {
+            "name": "Energy, Realstate & construction",
+            "value1": 2,
+            "value2": 2
+          },
+          { "name": "Finance & Banking", "value1": 2, "value2": 2 },
+          { "name": "GovTech & Public Sector", "value1": 2, "value2": 2 },
+          { "name": "Media, Entertainment & Gaming", "value1": 2, "value2": 2 },
+          { "name": "Retail & E-commerce", "value1": 2, "value2": 2 },
+          { "name": "SpaceTech & AdvanceTech", "value1": 2, "value2": 2 },
+          { "name": "other", "value1": 2, "value2": 2 }
+        ]
+      },
+      "North West": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          {
+            "name": "Education, Research & SocialTech",
+            "value1": 23,
+            "value2": 26
+          },
+          {
+            "name": "Natural Resources & Enviornment",
+            "value1": 23,
+            "value2": 11
+          },
+          { "name": "Manufacturing & Agriculture", "value1": 6, "value2": 1 },
+          { "name": "Transportation & Logistics", "value1": 5, "value2": 3 },
+          { "name": "AI Infrastructure", "value1": 4, "value2": 3 },
+          { "name": "BioTech & HealthTech", "value1": 2, "value2": 2 },
+          {
+            "name": "Energy, Realstate & construction",
+            "value1": 2,
+            "value2": 2
+          },
+          { "name": "Finance & Banking", "value1": 2, "value2": 2 },
+          { "name": "GovTech & Public Sector", "value1": 2, "value2": 2 },
+          { "name": "Media, Entertainment & Gaming", "value1": 2, "value2": 2 },
+          { "name": "Retail & E-commerce", "value1": 2, "value2": 2 },
+          { "name": "SpaceTech & AdvanceTech", "value1": 2, "value2": 2 },
+          { "name": "other", "value1": 2, "value2": 2 }
+        ]
+      },
+      "North East": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          {
+            "name": "Education, Research & SocialTech",
+            "value1": 23,
+            "value2": 26
+          },
+          {
+            "name": "Natural Resources & Enviornment",
+            "value1": 23,
+            "value2": 11
+          },
+          { "name": "Manufacturing & Agriculture", "value1": 6, "value2": 1 },
+          { "name": "Transportation & Logistics", "value1": 5, "value2": 3 },
+          { "name": "AI Infrastructure", "value1": 4, "value2": 3 },
+          { "name": "BioTech & HealthTech", "value1": 2, "value2": 2 },
+          {
+            "name": "Energy, Realstate & construction",
+            "value1": 2,
+            "value2": 2
+          },
+          { "name": "Finance & Banking", "value1": 2, "value2": 2 },
+          { "name": "GovTech & Public Sector", "value1": 2, "value2": 2 },
+          { "name": "Media, Entertainment & Gaming", "value1": 2, "value2": 2 },
+          { "name": "Retail & E-commerce", "value1": 2, "value2": 2 },
+          { "name": "SpaceTech & AdvanceTech", "value1": 2, "value2": 2 },
+          { "name": "other", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Yorkshire and The Humber": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          {
+            "name": "Education, Research & SocialTech",
+            "value1": 23,
+            "value2": 26
+          },
+          {
+            "name": "Natural Resources & Enviornment",
+            "value1": 23,
+            "value2": 11
+          },
+          { "name": "Manufacturing & Agriculture", "value1": 6, "value2": 1 },
+          { "name": "Transportation & Logistics", "value1": 5, "value2": 3 },
+          { "name": "AI Infrastructure", "value1": 4, "value2": 3 },
+          { "name": "BioTech & HealthTech", "value1": 2, "value2": 2 },
+          {
+            "name": "Energy, Realstate & construction",
+            "value1": 2,
+            "value2": 2
+          },
+          { "name": "Finance & Banking", "value1": 2, "value2": 2 },
+          { "name": "GovTech & Public Sector", "value1": 2, "value2": 2 },
+          { "name": "Media, Entertainment & Gaming", "value1": 2, "value2": 2 },
+          { "name": "Retail & E-commerce", "value1": 2, "value2": 2 },
+          { "name": "SpaceTech & AdvanceTech", "value1": 2, "value2": 2 },
+          { "name": "other", "value1": 2, "value2": 2 }
+        ]
+      }
+    },
+    "dataForPolarChart": {
+      "Scotland": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Wales": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [2, 5, 1, 3, 3]
+      },
+      "Northern Ireland": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [172, 515, 441, 123, 293]
+      },
+      "South West": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "South East": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "London": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "East of England": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "West Midlands": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "East Midlands": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "North West": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "North East": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Yorkshire and The Humber": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      }
+    },
+    "dataForKeyIndicator": {
+      "Scotland": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Wales": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Northern Ireland": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "South West": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "South East": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "London": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "East of England": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "West Midlands": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "East Midlands": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "North West": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "North East": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Yorkshire and The Humber": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      }
+    },
+    "defaultData": {
+      "polarData": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "keyIndicatorData": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      }
+    }
+  },
+  "type": "ukmapnew"
+}

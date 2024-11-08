@@ -1,0 +1,86 @@
+{
+  "originalData": {
+    "data": {
+      "width": 1000,
+      "height": 600,
+      "padding": 2,
+      "children": [
+        { 
+          "labelName": "City",
+          "label": "Briceni",
+          "valueName": "Patients",
+          "value": 700,
+          "color": "white",
+          "fontSize": "24px",
+          "borderColor": "black",
+          "textColor": "white",
+          "tooltipFill": "rgba(0, 0, 0, 0.8)",
+          "tooltipStroke": "black"
+        },
+        { 
+          "labelName": "City",
+          "label": "Edinet",
+          "valueName": "Patients",
+          "value": 350,
+          "backgroundColor": "#abcfe4",
+          "color": "white",
+          "borderColor": "black"
+        },
+        { 
+          "labelName": "City",
+          "label": "Riscani",
+          "valueName": "Patients",
+          "value": 350,
+          "backgroundColor": "#398bbc",
+          "color": "white",
+          "borderColor": "black"
+        },
+        { 
+          "labelName": "City",
+          "label": "Chisinau",
+          "valueName": "Patients",
+          "value": 200,
+          "backgroundColor": "#abcfe4",
+          "color": "white",
+          "borderColor": "black"
+        },
+        { 
+          "labelName": "City",
+          "label": "Glodeni",
+          "valueName": "Patients",
+          "value": 100,
+          "backgroundColor": "#398bbc",
+          "color": "white",
+          "borderColor": "black"
+        },
+        { 
+          "labelName": "City",
+          "label": "Falesti",
+          "valueName": "Patients",
+          "value": 75,
+          "backgroundColor": "#398bbc",
+          "color": "white",
+          "borderColor": "black"
+        },
+        { 
+          "labelName": "City",
+          "label": "Ungheni",
+          "valueName": "Patients",
+          "value": 75,
+          "backgroundColor": "#abcfe4",
+          "color": "white",
+          "borderColor": "black"
+        },
+        { 
+          "labelName": "City",
+          "label": "Nisporeni",
+          "valueName": "Patients",
+          "value": 75,
+          "backgroundColor": "#98c3de",
+          "color": "white",
+          "borderColor": "black"
+        }
+      ]
+    }
+  }
+}

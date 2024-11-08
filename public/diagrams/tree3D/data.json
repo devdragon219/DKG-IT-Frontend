@@ -1,0 +1,1671 @@
+{
+  "originalData": {
+    "fullscreen": true,
+    "data": {
+      "label": "Machine Learning",
+      "year": "1858",
+      "nodes": [
+        {
+          "label": "Reinforcement Learning",
+          "year": "1960",
+          "nodes": [
+            {
+              "label": "Classical RL",
+              "year": "1984",
+              "nodes": [
+                {
+                  "label": "Q-Learning",
+                  "year": "1992"
+                },
+                {
+                  "label": "SARSA (State-Action-Reward-State-Action)",
+                  "year": "1994"
+                },
+                {
+                  "label": "Policy Gradient Methods",
+                  "year": "1999"
+                }
+              ]
+            },
+            {
+              "label": "Deep RL",
+              "year": "2013",
+              "nodes": [
+                {
+                  "label": "Trust Region Policy Optimization (TRPO)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Deep Q-Network (DQN)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Double DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Dueling DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Advantage Actor-Critic (A2C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Asynchronous Advantage Actor-Critic (A3C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Soft Actor-Critic (SAC)",
+                  "year": "2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Reinforcement Learning",
+          "year": "1960",
+          "nodes": [
+            {
+              "label": "Classical RL",
+              "year": "1984",
+              "nodes": [
+                {
+                  "label": "Q-Learning",
+                  "year": "1992"
+                },
+                {
+                  "label": "SARSA (State-Action-Reward-State-Action)",
+                  "year": "1994"
+                },
+                {
+                  "label": "Policy Gradient Methods",
+                  "year": "1999"
+                }
+              ]
+            },
+            {
+              "label": "Deep RL",
+              "year": "2013",
+              "nodes": [
+                {
+                  "label": "Trust Region Policy Optimization (TRPO)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Deep Q-Network (DQN)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Double DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Dueling DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Advantage Actor-Critic (A2C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Asynchronous Advantage Actor-Critic (A3C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Soft Actor-Critic (SAC)",
+                  "year": "2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Reinforcement Learning",
+          "year": "1960",
+          "nodes": [
+            {
+              "label": "Classical RL",
+              "year": "1984",
+              "nodes": [
+                {
+                  "label": "Q-Learning",
+                  "year": "1992"
+                },
+                {
+                  "label": "SARSA (State-Action-Reward-State-Action)",
+                  "year": "1994"
+                },
+                {
+                  "label": "Policy Gradient Methods",
+                  "year": "1999"
+                }
+              ]
+            },
+            {
+              "label": "Deep RL",
+              "year": "2013",
+              "nodes": [
+                {
+                  "label": "Trust Region Policy Optimization (TRPO)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Deep Q-Network (DQN)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Double DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Dueling DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Advantage Actor-Critic (A2C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Asynchronous Advantage Actor-Critic (A3C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Soft Actor-Critic (SAC)",
+                  "year": "2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Reinforcement Learning",
+          "year": "1960",
+          "nodes": [
+            {
+              "label": "Classical RL",
+              "year": "1984",
+              "nodes": [
+                {
+                  "label": "Q-Learning",
+                  "year": "1992"
+                },
+                {
+                  "label": "SARSA (State-Action-Reward-State-Action)",
+                  "year": "1994"
+                },
+                {
+                  "label": "Policy Gradient Methods",
+                  "year": "1999"
+                }
+              ]
+            },
+            {
+              "label": "Deep RL",
+              "year": "2013",
+              "nodes": [
+                {
+                  "label": "Trust Region Policy Optimization (TRPO)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Deep Q-Network (DQN)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Double DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Dueling DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Advantage Actor-Critic (A2C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Asynchronous Advantage Actor-Critic (A3C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Soft Actor-Critic (SAC)",
+                  "year": "2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Reinforcement Learning",
+          "year": "1960",
+          "nodes": [
+            {
+              "label": "Classical RL",
+              "year": "1984",
+              "nodes": [
+                {
+                  "label": "Q-Learning",
+                  "year": "1992"
+                },
+                {
+                  "label": "SARSA (State-Action-Reward-State-Action)",
+                  "year": "1994"
+                },
+                {
+                  "label": "Policy Gradient Methods",
+                  "year": "1999"
+                }
+              ]
+            },
+            {
+              "label": "Deep RL",
+              "year": "2013",
+              "nodes": [
+                {
+                  "label": "Trust Region Policy Optimization (TRPO)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Deep Q-Network (DQN)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Double DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Dueling DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Advantage Actor-Critic (A2C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Asynchronous Advantage Actor-Critic (A3C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Soft Actor-Critic (SAC)",
+                  "year": "2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Reinforcement Learning",
+          "year": "1960",
+          "nodes": [
+            {
+              "label": "Classical RL",
+              "year": "1984",
+              "nodes": [
+                {
+                  "label": "Q-Learning",
+                  "year": "1992"
+                },
+                {
+                  "label": "SARSA (State-Action-Reward-State-Action)",
+                  "year": "1994"
+                },
+                {
+                  "label": "Policy Gradient Methods",
+                  "year": "1999"
+                }
+              ]
+            },
+            {
+              "label": "Deep RL",
+              "year": "2013",
+              "nodes": [
+                {
+                  "label": "Trust Region Policy Optimization (TRPO)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Deep Q-Network (DQN)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Double DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Dueling DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Advantage Actor-Critic (A2C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Asynchronous Advantage Actor-Critic (A3C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Soft Actor-Critic (SAC)",
+                  "year": "2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Reinforcement Learning",
+          "year": "1960",
+          "nodes": [
+            {
+              "label": "Classical RL",
+              "year": "1984",
+              "nodes": [
+                {
+                  "label": "Q-Learning",
+                  "year": "1992"
+                },
+                {
+                  "label": "SARSA (State-Action-Reward-State-Action)",
+                  "year": "1994"
+                },
+                {
+                  "label": "Policy Gradient Methods",
+                  "year": "1999"
+                }
+              ]
+            },
+            {
+              "label": "Deep RL",
+              "year": "2013",
+              "nodes": [
+                {
+                  "label": "Trust Region Policy Optimization (TRPO)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Deep Q-Network (DQN)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Double DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Dueling DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Advantage Actor-Critic (A2C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Asynchronous Advantage Actor-Critic (A3C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Soft Actor-Critic (SAC)",
+                  "year": "2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Reinforcement Learning",
+          "year": "1960",
+          "nodes": [
+            {
+              "label": "Classical RL",
+              "year": "1984",
+              "nodes": [
+                {
+                  "label": "Q-Learning",
+                  "year": "1992"
+                },
+                {
+                  "label": "SARSA (State-Action-Reward-State-Action)",
+                  "year": "1994"
+                },
+                {
+                  "label": "Policy Gradient Methods",
+                  "year": "1999"
+                }
+              ]
+            },
+            {
+              "label": "Deep RL",
+              "year": "2013",
+              "nodes": [
+                {
+                  "label": "Trust Region Policy Optimization (TRPO)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Deep Q-Network (DQN)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Double DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Dueling DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Advantage Actor-Critic (A2C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Asynchronous Advantage Actor-Critic (A3C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Soft Actor-Critic (SAC)",
+                  "year": "2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Reinforcement Learning",
+          "year": "1960",
+          "nodes": [
+            {
+              "label": "Classical RL",
+              "year": "1984",
+              "nodes": [
+                {
+                  "label": "Q-Learning",
+                  "year": "1992"
+                },
+                {
+                  "label": "SARSA (State-Action-Reward-State-Action)",
+                  "year": "1994"
+                },
+                {
+                  "label": "Policy Gradient Methods",
+                  "year": "1999"
+                }
+              ]
+            },
+            {
+              "label": "Deep RL",
+              "year": "2013",
+              "nodes": [
+                {
+                  "label": "Trust Region Policy Optimization (TRPO)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Deep Q-Network (DQN)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Double DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Dueling DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Advantage Actor-Critic (A2C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Asynchronous Advantage Actor-Critic (A3C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Soft Actor-Critic (SAC)",
+                  "year": "2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Reinforcement Learning",
+          "year": "1960",
+          "nodes": [
+            {
+              "label": "Classical RL",
+              "year": "1984",
+              "nodes": [
+                {
+                  "label": "Q-Learning",
+                  "year": "1992"
+                },
+                {
+                  "label": "SARSA (State-Action-Reward-State-Action)",
+                  "year": "1994"
+                },
+                {
+                  "label": "Policy Gradient Methods",
+                  "year": "1999"
+                }
+              ]
+            },
+            {
+              "label": "Deep RL",
+              "year": "2013",
+              "nodes": [
+                {
+                  "label": "Trust Region Policy Optimization (TRPO)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Deep Q-Network (DQN)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Double DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Dueling DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Advantage Actor-Critic (A2C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Asynchronous Advantage Actor-Critic (A3C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Soft Actor-Critic (SAC)",
+                  "year": "2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Reinforcement Learning",
+          "year": "1960",
+          "nodes": [
+            {
+              "label": "Classical RL",
+              "year": "1984",
+              "nodes": [
+                {
+                  "label": "Q-Learning",
+                  "year": "1992"
+                },
+                {
+                  "label": "SARSA (State-Action-Reward-State-Action)",
+                  "year": "1994"
+                },
+                {
+                  "label": "Policy Gradient Methods",
+                  "year": "1999"
+                }
+              ]
+            },
+            {
+              "label": "Deep RL",
+              "year": "2013",
+              "nodes": [
+                {
+                  "label": "Trust Region Policy Optimization (TRPO)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Deep Q-Network (DQN)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Double DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Dueling DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Advantage Actor-Critic (A2C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Asynchronous Advantage Actor-Critic (A3C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Soft Actor-Critic (SAC)",
+                  "year": "2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Reinforcement Learning",
+          "year": "1960",
+          "nodes": [
+            {
+              "label": "Classical RL",
+              "year": "1984",
+              "nodes": [
+                {
+                  "label": "Q-Learning",
+                  "year": "1992"
+                },
+                {
+                  "label": "SARSA (State-Action-Reward-State-Action)",
+                  "year": "1994"
+                },
+                {
+                  "label": "Policy Gradient Methods",
+                  "year": "1999"
+                }
+              ]
+            },
+            {
+              "label": "Deep RL",
+              "year": "2013",
+              "nodes": [
+                {
+                  "label": "Trust Region Policy Optimization (TRPO)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Deep Q-Network (DQN)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Double DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Dueling DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Advantage Actor-Critic (A2C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Asynchronous Advantage Actor-Critic (A3C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Soft Actor-Critic (SAC)",
+                  "year": "2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Reinforcement Learning",
+          "year": "1960",
+          "nodes": [
+            {
+              "label": "Classical RL",
+              "year": "1984",
+              "nodes": [
+                {
+                  "label": "Q-Learning",
+                  "year": "1992"
+                },
+                {
+                  "label": "SARSA (State-Action-Reward-State-Action)",
+                  "year": "1994"
+                },
+                {
+                  "label": "Policy Gradient Methods",
+                  "year": "1999"
+                }
+              ]
+            },
+            {
+              "label": "Deep RL",
+              "year": "2013",
+              "nodes": [
+                {
+                  "label": "Trust Region Policy Optimization (TRPO)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Deep Q-Network (DQN)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Double DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Dueling DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Advantage Actor-Critic (A2C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Asynchronous Advantage Actor-Critic (A3C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Soft Actor-Critic (SAC)",
+                  "year": "2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Reinforcement Learning",
+          "year": "1960",
+          "nodes": [
+            {
+              "label": "Classical RL",
+              "year": "1984",
+              "nodes": [
+                {
+                  "label": "Q-Learning",
+                  "year": "1992"
+                },
+                {
+                  "label": "SARSA (State-Action-Reward-State-Action)",
+                  "year": "1994"
+                },
+                {
+                  "label": "Policy Gradient Methods",
+                  "year": "1999"
+                }
+              ]
+            },
+            {
+              "label": "Deep RL",
+              "year": "2013",
+              "nodes": [
+                {
+                  "label": "Trust Region Policy Optimization (TRPO)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Deep Q-Network (DQN)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Double DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Dueling DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Advantage Actor-Critic (A2C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Asynchronous Advantage Actor-Critic (A3C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Soft Actor-Critic (SAC)",
+                  "year": "2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Reinforcement Learning",
+          "year": "1960",
+          "nodes": [
+            {
+              "label": "Classical RL",
+              "year": "1984",
+              "nodes": [
+                {
+                  "label": "Q-Learning",
+                  "year": "1992"
+                },
+                {
+                  "label": "SARSA (State-Action-Reward-State-Action)",
+                  "year": "1994"
+                },
+                {
+                  "label": "Policy Gradient Methods",
+                  "year": "1999"
+                }
+              ]
+            },
+            {
+              "label": "Deep RL",
+              "year": "2013",
+              "nodes": [
+                {
+                  "label": "Trust Region Policy Optimization (TRPO)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Deep Q-Network (DQN)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Double DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Dueling DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Advantage Actor-Critic (A2C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Asynchronous Advantage Actor-Critic (A3C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Soft Actor-Critic (SAC)",
+                  "year": "2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Reinforcement Learning",
+          "year": "1960",
+          "nodes": [
+            {
+              "label": "Classical RL",
+              "year": "1984",
+              "nodes": [
+                {
+                  "label": "Q-Learning",
+                  "year": "1992"
+                },
+                {
+                  "label": "SARSA (State-Action-Reward-State-Action)",
+                  "year": "1994"
+                },
+                {
+                  "label": "Policy Gradient Methods",
+                  "year": "1999"
+                }
+              ]
+            },
+            {
+              "label": "Deep RL",
+              "year": "2013",
+              "nodes": [
+                {
+                  "label": "Trust Region Policy Optimization (TRPO)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Deep Q-Network (DQN)",
+                  "year": "2015"
+                },
+                {
+                  "label": "Double DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Dueling DQN",
+                  "year": "2016"
+                },
+                {
+                  "label": "Advantage Actor-Critic (A2C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Asynchronous Advantage Actor-Critic (A3C)",
+                  "year": "2016"
+                },
+                {
+                  "label": "Soft Actor-Critic (SAC)",
+                  "year": "2018"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Supervised/Unsupervised Learning",
+          "year": "1860",
+          "nodes": [
+            {
+              "label": "Neural Network Based Algorithms",
+              "year": "1956",
+              "nodes": [
+                {
+                  "label": "Siamese Neural Networks",
+                  "year": "2003",
+                  "nodes": [
+                    {
+                      "label": "Basic Siamese network",
+                      "year": "2005"
+                    },
+                    {
+                      "label": "Triple network",
+                      "year": "2015"
+                    },
+                    {
+                      "label": "Quadruple network",
+                      "year": "2017"
+                    },
+                    {
+                      "label": "RNN-based Siamese network",
+                      "year": "2017"
+                    },
+                    {
+                      "label": "Multi-view Siamese network",
+                      "year": "2018"
+                    },
+                    {
+                      "label": "Pseudo Siamese network",
+                      "year": "2018"
+                    },
+                    {
+                      "label": "GNN-based Siamese network",
+                      "year": "2019"
+                    },
+                    {
+                      "label": "Siamese GAN",
+                      "year": "2019"
+                    },
+                    {
+                      "label": "Manifold-based Siamese network",
+                      "year": "2019"
+                    },
+                    {
+                      "label": "Cross-modal Siamese network",
+                      "year": "2019"
+                    },
+                    {
+                      "label": "DenseDisp",
+                      "year": "2020"
+                    }
+                  ]
+                },
+                {
+                  "label": "Graph neural networks",
+                  "year": "2004",
+                  "nodes": [
+                    {
+                      "label": "Recurrent Graph Neural Networks",
+                      "year": "2004",
+                      "nodes": [
+                        {
+                          "label": "Graph Neural Network",
+                          "year": "2005"
+                        },
+                        {
+                          "label": "Graph Echo State Networks (GraphESN)",
+                          "year": "2010"
+                        },
+                        {
+                          "label": "Graph Attention Network",
+                          "year": "2017"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Convolutional Graph Neural Networks",
+                      "year": "2013",
+                      "nodes": [
+                        {
+                          "label": "Spectral-based Convolutional Graph Neural Network",
+                          "year": "2014"
+                        },
+                        {
+                          "label": "Diffusion-convolutional Graph Neural Network",
+                          "year": "2016"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Graph Autoencoders",
+                      "year": "2014",
+                      "nodes": [
+                        {
+                          "label": "Network Embeddings",
+                          "year": "2015",
+                          "nodes": [
+                            {
+                              "label": "Graph Autoencoder",
+                              "year": "2016"
+                            },
+                            {
+                              "label": "Variational Graph Auto-Encoders",
+                              "year": "2016"
+                            },
+                            {
+                              "label": "Adversarially Regularized Graph Autoencoder",
+                              "year": "2018"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Graph Generation",
+                          "year": "2017",
+                          "nodes": [
+                            {
+                              "label": "GraphRNN",
+                              "year": "2018"
+                            },
+                            {
+                              "label": "GraphVAE",
+                              "year": "2018"
+                            },
+                            {
+                              "label": "NetGAN",
+                              "year": "2018"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Spatial-temporal Graph Neural Networks",
+                      "year": "2015",
+                      "nodes": [
+                        {
+                          "label": "Structural-RNN",
+                          "year": "2016"
+                        },
+                        {
+                          "label": "Graph WaveNet",
+                          "year": "2018"
+                        },
+                        {
+                          "label": "Spatio-Temporal Graph Convolutional Networks",
+                          "year": "2018"
+                        },
+                        {
+                          "label": "Attention Based Spatial-Temporal Graph Convolutional Networks",
+                          "year": "2019"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Language Models (LM)",
+                  "year": "1994",
+                  "nodes": [
+                    {
+                      "label": "Statistical Language Models",
+                      "year": "1996",
+                      "nodes": [
+                        {
+                          "label": "Statistical Language model",
+                          "year": "1998"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Neural Language Models",
+                      "year": "2001",
+                      "nodes": [
+                        {
+                          "label": "Neural language model",
+                          "year": "2003"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Pre-trained Language Models",
+                      "year": "2016",
+                      "nodes": [
+                        {
+                          "label": "Embeddings from Language Models (ELMo)",
+                          "year": "2018"
+                        },
+                        {
+                          "label": "RoBERTa (Robustly Optimized BERT Pretraining Approach)",
+                          "year": "2019"
+                        },
+                        {
+                          "label": "Bidirectional Encoder Representations from Transformers (BERT)",
+                          "year": "2018"
+                        },
+                        {
+                          "label": "GPT (Generative Pre-trained Transformer)",
+                          "year": "2018"
+                        },
+                        {
+                          "label": "GPT-2",
+                          "year": "2019"
+                        },
+                        {
+                          "label": "BART",
+                          "year": "2019"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Large Language Models",
+                      "year": "2018",
+                      "nodes": [
+                        {
+                          "label": "T5 (Text-to-Text Transfer Transformer)",
+                          "year": "2019"
+                        },
+                        {
+                          "label": "GPT-3",
+                          "year": "2020"
+                        },
+                        {
+                          "label": "LaMDA",
+                          "year": "2022"
+                        },
+                        {
+                          "label": "PaLM",
+                          "year": "2022"
+                        },
+                        {
+                          "label": "Galactica",
+                          "year": "2022"
+                        },
+                        {
+                          "label": "GPT-4",
+                          "year": "2023"
+                        },
+                        {
+                          "label": "LLaMA",
+                          "year": "2023"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Autoencoders",
+                  "year": "1986",
+                  "nodes": [
+                    {
+                      "label": "Vanilla Autoencoder",
+                      "year": "1987"
+                    },
+                    {
+                      "label": "Denoising Autoencoder",
+                      "year": "2008"
+                    },
+                    {
+                      "label": "Convolutional Autoencoder",
+                      "year": "2011"
+                    },
+                    {
+                      "label": "Contractive Autoencoder",
+                      "year": "2011"
+                    },
+                    {
+                      "label": "Variational Autoencoder",
+                      "year": "2013"
+                    },
+                    {
+                      "label": "Adversarial Autoencoder",
+                      "year": "2015"
+                    }
+                  ]
+                },
+                {
+                  "label": "Diffusion models",
+                  "year": "2014",
+                  "nodes": [
+                    {
+                      "label": "Diffusion Probabilistic Model",
+                      "year": "2015"
+                    },
+                    {
+                      "label": "Noise-conditioned Score Network",
+                      "year": "2019"
+                    },
+                    {
+                      "label": "Denoising diffusion probabilistic model",
+                      "year": "2020"
+                    },
+                    {
+                      "label": "Latent Diffusion Model",
+                      "year": "2022"
+                    }
+                  ]
+                },
+                {
+                  "label": "Generative adversarial networks",
+                  "year": "2014",
+                  "nodes": [
+                    {
+                      "label": "Vanilla GAN",
+                      "year": "2014"
+                    },
+                    {
+                      "label": "Conditional GAN",
+                      "year": "2014"
+                    },
+                    {
+                      "label": "Wasserstein GAN (WGAN)",
+                      "year": "2017"
+                    },
+                    {
+                      "label": "CycleGAN",
+                      "year": "2017"
+                    },
+                    {
+                      "label": "Progressive GAN",
+                      "year": "2017"
+                    },
+                    {
+                      "label": "StarGAN",
+                      "year": "2017"
+                    }
+                  ]
+                },
+                {
+                  "label": "Transformers",
+                  "year": "2016",
+                  "nodes": [
+                    {
+                      "label": "Vanilla Transformer",
+                      "year": "2017"
+                    },
+                    {
+                      "label": "BERT (Bidirectional Encoder Representations from Transformers)",
+                      "year": "2018"
+                    },
+                    {
+                      "label": "XLNet",
+                      "year": "2019"
+                    }
+                  ]
+                },
+                {
+                  "label": "Recurrent neural networks",
+                  "year": "1984",
+                  "nodes": [
+                    {
+                      "label": "Jordan Network",
+                      "year": "1986"
+                    },
+                    {
+                      "label": "Elman Network",
+                      "year": "1990"
+                    },
+                    {
+                      "label": "Long Short-Term Memory (LSTM)",
+                      "year": "1997"
+                    },
+                    {
+                      "label": "Bidirectional RNN (BRNN)",
+                      "year": "1997"
+                    },
+                    {
+                      "label": "Echo State Network (ESN)",
+                      "year": "2002"
+                    },
+                    {
+                      "label": "Gated Recurrent Unit (GRU)",
+                      "year": "2014"
+                    },
+                    {
+                      "label": "RNNsearch",
+                      "year": "2014"
+                    },
+                    {
+                      "label": "Hierarchical RNN (HRNN)",
+                      "year": "2015"
+                    },
+                    {
+                      "label": "Recurrent Convolutional Neural Network (RCNN)",
+                      "year": "2015"
+                    },
+                    {
+                      "label": "UGRNN",
+                      "year": "2015"
+                    },
+                    {
+                      "label": "QRNN",
+                      "year": "2016"
+                    },
+                    {
+                      "label": "GNMT",
+                      "year": "2016"
+                    },
+                    {
+                      "label": "AWD-LSTM",
+                      "year": "2018"
+                    },
+                    {
+                      "label": "SRU",
+                      "year": "2018"
+                    }
+                  ]
+                },
+                {
+                  "label": "Convolutional Neural Networks (ConvNets, CNNs)",
+                  "year": "1994",
+                  "nodes": [
+                    {
+                      "label": "Video Processing",
+                      "year": "2011",
+                      "nodes": [
+                        {
+                          "label": "3D CNN",
+                          "year": "2012"
+                        },
+                        {
+                          "label": "Two-Steam CNN",
+                          "year": "2014"
+                        },
+                        {
+                          "label": "Two-Steam CNN with Fusion",
+                          "year": "2016"
+                        },
+                        {
+                          "label": "Temporal Segment CNN",
+                          "year": "2016"
+                        },
+                        {
+                          "label": "You Look Only Once (YOLO)",
+                          "year": "2016"
+                        },
+                        {
+                          "label": "R(2+1)D",
+                          "year": "2018"
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Image Processing Networks",
+                      "year": "1996",
+                      "nodes": [
+                        {
+                          "label": "LeNet",
+                          "year": "1998"
+                        },
+                        {
+                          "label": "AlexNet",
+                          "year": "2012"
+                        },
+                        {
+                          "label": "VGG",
+                          "year": "2014"
+                        },
+                        {
+                          "label": "GoogLeNet (Inception)",
+                          "year": "2014"
+                        },
+                        {
+                          "label": "ResNet",
+                          "year": "2015"
+                        },
+                        {
+                          "label": "DenseNet",
+                          "year": "2016"
+                        },
+                        {
+                          "label": "MobileNet",
+                          "year": "2017"
+                        },
+                        {
+                          "label": "ImageNet",
+                          "year": "2017"
+                        },
+                        {
+                          "label": "EfficientNet",
+                          "year": "2019"
+                        },
+                        {
+                          "label": "EfficientNetV2",
+                          "year": "2020"
+                        },
+                        {
+                          "label": "Vision Transformer (ViT)",
+                          "year": "2020"
+                        },
+                        {
+                          "label": "ResNeSt",
+                          "year": "2020"
+                        },
+                        {
+                          "label": "Swin Transformer",
+                          "year": "2021"
+                        },
+                        {
+                          "label": "CrossViT",
+                          "year": "2021"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Feedforward neural networks",
+                  "year": "1956",
+                  "nodes": [
+                    {
+                      "label": "Single-layer perceptron",
+                      "year": "1958"
+                    },
+                    {
+                      "label": "Multi-layer perceptron",
+                      "year": "1965"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Classical ML",
+              "year": "1862",
+              "nodes": [
+                {
+                  "label": "Instance-based ML",
+                  "year": "1951",
+                  "nodes": [
+                    {
+                      "label": "k-Nearest Neighbors (kNN)",
+                      "year": "1951"
+                    },
+                    {
+                      "label": "Memory-Based Reasoning (MBR)",
+                      "year": "1991"
+                    },
+                    {
+                      "label": "Case-Based Reasoning",
+                      "year": "1993"
+                    }
+                  ]
+                },
+                {
+                  "label": "Non-instance-based ML",
+                  "year": "1864",
+                  "nodes": [
+                    {
+                      "label": "Bayesian Algorithms",
+                      "year": "1974",
+                      "nodes": [
+                        {
+                          "label": "Regression",
+                          "year": "1990",
+                          "nodes": [
+                            {
+                              "label": "Bayesian Linear Regression",
+                              "year": "1992"
+                            },
+                            {
+                              "label": "Gaussian process regression",
+                              "year": "2006"
+                            },
+                            {
+                              "label": "Bayesian CART",
+                              "year": "1998"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Clusterization",
+                          "year": "1976",
+                          "nodes": [
+                            {
+                              "label": "Gaussian Mixture Model",
+                              "year": "1977"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Non-Bayesian Algorithms",
+                      "year": "1865",
+                      "nodes": [
+                        {
+                          "label": "Clusterization",
+                          "year": "1962",
+                          "nodes": [
+                            {
+                              "label": "K-means",
+                              "year": "1967"
+                            },
+                            {
+                              "label": "Hierarchical clustering",
+                              "year": "1963"
+                            },
+                            {
+                              "label": "DBSCAN",
+                              "year": "1996"
+                            },
+                            {
+                              "label": "Spectral clustering",
+                              "year": "2001"
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Regression",
+                          "year": "1866",
+                          "nodes": [
+                            {
+                              "label": "Ensembles",
+                              "year": "1991",
+                              "nodes": [
+                                {
+                                  "label": "Boosting",
+                                  "year": "1994",
+                                  "nodes": [
+                                    {
+                                      "label": "CatBoost",
+                                      "year": "2018"
+                                    },
+                                    {
+                                      "label": "LightGBM",
+                                      "year": "2017"
+                                    },
+                                    {
+                                      "label": "XGBoost",
+                                      "year": "2016"
+                                    },
+                                    {
+                                      "label": "Gradient Tree Boosting",
+                                      "year": "2001"
+                                    },
+                                    {
+                                      "label": "AdaBoost",
+                                      "year": "1995"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "label": "Stacking",
+                                  "year": "1992"
+                                },
+                                {
+                                  "label": "Bagging",
+                                  "year": "2000",
+                                  "nodes": [
+                                    {
+                                      "label": "Rotation Forest",
+                                      "year": "2006"
+                                    },
+                                    {
+                                      "label": "Random Forest",
+                                      "year": "2001"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Support Vector Machine (SVM)",
+                              "year": "1995"
+                            },
+                            {
+                              "label": "Decision Trees",
+                              "year": "1982",
+                              "nodes": [
+                                {
+                                  "label": "Classification and Regression Trees (CART)",
+                                  "year": "1984"
+                                },
+                                {
+                                  "label": "ID3",
+                                  "year": "1986"
+                                },
+                                {
+                                  "label": "C4.5",
+                                  "year": "1993"
+                                }
+                              ]
+                            },
+                            {
+                              "label": "Linear  Regressors",
+                              "year": "1868",
+                              "nodes": [
+                                {
+                                  "label": "Linear Regression",
+                                  "year": "1869"
+                                },
+                                {
+                                  "label": "Logistic Regression",
+                                  "year": "1958"
+                                },
+                                {
+                                  "label": "Ridge Regression",
+                                  "year": "1970"
+                                },
+                                {
+                                  "label": "Lasso Regression",
+                                  "year": "1996"
+                                },
+                                {
+                                  "label": "Elastic Net",
+                                  "year": "2005"
+                                },
+                                {
+                                  "label": "Partial least-squares regression",
+                                  "year": "1986"
+                                },
+                                {
+                                  "label": "Principal Components Regression",
+                                  "year": "1982"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

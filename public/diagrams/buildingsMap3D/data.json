@@ -1,0 +1,31 @@
+{
+  "originalData": {
+    "center": [-0.146273, 51.51784],
+    "zoom": 16.8,
+    "pitch": 70,
+    "bearing": -15,
+    "buildingData": [
+      {
+        "buildingId": 364348752,
+        "color": "#1876D1",
+        "popupText": "Clinic A"
+      },
+      {
+        "buildingId": 669899577,
+        "color": "#1876D1",
+        "popupText": "Clinic B"
+      },
+      {
+        "buildingId": 670141400,
+        "color": "#1876D1",
+        "popupText": "Clinic C"
+      },
+      {
+        "buildingId": 670778509,
+        "color": "#1876D1",
+        "popupText": "Clinic D"
+      }
+    ],
+    "otherBuildingColor": "#aaa"
+  }
+}

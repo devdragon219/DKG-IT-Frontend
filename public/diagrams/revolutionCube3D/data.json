@@ -1,0 +1,616 @@
+{
+  "originalData": {
+    "name": "Revolution Cube 3D",
+    "fullscreen": true,
+    "data": {
+      "quadrants": [
+        "MetaTechnologies",
+        "DeepTech",
+        "PoliTech, SocieTech & Societal Psychology",
+        "Financial Systems & Economies"
+      ],
+      "elements": [
+        {
+          "quadrant": 1,
+          "name": "Geroprotectors and Rejuvenation Biotechnology",
+          "id": 1,
+          "description": "A geroprotector is a chemotherapeutic that aims to affect the root cause of aging and age-related diseases, and thus prolong the life span of animals. Some possible geroprotectors include melatonin, carnosine, metformin, nicotinamide mononucleotide (NMN), and delta sleep-inducing peptide. Rejuvenation technologies based on geroprotectors are of great interest nowadays."
+        },
+        {
+          "quadrant": 1,
+          "name": "Brain-computer interfaces",
+          "id": 2,
+          "description": "A brain-computer interface (BCI), sometimes called a neural control interface (NCI), mind-machine interface (MMI), direct neural interface (DNI), or brain-machine interface (BMI), is a direct communication pathway between an enhanced or wired brain and an external device. BCIs are often directed at researching, mapping, assisting, augmenting, or repairing human cognitive or sensory-motor functions. Recently, studies in human-computer interaction via the application of machine learning to statistical temporal features extracted from the frontal lobe (EEG brainwave) data has had high levels of success in classifying mental states (Relaxed, Neutral, Concentrating), mental-emotional states (Negative, Neutral, Positive) and thalamocortical dysrhythmia."
+        },
+        {
+          "quadrant": 1,
+          "name": "Advanced human-machine interfaces",
+          "id": 3,
+          "description": "Human-machine interfaces (HMI) have changed significantly over the last decades, driven by rapid technological advances. The HMI industry has witnessed the evolution from a simple push button to a modern touch-screen display. Still, more changes in the way people communicate with machines are expected to come. Such trends as enterprise IoT and Industry 4.0 have an essential role to play in this regard, being the foremost carriers of this HMI transformation."
+        },
+        {
+          "quadrant": 1,
+          "name": "Digitization technologies",
+          "id": 4,
+          "description": "Digitization is the process of converting information into a digital (i.e. computer-readable) format. The result is the representation of an object, image, sound, document or signal (usually an analog signal) by generating a series of numbers that describe a discrete set of points or samples. The result is called digital representation or, more specifically, a digital image, for the object, and digital form, for the signal. In modern practice, the digitized data is in the form of binary numbers, which facilitate processing by digital computers and other operations, but, strictly speaking, digitizing simply means the conversion of analog source material into a numerical format; the decimal or any other number system that can be used instead."
+        },
+        {
+          "quadrant": 1,
+          "name": "Liquid State and Echo State Machines, Transformers",
+          "id": 5,
+          "description": "A liquid state machine (LSM) is a type of reservoir computer that uses a spiking neural network. An LSM consists of a large collection of units (called nodes, or neurons). Each node receives time-varying input from external sources (the inputs) as well as from other nodes. Nodes are randomly connected. The recurrent nature of the connections turns the time-varying input into a Spatio-temporal pattern of activations in the network nodes. The Spatio-temporal patterns of activation are read out by linear discriminant units. The echo state network (ESN) is a type of reservoir computer that uses a recurrent neural network with a sparsely connected hidden layer (with typically 1% connectivity). The connectivity and weights of hidden neurons are fixed and randomly assigned. The weights of output neurons can be learned so that the network can produce or reproduce specific temporal patterns. The main interest of this network is that although its behavior is non-linear, the only weights that are modified during training are for the synapses that connect the hidden neurons to output neurons. Thus, the error function is quadratic for the parameter vector and can be differentiated easily to a linear system. A transformer is a deep learning model that adopts the mechanism of attention, weighing the influence of different parts of the input data. It is used primarily in the field of natural language processing (NLP). Like recurrent neural networks (RNNs), transformers are designed to handle sequential input data, such as natural language, for tasks such as translation and text summarization. However, unlike RNNs, transformers do not require that the sequential data be processed in the order. "
+        },
+        {
+          "quadrant": 1,
+          "name": "Cognitive- and Life quality-centered AgeTech  ",
+          "id": 6,
+          "description": "Cognitive-centered AgeTech is a family of technologies aiming to enhance human cognitive performance and to compensate for the adverse effect of ageing. Life quality-centered AgeTech is a family of technological solutions that includes, but not limited to Cognitive-centered AgeTech, aiming to enhance different aspects of everyday living especially ones affected by age."
+        },
+        {
+          "quadrant": 1,
+          "name": "Non-neurofeedback",
+          "id": 7,
+          "description": "Neurofeedback (NFB), also called Neurotherapy or neuro biofeedback, is a type of biofeedback that uses real-time displays of brain activity—most commonly electroencephalography (EEG)—in an attempt to teach self-regulation of brain function. Typically, sensors are placed on the scalp to measure electrical activity, with feedback presented using video displays or sound. There is significant evidence supporting Neurotherapy for generalized treatment of mental disorders and has been practiced over four decades, although never gaining prominence in the medical mainstream. NFB is relatively non-invasive and is administered as a long-term treatment option, typically taking a month to complete. Non-linear neurofeedback is created to compensate for possible adverse effects of the NFB."
+        },
+        {
+          "quadrant": 1,
+          "name": "Sensing technologies",
+          "id": 8,
+          "description": "Sensing technology is a technology that uses sensors to acquire information by detecting the physical, chemical, or biological property quantities and convert them into readable signals. Data monitored and collected by sensors is sent for control and analysis, and any anomaly in a particular property is reported by emitting an electrical signal by that sensor. "
+        },
+        {
+          "quadrant": 1,
+          "name": "Industrial networks technologies",
+          "id": 9,
+          "description": "Industrial network technologies are a family of technologies aiming to provide existing and future enterprises with a secure and fast connection. Thus, Industrial network technologies are enhancing automation and connectivity solutions."
+        },
+        {
+          "quadrant": 1,
+          "name": "Bayesian algorithms",
+          "id": 10,
+          "description": "Bayesian Algorithm is a family of algorithms where all of them share a common principle, i.e. every pair of features being classified is independent of each other. Naive Bayes classifiers are a collection of classification algorithms based on Bayes’ Theorem. Bayes’s formula provides the relationship between P(A|B) and P(B|A)"
+        },
+        {
+          "quadrant": 1,
+          "name": "Dimensionality reduction algorithms",
+          "id": 11,
+          "description": "Dimensionality reduction is an unsupervised learning technique. It seeks a lower-dimensional representation of numerical input data that preserves the salient relationships in the data."
+        },
+        {
+          "quadrant": 1,
+          "name": "Neurofeedback",
+          "id": 12,
+          "description": "Neurofeedback (NFB), also called Neurotherapy or neuro biofeedback, is a type of biofeedback that uses real-time displays of brain activity—most commonly electroencephalography (EEG)—in an attempt to teach self-regulation of brain function. Typically, sensors are placed on the scalp to measure electrical activity, with feedback presented using video displays or sound. There is significant evidence supporting Neurotherapy for generalized treatment of mental disorders and has been practiced over four decades, although never gaining prominence in the medical mainstream. NFB is relatively non-invasive and is administered as a long-term treatment option, typically taking a month to complete. Non-linear neurofeedback is created to compensate for possible adverse effects of the NFB."
+        },
+        {
+          "quadrant": 1,
+          "name": "NeuroMonitoring",
+          "id": 13,
+          "description": "Neuromonitoring is a measurement of the physiological activity of the brain and spinal cord. Neuromonitoring includes cerebral microdialysis, used to identify metabolic disturbances in the brain, e.g., abnormalities of glucose metabolism, and measurements of cerebral blood flow, jugular venous oximetry (SjvO2), and brain tissue oxygen tension (PbtO2). These techniques are used after neurosurgery and in some patients with embolic strokes, epilepsy, subarachnoid hemorrhage, or traumatic brain injury to help identify neurological damage before it becomes irreversible."
+        },
+        {
+          "quadrant": 1,
+          "name": "IoT Hardware Technologies",
+          "id": 14,
+          "description": "The Internet of things (IoT) describes the network of physical objects—a.k.a. things—that are embedded with sensors, software, and other technologies to connect and exchange data with other devices and systems over the Internet. As a technological solution, IoT uses a variety of different hardware technologies, e.g. accelerometers, temperature sensors, magnetometers, proximity sensors, gyroscopes, image sensors, etc. An improvement in any of these technologies might propel IoT to the next level."
+        },
+        {
+          "quadrant": 1,
+          "name": "Meta-Learning",
+          "id": 15,
+          "description": "Meta-learning is a subfield of machine learning where automatic learning algorithms are applied to metadata about machine learning experiments. The main goal is to use such metadata to understand how automatic learning can become flexible in solving learning problems, hence improving the performance of existing learning algorithms or to learn (induce) the learning algorithm itself, hence the alternative term learning to learn."
+        },
+        {
+          "quadrant": 1,
+          "name": "Artificial Neural Networks (ANN)",
+          "id": 16,
+          "description": "Artificial neural networks (ANNs), usually simply called neural networks (NNs), are computing systems vaguely inspired by the biological neural networks that constitute animal brains.  An ANN is based on a collection of connected units or nodes called artificial neurons, which loosely model the neurons in a biological brain. Each connection, like the synapses in a biological brain, can transmit a signal to other neurons. An artificial neuron that receives a signal then processes it and can signal neurons connected to it. The signal at a connection is a real number, and the output of each neuron is computed by some non-linear function of the sum of its inputs. "
+        },
+        {
+          "quadrant": 1,
+          "name": "Longevity Index Funds and Derivatives",
+          "id": 17,
+          "description": "An index fund is a type of mutual fund or exchange-traded fund (ETF) with a portfolio constructed to match or track the components of a financial market index. Therefore, Longevity index funds are funds with an investment portfolio that comprises longevity-related securities. Longevity derivative is a type of financial instrument related to some type of longevity index or another longevity-related measurement."
+        },
+        {
+          "quadrant": 1,
+          "name": "NeuroPharmacology",
+          "id": 18,
+          "description": "Neuropharmacology is the study of how drugs affect cellular function in the nervous system and the neural mechanisms through which they influence behavior. There are two main branches of neuropharmacology: behavioral and molecular. Behavioral neuropharmacology focuses on the study of how drugs affect human behavior (neuropsychopharmacology), including the study of how drug dependence and addiction affect the human brain."
+        },
+        {
+          "quadrant": 1,
+          "name": " IoT Connectivity Technologies",
+          "id": 19,
+          "description": "Traditionally, the IoT landscape or rather the machine-to-machine (M2M) communication has been dominated by radio technologies such as ZigBee, Bluetooth, and Wi-Fi for short-range local area networks, and traditional cellular such as 2G/3G/4G for wide area networks, with 5G having recently been added to the latter. Many of these technologies, especially Wi-Fi and 2G/3G/4G/5G were originally designed for consumer and business voice and data services. New results in this field will establish a new era for IoT."
+        },
+        {
+          "quadrant": 1,
+          "name": "Flow-based Deep Generative Models",
+          "id": 20,
+          "description": "A flow-based generative model is constructed by a sequence of invertible transformations. Unlike the other two, the model explicitly learns the data distribution p(x) and therefore the loss function is simply the negative log-likelihood."
+        },
+        {
+          "quadrant": 1,
+          "name": "Graph Neural Networks",
+          "id": 21,
+          "description": "Graph neural networks (GNNs) are neural models that capture the dependence of graphs via message passing between the nodes of graphs. In recent years, variants of GNNs such as graph convolutional network (GCN), graph attention network (GAT), graph recurrent network (GRN) have demonstrated ground-breaking performances on many deep learning tasks. In this survey, we propose a general design pipeline for GNN models and discuss the variants of each component, systematically categorize the applications, and propose four open problems for future research."
+        },
+        {
+          "quadrant": 1,
+          "name": "Personalized Drug delivery and therapy",
+          "id": 22,
+          "description": "In the fields of medicine, biotechnology, and pharmacology, drug discovery is the process by which new candidate medications are discovered. With significant advancements in drug discovery provided by contemporary and future technologies, it will be possible to create personalized drugs. As for now, personalized medicine is one of the most fast-growing industries in the world."
+        },
+        {
+          "quadrant": 1,
+          "name": "NeuroModulation",
+          "id": 23,
+          "description": "Neuromodulation is the technology that acts directly upon nerves. It is the alteration—or modulation—of nerve activity by delivering electrical or pharmaceutical agents directly to a target area. Neuromodulation devices and treatments are life-changing. They affect every area of the body and treat nearly every disease or symptom from headaches to tremors to spinal cord damage to urinary incontinence. With such a broad therapeutic scope and significant ongoing improvements in biotechnology, it is not surprising that neuromodulation is poised as a major growth industry for the next decade."
+        },
+        {
+          "quadrant": 1,
+          "name": "Cloud Computing",
+          "id": 24,
+          "description": "Cloud computing is the on-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user. The term is generally used to describe data centers available to many users over the Internet. Large clouds, predominant today, often have functions distributed over multiple locations from central servers. If the connection to the user is relatively close, it may be designated an edge server."
+        },
+        {
+          "quadrant": 1,
+          "name": "Reinforcement Learning algorithms",
+          "id": 25,
+          "description": "Reinforcement Learning (RL) refers to a kind of Machine Learning method in which the agent receives a delayed reward in the next time step to evaluate its previous action. It was mostly used in games (e.g. Atari, Mario), with performance on par with or even exceeding humans. Recently, as the algorithm evolves with the combination of Neural Networks, it is capable of solving more complex tasks, such as the pendulum problem."
+        },
+        {
+          "quadrant": 2,
+          "name": "Structural bioinformatics is the branch of bioinformatics that is related to the analysis and prediction of the three-dimensional structure of biological macromolecules such as proteins, RNA, and DNA. It deals with generalizations about macromolecular 3D structures such as comparisons of overall folds and local motifs, principles of molecular folding, evolution, binding interactions, and structure/function relationships, working both from experimentally solved structures and from computational models. ",
+          "id": 26,
+          "description": "Structural bioinformatics is the branch of bioinformatics that is related to the analysis and prediction of the three-dimensional structure of biological macromolecules such as proteins, RNA, and DNA. It deals with generalizations about macromolecular 3D structures such as comparisons of overall folds and local motifs, principles of molecular folding, evolution, binding interactions, and structure/function relationships, working both from experimentally solved structures and from computational models. "
+        },
+        {
+          "quadrant": 2,
+          "name": "Plant Engineering",
+          "id": 27,
+          "description": "Plant Engineering is a field related to the developing and manufacturing of components and systems for handling high-quality bulk materials and direct plant engineering. "
+        },
+        {
+          "quadrant": 2,
+          "name": "Smart contracts",
+          "id": 28,
+          "description": "A smart contract is a computer program or a transaction protocol that is intended to automatically execute, control, or document legally relevant events and actions according to the terms of a contract or an agreement."
+        },
+        {
+          "quadrant": 2,
+          "name": "Advanced Satellite solutions for Telecommunication",
+          "id": 29,
+          "description": "A significant part of contemporary communication is provided by satellite technologies. Therefore, any satellite-related advanced solutions will create additional opportunities for telecommunication improvement. Nowadays, technical and hardware solutions produced via metamaterials are of great interest. "
+        },
+        {
+          "quadrant": 2,
+          "name": "Distributed ledger technologies (DLT)",
+          "id": 30,
+          "description": "A distributed ledger (also called a shared ledger or distributed ledger technology or DLT) is a consensus of replicated, shared, and synchronized digital data geographically spread across multiple sites, countries, or institutions. Unlike with a centralized database, there is no central administrator. In some cases an alternative term is used: RJT for Replicated Journal Technology, since the information is replicated in the nodes containing full copy of the information and the information in the blocks is included in timely order, more in the form of an accounting journal than as an accounting ledger."
+        },
+        {
+          "quadrant": 2,
+          "name": "AI and ML for Drug Development",
+          "id": 31,
+          "description": "Artificial Intelligence and Machine Learning are widely used for lead optimization, effectiveness assessment, image analysis, and other drug discovery-related purposes. Such solutions help us to create more effective and safe drugs and therapeutic solutions."
+        },
+        {
+          "quadrant": 2,
+          "name": "Metasearch travel channels",
+          "id": 32,
+          "description": "The metasearch of the travel channels provided by new AI- and ML-based algorithms, will allow us to create safe and fast travel routes, optimize transportation and enhance hospitality."
+        },
+        {
+          "quadrant": 2,
+          "name": "Eco-fesible Waste Processing Methods",
+          "id": 33,
+          "description": "Environmentally sound waste management is a part of the economical plan provided by the European Parliamentary Research Service Scientific Foresight Unit (STOA). Such waste processing techniques allow us to reduce the damage made both to the environment and ourselves."
+        },
+        {
+          "quadrant": 2,
+          "name": "Regeneration - Stem cells",
+          "id": 34,
+          "description": "Stem cell therapy, also known as regenerative medicine, promotes the repair response of diseased, dysfunctional, or injured tissue using stem cells or their derivatives. It is the next chapter in organ transplantation and uses cells instead of donor organs, which are limited in supply."
+        },
+        {
+          "quadrant": 2,
+          "name": "Virtual finance management",
+          "id": 35,
+          "description": "Virtual finance management is a field of technical and legal solutions created for finance management optimization. As an example, Virtual CFO (or vCFO for short) is a part of such an industry. A virtual CFO is an outsourced service provider offering high skill assistance in the financial requirements of an organization, just like a chief financial officer does for large organizations. A virtual CFO may be a single person or an entity."
+        },
+        {
+          "quadrant": 2,
+          "name": "Quantum Cybersecurity",
+          "id": 36,
+          "description": "Large-scale quantum computers will significantly expand computing power, creating new opportunities for improving cybersecurity. Quantum-era cybersecurity will wield the power to detect and deflect quantum-era cyberattacks before they cause harm. But it could become a double-edged sword, as quantum computing may also create new exposures, such as the ability to quickly solve the difficult math problems that are the basis of some forms of encryption. While post-quantum cryptography standards are still being finalized, businesses and other organizations can start preparing today."
+        },
+        {
+          "quadrant": 2,
+          "name": "Advanced Engines for Electricity Generation",
+          "id": 37,
+          "description": "Electricity is mainly generated via specific types of engines. Therefore, any engine-related advanced solutions will create additional opportunities for electricity generation improvement. Nowadays, technical, automation, connectivity, and hardware solutions produced via metamaterials are of great interest. "
+        },
+        {
+          "quadrant": 2,
+          "name": "Digital Twins ",
+          "id": 38,
+          "description": "A digital twin is a virtual representation that serves as the real-time digital counterpart of a physical object or process. Though the concept originated earlier the first practical definition of digital twin originated from NASA in an attempt to improve the physical model simulation of spacecraft in 2010. Digital twins are the result of continual improvement in the creation of product design and engineering activities. Product drawings and engineering specifications progressed from handmade drafting to computer-aided drafting/computer-aided design to model-based systems engineering."
+        },
+        {
+          "quadrant": 2,
+          "name": "Regeneration - Bioprinting",
+          "id": 39,
+          "description": "The field of regenerative bioprinting works on the creation of functional tissue constructs mimicking native tissue for repair and/or replacement of damaged tissues or whole organs. The additional advancements in this field should be gained via 4D (time-dependent) bioprinting."
+        },
+        {
+          "quadrant": 2,
+          "name": "AI-backed Legal Documentation",
+          "id": 40,
+          "description": "The AI-backed legal documentation will create additional security levels for existing contracts. Also, the usage of parsing and NLP solutions will optimize documentation analysis and enhance forensics."
+        },
+        {
+          "quadrant": 2,
+          "name": "Nano-engineered Functional Materials",
+          "id": 41,
+          "description": "Functional materials can be any type of specially designed material with a determined function: semiconductors, polymers, molecular crystals, or nanoparticles are good examples of them. It is their special physicochemical properties that make functional materials so special. A special type of functional materials is synthesized with a large surface-to-volume ratio, to maximize their interaction with the environment. Typical examples are functional surfaces and functional particles. The research on their synthesis and their characterization is crucial for future technologies. "
+        },
+        {
+          "quadrant": 2,
+          "name": "Carbon Dioxide Removal",
+          "id": 42,
+          "description": "Carbon dioxide removal (CDR), also known as greenhouse gas removal, is a process in which carbon dioxide gas (CO 2) is removed from the atmosphere and sequestered for long periods – in the context of net-zero greenhouse gas emissions targets, CDR is increasingly integrated into climate policy. CDR methods are also known as negative emissions technologies and may be cheaper than preventing some agricultural greenhouse gas emissions."
+        },
+        {
+          "quadrant": 2,
+          "name": "Personalized genome screening and therapy",
+          "id": 43,
+          "description": "Based on genome screening it is possible to identify a specific group of people having an increased risk of a given disease, then a personalized therapeutic approach could be implied to prevent disease progression."
+        },
+        {
+          "quadrant": 2,
+          "name": "Advanced dietary research",
+          "id": 44,
+          "description": "Based on the results from the space medicine field, it is possible to create advanced dietary solutions allowing the performance enhancement without any invasive surgery or adverse effects of the existing medical solutions."
+        },
+        {
+          "quadrant": 2,
+          "name": "Nano-advanced Textile Fabrics, Electronics and Coatings",
+          "id": 45,
+          "description": "Nano-advanced textile fabrics, electronics, and coatings is an example of the nano-engineered practical solutions. Such materials have much higher quality and unique additional properties, such as self-cleaning for textile, for example."
+        },
+        {
+          "quadrant": 2,
+          "name": "Nano-advanced materials for Construction",
+          "id": 46,
+          "description": "Nano-advanced materials for construction allow us to use construction materials with unique additional properties, such as transparency in metals, high conductivity, stiffness in fragile materials, and so on."
+        },
+        {
+          "quadrant": 2,
+          "name": "KYC & AML solutions",
+          "id": 47,
+          "description": "AML (anti-money laundering) is an umbrella term for the range of regulatory processes firms must have in place. KYC (Know Your Customer) is a part of AML that consists of firms verifying their customers’ identities. Additional advances in these policies and their implementation techniques will allow us to enhance economical growth and stability by reducing money laundering frauds"
+        },
+        {
+          "quadrant": 2,
+          "name": "Intelligent transport systems (ITSs)",
+          "id": 48,
+          "description": "An intelligent transportation system (ITS) is an advanced application that aims to provide innovative services relating to different modes of transport and traffic management and enable users to be better informed and make safer, more coordinated, and 'smarter use of transport networks. Some of these technologies include calling for emergency services when an accident occurs, using cameras to enforce traffic laws or signs that mark speed limit changes depending on conditions."
+        },
+        {
+          "quadrant": 2,
+          "name": "Robotized surgery, therapy and analysis",
+          "id": 49,
+          "description": "Robotization in the fields of surgery, therapy, and analysis is an ongoing process of the optimization of medical performance and medical data extraction. This allows us to make therapies more effective and precise."
+        },
+        {
+          "quadrant": 2,
+          "name": "Neural biofeedback",
+          "id": 50,
+          "description": "Neurofeedback, or EEG biofeedback, is a very specific protocol that is used to improve brainwave activity. EEG biofeedback can be especially useful for managing concerns with stress, sleep, focus, mood, and more. Neurofeedback is essentially a reward system that teaches the brain how to function in a more optimal range. Neurofeedback training is entirely subconscious – and that’s exactly why it works. A person who struggles to focus would gladly focus better if they could simply choose to do so. But as we all know, it doesn’t work like that."
+        },
+        {
+          "quadrant": 3,
+          "name": "PoliTech Data-driven  Risks",
+          "id": 51,
+          "description": "Power is not merely shifting and dispersing. It is also decaying. Those in power today are more constrained in what they can do with it and more at risk of losing it than ever before. Today, the technology sector is in the crosshairs of government regulators worldwide and has become the central battleground in an acrimonious trade war between the US and China. The tools and technology (including data and analytics) to manage political risk have improved, but the risk is ever-present, and firms should continue to evaluate and refresh their approaches and frameworks. While prevention and prediction are impossible, prioritization and preparation are critical."
+        },
+        {
+          "quadrant": 3,
+          "name": "AI-enhanced behavioral and predictive analytics",
+          "id": 52,
+          "description": "AI is more than reality now, it’s changing the way we live work, and play. With more and more customer data being collected and processed, predictive analytics allows brands to generate insight and take action. And companies are using AI and machine learning to optimize business efficiency – clever computers are learning about customer behaviors on a deeper level to help businesses deliver better products and services. Tech can recognize patterns in data much quicker than humans, so to get the most out of big data, AI is becoming a valuable tool."
+        },
+        {
+          "quadrant": 3,
+          "name": "AR and VR in EdTech",
+          "id": 53,
+          "description": "AR, VR, and a combination of the two, often referred to as MR, has been remarkable in creating impactful transformation in learning, assisting students right from pre-school to high school. AR and VR have been instrumental in curating specialized learning modules for differently-abled children and have also been known to be effective for students with learning difficulties. 90% of educators agree that VR technology is quite an effective way of providing differentiated and personalized learning experiences for students. One of the main struggles teachers face is capturing and maintaining students’ attention, and VR and AR are not only enabling teachers to capture kid’s attention, but also to teach in a more exciting, productive way that at the same time eases the explanation process and is more fun for the kids."
+        },
+        {
+          "quadrant": 3,
+          "name": "Diversement as a social approach",
+          "id": 54,
+          "description": "Divestment creates opportunity through the elimination of business operations, such as the closing or sell-off of units in foreign locations. Divestment in this manner has allowed firms to focus on core operations and strategically focus on growth. An alternative form of divestment is centered around firms liquidating financial positions in response to some harm, injustice, or political unrest."
+        },
+        {
+          "quadrant": 3,
+          "name": "Workforce restructurization due to the ubiquitous automation",
+          "id": 55,
+          "description": "The workforce is automating faster than expected. For humans, the shock of an increasingly automated world can be difficult to process. Some experts anticipate that expanded access to educational and networking opportunities will offer workers the opportunity to remake their careers and find a way in the new economy to support themselves and their families. By embracing automation and high tech, individuals could be empowered to create incomes on their own, without the need for a traditional, hierarchical company."
+        },
+        {
+          "quadrant": 3,
+          "name": "Data as Political Influence",
+          "id": 56,
+          "description": "Politicians use personal data to persuade to donate money, keep  engaged during the campaign, and get out the vote on Election Day. They do this by creating finely tuned, provocative messages targeted at specific audiences on broadcast and print media, and sites like Google, Facebook, and Twitter. For example, data and its analysis can be used by healthcare heads to determine where best to allocate funds. It can be used by foreign ministers to simulate complex trade agreements or to predict the long-term effects of uncertain political situations such as the UK’s decision to leave the European Union. It can be used to identify potential terrorist threats or to give advance warnings of disease outbreaks or other phenomena using population data."
+        },
+        {
+          "quadrant": 3,
+          "name": "Digital currencies accreditation",
+          "id": 57,
+          "description": "One interesting aspect of the fast-growing cryptocurrency market is the fluidity of the terms used to describe the different products that fall within its ambit. While the various forms of what is broadly known as “cryptocurrencies” are similar in that they are primarily based on the same type of decentralized technology known as blockchain with inherent encryption, the terminology used to describe them varies greatly from one jurisdiction to another. Some jurisdictions are seeking to go even further and develop their system of cryptocurrencies. This category includes a diverse list of countries, such as the Marshall Islands, Venezuela, the Eastern Caribbean Central Bank (ECCB) member states, and Lithuania. In addition, some countries that have issued warnings to the public about the pitfalls of investments in cryptocurrencies have also determined that the size of the cryptocurrency market is too small to be cause for sufficient concern to warrant regulation and/or a ban at this juncture (Belgium, South Africa, and the United Kingdom). "
+        },
+        {
+          "quadrant": 3,
+          "name": "AI in EdTech",
+          "id": 58,
+          "description": "When used effectively, AI tools are empowering teachers. Continual, formative assessment data is used as input for adaptive algorithms that power an output that is a work program. This data can also be shared with the teacher, saving them hours in manually collecting the data and giving them eyes on the strengths and weaknesses of students. AI can further be leveraged here to generate specific insightful reports, focusing on the strength and areas of improvement for different students. A fair assessment should evaluate students on both their strengths and areas that need improvement. While the current assessment models focus on overall dexterity, AI can create a fairer and unbiased system to assess students."
+        },
+        {
+          "quadrant": 3,
+          "name": "ublic services customization",
+          "id": 59,
+          "description": "Customization has opportunities for governments in their e-government strategies. However, although the possible benefits are numerous, there are some specific hurdles to be taken such as process redesign, legal, and governance barriers. Especially when implementing a single national scale personalized e-government access point or portal. Fewer barriers are to be expected when implementing e-government portals of singular government organizations, or in the case of very small countries that have a one-level government such as in Singapore because in the two latter cases fewer stakeholders and stakes are involved. For a simpler and less time-consuming implementation governments, therefore, should be advised to start with organization specific or perhaps domain specific, i.e. clusters of government organizations that are already cooperating for some time, personalized e-gov. services."
+        },
+        {
+          "quadrant": 3,
+          "name": "Sustainability-centered economical approach",
+          "id": 60,
+          "description": "Сonsumers and citizens unsatisfied with the long-term damage (both on wealth distribution and the environment) caused by corporate short-sighted focus on short-term profits have turned sustainability into a mainstream concept able to ruin a company’s reputation and profits if unaddressed. Today, sustainability is often spoken of about climate change, which threatens life as we know it as is being largely caused by industrial practices. That’s one of the reasons why today many companies have corporate responsibility (CSR) strategies."
+        },
+        {
+          "quadrant": 3,
+          "name": "Data-based voters microtargeting",
+          "id": 61,
+          "description": "The public discussions around microtargeting practices have largely been guided by the thought that microtargeting might have a devastating effect on democracy. However, the existing evidence seems not to support this thought. Moreover, there is a lack of relevant research on this matter outside the US context."
+        },
+        {
+          "quadrant": 3,
+          "name": "Anti-digital money Laundering",
+          "id": 62,
+          "description": "Regulatory and financial bodies are aware of these risks and continue to develop the regulations to minimize risk and increase compliance in a constantly and fast-growing crypto asset industry. For example, financial institutions can implement the measures recommended by the Financial Action Task Force (FATF) and stay compliant with the new and latest regulations. National governments are also working with regulators to assess the potential risks that lead to money laundering violations and apply sanctions where needed. Nonetheless, there is still a significant amount of work to be done by the government, financial industry bodies, crypto businesses, and financial institutions for the crypto market to be more regulated and compliant. In the meantime, how do legitimate traders utilizing crypto assets keep themselves risk-free?"
+        },
+        {
+          "quadrant": 3,
+          "name": "Life Expectancy dymacis planning and implementation",
+          "id": 63,
+          "description": "Assumptions about life expectancy can make a dramatic difference in retirement strategies. For example, people who expect their retirement to last 20 years could withdraw 4.7% of their nest egg the first year and have a 90% chance their money would last. It is unclear why countries are investing so much money in research focused on reducing death rates in the elderly, if the consequence is advancing aging, that can be described as the increase in disability years, plus pension, and social and medical costs, in an unsustainable way. Aging is caused by many different processes, that is why healthy longevity goes far beyond demographic characteristics and medical research problems on how to increase the quantity of life."
+        },
+        {
+          "quadrant": 3,
+          "name": "Executive Decentralization ",
+          "id": 64,
+          "description": "Rare is the business executive who doubts the importance of responsiveness: to be acutely alert to business opportunities and threats and to be capable of grabbing the opportunity or fending off the threat fast and effectively. Hence, when (re-)designing the organization structure, they tend to decentralize decision-making, so that decision rights are as close as possible to the people who deal with customers, competitors, front-line employees, and other stakeholders. By doing so they avoid the delays associated with information and approvals traveling up and down the management hierarchy."
+        },
+        {
+          "quadrant": 3,
+          "name": "AI-based social and technical solution implementation",
+          "id": 65,
+          "description": "18 AI capabilities that could be used to benefit society were identified by Mckinsey in 2018. Fourteen of them fall into three major categories: computer vision, natural-language processing, and speech and audio processing. The remaining four, which we treated as stand-alone capabilities, include three AI capabilities: reinforcement learning, content generation, and structured deep learning. "
+        },
+        {
+          "quadrant": 3,
+          "name": "Migration Flows Analysis",
+          "id": 66,
+          "description": "One likely trend that we will see is that results from big data forecasts will be combined or cross-validated by experts. As previous research shows there is no “one size fits all” method for migration forecasting, but each method has its own set of strengths and weaknesses. Expert opinion on future migration flows can be valuable as big data may be big, but it is also “thin” meaning that other, essential, contextual information is often lacking. Indeed, data scientists and policymakers have never had so many interactions on this issue, yet they are often still speaking different languages. We have a long way to go before digital data become a reliable mainstream forecasting tool, but our experiences in just the last year have been very encouraging. The momentum is there, but it needs to be sustained. We hope that policymakers and donor organizations don’t lose interest after the first gold rush."
+        },
+        {
+          "quadrant": 3,
+          "name": "Agile regulations, procurement, workforce, and development",
+          "id": 67,
+          "description": "Organizations that embrace agile working successfully are clear about why they are doing it. It’s important to focus on business priorities and have clear, shared visions and goals. This helps to deliver results that matter to all your stakeholders. Digital transformation is on everyone’s lips these days. New IT tools and techniques are evolving all the time. According to a report from Deloitte, nearly everyone now has a smartphone. Virtual Private Networks, teleconferencing and/or video conferencing (now far better quality as well as cheaper than it once was), instant messaging, business apps, and extensive use of social media have revolutionized the workplace."
+        },
+        {
+          "quadrant": 3,
+          "name": "Planning via profound simulation analysis",
+          "id": 68,
+          "description": "Simulations can be especially effective when used as scenario planning tools. This differs from their traditional use in fore-casting. Instead of providing an estimate of next year’s sales in a particular market, strategy simulations are used to understand the likely consequences of a change in advertising on sales, or a competitor’s response to the introduction of an unforeseen product improvement. Effective strategy experimentation requires that managers stay focused on their business needs and the purpose of the strategic planning process."
+        },
+        {
+          "quadrant": 3,
+          "name": "Immersive education",
+          "id": 69,
+          "description": " We are on the cusp of an exciting new phase in connecting with and inspiring students to learn. By giving students the chance to experience new worlds, explore unreachable places, and provide visual context for abstract concepts, VR, AR, and XR can make learning more playful and impactful by sparking curiosity in, and interactivity with the world around us. For businesses looking to innovate in the education and learning sector, this also highlights how educational immersive products and services can be scalable. Virtual-Tee is available in more than 100 countries across the world; and isn’t just restricted to use in schools, as it is also promoted and distributed to a broader consumer market."
+        },
+        {
+          "quadrant": 3,
+          "name": "Attempts to manufacturing individualization",
+          "id": 70,
+          "description": "Individualized production has two key enablers: adaptive material transformation within, and digital interoperability between such machines. While material technologies like NIR lasers or digital printers already exist, machines still need to be taught how to work together naturally to achieve the needed efficiency and quality. Today, machines are hardwired or coupled through PLC software. While this arrangement achieves a tight integration, it comes at a significant effort and does not yield much flexibility for new product variants except that which is designed from the start. For truly adaptive production, machine integration must be achieved with a much looser coupling, so the entire line can be flexibly reconfigured with minimal effort."
+        },
+        {
+          "quadrant": 3,
+          "name": "Data as a Political Asset",
+          "id": 71,
+          "description": "There is a pervasive assumption that elections can be won and lost based on which candidate or party has the better data on the preferences and behavior of the electorate. But there are myths and realities about data-driven elections. All the data helps identify the demographics, how many are affluent, how many are poor in a particular constituency, what is their average earning? How many people belong to Scheduled Caste (SC), Scheduled Tribe (ST), Other Backward Class (OBC), and General Category? By putting a bracket over the income slab one can have a fair idea of their constituency that how many people belong to which caste, having which economic stature and what would be their priorities in terms of elections, what they would be expecting from their MP if they are standing from their local constituency and so on. "
+        },
+        {
+          "quadrant": 3,
+          "name": "Power re-stratification",
+          "id": 72,
+          "description": "Size no longer ensures staying power. You can be very large and still go out of business in no time. The third is that because there is so much proliferation and fragmentation, different constituencies have enough power to block the others but no group has enough power to push an agenda through. We see that in so many democracies around the world where decisions are delayed because of the different power centers. This is visible in companies too where different groups of shareholders, management."
+        },
+        {
+          "quadrant": 3,
+          "name": "Public services customization and Smart cities",
+          "id": 73,
+          "description": "As cities get smarter, they are becoming more livable and more responsive—and today we are seeing only a preview of what technology could eventually do in the urban environment. After a decade of trial and error, municipal leaders are realizing that smart-city strategies start with people, not technology. “Smartness” is not just about installing digital interfaces in traditional infrastructure or streamlining city operations. It is also about using technology and data purposefully to make better decisions and deliver a better quality of life."
+        },
+        {
+          "quadrant": 3,
+          "name": "Big Data for Education",
+          "id": 74,
+          "description": "Data collected can be analyzed in a variety of different ways. Information collected on students and faculty can lead to new insights that can improve the way schools work. Simply put, Big Data is changing the way schools educate their students. It has led to different learning models and concepts and it is possible using Big Data to obtain a much greater understanding of how to ensure students are successful. By obtaining data from a variety of different channels, more information can be examined. This additional information can further enhance the teaching methods based on specific behaviors and patterns. In addition, by grouping individuals based on learning patterns and difficulties, additional required resources and changes can be allocated."
+        },
+        {
+          "quadrant": 3,
+          "name": "Crime Analysis Platforms",
+          "id": 75,
+          "description": "Crime analysis and investigation software is used by law enforcement to predict, manage, and investigate crimes. Nowadays, the use of digital technologies is promoting three main characteristics of information, i.e. the volume, the modality, and the frequency. Due to the amount of information generated by tools and individuals, it has been identified a critical need for Law Enforcement Agencies to exploit this information and carry out criminal investigations in an effective way. "
+        },
+        {
+          "quadrant": 4,
+          "name": "Longevity Stock Exchanges",
+          "id": 76,
+          "description": "A Longevity stock exchange is the culmination of the journey: a fully-fledged, multifarious global commercial industry. As soon as HALY and QALY become quantifiable products, platforms for the various types of longevity and P3 medicine companies have been established, and a longevity stock exchange is set up, we will see the emergence of new types of digital assets stock exchange platforms. Specialized stock exchanges already exist. Currently, investors can dig into about 50 major commodity markets worldwide for example. Those include markets for soft commodities such as wheat, coffee, cocoa, and other agricultural products, and ones for commodities that are mined, such as gold and oil. NASDAQ fits that profile as well; it was created as a stock exchange for IT companies and is currently the home of tech-oriented stocks. Specialized stock exchanges typically form when an industry grows by a sufficient amount. A longevity stock exchange feels inevitable. Estimates for the growth of the longevity industry - spurred by the will of progressive companies to become financial and technological hubs and havens for the longevity industry. We estimate that between 2020 and 2022, a Longevity Stock Exchange will be created. "
+        },
+        {
+          "quadrant": 4,
+          "name": "Longevity Trusts",
+          "id": 77,
+          "description": "In the history of humanity, there have been several examples of specific cases where management of health and longevity of several specific people (there were specific social models on how to maintain the health of specific people, in particular, the example of Indian Tzars; all the slaves and servants were buried with the Tzar). They were brutal rituals but the idea was simple: to ensure that everyone surrounding the Tzar was incentivized to make them live as long as possible. The same rationale should be employed with novel business entities and models, where managers of financial corporations will be extremely interested in providing the best options to extend and maintain the longest period of healthy longevity for their clients and employees. At the same time, this could be applied for the extension of the healthy period of life, measured via biomarkers of aging."
+        },
+        {
+          "quadrant": 4,
+          "name": "Longevity Hedge Funds",
+          "id": 78,
+          "description": "We are likely to see the rise of many hedge funds that will capitalize on the gaps in biotech and healthcare companies, structuring long and short positions to bet on financial instruments related to progressive medicine, while at the same time creating short positions based on mathematical models of assessing and quantifying these gaps. Hedge funds will short outdated biopharma. The multi-trillion-dollar BioTech industry is one of the most inefficient and heavily bureaucratized industries today. Therefore, we can predict that a significant portion of the industry will shrink, being replaced by the BioTech Industry 2.0 (the rising Longevity industry). Meanwhile, hedge funds will have an outstanding opportunity to thrive on this transition, shorting the stagnating part of the industry. "
+        },
+        {
+          "quadrant": 4,
+          "name": "AgeTech Banks",
+          "id": 79,
+          "description": "The AgeTech bank will be a novel form of a financial institution focused on consumers 60 years or older. It would, in most respects, resemble a traditional fintech bank, but with a focus on consumers over the age of 60. FinTech and so-called digital banks target young populations who are steeped in the use of mobile devices, such as smartphones, while the elderly population, being less active on such devices, is rarely even considered a potential consumer market. But it is the elderly population rather than the young who hold most of the wealth, and as such, they should be the major target demographics for such banks. And because of recent trends in the overall health of the elderly, the traditional approach is already outdated and will become increasingly obsolete over the next century. Even independent of any longevity-related technologies, the number of elderly people staying active for longer is increasing. The only current obstacle to the creation of a specialized FinTech bank for the elderly is the lack of a specific device tailored to their needs. But we should expect one to emerge in the next several years, given the continuing rate of progress in the IT sector. But an AgeTech bank: - Will be a novel type of fintech bank that will use novel communication devices to communicate with mentally and financially active, if not so physically active, elderly clients, using very intuitive, user-friendly front-end interfaces; - Will have as its main attraction not interest rates, but the degree to which the bank is a community bank -- a legally recognized category of banks that are operated collectively by clients. "
+        },
+        {
+          "quadrant": 4,
+          "name": "Longevity VC Funds",
+          "id": 80,
+          "description": "As our first step in financial futurism, we ask: What will be the future of venture funds in the wake of this paradigm shift? The identification of biomarkers of aging, and further progress in the use of AI for clinical trials will open up the following doors for longevity-focused venture funds: ● Venture funds will end their focus on Big Pharma as main acquisitors of their portfolio companies. ● The new main acquisitors may become IT giants, government-backed funds (such as Vision Fund), or those BioPharma corporations which will prove to be capable of reinventing themselves into progressive healthcare corporations of the 21st century. ● Many will become technology progress-driven, rather than Big Pharma-driven. ● The market will be able to assess whether the portfolios of funds are structured in a manner that brings about maximum QALY and HALY for a population. These assessments will utilize technology for predictive analysis e.g. the use of AI to rate the likely positive impact of venture funds based on their portfolio structures. They might factor in TRLs and similar methods of quantifying technological maturity. ● VC firms will move toward the use of tangible, quantifiable, and concrete metrics ties to biomarkers of aging and TRL levels for the valuation of their portfolio companies, and for measuring the performance of the fund itself. ● With the introduction of such concrete metrics, investment in biotech will not be the gambling as it is now. The longevity-focused VC funds of the future will rise or fall based on their ability to deliver HALE and QALY. Thus, this novel type of venture funds would transform longevity into data science. As biomarkers are refined and this novel financial system prospers, investment in longevity will become a form of data science."
+        },
+        {
+          "quadrant": 4,
+          "name": "ETFs' performance regulations",
+          "id": 81,
+          "description": "A tilted fund is a portfolio that has similar characteristics to an index but is systematically tilted away from the index about one or more characteristics. The intention is that the “tilt” should produce systematic outperformance without interference from other undesired influences. It’s time for a truly innovative investment option. These days, sophisticated financial advisors and investors want access to investments that offer the diversification, liquidity, tax efficiency, low cost, absolute transparency, and performance. These are the reasons why Tilted Index Portfolios are becoming so popular."
+        },
+        {
+          "quadrant": 4,
+          "name": "Shedding of the non-core assets and deeper differenzialization",
+          "id": 82,
+          "description": "For healthcare organizations eager to stabilize revenue and capture long-term efficiency, less is more. In the battle to improve patient outcomes and guarantee the longevity of their organizations, hospitals and health systems don’t need to be everything to everyone. One of the most strategic steps healthcare leaders can take is to regularly evaluate their service line portfolio, constantly looking for opportunities to shed — and monetize — non-core or unprofitable assets."
+        },
+        {
+          "quadrant": 4,
+          "name": "Connected flow model for Investment banks",
+          "id": 83,
+          "description": "The ‘connected flow’ model is a simplified, agile, connected, client-centric operating model that augments the capabilities of the investment bank with those of their partner ecosystems. This creates cost efficiencies and risk mutualization, acting as an antidote to the increased capital and operating cost environment. Adopting the connected flow model will allow investment banks to reimagine their business along with the four broad themes (technology modernization, workforce of the future, client centricity, and regulatory recalibration). Ultimately, the model will increase efficiency, addressing cost challenges through increased automation and enhanced tooling, and deliver results with reduced inventory and revenue leakage."
+        },
+        {
+          "quadrant": 4,
+          "name": "Active Index Fund strategy ",
+          "id": 84,
+          "description": "An active index fund is an investment strategy that seeks to combine the positive aspects of passive indexing with active portfolio management.Examples of active index strategies include employing a tilt or smart beta approach, which seeks to exploit relative mispricings while adhering primarily to an index. Active index funds may still underperform purely passive funds and are often subject to higher management fees and more taxable events for investors. The shares of actively managed ETFs are traded on major stock exchanges throughout the day, unlike mutual funds, which only trade once a day, after markets close. In addition, they provide more transparency into their holdings than actively managed mutual funds."
+        },
+        {
+          "quadrant": 4,
+          "name": "Longevity Index Funds",
+          "id": 85,
+          "description": "Similar to how the NASDAQ Composite is structured, once a longevity stock exchange succeeds in having its first 100 companies listed, the index would be tied to the capitalization of a well-diversified pool of top 100 companies - the diversity will be determined based on the area of specialization of each company. The more companies are listed, the more the index will be diversified, and this will lead to more specialized sub-indexes similar to the NASDAQ 100 and the NASDAQ 100 Financial Index - think of a gene therapy sub-index for the longevity industry for example. Those sub-indexes could form the framework for attracting money from conservative investors and institutions, such as pension funds, mutual funds, insurance companies, and sovereign funds."
+        },
+        {
+          "quadrant": 4,
+          "name": "Big Data-driven Mergers & Acquisition prediction and analysis",
+          "id": 86,
+          "description": "Today’s data and analytics tools are evolving rapidly and have become a key component in the M&A process. Leading acquirers are using these tools to harness the value of multiple and varied data sources and the power of advanced analytics to adopt a more offensive, growth-oriented mindset to gain a deal conviction, even in time-pressured situations. In addition, leading acquirers extend the use of data and analytics from deal evaluation into the post-sign integration and post-close value creation stages."
+        },
+        {
+          "quadrant": 4,
+          "name": "Financial enteties stratification and ecosystematic approach",
+          "id": 87,
+          "description": "Stratification is the process of classifying a set of data or subgroups based on a set of predetermined criteria. This includes both ranked categories and unranked categories. For example, wealth is a great example of social stratification, where it assigns each person to a hierarchical group based on their level of wealth. There is also unranked stratification, such as subcategorizing a population into gender groups."
+        },
+        {
+          "quadrant": 4,
+          "name": "Big Data-based Investment benchmarking",
+          "id": 88,
+          "description": "Organizations rely on evidence from the Benchmarking domain to provide answers to how their processes are performing. There is extensive information on how and why to perform technical benchmarks for the specific management and analytics processes, but there is a lack of objective, evidence-based methods to measure the correlation between Big Data Technology (BDT) benchmarks and an organization’s business benchmarks and demonstrate return on investment. When more than one benchmarking tool exists for a given need, there is even less evidence as to how these tools compare to each other, and how the results can affect their business objectives."
+        },
+        {
+          "quadrant": 4,
+          "name": "Compliance automation of Investment practice",
+          "id": 89,
+          "description": "Banks are seeking to advance both the effectiveness and efficiency of AI technology, but it is recognized that the two elements are not mutually exclusive. Their cause and effect rely heavily on one another, and the panel believed that we are on the cusp of a shift into technological maturity in which significant change will introduce further effective and valuable automation. This is not, however, about ‘automating everything.’ Hyper automation is the process of automating everything we can where incremental value exists. There is a clear appetite for a single, authoritative source of reliable corporate actions information (perhaps as a shared utility), and greater demand for enforceable rules binding issuers."
+        },
+        {
+          "quadrant": 4,
+          "name": "ETFs' performance regulations.1",
+          "id": 90,
+          "description": "Unlike mutual funds, however, ETF shares are traded on a national stock exchange and at market prices that may or may not be the same as the net asset value (“NAV”) of the shares, that is, the value of the ETF’s assets minus its liabilities divided by the number of shares outstanding. As investment companies, ETFs are subject to the regulatory requirements of the federal securities laws as well as certain exemptions that are necessary for ETFs to operate under those laws. Together, the federal securities laws and the relevant exemptions apply requirements that are designed to protect investors from various risks and conflicts associated with investing in ETFs."
+        },
+        {
+          "quadrant": 4,
+          "name": "Longevity-based derivatives ",
+          "id": 91,
+          "description": "Novel longevity VC funds, hedge funds, AgeTech banks, novel pension funds, insurance companies, longevity-driven legal and financial frameworks will together provide multiple sources for multiple types of longevity-associated derivatives. This will spawn a whole new industry, the capitalization of which could exceed anything ever considered by financial markets. It will also produce a large quantity and diversity of derivatives, which in turn will support second and third layers of derivatives, which in turn will give rise to the biggest possible market for derivatives imaginable. The current system of derivatives linked to the so-called longevity risk was created roughly 50 years ago when, as it happens, the system of current pension funds started to rise; the pension funds since that time have grown from startups to trillion-dollar entities. The typical value of all pension funds is around $1T in developed countries. These funds were created at an age when the maximum life expectancy was around 85 years. Since that time, life expectancy has grown and demographic aging has increased (some extreme examples like Japan, and now Italy). Pension funds have a certain amount of clients who are paying into the fund. If the clients live longer than 85, the fund will lose money and have a deficit."
+        },
+        {
+          "quadrant": 4,
+          "name": "The hegemony of AI- and ML-driven Investment solutions",
+          "id": 92,
+          "description": "AI- and ML-driven Investment solutions are helping to foster more meaningful relationships between investment managers and advisors and their clients. By automating certain aspects of the relationship—such as the initial communication, documentation handling, and risk profiling—clients can spend more time focusing on the more important aspects of their relationships with advisors, namely how to optimize returns. Automating such processes, moreover, helps to lower costs for both the manager and the client."
+        },
+        {
+          "quadrant": 4,
+          "name": "Quantitative and Fundamental analysis automation",
+          "id": 93,
+          "description": "The application of machine learning for stock prediction is attracting a lot of attention in recent years. A large amount of research has been conducted in this area and multiple existing results have shown that machine learning methods could be successfully used toward stock predicting using stocks’ historical data. Most of these existing approaches have focused on short-term prediction using stocks’ historical price and technical indicators."
+        },
+        {
+          "quadrant": 4,
+          "name": "Asset price modeling via fat-tailed distribution ",
+          "id": 94,
+          "description": "A fat-tailed distributional assumption represents a model for the entire distribution while EVT-based models are designed to describe the maximum loss over a given horizon meaning that they are designed to describe the extreme tail only. Fat-Tailed and Skewed Asset Return Distributions examines this dilemma and offers readers a less technical look at how portfolio selection, risk management, and option pricing modeling should and can be undertaken when the assumption of a non-normal distribution for asset returns is violated. "
+        },
+        {
+          "quadrant": 4,
+          "name": "Investment execution automation",
+          "id": 95,
+          "description": "The rise of electronic trading in fixed income securities, exchange-traded funds (ETFs), and derivatives has led to more automated trading, although automation has not reached the same levels as inequities and foreign exchange markets. The benefits for asset managers and other institutional investors are clear: streamlined workflows, faster price discovery, quicker transactions, lower costs, improved audibility, enhanced regulatory compliance, and reduced operational risk. This frees up time for investors to focus on more complex trades."
+        },
+        {
+          "quadrant": 4,
+          "name": "Combined Innovation measures implementation",
+          "id": 96,
+          "description": "Historically, the most disruptive and long-lasting products were not built through a single, emergent technology. Rather, they were built through a combination of existing technologies, innovation, and new business models that appealed to customers. Products built on an innovative, but independent, technology often struggled to achieve wide adoption. Combinatorial technological innovation is visible in most, if not all, of the current leading technology products. Things like 3D Printing, IoT, Drones, Robotics, Machine Vision, Machine Learning, Cognitive Computing, Data Discovery, AI, Natural Language Processing, Blockchain, and more, were built by bringing together previous innovations to create exponential gains in value and applicability. It is not necessary to reinvent the wheel to gain a competitive advantage. Two or more disruptive technologies in the right combination will do just fine -- the critical part is thinking through the ways two technologies leverage one another to enhance their collective value. "
+        },
+        {
+          "quadrant": 4,
+          "name": "Innovation Policies implementation",
+          "id": 97,
+          "description": "Policies essentially dictate, or control, how employees perform their jobs. Implementing innovative policies means that you develop and put into effect policies distinct from those of other employers or competitors. Establishing a national strategy for innovation is one thing; its implementation is often another matter. The framing of policies for innovation needs to recognize that they operate in a complex, dynamic and uncertain environment, where government action will not always get it right. A commitment to monitoring and evaluation of policies, and to learning from experience and adjusting policies over time, can help ensure that government action is efficient and reaches its objectives at the least possible cost."
+        },
+        {
+          "quadrant": 4,
+          "name": "Establishing and implementation of interdesciplinary education ",
+          "id": 98,
+          "description": "Interdisciplinary study allows for the synthesis of ideas and the synthesis of characteristics from many disciplines. At the same time, it addresses students’ differences and helps to develop important, transferable skills. These skills, such as critical thinking, communication, and analysis are important and continually developing at all stages of life. Educational systems are serving students best if they enable and encourage students to build their interdisciplinary pathways. This approach is sure to foster a love of learning, ignite a spark of enthusiasm, and address learning differences for students."
+        },
+        {
+          "quadrant": 4,
+          "name": "Blockchain-Tied Products & Solutions Popularization and Ubiquitous Legal conformation",
+          "id": 99,
+          "description": "Blockchain’s greatest characteristic stems from the fact that its transaction ledger for public addresses is open to viewing. In financial systems and businesses, this adds an unprecedented layer of accountability, holding each sector of the business responsible to act with integrity towards the company’s growth, its community, and customers. With the blockchain ledger, each time exchange of goods is recorded on a Blockchain, an audit trail is present to trace where the goods came from. This can not only help improve security and prevent fraud in exchange-related businesses, but it can also help verify the authenticity of the traded assets. "
+        },
+        {
+          "quadrant": 4,
+          "name": "Emergence of the Novel financial instruments",
+          "id": 100,
+          "description": "Novel longevity VC funds, hedge funds, AgeTech banks, novel pension funds, insurance companies, longevity-driven legal and financial frameworks will together provide multiple sources for multiple types of longevity-associated derivatives. This will spawn a whole new industry, the capitalization of which could exceed anything ever considered by financial markets. It will also produce a large quantity and diversity of derivatives, which in turn will support second and third layers of derivatives, which in turn will give rise to the biggest possible market for derivatives imaginable. During the last 50 years, this system of derivatives (including secondary and third stage derivatives), which related to this extremely complex system of pension funds, insurance companies, and hedge funds, grew to an enormous scale. There are no numbers or estimates capable of calculating the entire size of this industry."
+        }
+      ]
+    }
+  }
+}

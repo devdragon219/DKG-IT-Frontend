@@ -1,0 +1,113 @@
+{
+  "originalData": {
+    "startY": 140,
+    "height": 400,
+    "title": "Title Text",
+    "titleColor": "#0c5393",
+    "titleFontSize": "1em",
+    "horizMainLineColor": "#165894",
+    "yearColor": "#3069a0",
+    "verticalLineColor": "#165894",
+    "dotColor": "red",
+    "borderInfoColor": "#3069a0", 
+    "textInfoColor": "#3069a0",
+    "data": [
+      {
+        "year": "2012",
+        "text": "AlexNet",
+        "data": {
+          "title": "AlexNet",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+      },
+      {
+        "year": "2013",
+        "text": "Computer vision switches to neural nets. VAEs",
+        "data": {
+          "title": "Computer vision switches to neural nets. VAEs",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+      },
+      {
+        "year": "2014",
+        "text": "GANS",
+        "data": {
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+      },
+      {
+        "year": "2015",
+        "text": "Residual Nets, RNNs & LSTMs",
+        "data": {
+          "title": "Residual Nets, RNNs & LSTMs",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+      },
+      {
+        "year": "2016",
+        "text": "AlphaGO",
+        "data": {
+          "title": "AlphaGO",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+      },
+      {
+        "year": "2017",
+        "text": "Transformer architecture",
+        "data": {
+          "title": "Transformer architecture",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+      },
+      {
+        "year": "2018",
+        "text": "GPT-1, BERT & Graph Neural Networks",
+        "data": {
+          "title": "GPT-1, BERT & Graph Neural Networks",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+      },
+      {
+        "year": "2019",
+        "text": "GPT-2 & Improved Generative Models",
+        "data": {
+          "title": "GPT-2 & Improved Generative Models",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+      },
+      {
+        "year": "2020",
+        "text": "GPT-3 & Self-Supervised Learning",
+        "data": {
+          "title": "GPT-3",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+      },
+      {
+        "year": "2021",
+        "text": "AlphaFold 2, DALL-E & GitHub Copilot",
+        "data": {
+          "title": "AlphaFold",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+      },
+      {
+        "year": "2022",
+        "text": "ChatGPT & Stable Diffusion",
+        "data": {
+          "title": "ChatGPT",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+      },
+      {
+        "year": "2023",
+        "text": "Generative AI",
+        "data": {
+          "title": "Generative AI",
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+        }
+      }
+    ]
+  },
+  "type": "timelineHorizontal"
+}

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chart Number 14</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      const sliceArray = (arr, start, end) => arr.slice(start, end);
+
+      const splitArray = (arr, chunkSize) => {
+        let result = [];
+        for (let i = 0; i < arr.length; i += chunkSize) {
+          let chunk = arr.slice(i, i + chunkSize);
+          result.push(chunk);
+        }
+        return result;
+      };
+
+      const render = (originalData) => {
+        const fontFamily = "Roboto";
+
+        const width = 1680;
+        const height = 840;
+
+        const darkTheme = originalData?.darkTheme;
+
+        const itemsInColumn = originalData?.itemsInColumn
+          ? originalData?.itemsInColumn
+          : 3;
+        const numberOfColumns = originalData?.numberOfColumns
+          ? originalData?.numberOfColumns
+          : 2;
+
+        const outerCircleRadius = height / 10;
+        const outerCircleShadowOffset = outerCircleRadius * 0.85;
+
+        const innerCircleRadius = outerCircleRadius * 0.85;
+
+        // Show the data in descending order
+        const data = originalData.data.slice();
+
+        if (!originalData.doNotSort) {
+          data.sort((a, b) => b.weight - a.weight);
+        }
+        /* Svg */
+        const svg = d3
+          .select("body")
+          .append("svg")
+          .attr("xmlns", "http://www.w3.org/2000/svg")
+          .attr("width", width)
+          .attr("height", height + outerCircleShadowOffset * 2)
+          .attr(
+            "viewBox",
+            `0 0 ${width} ${height + outerCircleShadowOffset * 2}`
+          )
+          .style("max-width", "100%")
+          .style("background-color", `${darkTheme ? "#161D31" : ""}`)
+          .style("height", "auto");
+        /* */
+
+        /* Defs */
+        const defs = svg.append("defs");
+        /* */
+
+        /* Load "Roboto" font */
+        defs
+          .append("style")
+          .attr("type", "text/css")
+          .text(
+            "@import url('https://fonts.googleapis.com/css?family=Roboto:400,700')"
+          );
+        /* */
+
+        /* Gradient */
+        const innerCircleGradientId = "innerCircleGradient";
+        const innerCircleGradient = defs
+          .append("radialGradient")
+          .attr("id", innerCircleGradientId);
+        innerCircleGradient
+          .append("stop")
+          .attr("offset", "10%")
+          .attr("stop-color", `${darkTheme ? "#0091a4" : "#119DF1"}`);
+        innerCircleGradient
+          .append("stop")
+          .attr("offset", "100%")
+          .attr("stop-color", `${darkTheme ? "#00427c" : "#0179c4"}`);
+        /* */
+
+        /* Main title */
+        const titleFontSize = height * 0.07;
+        svg
+          .append("text")
+          .attr("x", width / 2)
+          .attr("y", titleFontSize)
+          .style("font-size", `${titleFontSize}px`)
+          .style("font-weight", 700)
+          .attr("text-anchor", "middle")
+          .style("font-family", fontFamily)
+          .attr("fill", `${darkTheme ? "#cfd2d6" : "#0d5295"}`)
+          .text(originalData.name);
+        /* */
+
+        /* Main group */
+        const g = svg
+          .append("g")
+          .attr(
+            "transform",
+            `translate(${outerCircleShadowOffset}, ${
+              titleFontSize + innerCircleRadius
+            })`
+          );
+        /* */
+
+        /* Element list */
+        const slicedData = sliceArray(data, 0, itemsInColumn * numberOfColumns);
+        const columns = splitArray(slicedData, itemsInColumn);
+
+        columns.forEach((columnItems, columnIndex) => {
+          columnItems.forEach((item, itemIndex) => {
+            const radiusDiff = outerCircleRadius - innerCircleRadius;
+
+            /*
+            Calculate center of the Outer circle.
+            This is needed to draw a line near it.
+          */
+            const outerCx =
+              outerCircleRadius +
+              (width / numberOfColumns) * columnIndex -
+              radiusDiff;
+            const outerCy =
+              outerCircleRadius +
+              (height / itemsInColumn) * itemIndex -
+              radiusDiff;
+
+            /* Foreign object containing all texts */
+            const foreignObjectPadding = outerCircleRadius + 15;
+            const foreighObjectBottomOffset = 15;
+            const foreignObjectTitleFontSize = height * 0.025;
+            const lineShadowSpread = outerCircleRadius * 0.05;
+            const listFontSize = height * 0.023;
+            g
+              .append("foreignObject")
+              .attr("x", outerCx)
+              .attr("y", outerCy - outerCircleRadius)
+              .attr(
+                "width",
+                width / numberOfColumns -
+                  outerCircleRadius -
+                  outerCircleShadowOffset
+              )
+              .attr(
+                "height",
+                height / itemsInColumn - foreighObjectBottomOffset
+              )
+              .append("xhtml:div")
+              .style("font-family", fontFamily).html(`
+                <p style="
+                  margin: 0 0 5px 0;
+                  padding-left: ${foreignObjectPadding}px;
+                  font-size: ${foreignObjectTitleFontSize}px;
+                  font-weight: 700;
+                  color: ${darkTheme ? "#cfd2d6" : "#0d5295"};
+                ">
+                  ${item.title}
+                </p>
+                <div style="
+                  display: flex;
+                  align-items: center;
+                ">
+                  <div style="
+                    flex: 3;
+                  ">
+                    <div style="
+                      height: 3px;
+                      width: 100%;
+                      background-color: ${darkTheme ? "#00427c" : "#1F4E9B"};
+                      filter: drop-shadow(rgba(0,0,0,0.4) 0px ${lineShadowSpread}px ${lineShadowSpread}px;
+                    "></div>
+                  </div>
+                </div>
+                <ul style="
+                  margin: 0;
+                  padding: 0;
+                  list-style: none;
+                  color: #696969;
+                  font-size: ${listFontSize}px;
+                ">
+                  ${item.items
+                    .map(
+                      (element, index) =>
+                        `<li style="
+                          padding-left: ${foreignObjectPadding}px;
+                          display: flex;
+                        ">
+                          <div style="
+                            flex: 3;
+                          ">
+                            <div style="
+                              background-color: ${
+                                darkTheme ? "#cfd2d6" : "#fff"
+                              };
+                              display: inline-block;
+                              min-width: 8px;
+                              min-height: 8px;
+                              border: 1px solid #696969;
+                              border-radius: 50%;
+                              margin-right: 10px;
+                              box-shadow: rgba(0,0,0,0.8) 1px 1px 0;
+                              text-align: justify;
+                            "></div>
+                             <span style="
+                             color: ${darkTheme ? "#cfd2d6" : ""};
+                          ">${element}</span>
+                          </div>
+                          <div style="
+                            flex: 1;
+                            text-align: center;
+                            font-weight: 700;
+                            color: ;
+                            color: ${darkTheme ? "#cfd2d6" : "#696969"};
+                            font-size: ${listFontSize}px;
+                            margin-left: 15px;
+                            left: -7.5px;
+                          ">
+                            ${item.factors[index]}
+                          </div>
+                      </li>`
+                    )
+                    .join("")}
+                </ul>
+              `);
+            /* */
+
+            /* Outer circle */
+            const outerCircleShadowSpread = outerCircleRadius / 5;
+            g.append("circle")
+              .attr("cx", outerCx)
+              .attr("cy", outerCy)
+              .attr("r", outerCircleRadius)
+              .attr("stroke", `${darkTheme ? "#00427c" : "#1F4E9B"}`)
+              .attr("stroke-width", 5)
+              .style("fill", `${darkTheme ? "#cfd2d6" : "#fff"}`)
+              .style(
+                "filter",
+                `drop-shadow(rgba(0,0,0,0.4) -${outerCircleShadowSpread}px ${outerCircleShadowSpread}px ${outerCircleShadowSpread}px)`
+              );
+            /* */
+
+            /* Inner circle */
+            const innerCx =
+              innerCircleRadius + (width / numberOfColumns) * columnIndex;
+            const innerCy =
+              innerCircleRadius + (height / itemsInColumn) * itemIndex;
+            g.append("circle")
+              .attr("cx", innerCx)
+              .attr("cy", innerCy)
+              .attr("r", innerCircleRadius)
+              .attr("fill", `url(#${innerCircleGradientId})`)
+              .style("filter", "drop-shadow(rgba(0,0,0,0.5) 0 0 2px)");
+            /* */
+
+            /* Foreign object containing circle text */
+            const dynamicTextFontSize = item.weight_font_size
+              ? height * item.weight_font_size
+              : height * 0.04;
+            const staticTextFontSize = item.weight_text_font_size
+              ? height * item.weight_text_font_size
+              : height * 0.023;
+            g
+              .append("foreignObject")
+              .attr("x", innerCx - innerCircleRadius)
+              .attr("y", innerCy - innerCircleRadius)
+              .attr("width", innerCircleRadius * 2)
+              .attr("height", innerCircleRadius * 2).html(`
+              <div style="
+                color: ${darkTheme ? "#cfd2d6" : "#fff"};
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                height: 100%;
+                font-family: ${fontFamily};
+                font-weight: 700;
+              ">
+                <p style="
+                  margin: 0;
+                  font-size: ${dynamicTextFontSize}px;
+                ">
+                  ${item.weight}
+                </p>
+                <p style="
+                  margin: 0;
+                  font-size: ${staticTextFontSize}px;
+                ">
+                  ${item?.weight_text ? item?.weight_text : ""}
+                </p>
+              </div>
+            `);
+            /* */
+          });
+        });
+        /* */
+      };
+
+      const apiUrl = "/api/diagrams";
+      const params = new URLSearchParams(window.location.search);
+      const KEY = "slug";
+
+      window.onmessage = (e) => {
+        if (e.data?.name === "parentMessage") {
+          if (e.data.data?.originalData) {
+            render(e.data.data.originalData);
+          }
+        }
+      };
+
+      if (params.has(KEY)) {
+        const key = params.get(KEY);
+        let url = `${apiUrl}/${key}`;
+        if (key.includes("demo_example")) {
+          const type = key.split("?")[1];
+
+          url = `/diagrams/${type}/data.json`;
+        }
+        const fetchData = async () => {
+          try {
+            const response = await fetch(url);
+            const data = await response.json();
+            if (data?.originalData) {
+              render(data.originalData);
+            }
+            if (data?.source?.originalData) {
+              render(data.source.originalData);
+            }
+          } catch (error) {
+            console.error(error);
+          }
+        };
+        fetchData();
+      }
+    </script>
+  </body>
+</html>

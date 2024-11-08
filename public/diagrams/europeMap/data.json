@@ -1,0 +1,28 @@
+{
+  "originalData": {
+    "title": "Europe Map",
+    "backgroundColor": "white",
+    "fontColor": "black",
+    "hoverColor": "#3b729f",
+    "markers": [
+      {
+        "markerOffset": -35,
+        "name": "Warsaw",
+        "coordinates": [21.0122, 52.2297],
+        "radius": "10",
+        "fontColor": "black",
+        "tooltip": "Poland",
+        "fontSize": "30px"
+      },
+      {
+        "markerOffset": 35,
+        "name": "London",
+        "coordinates": [0.1276, 51.5072],
+        "radius": "10",
+        "fontColor": "black",
+        "tooltip": "United kingdom",
+        "fontSize": "30px"
+      }
+    ]
+  }
+}

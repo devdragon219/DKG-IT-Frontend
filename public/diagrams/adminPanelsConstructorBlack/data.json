@@ -1,0 +1,2378 @@
+{
+  "originalData": {
+    "contentData": [
+      {
+        "data": [
+          {
+            "key": "e67e3d46-3ad1-42c1-8597-c04a204f4e7a",
+            "name": "Summary DKG Analytics",
+            "demo": "https://platform.dkv.global/summary-dkg-analytics/",
+            "img": [
+              {
+                "url": "https://platform.dkv.global/files/longevity_investment_dash.png",
+                "id": "e6914aa3-f062-4c76-8e7c-4424b9f35fda",
+                "name": "Summary DKG Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "02067470-0409-4a44-833a-165f130b9a54",
+            "name": "Demo Dashboard",
+            "demo": "https://platform.dkv.global/demo-dashboard",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Demo_Dashboard.jpg",
+                "id": "86d1e19b-7260-4ec8-9339-64d2d5e901ba",
+                "name": "Demo Dashboard.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "5a9fd33e-dcd4-440d-a9b0-8fdb49db9122",
+            "name": "Deep Knowledge Group Operational Environment",
+            "demo": "https://dashboards.dkv.global/dkg-oe",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/advanced-visualization_H3dp4Pp.png",
+                "id": "e5c91f83-0215-4910-a3d8-75f34a44cee9",
+                "name": "advanced-visualization.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "b8458cd1-1c89-41f2-8028-a5183d1a5fc0",
+            "name": "DKG Admin Panel",
+            "demo": "https://platform.dkv.global/admin-panel/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/DKG_Admin_Panel.jpg",
+                "id": "369c811f-c7c5-478f-b92c-d3e5641fa9a4",
+                "name": "DKG Admin Panel.jpg"
+              }
+            ],
+            "create": ""
+          }
+        ],
+        "title": "",
+        "id": "378b9bfa-903f-46d6-91b7-6194d807ebd6"
+      },
+      {
+        "data": [
+          {
+            "key": "66af17fc-298b-40ec-a736-51cccc7efb1f",
+            "name": "AI Pharma Investment Dashboard",
+            "demo": "https://dashboards.dkv.global/ai-pharma",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/AI_Pharma_Investment_Dashboard.jpg",
+                "id": "129fd6e7-4c64-4f0f-8de7-a395c0607d8b",
+                "name": "AI Pharma Investment Dashboard.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "7db2fd69-6a21-4d3c-b253-353473a8fc45",
+            "name": "Insilico Medicine Investment Analytics Dashboard",
+            "demo": "https://dashboards.dkv.global/Insilico",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Insilico_Medicine_Investment_Analytics_Dashboard.jpg",
+                "id": "9e33272f-a25d-4d70-b2d4-9cff5162c8f6",
+                "name": "Insilico Medicine Investment Analytics Dashboard.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "daa2e121-2a00-42fb-b362-98d09b138d3f",
+            "name": "Insilico Medicine Operational Environment Dashboard",
+            "demo": "https://dashboards.dkv.global/OE-InsilicoMedicine",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Insilico_Medicine_Operational_Environment_Dashboard.jpg",
+                "id": "819b2421-c5e9-4ffa-9759-78e9f64ca634",
+                "name": "Insilico Medicine Operational Environment Dashboard.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "40e1f2b0-2f52-4039-8994-c0bbe3190db4",
+            "name": "Longevity Industry in UK",
+            "demo": "https://dashboards.dkv.global/longevity-industry-uk",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/industry_in_uk.png",
+                "id": "deda327f-9138-4cef-9298-63de4ef68ac6",
+                "name": "industry_in_uk.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "6725ace5-8e91-44f8-ab77-5140a360fe9c",
+            "name": "Longevity Industry Investment Analysis",
+            "demo": "https://dashboards.dkv.global/longevity-investment-dashboard",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/industry_investment_anaylsis.png",
+                "id": "5afcdfcd-04ce-41da-a118-73cb90b4cad0",
+                "name": "industry_investment_anaylsis.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "12931371-a4b6-4a07-a796-768222dd7ba5",
+            "name": "Longevity Club Investment Universe Analysis",
+            "demo": "https://dashboards.dkv.global/longevity-club",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/longevity_investment_analysis_z6KioyN.png",
+                "id": "6ed25018-d980-43a3-b106-f9a15559ad7a",
+                "name": "longevity_investment_analysis.png"
+              }
+            ],
+            "create": ""
+          }
+        ],
+        "title": "Investment Business Development and Sales Dashboards",
+        "id": "499a6829-84de-46b2-948c-6c6eede1d7c8"
+      },
+      {
+        "data": [
+          {
+            "key": "4375e1c3-0f10-4f49-9dfa-be73c20d8cf2",
+            "name": "Longevity Club End-to-End White Label Solution",
+            "demo": "https://www.dkg-platform.solutions/longevity-club",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/longevity_club_end.png",
+                "id": "364d24c0-5389-447e-8920-17852bc8d8c9",
+                "name": "longevity_club_end.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "b38cd497-8d33-459c-9554-ee114a7e2239",
+            "name": "Business Intelligence AI-Driven Big Data Analytics System and Dashboard",
+            "demo": "https://www.dkg-platform.solutions/business-intelligence/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/BI_AI_driven.png",
+                "id": "0344a48e-746a-4deb-bf58-41fa9f9f0efd",
+                "name": "BI_AI_driven.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "9a3caf0d-b429-4b99-a93b-68c2288c675f",
+            "name": "Deep Pharma Intelligence Big Data Analytics Dashboard",
+            "demo": "https://www.dkg-platform.solutions/dpi-dashboard-2",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/dpi_big_data.png",
+                "id": "6ff4ce7e-f790-4be7-8e34-693a35b685ca",
+                "name": "dpi_big_data.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "e955dd18-0494-4dfb-a1da-3e3cfdfafbf4",
+            "name": "Longevity Investment Big Data Analytics Dashboard",
+            "demo": "https://www.dkg-platform.solutions/longevity-investment",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/longevity-invest-big-data.png",
+                "id": "331b47d2-ad6c-4f83-b2f2-c59b5eb53bde",
+                "name": "longevity-invest-big-data.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "56f2488b-d0c2-43e0-9da2-45bc6927513f",
+            "name": "Ecosystems as a Service",
+            "demo": "https://www.dkg-platform.solutions/longevity-investment",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/ecosystems-as-service.png",
+                "id": "9d7fc43f-0d98-4b83-9bb1-04223edadf4a",
+                "name": "ecosystems-as-service.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "aac3c56f-8eca-4a8b-8271-9f813c3ffb47",
+            "name": "No-Code Dashboard Constructor",
+            "demo": "https://www.dkg-platform.solutions/dashboard-constructor-saas",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/no_code_dashboard.png",
+                "id": "0c7e7d7f-87c0-47c3-8dbd-ccfe762f642e",
+                "name": "no_code_dashboard.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "aaef119c-368b-4c34-9f00-0d67accf683b",
+            "name": "Industrial Ecosystem Advanced 3D and 4D Visualization Technologies",
+            "demo": "https://www.dkg-platform.solutions/advanced-visualization",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/industrial_ecosystem.png",
+                "id": "64b7e5b5-4d70-4f92-a135-b7e78ddd73b3",
+                "name": "industrial_ecosystem.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "03a09df9-6301-4f50-8e49-590c4b0ade35",
+            "name": "Longevity Clinics Metaverse",
+            "demo": "https://www.dkg-platform.solutions/longevity-clinics-metaverse",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/longevity_clinics_metaverse.png",
+                "id": "355476c1-20bc-4943-a1b5-18fc1b9c39dc",
+                "name": "longevity_clinics_metaverse.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "e5c301f1-7937-4db3-8516-968d4a018ee5",
+            "name": "Longevity Investment Big Data Analytics Dashboard",
+            "demo": "https://www.dkg-platform.solutions/longevity-investment",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/longevity-invest-big-data_FTaTC9Z.png",
+                "id": "05559deb-58c0-4a3d-bf66-c5839ac66cb3",
+                "name": "longevity-invest-big-data.png"
+              }
+            ],
+            "create": ""
+          }
+        ],
+        "title": "Flagship Projects",
+        "id": "02821f24-f357-4d8a-af19-0bc7989fa5ad"
+      },
+      {
+        "data": [
+          {
+            "key": "a9a2e927-ff01-4dad-adc0-46e74bfcc983",
+            "name": "Longevity Clinics Metaverse",
+            "demo": "https://longevitymap.web.app/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/harlyStreetVideo.png",
+                "id": "22d307d2-1365-4260-9584-feb185de3b31",
+                "name": "harlyStreetVideo.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "7b6c6fa5-4dbf-45e8-b410-ee613db29973",
+            "name": "Multi-Dimensional Vector Space and Operational Environment Advanced Visualisation",
+            "demo": "https://tesseract-tech.web.app/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/tesseractVideo.png",
+                "id": "d6f888c7-85cf-4281-90ba-0382bcfeaef2",
+                "name": "tesseractVideo.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "51047fd2-be91-4a7f-9a43-7729a7dd69a7",
+            "name": "Geo Dashboard Constructor No Code",
+            "demo": "https://tools.dkv.global/product/70028ab2-e971-475f-a3ff-7dfbcc106070",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/geoDashboardNoCode.png",
+                "id": "e42b0e78-5866-4c35-9bd3-8c6a35572fdf",
+                "name": "geoDashboardNoCode.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "3ff9ed5d-dfd1-43b9-ad2c-f4d34d8a8356",
+            "name": "The 5th Industrail Revolution",
+            "demo": "https://www.5revolution.tech/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/The_5th_Industrail_Revolution.jpg",
+                "id": "c1e2b50a-1a94-4153-bb6f-45029ad0231e",
+                "name": "The 5th Industrail Revolution.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "9f466594-69ac-46fc-8cb7-b02a8f55b97e",
+            "name": "Multi Dimensional Vector Space",
+            "demo": "https://platform.dkv.global#nextgen-dash",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Multi_Dimensional_Vector_Space.jpg",
+                "id": "5bea4f9c-42ea-49f6-a904-a9c5e3096601",
+                "name": "Multi Dimensional Vector Space.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "a4bdbe60-bfc0-4ed0-ab77-ee337e951715",
+            "name": "Longevity Financial Industry Dashboard",
+            "demo": "https://dashboards.dkv.global/longevity-finance",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/nextget_financial_industry.png",
+                "id": "7af4da85-caaa-4c86-bfd7-6132563bdad0",
+                "name": "nextget_financial_industry.png"
+              }
+            ],
+            "create": ""
+          }
+        ],
+        "title": "Next Generation Project",
+        "id": "8ec15ce0-fb0e-48b5-b90f-95a4cf7bf1d9"
+      },
+      {
+        "data": [
+          {
+            "key": "89454899-2d92-4c13-bba7-0a6de0a126f6",
+            "name": "Industrial Dashboards",
+            "demo": "",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Industrial_Dashboards.jpg",
+                "id": "ef36c464-8f61-4789-b366-a6f56f458ee4",
+                "name": "Industrial Dashboards.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "44005043-a001-4e9d-b737-c03194587cd7",
+            "name": "Regional Dashboards",
+            "demo": "",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Regional_Dashboards.jpg",
+                "id": "8baa14ce-b535-4739-a8d4-c49c8d948ad5",
+                "name": "Regional Dashboards.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "7f807d28-2c78-40bc-9609-4fc1e272142e",
+            "name": "Databox Dashboards",
+            "demo": "",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Databox_Dashboards.jpg",
+                "id": "f73c23e8-eae6-482a-90cb-85ff4c53e081",
+                "name": "Databox Dashboards.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "25b09f23-9a7d-4073-a42e-62069c7c367d",
+            "name": "DeepTech Dashboards",
+            "demo": "https://platform.dkv.global/deeptech-dashboards/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/DeepTech_Dashboards_I7hZuYU.jpg",
+                "id": "e1ea0f7d-67a1-44c4-8634-3823dc281ff1",
+                "name": "DeepTech Dashboards.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "f6ae827a-20a2-4991-9062-7ffef6a77793",
+            "name": "Longevity Life Sciences Dashboards",
+            "demo": "https://platform.dkv.global/life-science-dashboards/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Longevity_Life_Sciences_Dashboards.jpg",
+                "id": "d30cb24e-7f4d-4237-8520-c2e743a1099d",
+                "name": "Longevity Life Sciences Dashboards.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "316a6bd7-34b9-4b81-bfa0-12b97b06e3cb",
+            "name": "GeoDashboards and Geomaps",
+            "demo": "",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps.jpg",
+                "id": "83ee2364-5fca-40bb-a593-609d845759fd",
+                "name": "GeoDashboards and Geomaps.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "a4ab12f3-56e4-47cc-8fc1-6f7d24b3c9a1",
+            "name": "Financial Engineering Tools",
+            "demo": "https://platform.dkv.global/financial-tools/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Financial_Engineering_Tools.jpg",
+                "id": "bc468b52-9824-4312-89ab-ea992a9a78de",
+                "name": "Financial Engineering Tools.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "54859259-20f2-4a98-9bb1-afac5ed8c638",
+            "name": "Philanthropy Dashboards",
+            "demo": "https://platform.dkv.global/philanthropy-dashboards",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Philanthropy_Dashboards.jpg",
+                "id": "7dd8c781-270a-487a-a5d9-8edfb82dd8d5",
+                "name": "Philanthropy Dashboards.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "4726ddff-3166-48fc-8584-c371ba20ef7e",
+            "name": "FemTech Dashboards",
+            "demo": "https://platform.dkv.global/femtech/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/FemTech_Dashboards_vCPO0IW.jpg",
+                "id": "ab08b1d3-7095-400a-aec3-913992702d5c",
+                "name": "FemTech Dashboards.jpg"
+              }
+            ],
+            "create": ""
+          }
+        ],
+        "title": "Categories",
+        "id": "2cc3c894-a0ec-4c2f-a14d-ea5d6a68c38f"
+      },
+      {
+        "data": [
+          {
+            "key": "7e41352b-fcb4-4a0a-9f02-f58f6fd37c80",
+            "name": "Operational Environment: Valour",
+            "demo": "https://platform.dkv.global/swot_oe-valour/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/swot_ot_valour_cover.webp",
+                "id": "968457c1-ad82-4c38-b0d1-699f8e4c0b67",
+                "name": "swot_ot_valour_cover.webp"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "097ec5f2-68c1-4794-8a3e-d6f5c47a3127",
+            "name": "Big Data Analytics System (BDAS)",
+            "demo": "https://platform.dkv.global/oe-bdas/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Big_Data_Analytics_System_BDAS.jpg",
+                "id": "47fb0f87-6f87-4554-a35f-a60d168d9eb4",
+                "name": "Big Data Analytics System (BDAS).jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "75776fa1-5033-4ac9-bbe8-85baf140646b",
+            "name": "Deep Pharma Intelligence (DPI)",
+            "demo": "https://platform.dkv.global/oe-dpi/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Deep_Pharma_Intelligence_DPI.jpg",
+                "id": "2ef42652-4c58-401e-a03b-53684e946ee5",
+                "name": "Deep Pharma Intelligence (DPI).jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "56789540-aa30-404f-b45b-478a8ae484c7",
+            "name": "InvestTech Platform",
+            "demo": "https://platform.dkv.global/oe-itp/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/InvestTech_Platform.jpg",
+                "id": "533e93ca-994c-4db0-9201-97e94fe3c7a8",
+                "name": "InvestTech Platform.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "2a4eab62-50c1-4b17-a1cc-b7f32791cf2a",
+            "name": "Longevity mHealth",
+            "demo": "https://platform.dkv.global/oe-lmh/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Longevity_mHealth.jpg",
+                "id": "fedfe7c9-6207-43e2-b30e-00d87e7f6f29",
+                "name": "Longevity mHealth.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "d72c6b3f-fef4-4084-ba23-553bdeec2d76",
+            "name": "TechFinance Platforms",
+            "demo": "https://platform.dkv.global/swot-techfinance/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/TechFinance_Platforms.jpg",
+                "id": "2d2dc5d8-729b-4126-83ae-17f9efaab779",
+                "name": "TechFinance Platforms.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "6fa216a5-a20d-402e-8e49-962e7af5d940",
+            "name": "OffWorld",
+            "demo": "https://platform.dkv.global/swot-offworld/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/OffWorld.jpg",
+                "id": "e2941069-3e1f-4c82-8484-a779661ed760",
+                "name": "OffWorld.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "64721212-5381-4645-ac8d-cd7ce145540d",
+            "name": "BTQ",
+            "demo": "https://platform.dkv.global/swot-btq/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/BTQ.jpg",
+                "id": "93392e3b-b0a9-4474-819c-e08eaad299c9",
+                "name": "BTQ.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "aa8e3b2d-1c95-411d-ba49-d5dd458133af",
+            "name": "Valour",
+            "demo": "https://platform.dkv.global/swot-valour/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Valour.jpg",
+                "id": "a3f4dc16-7bad-4d41-8e74-f29591ccaceb",
+                "name": "Valour.jpg"
+              }
+            ],
+            "create": ""
+          }
+        ],
+        "title": "Operational Environment & Smart Matching System",
+        "id": "eb26eda0-7e60-4319-bf49-b3493967d763"
+      },
+      {
+        "data": [
+          {
+            "key": "ad72d860-f7d2-4e83-ab89-98739e1ea504",
+            "name": "Longevity Investment",
+            "demo": "https://platform.dkv.global/longevity-investment",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Longevity_Investment.jpg",
+                "id": "f390eca2-5abf-4e62-85aa-b20d6cf21b32",
+                "name": "Longevity Investment.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "800be11d-4156-4cb1-a1db-3534c64c4b0e",
+            "name": "Longevity Public Companies Analytics Dashboard",
+            "demo": "https://platform.dkv.global/longevity-public",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Longevity_Public_Companies_Analytics_Dashboard.jpg",
+                "id": "f6225822-52bc-44ee-8cc7-4cf2717961ac",
+                "name": "Longevity Public Companies Analytics Dashboard.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "c9b0b3a7-9924-4e93-bcf1-eb2f2e4ab387",
+            "name": "Deep Pharma Intelligence Dashboard 1.0",
+            "demo": "https://platform.dkv.global/ai-for-drug-discovery/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Deep_Pharma_Intelligence_Dashboard_1.0.jpg",
+                "id": "4c4b5a76-2eac-477b-8436-34bf2b7731fe",
+                "name": "Deep Pharma Intelligence Dashboard 1.0.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "fb87e4e2-56eb-44ee-81a3-9cd8531167ad",
+            "name": "Longevity Governance",
+            "demo": "https://platform.dkv.global/longevity-governance",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Longevity_Governance.jpg",
+                "id": "2c82da0d-3c71-4452-bb8c-71961790a0ac",
+                "name": "Longevity Governance.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "88d10788-326a-4e24-9618-b03007e0696d",
+            "name": "SpaceTech Analytics",
+            "demo": "https://platform.dkv.global/dashboards/spacetech-big-data/dashboard",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/SpaceTech_Analytics.jpg",
+                "id": "d6dd8085-dd2e-47a4-9c19-1a2d952e58c8",
+                "name": "SpaceTech Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "b27643f4-4108-4bd7-b1db-d4196ea8d62f",
+            "name": "AI Industry",
+            "demo": "https://platform.dkv.global/ai-industry/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/AI_Industry.jpg",
+                "id": "d1c7c66e-79d7-4ff1-9f08-ac2c248bd9ae",
+                "name": "AI Industry.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "448ce3fc-e8db-47e0-ac5b-746a4beb96d6",
+            "name": "Global GovTech",
+            "demo": "https://platform.dkv.global/dashboards/global-govtech/dashboard",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Global_GovTech.jpg",
+                "id": "1a3cb389-6c54-441d-97d1-bbbf06e639f3",
+                "name": "Global GovTech.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "66c72518-30ab-4cdd-a9fe-b9785ea44480",
+            "name": "Global Philanthropy Ecosystem",
+            "demo": "https://platform.dkv.global/philanthropy",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Global_Philanthropy_Ecosystem.jpg",
+                "id": "cc8827ad-15f1-4e64-88e2-cf550ef4209d",
+                "name": "Global Philanthropy Ecosystem.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "a0988916-0765-42cf-b472-b8467857bf20",
+            "name": "Longevity Financial Industry",
+            "demo": "https://platform.dkv.global/dashboards/longevity-financial-industry/dashboard",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Longevity_Financial_Industry.jpg",
+                "id": "af2aeca6-08f9-4950-8dea-16c71f08e48c",
+                "name": "Longevity Financial Industry.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "6f947338-7796-4689-b617-5af7fef542ea",
+            "name": "Global FoodTech",
+            "demo": "https://platform.dkv.global/dashboards/global-foodtech/dashboard",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Global_FoodTech.jpg",
+                "id": "807c08f7-308e-47e8-8bf1-dc92b0b3068d",
+                "name": "Global FoodTech.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "f4dfc377-954c-4278-b974-cfd0422b2ae2",
+            "name": "Diabetes Industry Global",
+            "demo": "https://platform.dkv.global/diabetes-industry-global",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Diabetes_Industry_Global.jpg",
+                "id": "a75ada95-82ec-4486-a653-c570406626d6",
+                "name": "Diabetes Industry Global.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "b445594e-001b-4aea-af3c-493c2f36808f",
+            "name": "InsurTech Analytics",
+            "demo": "https://platform.dkv.global/dashboards/insurtech/dashboard",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/InsurTech_Analytics.jpg",
+                "id": "1080fc8d-f3df-4382-afc2-f25b3a977e06",
+                "name": "InsurTech Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "44cd6f94-f60a-40d4-901c-0e78870266dc",
+            "name": "Public Longevity Companies Investment Big Data Analytics",
+            "demo": "https://platform.dkv.global/public-longevity-dashboard/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Public_Longevity_Companies_Investment_Big_Data_Analytics.jpg",
+                "id": "3525f890-6482-4927-a0ba-623f5565241a",
+                "name": "Public Longevity Companies Investment Big Data Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "ca692038-5d53-40e1-aac6-b5774b64ea00",
+            "name": "Diabetes Industry in Gulf Cooperation Council",
+            "demo": "https://platform.dkv.global/di-gulf-cooperation-council",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Diabetes_Industry_in_Gulf_Cooperation_Council.jpg",
+                "id": "4a4b6da0-3d31-48ed-9752-affec1456ae4",
+                "name": "Diabetes Industry in Gulf Cooperation Council.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "2fa0cbb9-3f4c-4967-8e1f-5d8faa117256",
+            "name": "FinTech Overview",
+            "demo": "https://platform.dkv.global/dashboards/fintech-uk-dashboard/dashboard",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/FinTech_Overview.jpg",
+                "id": "640a73e7-2248-4552-9ab4-ab9d3b9f660d",
+                "name": "FinTech Overview.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "cac567ad-05f7-44b7-bb6b-f78a1ef79bd6",
+            "name": "Investment Digest",
+            "demo": "https://platform.dkv.global/dashboards/uk-investment-dashboard",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Investment_Digest.jpg",
+                "id": "d24778a8-d137-4816-82a0-df30b9b8df68",
+                "name": "Investment Digest.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "0c489a18-cf3d-4684-b27c-c1e5065d77d0",
+            "name": "Deep Pharma Publicly Traded Companies Big Data Analytics",
+            "demo": "https://platform.dkv.global/public-pharma",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Deep_Pharma_Publicly_Traded_Companies_Big_Data_Analytics.jpg",
+                "id": "9cfe21eb-4f06-486f-97e5-43b1951cabc7",
+                "name": "Deep Pharma Publicly Traded Companies Big Data Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "1d8515ce-db6c-4bd9-bf75-f585088c0b65",
+            "name": "Techno Philanthropy",
+            "demo": "https://platform.dkv.global/techno-philanthropy/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Techno_Philanthropy.jpg",
+                "id": "2111d243-537c-44c5-8316-96973eb6f457",
+                "name": "Techno Philanthropy.jpg"
+              }
+            ],
+            "create": ""
+          }
+        ],
+        "title": "Industrial Dashboards",
+        "id": "95315d22-abd0-41b8-843c-85f67e3c9d04"
+      },
+      {
+        "data": [
+          {
+            "key": "04a8cde0-df86-4cb6-94b1-61cb7b89ec69",
+            "name": "Tech Ecosystem in UK",
+            "demo": "https://platform.dkv.global/dashboards/uk-dashboard",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Tech_Ecosystem_in_UK.jpg",
+                "id": "276bca53-73e7-4e08-b92a-b5388513b264",
+                "name": "Tech Ecosystem in UK.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "5475cf91-eb4e-4223-88fb-87ef821705ba",
+            "name": "Invest in Ukraine Tech",
+            "demo": "https://platform.dkv.global/dashboards/tech-in-ukraine/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Invest_in_Ukraine_Tech.jpg",
+                "id": "610c856c-c80a-497b-9d27-76fe278d9ccc",
+                "name": "Invest in Ukraine Tech.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "5767468a-cf28-4037-8a01-1b332783f6ec",
+            "name": "Gulf Dashboard",
+            "demo": "https://platform.dkv.global/dashboards/deeptech-in-gulf-region/dashboard",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Gulf_Dashboard.jpg",
+                "id": "2319f4db-8b0b-4e41-9042-1e0311928370",
+                "name": "Gulf Dashboard.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "25087821-2110-4b82-b5f5-57cf1f6e208b",
+            "name": "Government Investment Initiatives and Programs",
+            "demo": "https://platform.dkv.global/dashboards/uk-gov-programs-dashboard/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Government_Investment_Initiatives_and_Programs.jpg",
+                "id": "7249f9a2-8fc9-4e7c-956e-a4fbb917af6a",
+                "name": "Government Investment Initiatives and Programs.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "3867cebc-fc36-48d3-a296-2680b8d5a92b",
+            "name": "UK Longevity Governance Big Data Analytics",
+            "demo": "https://platform.dkv.global/longevity-ukecosystem",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/UK_Longevity_Governance_Big_Data_Analytics.jpg",
+                "id": "b64052d0-5f2e-431f-b6a3-833719f0ed83",
+                "name": "UK Longevity Governance Big Data Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "26e93bec-8565-4b50-aed3-977640e34d48",
+            "name": "GovTech in the UK Analytics",
+            "demo": "https://platform.dkv.global/dashboards/uk-govtech/dashboard",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GovTech_in_the_UK_Analytics.jpg",
+                "id": "6919cb78-625d-41c9-b785-824ddd0ea656",
+                "name": "GovTech in the UK Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "edf26fb7-a9e3-4215-b373-55407150f4f9",
+            "name": "Asia Digital Ecosystem Big Data Analytics",
+            "demo": "https://platform.dkv.global/asia-digital-dashboard/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Asia_Digital_Ecosystem_Big_Data_Analytics.jpg",
+                "id": "287475aa-f88d-4547-a39b-b6c11b23c3be",
+                "name": "Asia Digital Ecosystem Big Data Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "04403c1b-9970-4897-a82a-f7d291a24c7d",
+            "name": "Digital Europe Ecosystem Big Data Analytics",
+            "demo": "https://platform.dkv.global/europe-ecosystem-dashboard/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Digital_Europe_Ecosystem_Big_Data_Analytics.jpg",
+                "id": "d2ec1ca7-ffb3-4903-a65c-3ec74b4e61db",
+                "name": "Digital Europe Ecosystem Big Data Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "02ce5ebe-b21f-4cc9-a9ea-57b1efdc04f6",
+            "name": "Switzerland DeepTech Big Data Analytics",
+            "demo": "https://platform.dkv.global/dashboards/switzerland",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Switzerland_DeepTech_Big_Data_Analytics.jpg",
+                "id": "4e57302f-89b3-4066-a1ad-8edbfd83224d",
+                "name": "Switzerland DeepTech Big Data Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "e465a292-b169-4de8-bb5e-a6801d0e3252",
+            "name": "Philanthropy Africa Big Data Analytics",
+            "demo": "https://platform.dkv.global/demo-dashboard-philanthropy",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Philanthropy_Africa_Big_Data_Analytics.jpg",
+                "id": "0155d132-0529-4be3-a6f8-3e6b92a831d9",
+                "name": "Philanthropy Africa Big Data Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "0b4b2371-9e83-4457-8810-89b4b999837a",
+            "name": "AI in UK Dashboard",
+            "demo": "https://platform.dkv.global/ai-in-uk",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/AI_in_UK_Dashboard.jpg",
+                "id": "866bca6b-d3c6-4214-b8bd-82fcd749b119",
+                "name": "AI in UK Dashboard.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "44f1d01e-351f-465a-88bf-b04d5ce8507d",
+            "name": "Invest in Moldova Agency",
+            "demo": "https://dashboards.dkv.global/Invest_in_Moldova",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/invest-in-moldova.png",
+                "id": "b392d830-4eb2-4be8-af7c-bcbca300734f",
+                "name": "invest-in-moldova.png"
+              }
+            ],
+            "create": ""
+          }
+        ],
+        "title": "Regional Dashboards",
+        "id": "56ee2c22-d35a-485d-b8ae-5233c5cc1daf"
+      },
+      {
+        "data": [
+          {
+            "key": "3e314ae8-ad2a-4615-abed-8864e4f92b0a",
+            "name": "AI in UK Database Status",
+            "demo": "https://app.databox.com/datawall/bc2608638e73901fbdfe14ef66d918fba77d5864f8d248",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/AI_in_UK_Database_Status.jpg",
+                "id": "79c7bd7a-c937-4d1f-891a-2d191fd7d7fc",
+                "name": "AI in UK Database Status.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "d9a8bf9a-1a99-44e6-8fe1-49441655c3e6",
+            "name": "AI Ecosystem Database Status",
+            "demo": "https://app.databox.com/datawall/641b4e6e078682702120a15ed5d2b07b4169f8c64f9be5d",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/AI_Ecosystem_Database_Status.jpg",
+                "id": "73f9c2e6-9b51-42cb-ba1b-915c6eba6349",
+                "name": "AI Ecosystem Database Status.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "7575f8e7-8a7e-49d6-aae5-180631c24525",
+            "name": "Philanthropy International",
+            "demo": "https://app.databox.com/datawall/cd52bd1387bf6979f3114a250260a9de506064464f88499",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Philanthropy_International.jpg",
+                "id": "8b787d15-2b67-48c7-88e2-81b89c532877",
+                "name": "Philanthropy International.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "46424846-f603-4986-84b3-b8ad53d03870",
+            "name": "Hubspot Matrix",
+            "demo": "https://app.databox.com/datawall/926ed9dad9da6773376faf8c0090e4d33f4f97c64f0a3dd",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Hubspot_Matrix.jpg",
+                "id": "5c751e60-29ba-4a72-a31f-1bb4e04b76c1",
+                "name": "Hubspot Matrix.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "7ccf8251-19af-488f-8715-bc4d67c53b7c",
+            "name": "Google Analytics",
+            "demo": "https://app.databox.com/datawall/c1b9dcb25150f718741ff1d20e2445531a22fdc64f1dd3c",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Google_Analytics.jpg",
+                "id": "26f29fa0-4d83-4ed5-9aa6-dd9f023b211d",
+                "name": "Google Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "86d11813-1175-48b0-bf64-b1d62027c315",
+            "name": "Femtech Analytics Linkedin",
+            "demo": "https://app.databox.com/datawall/d66218bc712f4dba3d4795879b9bc5e2116d4dc64f36b66",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Femtech_Analytics_Linkedin.jpg",
+                "id": "a53e3cc6-6bc8-4eea-b291-e71f500cdb1a",
+                "name": "Femtech Analytics Linkedin.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "9e153c5c-955e-4865-b066-d34ba7681864",
+            "name": "AiiA Social Media Analytics",
+            "demo": "https://app.databox.com/datawall/ae6f08738ddfa4380851df59f13080785603ba064f5eead",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/AiiA_Social_Media_Analytics.jpg",
+                "id": "23dd2463-87ee-41af-aed8-3ca7adfeb03b",
+                "name": "AiiA Social Media Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "1a9c23b9-a8e4-45dc-8c94-5c4e087cf2c5",
+            "name": "AiiA",
+            "demo": "https://app.databox.com/datawall/f0211fd84d3a0ab1694c9b714f6be46846db16464f5f41b",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/AiiA.jpg",
+                "id": "c6af7383-bd07-499a-bab2-dda628ab34cc",
+                "name": "AiiA.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "98c46d9e-6b04-48ca-94c0-65e6b256e044",
+            "name": "Comparative Analysis Linkedin",
+            "demo": "https://app.databox.com/datawall/913a1b04ae9e60be772177f3b68ebbc6175f14c64f60194",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Comparative_Analysis_Linkedin.jpg",
+                "id": "c6bbe21a-2476-473c-8c7d-65a61e667876",
+                "name": "Comparative Analysis Linkedin.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "8e7a14b6-265e-4a10-9793-d9e7b08d77c2",
+            "name": "Global AI Ecosystem",
+            "demo": "https://app.databox.com/datawall/3fbadad400ef7eeb3b0099c6b38283ab110107064f8891a",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Global_AI_Ecosystem.jpg",
+                "id": "87081fd0-cb22-422b-b9f5-ac24d6133f82",
+                "name": "Global AI Ecosystem.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "1179725f-4a12-4f50-94a4-1af2bc30408c",
+            "name": "Invest in Ukraine Tech",
+            "demo": "https://app.databox.com/datawall/19c2b0c715ea8bebcffc5bb2e97fbaa548b392864f880f3",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/investInUkraineTech.png",
+                "id": "13fa3899-1782-428d-8c58-7066ca37f920",
+                "name": "investInUkraineTech.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "d423bd16-02a6-4b88-bf43-02f5bf94053f",
+            "name": "Data Analytics Platform",
+            "demo": "https://app.databox.com/datawall/e4fc751166803d34dd32d10a5a8cf10d490a8f464f88997",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/dataAnalyticsPlatform.png",
+                "id": "cb274e6b-2889-4bd7-8c89-ac0ba9613321",
+                "name": "dataAnalyticsPlatform.png"
+              }
+            ],
+            "create": ""
+          }
+        ],
+        "title": "Databox Dashboards",
+        "id": "e424dfb9-f984-4192-aeae-5f9f78d7df92"
+      },
+      {
+        "data": [
+          {
+            "key": "7e879b48-b4fb-476b-b8f1-3e63990b8b07",
+            "name": "Longevity Investment",
+            "demo": "https://platform.dkv.global/longevity-investment",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Life_Sciences_Dashboards_Longevity_Investment.jpg",
+                "id": "a2f8a2ef-2b59-4284-b7d3-a994eb1c1be3",
+                "name": "Life Sciences Dashboards_Longevity Investment.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "aafd267a-b615-487c-9a93-82d71b5e7d52",
+            "name": "Longevity Governance",
+            "demo": "https://platform.dkv.global/longevity-governance",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Life_Sciences_Dashboards_Longevity_Governance.jpg",
+                "id": "34ec0485-7f09-47ac-80cb-55ee260c6000",
+                "name": "Life Sciences Dashboards_Longevity Governance.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "9172a208-aa04-4a21-ac83-9d8b100c0482",
+            "name": "Diabetes Industry in Gulf Cooperation Council",
+            "demo": "https://platform.dkv.global/di-gulf-cooperation-council",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Life_Sciences_Dashboards_Diabetes_Industry_in_Gulf_Cooperation_Council.jpg",
+                "id": "3df5d1f7-de67-46da-9e81-32144e873309",
+                "name": "Life Sciences Dashboards_Diabetes Industry in Gulf Cooperation Council.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "5100ee37-af65-4a45-869a-07222e11193a",
+            "name": "Deep Pharma Intelligence Dashboard 1.0",
+            "demo": "https://platform.dkv.global/ai-for-drug-discovery/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Life_Sciences_Dashboards_Deep_Pharma_Intelligence_Dashboard_1.0.jpg",
+                "id": "dc0f3638-f70e-4fbf-920d-81359f9f99ec",
+                "name": "Life Sciences Dashboards_Deep Pharma Intelligence Dashboard 1.0.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "95f33d6c-007f-4885-bc57-a08ac1c2ce8e",
+            "name": "Longevity Finance",
+            "demo": "https://platform.dkv.global/longevity-finance",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Life_Sciences_Dashboards_Longevity_Finance.jpg",
+                "id": "adba06f8-6e4b-47c3-a751-bdf77cd9733a",
+                "name": "Life Sciences Dashboards_Longevity Finance.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "7fbff931-6855-4b35-a6a8-707e50234cd5",
+            "name": "Public Longevity Companies Investment Big Data Analytics",
+            "demo": "https://platform.dkv.global/public-longevity-dashboard/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Life_Sciences_Dashboards_Public_Longevity_Companies_Investment_Big_Data_Analytics.jpg",
+                "id": "3bb33236-b98e-4df0-b2a9-01f12a638a95",
+                "name": "Life Sciences Dashboards_Public Longevity Companies Investment Big Data Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "34030813-141d-4356-94f1-946afd113c01",
+            "name": "Life Science in UAE",
+            "demo": "https://platform.dkv.global/life-sciences-uae/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Life_Sciences_Dashboards_Life_Science_in_UAE.jpg",
+                "id": "3e7835cd-6d59-48f9-9e33-e646c9293009",
+                "name": "Life Sciences Dashboards_Life Science in UAE.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "148dfcd4-441d-48b5-a793-cd0121222b70",
+            "name": "Longevity BioTech HealthTech",
+            "demo": "https://platform.dkv.global/longevity-biotech-healthtech/ai-for-drug-discovery",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Life_Sciences_Dashboards_Longevity_BioTech_HealthTech.jpg",
+                "id": "eaf9571f-f057-44a0-af47-fc9829d5df89",
+                "name": "Life Sciences Dashboards_Longevity BioTech HealthTech.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "521823a7-d545-4396-bd31-c93de39f0a92",
+            "name": "Deep Pharma Intelligence Dashboard 2.0",
+            "demo": "https://platform.dkv.global/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Life_Sciences_Dashboards_Deep_Pharma_Intelligence_Dashboard_2.0.jpg",
+                "id": "0000a8ec-62e8-47a6-bdbc-f87963dc46a4",
+                "name": "Life Sciences Dashboards_Deep Pharma Intelligence Dashboard 2.0.jpg"
+              }
+            ],
+            "create": ""
+          }
+        ],
+        "title": "Life Sciences Dashboards",
+        "id": "38a60964-16ee-4ad8-8af1-78e7dfc688f6"
+      },
+      {
+        "data": [
+          {
+            "key": "b650d370-5ae7-48a0-9844-ad187976d375",
+            "name": "Longevity Investment",
+            "demo": "https://platform.dkv.global/longevity-investment",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Longevity_Dashboards_Longevity_Investment.jpg",
+                "id": "53473fb8-5181-48f1-8b9d-7c3b5c0b99a7",
+                "name": "Longevity Dashboards_Longevity Investment.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "ee62c54b-1940-4965-99c2-6c939569adf2",
+            "name": "Deep Pharma Intelligence Dashboard 1.0",
+            "demo": "https://platform.dkv.global/ai-for-drug-discovery/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Longevity_Dashboards_Deep_Pharma_Intelligence_Dashboard_1.0.jpg",
+                "id": "00b8e722-b0e6-428a-883a-ccb4e7115c30",
+                "name": "Longevity Dashboards_Deep Pharma Intelligence Dashboard 1.0.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "13c46109-7419-403c-b23a-640d78cfaf24",
+            "name": "Longevity Finance",
+            "demo": "https://platform.dkv.global/longevity-finance",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Longevity_Dashboards_Longevity_Finance.jpg",
+                "id": "a4581ed7-d102-4b56-8917-d23dedc83567",
+                "name": "Longevity Dashboards_Longevity Finance.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "0c6524f8-5bf3-4f91-89d0-d203c2ca22dc",
+            "name": "Longevity Governance",
+            "demo": "https://platform.dkv.global/longevity-governance",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Longevity_Dashboards_Longevity_Governance.jpg",
+                "id": "8c859ef0-e670-4092-a54b-bbbfe233f68e",
+                "name": "Longevity Dashboards_Longevity Governance.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "da153604-f931-4aef-9680-edf2486e4f1b",
+            "name": "UK Longevity Governance Big Data Analytics",
+            "demo": "https://platform.dkv.global/longevity-ukecosystem",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Longevity_Dashboards_UK_Longevity_Governance_Big_Data_Analytics.jpg",
+                "id": "0d7f932e-f561-48e9-aa42-dbed8a3eec32",
+                "name": "Longevity Dashboards_UK Longevity Governance Big Data Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "27ccb23b-008e-40d9-952f-20e693706e59",
+            "name": "Longevity Financial Industry",
+            "demo": "https://platform.dkv.global/dashboards/longevity-financial-industry/dashboard",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Longevity_Dashboards_Longevity_Financial_Industry.jpg",
+                "id": "cfe8ef63-0271-4533-b984-d8e583277975",
+                "name": "Longevity Dashboards_Longevity Financial Industry.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "20576743-1f9f-4cd6-b916-aaa5b0cced27",
+            "name": "Public Longevity Companies Investment Big Data Analytics",
+            "demo": "https://platform.dkv.global/public-longevity-dashboard/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Longevity_Dashboards_Public_Longevity_Companies_Investment_Big_Data_Analytics.jpg",
+                "id": "8ca3149d-6117-472c-9ae6-42adefed7893",
+                "name": "Longevity Dashboards_Public Longevity Companies Investment Big Data Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "e14233d4-4799-4452-94f5-654089c64044",
+            "name": "Longevity Financial Industry Dashboard",
+            "demo": "",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/longevityFinancial.png",
+                "id": "f37f631e-2861-4157-b2f8-a6e64e0f487c",
+                "name": "longevityFinancial.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "38c62235-cf4a-4380-b532-bcd955d0c469",
+            "name": "Longevity Club Universe Analysis",
+            "demo": "",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/longevity-club-universe.png",
+                "id": "8bac5955-7865-455d-8b82-0c8b66516ed6",
+                "name": "longevity-club-universe.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "92a39dbb-8fca-463f-b557-616d3a0f575c",
+            "name": "Longevity Industry Investment Analysis",
+            "demo": "",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/longevity-industry.png",
+                "id": "24e08f38-2716-4d2a-a79c-2ec5ffd8599b",
+                "name": "longevity-industry.png"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "211bef2c-6ea9-4870-a9cf-c53c73f1c5c7",
+            "name": "Global Medical Clinics Industry",
+            "demo": "",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/global-medical.png",
+                "id": "44253ef8-a348-4988-a861-bf03561508d3",
+                "name": "global-medical.png"
+              }
+            ],
+            "create": ""
+          }
+        ],
+        "title": "Longevity Dashboards",
+        "id": "a1165e40-fd3c-4673-9fe3-a7ba32ab5f87"
+      },
+      {
+        "data": [
+          {
+            "key": "4197f7ef-2878-4de1-9335-93e6db4054b3",
+            "name": "FemTech Analytics",
+            "demo": "https://platform.dkv.global/dashboards/global-femtech/dashboard",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/FemTech_Dashboards_FemTech_Analytics.jpg",
+                "id": "5b66aadd-877d-4d6d-9a00-c223f1f3f31c",
+                "name": "FemTech Dashboards_FemTech Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "df8e3125-00bb-4ad7-b0ad-93e182d83ab5",
+            "name": "FemTech in the UK Big Data Analytics",
+            "demo": "https://platform.dkv.global/dashboards/femtech-in-uk-dashboard/dashboard",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/FemTech_Dashboards_FemTech_in_the_UK_Big_Data_Analytics.jpg",
+                "id": "b34d2d44-5a6a-4cd6-9703-3062d4778a0e",
+                "name": "FemTech Dashboards_FemTech in the UK Big Data Analytics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "0b277527-1cb5-4539-a19b-ad9672c3a9c8",
+            "name": "Femtech Analytics Linkedin",
+            "demo": "https://app.databox.com/datawall/d66218bc712f4dba3d4795879b9bc5e2116d4dc64f36b66",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/FemTech_Dashboards_Femtech_Analytics_Linkedin.jpg",
+                "id": "18178604-739a-47e2-9163-ee68bad4c581",
+                "name": "FemTech Dashboards_Femtech Analytics Linkedin.jpg"
+              }
+            ],
+            "create": ""
+          }
+        ],
+        "title": "FemTech Dashboards",
+        "id": "30534b9b-2782-481d-83b3-94167f69a802"
+      },
+      {
+        "data": [
+          {
+            "key": "e6a9eafe-96f5-40b7-b4b2-4dc8b05e028d",
+            "name": "UK Geomap",
+            "demo": "https://platform.dkv.global/digital-uk",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_UK_Geomap.jpg",
+                "id": "01489129-3d71-420e-b6a3-d687fa196241",
+                "name": "GeoDashboards and Geomaps_UK Geomap.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "6f485937-02ee-4897-9a38-df18f28789df",
+            "name": "Europe Geomap",
+            "demo": "https://platform.dkv.global/europe-ecosystem",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_Europe_Geomap.jpg",
+                "id": "db703da5-3d95-48b0-af27-8ae74870aeef",
+                "name": "GeoDashboards and Geomaps_Europe Geomap.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "8d3e64a8-cd90-4242-83e3-ebe1337284c2",
+            "name": "US Geomap",
+            "demo": "https://platform.dkv.global/dashboards/usa-map",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_US_Geomap.jpg",
+                "id": "6029e9e7-a59f-409f-b1b0-277e28c74712",
+                "name": "GeoDashboards and Geomaps_US Geomap.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "648732a8-f689-4ab0-8eb7-d4dae25a6581",
+            "name": "Global Philanthropy Geomap",
+            "demo": "https://platform.dkv.global/global-philanthropy",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_Global_Philanthropy_Geomap.jpg",
+                "id": "183a821f-6cbc-4448-85ff-06ed628d72eb",
+                "name": "GeoDashboards and Geomaps_Global Philanthropy Geomap.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "14a877d9-2945-416f-84bc-aff988f41e5e",
+            "name": "Global Geomap",
+            "demo": "https://platform.dkv.global/admin-panel/widget/global_demo",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_Global_Geomap.jpg",
+                "id": "d7485585-4a1f-4548-9f40-1bcd37053c3e",
+                "name": "GeoDashboards and Geomaps_Global Geomap.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "ed0d18a2-779d-4866-b212-f42651c9f0b1",
+            "name": "Switzerland Geomap",
+            "demo": "https://platform.dkv.global/admin-panel/widget/switzerland_demo",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_Switzerland_Geomap.jpg",
+                "id": "6b296adf-c44a-43e5-9434-8d3a9c38831b",
+                "name": "GeoDashboards and Geomaps_Switzerland Geomap.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "4823e84f-3033-4172-bc54-6fb9669e05e6",
+            "name": "London Geomap",
+            "demo": "https://platform.dkv.global/admin-panel/widget/london_demo",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_London_Geomap.jpg",
+                "id": "03e5dc85-3524-4548-8e45-3287adbdb360",
+                "name": "GeoDashboards and Geomaps_London Geomap.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "daf9dbe4-42bd-4b32-8f51-c006e289eb6a",
+            "name": "Moldova Geomap",
+            "demo": "https://platform.dkv.global/admin-panel/widget/moldova_demo",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_Moldova_Geomap.jpg",
+                "id": "5e606542-ab95-4afe-940f-5e0b2bfe179f",
+                "name": "GeoDashboards and Geomaps_Moldova Geomap.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "9c876ea9-a0e5-4ac3-8467-884d650dc5c1",
+            "name": "London GeoMap with Stats",
+            "demo": "https://platform.dkv.global/admin-panel/widget/londonwithgraphs",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_London_GeoMap_with_Stats.jpg",
+                "id": "44352a13-a254-40c1-bd99-1a1bf2dca94a",
+                "name": "GeoDashboards and Geomaps_London GeoMap with Stats.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "4ed84e65-54af-4ac9-aeef-bf60d46f35a4",
+            "name": "UAE GeoMap with Stats",
+            "demo": "https://platform.dkv.global/admin-panel/widget/uae_stats_new",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_UAE_GeoMap_with_Stats.jpg",
+                "id": "fdff04ba-308a-44fb-857d-b73cd6480de0",
+                "name": "GeoDashboards and Geomaps_UAE GeoMap with Stats.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "309d4d83-bb64-4d46-9c67-9b4c22d95180",
+            "name": "Chisinau GeoMap",
+            "demo": "https://platform.dkv.global/admin-panel/widget/demo_chisinau",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_Chisinau_GeoMap.jpg",
+                "id": "e8ee9114-81ee-4b2a-9ef4-2c6f946501e3",
+                "name": "GeoDashboards and Geomaps_Chisinau GeoMap.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "fac1da74-b8f3-4bb8-9db5-6cfc08864078",
+            "name": "Gulf Region Stats",
+            "demo": "https://platform.dkv.global/admin-panel/widget/demoGcc",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_Gulf_Region_Stats.jpg",
+                "id": "2c4bcda7-f4b6-4a74-ab8e-8ce8da8ccaca",
+                "name": "GeoDashboards and Geomaps_Gulf Region Stats.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "be8ce80b-0769-4038-9ad2-d59e044a763b",
+            "name": "UK GeoMap with Stats",
+            "demo": "https://platform.dkv.global/admin-panel/widget/uk_demo",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_UK_GeoMap_with_Stats.jpg",
+                "id": "6cba6aef-3949-4fc0-a540-7c620af1faf8",
+                "name": "GeoDashboards and Geomaps_UK GeoMap with Stats.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "170dd72d-c944-4db2-add3-e4db5b72b9fb",
+            "name": "AI in Pharma",
+            "demo": "https://platform.dkv.global/ai-pharma/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_AI_in_Pharma.jpg",
+                "id": "301466f7-a819-4587-96b1-457f60c34400",
+                "name": "GeoDashboards and Geomaps_AI in Pharma.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "894cf41d-7ee8-496e-b3b0-79f41161983f",
+            "name": "Global AI Economy",
+            "demo": "https://platform.ecosystem-map.info/product/ai_economy_global",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_Global_AI_Economy.jpg",
+                "id": "096f5aff-3041-4e20-b703-60b348bb1d24",
+                "name": "GeoDashboards and Geomaps_Global AI Economy.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "5dd39a63-6bc7-4b06-b17a-5ad712193428",
+            "name": "AI Economy in UK",
+            "demo": "https://platform.ecosystem-map.info/product/ai_economy_uk",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_AI_Economy_in_UK.jpg",
+                "id": "3a155a04-2ad5-4f1f-9fc8-2ecbd02650de",
+                "name": "GeoDashboards and Geomaps_AI Economy in UK.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "73bad919-2634-4779-8337-036d67298d6a",
+            "name": "AI Economy in US",
+            "demo": "https://platform.ecosystem-map.info/widget/ai_economy_us",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_AI_Economy_in_US.jpg",
+                "id": "dedc034d-88ee-41ec-80ab-6a61a082c6f7",
+                "name": "GeoDashboards and Geomaps_AI Economy in US.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "b6aff150-226b-4310-b2df-47cfc41cad0b",
+            "name": "AI Economy in BioMed",
+            "demo": "https://platform.ecosystem-map.info/product/AI_in_BioMed",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_AI_Economy_in_BioMed.jpg",
+                "id": "d0d64662-7ea4-4c8f-a18b-f0b3757f6198",
+                "name": "GeoDashboards and Geomaps_AI Economy in BioMed.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "4691182f-9afe-49c6-9d16-35fd83a89909",
+            "name": "AI in Drug Discovery Framework",
+            "demo": "https://platform.ecosystem-map.info/product/ai_pharma_framework",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_AI_in_Drug_Discovery_Framework.jpg",
+                "id": "bf24671c-e55b-403e-8f05-4fc887eb69f1",
+                "name": "GeoDashboards and Geomaps_AI in Drug Discovery Framework.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "781f1690-c025-4aad-a884-d1f50bd51c00",
+            "name": "AI Economy Size Assessment",
+            "demo": "https://tools.dkv.global/product/ai_economy_dashboards",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/GeoDashboards_and_Geomaps_AI_Economy_Size_Assessment.jpg",
+                "id": "0317db2b-5088-403c-b39e-a6beb5fcdd73",
+                "name": "GeoDashboards and Geomaps_AI Economy Size Assessment.jpg"
+              }
+            ],
+            "create": ""
+          }
+        ],
+        "title": "GeoDashboards and Geomaps",
+        "id": "966e6bdc-cad0-45a2-a7f2-9305db57570d"
+      },
+      {
+        "data": [
+          {
+            "key": "91dcf016-910d-4d49-9668-173805579bbe",
+            "name": "Global Philanthropy and Impact Investing Ecosystem",
+            "demo": "https://platform.dkv.global/mind-map/reports/637/details/firms",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_Global_Philanthropy_and_Impact_Investing_Ecosystem.jpg",
+                "id": "fc54c889-00f7-48fe-b706-7dd3689b0061",
+                "name": "Mindmaps_Global Philanthropy and Impact Investing Ecosystem.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "e5c7ab62-b6f2-4471-a5b2-0072dbb9cf5e",
+            "name": "Philanthropy Donors",
+            "demo": "https://platform.dkv.global/mind-map/reports/611/details/firms/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_Philanthropy_Donors.jpg",
+                "id": "4029924d-3095-4678-8560-ade5a253cda1",
+                "name": "Mindmaps_Philanthropy Donors.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "7689bad8-3477-47b8-bdaa-b5db509f197e",
+            "name": "Philanthropy Investors With Purpose",
+            "demo": "https://platform.dkv.global/mind-map/reports/607/details/firms/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_Philanthropy_Investors_With_Purpose.jpg",
+                "id": "9076a4c8-4f4a-4d7a-9ee9-7df37ae8e3ce",
+                "name": "Mindmaps_Philanthropy Investors With Purpose.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "602c6a10-721e-4833-a3c9-ab916ec05679",
+            "name": "Philanthropy Ecosystem in North and Latin America",
+            "demo": "https://platform.dkv.global/mind-map/philanthropy-americas/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_Philanthropy_Ecosystem_in_North_and_Latin_America.jpg",
+                "id": "13088037-9ff8-4c8e-b4f0-e7b387403979",
+                "name": "Mindmaps_Philanthropy Ecosystem in North and Latin America.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "7687cf66-d109-4c8c-b2e7-c56858679d06",
+            "name": "Philanthropy Ecosystem Distribution by Country",
+            "demo": "https://platform.dkv.global/mind-map/reports/637/details/firms",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_Philanthropy_Ecosystem_Distribution_by_Country.jpg",
+                "id": "81dc9688-bff8-4cb8-9544-7d462b49e3b6",
+                "name": "Mindmaps_Philanthropy Ecosystem Distribution by Country.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "3a10551e-23f6-46c0-98d2-8cb7bdb84f40",
+            "name": "Philanthropy Ecosystem in Asia-Pasific",
+            "demo": "https://platform.dkv.global/mind-map/philanthropy-asia-pacific/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_Philanthropy_Ecosystem_in_Asia-Pasific.jpg",
+                "id": "02260473-aff7-4b5b-b663-ebef60b32720",
+                "name": "Mindmaps_Philanthropy Ecosystem in Asia-Pasific.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "39b063cb-fa96-4bcc-8059-5028c767eaba",
+            "name": "Global AI Industry Ecosystem by Sector",
+            "demo": "https://platform.dkv.global/mind-map/-ai-industry",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_Global_AI_Industry_Ecosystem_by_Sector.jpg",
+                "id": "5470bcb9-425d-49b4-a735-1e0c456a2e12",
+                "name": "Mindmaps_Global AI Industry Ecosystem by Sector.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "1ffc91b7-869e-4ba8-aead-0834421622ec",
+            "name": "AI Industry Ecosystem in Technology",
+            "demo": "https://platform.dkv.global/map/reports/technology/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_AI_Industry_Ecosystem_in_Technology.jpg",
+                "id": "b18b8b04-55cb-4863-afe7-873f0d07a534",
+                "name": "Mindmaps_AI Industry Ecosystem in Technology.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "4f22055b-4466-4512-bd79-60d0974f23d4",
+            "name": "AI Industry Ecosystem in Industrials",
+            "demo": "https://platform.dkv.global/map/reports/industrials/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_AI_Industry_Ecosystem_in_Industrials.jpg",
+                "id": "42448784-cc20-44c0-91b6-afa938314ed0",
+                "name": "Mindmaps_AI Industry Ecosystem in Industrials.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "4a336399-322b-4305-bf32-92b5c41e4fb6",
+            "name": "AI Industry Ecosystem in Communication",
+            "demo": "https://platform.dkv.global/map/reports/communication/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_AI_Industry_Ecosystem_in_Communication.jpg",
+                "id": "99a6c2a8-7ff3-4e61-ac32-72bb9e9cf1b1",
+                "name": "Mindmaps_AI Industry Ecosystem in Communication.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "6167b444-df53-4276-ae6e-fb50f87ecfb4",
+            "name": "AI in BioTech Mindmap",
+            "demo": "https://platform.dkv.global#",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_AI_in_BioTech_Mindmap.jpg",
+                "id": "993cdb2d-cc3c-4253-9c4a-b5fba3521d1f",
+                "name": "Mindmaps_AI in BioTech Mindmap.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "a2356a43-3b10-421f-a84f-8676ad05ee7c",
+            "name": "AI in HealthTech Mindmap",
+            "demo": "https://platform.dkv.global#",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_AI_in_HealthTech_Mindmap.jpg",
+                "id": "0ea3a22d-478b-442b-a1d6-45da3ad25861",
+                "name": "Mindmaps_AI in HealthTech Mindmap.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "818bb55f-e7c0-411a-a037-224efec7ec20",
+            "name": "AI in Energy Sector by Countries",
+            "demo": "https://mindmaps.ai-ecosystem.org/mind-map/energy/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_AI_in_Energy_Sector_by_Countries.jpg",
+                "id": "dc9d6068-3121-4100-b0e3-24a62d8763ca",
+                "name": "Mindmaps_AI in Energy Sector by Countries.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "55676616-bd28-4287-81b9-0c5dce1967f3",
+            "name": "AI in Finance by Countries",
+            "demo": "https://mindmaps.ai-ecosystem.org/mind-map/finance/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_AI_in_Finance_by_Countries.jpg",
+                "id": "f07b3206-2637-4223-b70a-d7f70fca62e6",
+                "name": "Mindmaps_AI in Finance by Countries.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "f7e0432a-8ba9-46a0-8027-b4e7a20815ab",
+            "name": "AI in Oceania",
+            "demo": "https://platform.dkv.global/mind-map/oceania/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_AI_in_Oceania.jpg",
+                "id": "26f0b41e-3d91-49ee-b345-7f153e8b0929",
+                "name": "Mindmaps_AI in Oceania.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "426604ce-4a40-45cd-bf80-3e098ac7e71c",
+            "name": "AI Industry Ecosystem in Asia",
+            "demo": "https://platform.dkv.global/map/reports/asia/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_AI_Industry_Ecosystem_in_Asia.jpg",
+                "id": "491cdeb0-53f4-4f2a-8c1c-13b5a3497677",
+                "name": "Mindmaps_AI Industry Ecosystem in Asia.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "e5f1c1a8-b887-486d-a565-f6bce7c9210b",
+            "name": "AI Industry Ecosystem in Europe",
+            "demo": "https://platform.dkv.global/map/reports/europe/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_AI_Industry_Ecosystem_in_Europe.jpg",
+                "id": "98a82fd6-39e7-4069-b2fe-e26c8c57b91d",
+                "name": "Mindmaps_AI Industry Ecosystem in Europe.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "7e147410-b837-44bb-b034-215f9941d0bd",
+            "name": "AI Industry Ecosystem in North and Latin America",
+            "demo": "https://platform.dkv.global/map/reports/north-latin-america/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_AI_Industry_Ecosystem_in_North_and_Latin_America.jpg",
+                "id": "6a96d355-910b-4136-b564-e946dd3c4868",
+                "name": "Mindmaps_AI Industry Ecosystem in North and Latin America.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "f3f82018-b373-4507-a0e8-eb506795afd5",
+            "name": "AI in Africa",
+            "demo": "https://platform.dkv.global/mind-map/africa/",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Mindmaps_AI_in_Africa.jpg",
+                "id": "2559de84-d39e-4358-a529-3824cacc3152",
+                "name": "Mindmaps_AI in Africa.jpg"
+              }
+            ],
+            "create": ""
+          }
+        ],
+        "title": "Mindmaps",
+        "id": "b3130b29-7dcb-4dd8-aa95-8506d3d7a074"
+      },
+      {
+        "data": [
+          {
+            "key": "e572c420-11e8-4a56-9795-90bc1dda3531",
+            "name": "AMC Portfolio",
+            "demo": "https://platform.dkv.global/dashboards/amc-portfolio",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Financial_Engineering_Tools_AMC_Portfolio.jpg",
+                "id": "4ca99f46-f0b4-4696-86ab-d9e7131ec7cb",
+                "name": "Financial Engineering Tools_AMC Portfolio.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "0233a952-4b16-4656-ba6b-30081315481f",
+            "name": "AI Industry Comparative Analysis",
+            "demo": "https://platform.dkv.global/iframe-comparative-analysis",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Financial_Engineering_Tools_AI_Industry_Comparative_Analysis.jpg",
+                "id": "bce438c2-368c-4f1f-9054-119d8ec3e56c",
+                "name": "Financial Engineering Tools_AI Industry Comparative Analysis.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "f6c791b1-cc02-47f7-93ec-e4b72754e84d",
+            "name": "Demo Portfolio Constructor",
+            "demo": "https://platform.dkv.global/iframe-portfolio",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Financial_Engineering_Tools_Demo_Portfolio_Constructor.jpg",
+                "id": "042e1b99-d1ff-4d75-b0d7-3e2e68c94f56",
+                "name": "Financial Engineering Tools_Demo Portfolio Constructor.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "2d955230-908c-43d7-a2af-28d4310b1e18",
+            "name": "AI Industry Statistics",
+            "demo": "https://platform.dkv.global/iframe-statistics",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Financial_Engineering_Tools_AI_Industry_Statistics.jpg",
+                "id": "c701be54-f3d4-46ad-ba38-711e69bec589",
+                "name": "Financial Engineering Tools_AI Industry Statistics.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "7088af69-42e4-4ca9-83ea-098bd1757e55",
+            "name": "AI Industry Companies",
+            "demo": "https://platform.dkv.global/iframe-companies",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Financial_Engineering_Tools_AI_Industry_Companies.jpg",
+                "id": "45b9f14a-5f24-47f4-8b73-e98d05965a96",
+                "name": "Financial Engineering Tools_AI Industry Companies.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "5af16d9e-b096-4303-a97b-549916a636ca",
+            "name": "Longevity Portfolio Comparative",
+            "demo": "https://platform.dkv.global/iframe-investment-comparative",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Financial_Engineering_Tools_Longevity_Portfolio_Comparative.jpg",
+                "id": "62dcb82b-434c-4f79-8bd4-e7ca5c3cea9b",
+                "name": "Financial Engineering Tools_Longevity Portfolio Comparative.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "1e933440-26cf-43a6-808a-7387f0c50983",
+            "name": "Company Predictions",
+            "demo": "https://platform.dkv.global/iframe-company-predictions",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Financial_Engineering_Tools_Company_Predictions.jpg",
+                "id": "bd471000-1163-485b-b9fa-0df227fa4995",
+                "name": "Financial Engineering Tools_Company Predictions.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "c8e95986-a0d4-4b98-a0ab-d13cc891c56b",
+            "name": "Demo dashboard Competitors",
+            "demo": "https://platform.dkv.global/iframe-competitors",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Financial_Engineering_Tools_Demo_dashboard_Competitors.jpg",
+                "id": "fd68596a-6ed7-4c87-8629-791d5c1fb34a",
+                "name": "Financial Engineering Tools_Demo dashboard Competitors.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "23549cf7-9320-41a4-b067-f9bf20bcba09",
+            "name": "Heatmap Analysis",
+            "demo": "https://platform.dkv.global/iframe-heatmap",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Financial_Engineering_Tools_Heatmap_Analysis.jpg",
+                "id": "378b60a0-1905-43a0-beb0-0a26be81bb1f",
+                "name": "Financial Engineering Tools_Heatmap Analysis.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "ac36c748-de79-42a5-810a-079eb942df3a",
+            "name": "AI Industry Competitors",
+            "demo": "https://platform.dkv.global/iframe-ai-industry-competitors",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Financial_Engineering_Tools_AI_Industry_Competitors.jpg",
+                "id": "ceec8d3d-5514-49f0-81cf-57ab6a4270fb",
+                "name": "Financial Engineering Tools_AI Industry Competitors.jpg"
+              }
+            ],
+            "create": ""
+          },
+          {
+            "key": "6e07d9b6-89a8-4b91-90c6-e711859e24a3",
+            "name": "AI Industry Public Companies",
+            "demo": "https://platform.dkv.global/iframe-public-companies",
+            "img": [
+              {
+                "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Financial_Engineering_Tools_AI_Industry_Public_Companies.jpg",
+                "id": "552052ad-26ad-4ffb-83bf-d652de55c225",
+                "name": "Financial Engineering Tools_AI Industry Public Companies.jpg"
+              }
+            ],
+            "create": ""
+          }
+        ],
+        "title": "Financial Engineering Tools",
+        "id": "60fe50fa-d4a4-46eb-a13d-218940e2993b"
+      }
+    ],
+    "gridData": [
+      {
+        "w": 2,
+        "h": 3,
+        "x": 0,
+        "y": 0,
+        "i": "9e0d81c3-937d-4e93-b323-ddf69c0e3c59",
+        "moved": false,
+        "static": false,
+        "data": {
+          "title": "Data Points",
+          "number": "73 Million",
+          "iconNamess": "AppstoreOutlined",
+          "iconColor": "#7366f0",
+          "iconName": "AppstoreOutlined"
+        },
+        "type": "KeyCardComponent",
+        "itemConfig": {}
+      },
+      {
+        "w": 2,
+        "h": 3,
+        "x": 2,
+        "y": 0,
+        "i": "87a17fdc-befa-47f8-afde-173122e00244",
+        "moved": false,
+        "static": false,
+        "data": {
+          "title": "Companies",
+          "number": "1,246,000",
+          "iconNamess": "BankOutlined",
+          "iconColor": "#15d8fb",
+          "iconName": "BankOutlined"
+        },
+        "type": "KeyCardComponent",
+        "itemConfig": {}
+      },
+      {
+        "w": 2,
+        "h": 3,
+        "x": 4,
+        "y": 0,
+        "i": "a8a7eb61-e516-4761-b91c-0765a24d34e7",
+        "moved": false,
+        "static": false,
+        "data": {
+          "title": "Investros",
+          "number": "329,000",
+          "iconNamess": "MoneyCollectOutlined",
+          "iconColor": "#2ff9a6",
+          "iconName": "MoneyCollectOutlined"
+        },
+        "type": "KeyCardComponent",
+        "itemConfig": {}
+      },
+      {
+        "w": 2,
+        "h": 3,
+        "x": 6,
+        "y": 0,
+        "i": "69f901b3-cab5-4958-b0ed-c0632825b9a9",
+        "moved": false,
+        "static": false,
+        "data": {
+          "title": "Hubs",
+          "number": "6,100",
+          "iconNamess": "ApartmentOutlined",
+          "iconColor": "#7366f0",
+          "iconName": "ApartmentOutlined"
+        },
+        "type": "KeyCardComponent",
+        "itemConfig": {}
+      },
+      {
+        "w": 2,
+        "h": 3,
+        "x": 8,
+        "y": 0,
+        "i": "409f09e4-da49-4600-9a48-e06d2f40a35a",
+        "moved": false,
+        "static": false,
+        "data": {
+          "title": "Industry Leaders",
+          "number": "11,000",
+          "iconNamess": "UserOutlined",
+          "iconColor": "#7366f0",
+          "iconName": "UserOutlined"
+        },
+        "type": "KeyCardComponent",
+        "itemConfig": {}
+      },
+      {
+        "w": 2,
+        "h": 3,
+        "x": 10,
+        "y": 0,
+        "i": "004e3014-eb9f-4a33-80e8-92cf734d11d5",
+        "moved": false,
+        "static": false,
+        "data": {
+          "title": "Non-profits and NGOs",
+          "number": "101,000",
+          "iconNamess": "AppstoreAddOutlined",
+          "iconColor": "#ff70b1",
+          "iconName": "AppstoreAddOutlined"
+        },
+        "type": "KeyCardComponent",
+        "itemConfig": {}
+      },
+      {
+        "w": 2,
+        "h": 3,
+        "x": 0,
+        "y": 3,
+        "i": "297559e2-f150-4d49-87cb-2212789deeb4",
+        "moved": false,
+        "static": false,
+        "data": {
+          "title": "Impact Investors and Donors",
+          "number": "48,500",
+          "iconNamess": "PayCircleOutlined",
+          "iconColor": "#ed8df6",
+          "iconName": "PayCircleOutlined"
+        },
+        "type": "KeyCardComponent",
+        "itemConfig": {}
+      },
+      {
+        "w": 2,
+        "h": 3,
+        "x": 2,
+        "y": 3,
+        "i": "18b4dbf8-5551-4296-88a6-4a84d30eecd5",
+        "moved": false,
+        "static": false,
+        "data": {
+          "title": "Funding Rounds",
+          "number": "52,000",
+          "iconNamess": "DollarOutlined",
+          "iconColor": "#7366f0",
+          "iconName": "DollarOutlined"
+        },
+        "type": "KeyCardComponent",
+        "itemConfig": {}
+      },
+      {
+        "w": 2,
+        "h": 3,
+        "x": 4,
+        "y": 3,
+        "i": "ddbff585-c8b8-439e-804e-6edbb45a6ce3",
+        "moved": false,
+        "static": false,
+        "data": {
+          "title": "Corporations",
+          "number": "3,600",
+          "iconNamess": "RiseOutlined",
+          "iconColor": "#7366f0",
+          "iconName": "RiseOutlined"
+        },
+        "type": "KeyCardComponent",
+        "itemConfig": {}
+      },
+      {
+        "w": 2,
+        "h": 3,
+        "x": 6,
+        "y": 3,
+        "i": "bc177cae-d53a-4c62-a254-314ed73e5c99",
+        "moved": false,
+        "static": false,
+        "data": {
+          "title": "Big Data Analytical Styles",
+          "number": "5",
+          "iconNamess": "UngroupOutlined",
+          "iconColor": "#7366f0",
+          "iconName": "UngroupOutlined"
+        },
+        "type": "KeyCardComponent",
+        "itemConfig": {}
+      },
+      {
+        "w": 2,
+        "h": 3,
+        "x": 8,
+        "y": 3,
+        "i": "2b0c2d68-0467-457c-b686-f95bec9e80bf",
+        "moved": false,
+        "static": false,
+        "data": {
+          "title": "Analytical Tools",
+          "number": "130",
+          "iconNamess": "PieChartOutlined",
+          "iconColor": "#ff8aff",
+          "iconName": "PieChartOutlined"
+        },
+        "type": "KeyCardComponent",
+        "itemConfig": {}
+      },
+      {
+        "w": 2,
+        "h": 3,
+        "x": 10,
+        "y": 3,
+        "i": "aa9050c0-cecb-433e-a174-79b2801e84ef",
+        "moved": false,
+        "static": false,
+        "data": {
+          "title": "Dashboards",
+          "number": "62",
+          "iconNamess": "CarryOutOutlined",
+          "iconColor": "#7366f0",
+          "iconName": "CarryOutOutlined"
+        },
+        "type": "KeyCardComponent",
+        "itemConfig": {}
+      }
+    ],
+    "logoBase64": "UklGRvKVAABXRUJQVlA4WAoAAAAQAAAAiQMApgEAQUxQSOI7AAABHAVt20gJf9j3ZYcgIiaArfkvTLqN3JArkwdBu9h1AEUzlX6JhwSoaFXbnjW6XglxMHGwcVAcTB2Ag46D1AGfA8ZBtwMkIOGV8Eh4Dgov+SPt9CgiJsBbre15m23btkAQg24MTjOIGTQMEgYJA5mBy8BlkJuBIAjCBmGDsP6wpLg9e9zXOXz8iYgJkPP3/XgL82NVkISuy2MOt2vvJf97bm8/uuaH8e9Ef1vA+MvU52X6rX77F4K7Lkyus8/H4tdI878N3B3Mc3KZ2KrfvM3/JvAz81WfxazfXuzfAu7OrHHNIJWWf15+eu3In/8O6Fbm3qWrak/8/LMjrXb+c3fmD58mXYuaceE3mnfkt5Ofu4MlLmleaq8JmB/54Mf9fr/P7NeOtKUTn7uDhfYpvtXOQPrSD1cDuHtHr+tZr5/AYpcEX2rGCqSqnw5tBljtSIud8NxtYdF9tLvaBljVb3QDyD1pOdu5O1j4EuvOdgbM9TvdAGbvaU1nun5hBfs4v9x+AOZSyNsxFu6xC4Uk+R3AXj1t6Szn72C+iIKtJcovN30CptAv9htA7knTGc7dF2aOIyC4+xPhF09RDbhL0uv244/S0gpg3tNmZ7d+YU3RH7pycwVYJCnc+Pm7q+kGpK0nfZ7a7mBtuyPT1gR8qR3Pn8O8oXgC3KOnVzqt9cqDSiUIEAVNRx7Y+ADT4PJz8IzQfgUw76k+7ZTmF9Y4HFlJErv7iKr9HLY15AaQe5JPJ7QreAYESd1dh+Tzz8HkO8UEMHtPfjud/WOlj3Tc9ATzmLSMzPfhx7VHqjvFAmBbT3qdy9zCc7huiQP0sp65xt06pNdO0paAZ/Sk9UTmlScxIYHcOlgdU+lBbikDmA+o2lmsU57Fwu2PQ6Rnh7SOqVqPq8dOZQbIA9JyDuvAElEGEmlNLbj7kLRZB9sa0pqAqw/o8ww2gmWgBMdUcuvAM4bktw6YN+QG2DagmE9fIzMEgWPPSIQIvcmOUdx63H1I2qyDeewUC8BzQCrTuWtkWlDBfRwjASTYPHA79qpvSUsPK2PyuQO5IbkB5gMqp66R8UECPIgIGR54HMt8v6dqHcgxJC097r4LxRMgD+i1TaetkZmjtGXvMkB+T37tcfUxrT2saB/aDDDvSXqetDpmj8J07zZCfk9aelgdU7UO5J0knwHyiEo6Y3XIT8vyNE09ngeoWod7jMnnHlYaoQXAfEBu5ysPnqBtNGSYB7jGe3LrmN5erQMWkhSqBpAHpHK28sqMtQ5zNKZ4T/XW4j35rcfV1XQDuMaAfDlXrcwaRAUWwzYyG2D+Xmhu2AHSZh2sNlRnAPMBye1EdWf2AEpbDStMnU0LYP6W9Gpsh8hvHcgNxQJgZUS6naa85vcM7KAI3XODNKAFMH9Pdb0/io5ee8y+k143gLuP6OMs9cNyAQIs6pEAci/0BMzf+2G3DlYa0maAZR/YrnaO0oIyjzPQ3DpSLID5b8jek5YO5Fb4BHD3niS3E9SdJ4bv1mNAUQ1S/anwCSsD2qyD+U6hBcC2EWk5PXU8s/W/AyQ3SPWH3ADu3pPPHWzbSSoG8BzScnLqcGqcGlbH5AZ8/0BoSzRt60lLB57RCJ8BzEd0OzWN4AkiBVaD9NIbcgPW4/QA0uMKcPee3DqY7xRaAKyOxJlp5BmCSYpqDb2lmIC7HxLhF2B26cn+//UUtw7knSKqAawDms9LHU5hPw4Var+huAH2OiBUErBovyXAvCetPeylffgNwLbolNOSVx7VM+q/I90AyluhB2BFbZ8Bew2opg7cXc3N2H98TC5JHyclpzzX3PQEzMci/ALMrsEVIA/Ibz2sNsJvO8Bc0u2kNLNtwgDzkdArAU+NbwBX70lrD/OdpDU12CRpPiX9sFycg9wA85EHwJfeXQDMB7RZB+51535r5V05I3kUVGp+8gUw7xQDUtH7PgOsA9LSg++QpEdr3Wk+IS1sH8UdsNpKAFWHbgl4jug1wLorjckb6/noh8XjDKRqkGrjZcA9DpEbYD6gbYAsKfyWbFE70tnIa3kFliE3YN3JDZj8kNATsNeA/NZjdik0/DgbzWwluQHPRtwA8yMkbQnIA9KWOqRVUoxoPheNTIq2kE/AXc0FSK9j5AZcfUD+2YE5NJ5PRV7T7KIVIq7AfRd6JSAfo7gB5gOhzTq83njZmWjmLogEuaNekp7APSQp3IB8SEgLwNqTwm8deyNeJ6KR51ySFmAK7X0CZj9gXwx4DkhaWuQxaT4NebRPWdcypgWYYhfxBMyPkRtgPqKllWIsttOQsnkywKePhBZgckkKLYBtx0RcASsjmhvkMUU6Cf1j+9gO8wFJT8BczQUgHyJpAcgD4amRYkyPc9APc8ZJFdqpjkQkwLyhO8B6kBaAa3QUucH9DT8Feeat51Q78D0gaQHMG+EJyAdpATDvyFODMhZ2AnKaWV0zitTje0ivBOY76WXA1Y9RvQFp7Si35jFFOv/MzB44IVXrkYe0AVYb8gkwP0aaAXInUoNtTPn088MS1yogM8VmHfKQFiDVhmIBmJ7H+A3g2VJuWYzF2cejiHpmJcWzQx7Sy4Dvllb234co/ApM0Yhbgzym+eTzYDtJS4c8JDcgt16N5IeoGrCoHamRYmw994ysIE5ES4f7kNyA3Lg1yIfUBMzq5wZ5ICSfTj1ag6Lz09rhPhLuBtxD4dbajqgJMB+IVoqWS1J4OvHcWbyejbYOU/QkxQRMritN8wNqAu6hwdzi1Yj19lhDepx3PM++BL1SiylG5FfALjTTS+9vCfjSaKb7aBjAUyrnnbnFVFML8xHJaF7zurnevwFWNZrpXmNXab6kdNbxbCqPlqq1MB/SsjMdmwFzjT7oPiXJ9WhdQ7ezztJSNYHVhtxamI+EFjA/JgNTaDBudBc1PbU2SfM5Z2S2aAEDSN6QWwvzAUnPa+jQG2CuwZjoLtpHNZqmkPI5R/OpeLx4r9CcW3JrkerQwTEB5hp0o/ut5o2ua//xiTOyUbRcwL4PIrcUU4v0+ik34BkadKP7raYDLKWUqub8iaOtcqNZ34jUIrekWwvyz1QDvjVaje6iphvwHRrc6tRrhmsXSbOd93rN9rZ30wwX99YaaURbDK38htYOuaNnh/wTDyAVjbrRXSQpwg341nD81Ik5oovDbBcDsw17gTmu7o3l1WJEnZAZYmnpkDtaOsx+WAbMNRhudBdJinADvvXm4s+K6FqGq3tf3ZkURB4KKpEuaZyptb2lpUPuaOlgcdAKTK4hoz1VNdyAb70dTovoWoare1d5TZMStl2AWgDiwXaz3tO1Q+5o7XA/JB7AHBqNifYUatYEfOv91Z8W0bUMV/emurOyoCZApM0oZMyw6AgtHXJHW4f7AVsC7hqNmGhbqFkT8K0j5/Miupbh6t5SnhXWeEkjaSPpGN065I5qanF/qwLcNRox0d3UrAnSS+8HiRMjupbh6t5Rc42o1fCCHaVnh9yRW4v7GzUBk4Z9op2+1awJUtW7dduc5HRiRNcyXP37ybNMpCJqocPCpaVD7sitxRRDGbAYcqNtrmZNkKreDAPSStKfGNW3DNW/neZCapzTOiUw19Ihd+TWYop3XKNutKdQsyZIVe9u7D3IULPHHFNNVB9rmdOGKHPiawydo8JE9W8mzwaKtxJ7y1o65I58amE+ZhoMN9pXtWuCVCUpHmv0Hg2ZSLiKfUlMt5qoLtIgmZokV8siUTuYuL6Z5hbaDznt5No65I7i2sL8IHejbdGqCVKVJJ+4HsJwMuJWEy+NIR1M+l7yTIu2wVxbh9yRbi1SHZl64UbbXM2aIFVJcoOk6JSGJ0k9G3Fry0iHt9UcD0/nmpGsg7lqapF7WlpYDMw9N9pPtWuCVF2SG8DW0zLA69mIW1tGOrypPOKdcE5uHcxVU4vc09IiH1CN9qJ9RE2QqiS5sU8D8hvI9AR3NuKbRsKbamSThTZrYa6aWuSeltb1rfBE27SP8ASpSpIbkIBtQHoiTkkyfMJoUTiv/drCXDW1yD1NDXsndKP9jJYbUF2SG/AVCe5DMpEeJPEBMzIiMqpubpy3xCtXtyVhb4ojTa1vtd2AL0lyA76lDJN8ZAO+JWk+vywxzhoFcNoSr1zdloSdR6yPxl1tN2CRJDfgS1IFIkZkkELS6/Ti2ZSRNAE4bIlXrm5LwtaSJrfcgFmS3IC7JDnw1HAB1pA0nV3mI6gb0qAEEsOWeOXqtmTKYZMU4QYsIckNeMZOCahDmmGWpO3k4tQEnn4B5LQlPfnYkSUTrQkokuQGfKudgW2sAEVSObmMLF5roeXwviVK3ndumTjAl0LyBCzqBjCPaYZZkp7nFi2vsrlBFSS7rZnktNVnNGlfgDl6moEYW4EiyaczS8/80RCrF5FfEp2BLiff1YGqwQLkMU0wuaQ4s8wFVD4zL88LOVluyfwgB3xECeY3KkCWNJ9XPM8Y1ZhlcyaDZa5EBiKG1h2bVP6/Imm0lMv7LzQUInzXwUd8JIDVh2heJc2nFT2ltCmej8xbUz00PMNdB8ySyv8IOrydRlYSJ8X+yS11KpBiyBpXSfr4n0AHvp2WWtQ0M72KOGW8R1GR4Dnkttt26/8COvDt5Nl4XEV6JpjjaKj8hD4A+x6QXjlvsdP0f78ONK/vobmpEGUR8bUK9ilGRrf/U2GOCppX/x7SE0EFns9ka5CPCfu/VIark7fwyIoiFdhcn635GJX/JaxO3sNrTeoZiWf0aN0PUvr/hXlIGG1I+F3I6uQ93DEtXrywnfkBscv/vzBIpibJNZ/VyZt4TkS8dvIZZtdRYf8jWJ28iT2btBq+AsdG/viYVkna/jewOnkXjycFArGQCi0wAaSQpI//BaxO3sZaG+TyDGqUzRTPZ/eimXef/wNYnbyNezYhkE1/GiW74rDcst3r/0zQ6IuT9/FcHZRBEiShaAS/AFmHf7YISfr8v9Iib3DPwyiulvE64hRu7Lc4aE2tRftyIhmPRUcbPMTxuX40Zx2baaaX2s/ziGZzurEuIuFM7BB/AMxbDXVfp5GeLbVcRERGnEFqzEcUgFQ0bmeRuam+ZXM6g7nxdUAxwFxvlrMIWgp+K5CTiNeqxQJkvb8CpBrv6HkOGdlSiwwUYP7TFEB57wFgL70f55BHVXAWqUp6AvlP0xE+AVZcku4XH9L81/3+iXnWC/Wyl/Y34PufpRpgHpKUIcfQ9sf98k9srFj5UfRpCbVnSPWfZAVIVZJeFyCNlb/tl39ja1XAo6iObtzVjQnM/zkeAM8qSU4zDyn/Zb+0//dn5dmwUfBE7sgNzP8hfALSor1bK/mQ5r/hNsb8pX2QSPOYto8yJu7ecLeaIIZWhxvkjtxgiuOmmhQDzLV3A64ZuCpGyt+Q4SCxUi9RUoc33JIR0tU3jmtw76gmmOKwUJEVYN60LwlYpCtQNDz/Iwzyh4WMCkV1vuBuwHdHBZj8r/MHwKzYbQBfkjzBrBgp/wSD/GF1jIw4WkTZ0baYgNrRBpj/iJS3sb+G9hlIRfsMvDQ8/X2D/GX1kcDISIKz6GBTTJBqRwsw/2kbgC1qPgBztSewGCp/3iB/WrdIrRjnslMYpBotPYHXH/YAeKrpF2BydQuQh2R/3E3+th6ZIQXOATtyg+SdMEivP8iBrUwAdzUzwD00eIUUMfL624L8ca2ZEQmqHIN7cgPzltyAy9+U2Gc1C8CiYU/w1PD8lwX54/Js2jhDR57AvCU39n/R/h5qrgBfklTW0lIG6lD5w4L8dY35oR1UE7C25PaHza5mBtK3JDfg2YoE85DSf8dn4CO/iiM/1QSsLZU/y4raD8CqJBn73NAKlKH1tOFIEpmhWlFjqE0bgLe0/FFzKHZxA8wlqdBMLRnYUKSzxvhE5FVlLUYbYN7S9iddFdr7BEyh/daiU4BtRPmsscRAOtQFYMoMtABTtHQj/ZoH2HsVqG8ULNR0A+6hZqTGtZOB65CfNDyPK5gQW0RNwLQ5aAHmjl+J3xSH+BvaQs1qwKL+KwHmjbjxltI5Y95bAQXAXFELMHkWWoB7Sz79lriCaWiVtAGv2FXg/4UGtwQsGvXbvIT2xQCuPraeMjzzhuE8o73GdAOerXYOG0B6hbyTI9wAJkmPBJCitwLpW8euAOlL785njDmzzIFUKGp7Q1cg/zewaUTaaEq60FQz/AKkqkP9AnANvV3OGFoNxNhENICZxiAGWN+JCci/a/1NPgHmOvSVgPTSkfP5omfBOJA3mHO0+R2FAd+/Kv8in4DJdWQ8AFLVoev5YiqJyAjEnoKZx5mAeEduQIm/yA2YQ0e6AcwvHevni6WoPLGxDYIJkRUSXN+SG6T63xA/E6oJuOvQNQFWdPj5AtWrYKQVyG/JE5jHYXog9OjpZ7QBLDoyrgDPiPMIm4yrZuD1lmoC+y3SrRM/lAEWHVkNYNFPni58cyAThgMp3tIGTD5yI6K4jc+OpNRb33sAfOvILQE8dWaLGUm+Avk9rYDlUh7dhltU1/+2ftb10W/IbSlls8a1VH/QtPKy1rZt/2kB6VtHZoD00qmkazbyLuJwjHeprlsZcxUR+QE+S671wOkovcgSgffaeGXUbxG3MPnHxViPKiNVEJlicO47S7rO6ZBkI5Z6yTrJdtydkS8iNyICSHwCoUbb0chZZIzyjFpK2bathKT62rbt5c1aSikuSVFe2/aqIUm1lFLdJUUt21okro8QpoXRLyKB6T80UIOKJ1hS1D/W+j0Mw/Tp0bbR9Pw0wiwi4j83+g28iaaPkLaNxvOjcfnadh9G+lJhJ4j5g2OsTo2j4fSus/G/D5ElGSwACCqgBAjg5PT04n9ueGYIKPEUUUEQIPCaed/vus+QOYfzzwnn8kPj8BHi2XCMcaYXET8Y3alcfRO4662o7ta9I+Y6oQDUYr58daNWCLevr27UQ/Fr10G70+tvCwlX0kTqfHVvBs9WrAM4yLP73fN9/IYI97Fwd5N6efZ6xE+PRVV1XR59LXo1fkXzSmIw9bq/xvNq7CL5VaOv3SE3zuBmX9LKzSX0e2r8zuOm2X7v/a8ZTqnuGn31cXrN9rY1J8GpJE7wOMBZth2eouMeAyEp3oso+uFBtvsjI41TNWiM5pXPdxONIR6NlzgdmBDXAx2NU0GexnmHxiGPwGyHvYU5zmnuTKg+DrMNW0jSkAlmG3jZkelJsW7yfLvcY50+ppfyx8dUdTF/x5V5quaci7Z124pe27YVzvMOZF/jreN2Vz23cvseB66QK5j2xyYwaEGjZWgLzinuTKq+Aj3jA6eD4pT82htJhhumDcATMDvA/QXmY64VZmUg6wLc9QFkfknYUsMSb3+q3oP7DxeDUxkjk99ts4FfsUbua7TZ4huDc7w7E6svLyQ44fJI9nvhyWDWCzDNwDV2jwLMQyFPvZduwGNAHhswIN2jdndaVx+DXQl3Zng3jZZbrIeBX7HUsEprcI51Z3L1xT2i4YyS5hP2lKSWNFfFLaUqN2bXasyuJfHchaRQSPEkfataekh1TuZaE7PzLjJtsN/pmQ7jOI4/9brTrHGWAu7McrI4yxILlluknsapPTjHuTND9aWtB2CoKHAq6Lbu3HTtXZLKyyUpJKlskhS78VDTJSkkUZW7q9twmsHh2vzQjE6isM/uHzN9uD1ZDHBxelqXSMFyaRDOMe7MUn1ZjhXWIySAXFAB6iAi7h+f3bCXdCG5CljVdrl8hjJk+QXuivx5cbmRqurlcimqCavaYApcRH62uHoR8StzeMzhobXqaL9KJHV5uV9mu7q9YGAfZzbRxVks0iKcj92Zqfqi+hrVOSNSHwu4mYFZL2CWAdcAyA5QNoB1A2bdgFkTsOoC3DUBd3Yi4w65zAsPxlpERHylPGxBYjFk5VZmrH6nt0xx1DZEcTQubcL5yJ3Zqi/pegjlIcF6FtYVMG0ABWBuPLbd47bbVsD02ZiBrFsjASu/bBFjPSrmleYg8eAy8kr7Yz78sFH9lsCwRulon6NcLbcaYE7cx9A55sPG2Xan/TEfVRPVx3rMaa9P06H4yCc1UqEyBXiqAHetwKpPwMMgeU1gqgaLCrCpAC+twKYMydkfANJAt2/1ckrzJAk4ZaS0B4kYbFS39TDQxbgdQJTZ0tVAJVfLLFFHG2fLlfYgh72aqC7Sl2S4kEQW1UyWsBCVbZNUtldI671IYelb8ilVyRNF8u0lybciybcqRSlV0msLEcuiluNHZjHXaaF5lSTs86E9SNTRxq+tm+UWYznAPoYaVBpCRptaRluQiF5N/Cpn5WEUhmTpUZm6vaIhqWy7W3pJftnVlLwXjbpTLS5pe7moy8x8btX7R7O6REsZg0S+IoazzBEcj04ROhrnppAxh0mieq0Da1N+ZQowawVmPYBVE1BkkKobWLiBxSvBXQUo2oCqDKnyIjIl8hejq92dZvWSiH0BGCR6hwiyGhBhPKQRbpbvtpAx3SyRvdagi1C2ViB+IRtgegAIYHaA+wvg+gBYM0C9ALMykHUB7krA9nRNFL9Cd5rhJZm6/G6S8BpjMrA/Nh/i17HF4hpDpmQS/VqDax66o0hWaRQ2aQVMM3CPBOSyW/Ju23bx2MUD2DQBD829PtGo+6uv25X2TtIx5Dek6GP0lnAMx26HHI2LtEYopq9BiKOHrABOAIc2C9GCFXlicvnE7FqN2bVY+pKeKX1Ji6VvxSdTkV+n5CrGHPKUluDk3ZoK3MVQNQ/bTXKAq5yDYTnU8/hy6Gq5vRMecahArJNUoBp/IJj0Iglr45XmIClqT+sfRxlQemc9AO7IbOneCUskEkA0nMCzYk9LiuvHR1aBjyIptl9bJdXpYwoG8ZrIj0ZfMa80B0nyiJ7mP+4xcnun9rYev4+oQeWdgGhloirPgBJgSRWYtQEmOb/XJBmw0omERCONQ73cSvND0uR1oPxxNrK9Yep/+t50oKNxfic41hSseiExgLT9IkJKQOZXunAKvzSvLtE2D2j+2/CBeOM+ML32cOBm+X4n9C+OjFRVwF6Nx2rAtk5gOade3h6Q8jYBj5zApRXSi31WuizLMs/ztTp3mtVLokod8FS3dUDzWBlI6x5722Jxr0O3GF0p16pUvhQVl1SL1HBdwKQbZOkD5jIDUgWTVrhKHw2V4qI6tyaaLPtzbe40q5dUQR5Qrts8koeS+pW7IdhoXOR1iJ1XeHXKViS9tjI0N7ZG0aPhjQ1yL1oiv4nmGGtlRprRSTKRYiBc1VIMlKHrQGEyLKbeEt4K84vjwKwNeB63HWbAi53ImB/C/FBUo6N9kBx4DmiqGmVAaWQbWEkGOstsubwVlhcnA6YbgA9MjbWTG6WxwqNTATKcSJ/f4cK82oLkQRlgX7XHyG3EBy6wGG4WNai8FfDiFGDWCpgafoFUfYa7e4L0kYDqK5j7DabqaRcGvNiLyP9n5pXmILnMI0vVbGQbmNUP4GZYDJ7GuRpJQzukXLbYhKiYbswuLWbe+L0u1cRdfHj5ZZoQAZiXZdE6dErzItlQBnitGT4QA+vABngD3N5oGd4KLgfEQG0yLaXrod+nQogEkB0XERFfh4V2uHwsBtTVbB3Q1KsDN0B0j/3ew+LfCn4PCUpGFqidkVbVBGvjek3APBuk6wyk+xWY5xm43w3sfk2NnJgqBxGv2c0VOTzlQx5gqNl15NExDabdZJj2YFil8fq4BfV7sVHYJhKhdi/A9AJSaMOkB0zSDbL0AZs0g+QwSzeYpY9dAKwUEbmlGUliS0MI4RZCXy/2+aQYgKtYGimd+0Bh3xuw09M4tR7j3qtVRRAJwJwL2RrbTq0N5sbWu71xf8elu9IYxFypJR+eA5wrRhlQar0GHg2HPfZbk+XykvBezJgIVSAJIAJAMO9CIsGzsXTKr9EM5rx532kaNxj9CfAnH8oA+4o9RuaWBqeGLIawtRogrwnvpdwSVRVP2ACpYP6FyG9XSaUU7ZL0OqoeEK9XiKQy5UVExPlddwZw+cwjS8XmkbVxHXDaN8Oy4Wl8vCr8KiRUBKkqWEqxFNKa7r7DdQOTPuGhSI3LbgOTPmFWtFReLupFQqKRxuEMOOVDGeC1XsSAN7aBreMMdE+jZXhb1b8QB67KgDXSB0BKAFMC+PgA+ABICeADGlewSi8iy/mtFvb5WAyoq9c2oI+dD1w6shiGp4fFVwRDwq4dbkP879doAxB73/1eVwXIKiJyTeMGo6/W7GBZ8iEPMNTrPvIAJg3SD4bHEwyrVEQl13P7ktQHYMNrUIBJV8D02zQBG72ITGni12R18mPhTz4pBuCqlUYK8Bh4DfQGOJGexundcLMR2AP4GuiZzOUTVhtruUF6lU+YS/mAeykJSl0hbdsV5lpTw2f7ErWXf0xzVeN3pdSLyGKBy4bnAOdqUQYiQRm4DQj22ItMlsu7YTxA6k6LltIPNVwZZukGd+kDNukG0gYmZbhLH43feREZuQmSQ53Ui4j0Fk75UAbYVysPaMY0aCOzYRJZDZD2u9h/yusOkUroK2GwqkBaf82jlxOX4O3rq1uzeL5VCZ1sThb2+cwjS7XmkQfXgcroaFhFaHy8AAf78nyEdi3kBSRtQIpfl4CVnYiM2eiyPVTlKtsOljUfioG9qxQxsJEH1iFngHSW4a9tA6xhI9PP3Mc2fmW1P9ckyP5o4U8+BsMiqNQ2UHkNXIZk2ePX1eL/2vTEXHUyq9pdbgn4/Eww3W7A9XZLcLvNkC4XAz4nGquxiJO425rd2jnx1zoEsS4WuGwIBrq1UveBoPac8ZvhOxhU/tzGN36xq68rmN0m6vBl6iyc83EwhLlSaUAf6m9veEN4GOZ3HE6uliJp3cp/QZTi4uokpNJY1mrIZGGfjYwGvVWKMpAHPt8Q3ZtXw+X90J8VSAJA/V5A1gbcG/ebAcvNwPItwbTdgGueID3WGbjm1gTJ4UVkagWnFs1Hlj0utVoHRtM7055Z3g/XE0ittdsA0w3Ad9INZukGWbpAkW7geoFJN0CadhUgTyIiS3Z4LItqheRqYcinN1grMx9ReLePsbwhwunlXEgFZm3AJG3Y0PZGGfrcaYbk6ERGZrfIc41kscBnI4/qEQc83nKIcHtDzK+OFsyl7bHEyLWx/sCtEaVUUZ1oflO9vIWPfDyq94jQHZJHhO4NsbSColp6FPU3UmNu5B+4NLq3K1PB8BiGy+Vy+XJPvkoSLOyzkZCN+nhe09yOqRy/HVNpFq/J7tHW8rQVSKJOcYFV/vHxse7IeQLLeYI5Z4PHlid45BuknCcgZ2s8Pj6m4OzkkYq6F8RcKacWzcchF6qP5ZVp/LE5gjs2N4tXJuM90i/LQ0OQIADFFqhV2ADTA0ihF79YUgJWisiYqAvG7gSktzBkI2M21C6OVyYSPXSJIMuh71bxygx4j/LLCrBtQRS3ApMyYJLkXkopr62d3163ZinVJWVgo0sXv1ayWOCzkSUJTMQ1RgfaXYzpCCRmOOQaxSvNi+Xbxp8Iv7S7MlzjkEqCREHxSXopjLTtfnck5uAkLiTyYd6d/Cl4GLjk0yfp1ETex+OgGYPE7I88ovRHFkk2j2n9MYyJfYxljKo0q7NIsPE+Hv2lfZBItzFt55vnGdwspO8uSb6L2EXsInbR8IYPKPQLLyI3Gr9PQYKFfTbySCFebanRSVSHA0MUwYFbutTDseRDjAzViz3YEg8SK3XoS8J57JZy+5iq/IK5/IK5Mpgrw1O6QpaukOUX7FtuWNH6wRRy4yk+vmRNtP3l5HC9nFrUZeORQrzmo14iLwd8nOlA10Dq5WjIZpATOt9CNmDSBphuwDUAsgPkDeC1AcQDmD0DD01A1gQUepExlev6znd93/f+HKS3MGQjIYn4NRf1EvtmWyXu1abSPurleMhkkGKutcP5rUDSDaAAzHV3L7vrbfd47MptpxV46QJsSsBKEekTXWkcTkIWC3w2DknELXmsXqJ72xTJwTS3j3qJGbIYpJyxdnUt5AXM2oCnnsAWBmyRIHnZeQFMa8MB1womTcCLncg10UicjoeBSzYyphH5zWFxklBNl0iymL6bR73EDRkMUlA4gtdDr7yG9NpKKP5fqZJPfEleSpUKFGnDXHJ3l0opkkqpkpdSRVVFMuPc+3OQYGGXjSyJJKSbJelkUYl9M7nWUS+xQ7JBKnIcL0BU17vbpMGUJDmf+sl1ZT7PUNV79ZzuLZ3k06eSkCpI2t4yR/OWRRpHvcQPiQYpakqVWhsHT54gy9PHx6rt4+Oj6gKT6/rxcXHd4C6f4Kny8fGxyT8+PkKePqbQ9vHxUXgRGXeQx/NcPem3cJP9HGROJSFNkMQOhu9ooobQOOolZUgySFnzMWRFtMp8kW5UPm+A6QEkTcDsAPcC8NgA1gwQD+CuF7DqE8iagJVOJOzdnLvMWax93/dj1WR5mpzk5ZFKxhQ3Sb4YXLzJcGkb9ZI2JBikNoeR6GTT9LYgz34l9jJgmneRgEfjmXfbBiRlYNY68FACtqdpS708e2RwOL8sPbhc5I95OQYcICqAcwE5y7YDyfgkvRSGveTG7FoTs2uBZ2jLa1GUUqpiSnNVzEyuOjG7Xpbm4KNzy9Yg22MTyM9N/pyPgQ2bCcnLjgQS6kZI8tCgF70bob1rMLQHuAnZRxP8RVtAMKqSRFOBX3sjSb1SeskvWFFNPKX1g8n1gDwU0g17yQ1z+X/I0jbJxSCytRjWdMvXV3f5/rjQLYDRweTaGmS3d3va4KoVSDEDWwDcHahDkla4agVWPYBVU5WkIj9bmtNDRMR/arRxPmFvedKWJhWASMCj8XDSl95+DtyAhxZJgrtzt9vxTDd9piAPbQglCbf1w22vUnkVV7h7qJRSQ8eGy0spoVpKqa6mcn/ZmRM8huHy7D4zUBIMZ5kHSFK9iLg76/vwIuL+MUEQ8+cFE4MplUeBJthdHg+wysu8gIe+1x3o9UMHjKjaDid6kc2vr68vOfxZApaIF8xdx333uWJGRjg5nFGg8fYRU1cASgKo0vleRLpg9B8hiIGSgBQAi22W+J8aIOqSEOBB4BW4LcbhEyQmWDzixETrdSIzjeEzJSKyIwgYgGhZR8O5fT1hb523/YdLoQBJEGAVo/nPbI/b7ZZ9V7Z93fnjdrvdtsaWc85rI+9XSSXvQ1Ld9v5Drve3M1Jlo8XPTOwfuwv7++7G/tqY2LukSrNIF/arJGP/+HX1DAJSidbyn6E57WjazhppFzRnSWtrck+NWXrRnPxHsuI9Pef5mk8ep45ypPWYcvn4+Pho/UqbEu/bRH96+EETzIe8+4GCypEEoCWE/gP39zb+XPNjHkDWSQQ5nSQKKFcwf6umvwerh3gCsuIUos2RNNoD+NK7niAtXpeWVa+lNbl7Ta2Xe91aeau+tZ711ZpK3VJjqjeA9QhVA2Y/hazt58Csd93AXJJaWZI+GjlCmhqmfcsltUzS1HipamrMkhuQj5DPgG1xAnm0i2YC3SD5O26Qqg6TdBlKA2Xg0ihyXXpyA55HSAvA8wQyt8thxOIKbHozDHhpaB3Z/K2Phn6BPAGTHyE3YHY/e9yaBibGCsBTb8YEfGlse+v2i26N607FAPMj5DfArn7yuDYNkYGA+TtXYNF/2a3hA/eG4glYPUJaASaPU4dvGyKVPt315g1Y1P/4BdPOfom0AOl1iNwAq4oTh8CiOeBsiBzKGxm468fy0OUHQvJHI3dCK0A+RHEDyDpzrHsAWzdaHcvApH3Ez02+W4GlxpDH9gR71VAUAysarQbkQ6QF4O6K08a0t43TQEXKUAYsdv6f+edmNW/goSHJC8zae4ZZ+2jJDbgfo2qAufzv6DT+EElzXH2iu8afIt10f4l3VaPpqhmu/tUaj5wkVFmnFTCXJDd+TwbXLwirLfkETD7mj9smST4D5PgzOjDhEIdZqk/yjylXFyVwX+ONNJpG5qj+xfLH9BRYZgYFwLWf+Jn1v8Eht+QGmI/UBEwhSQtA/is6MOlQDNUn+GVa9adD9a+V4BCJREBpqiw1nSdg0f4G3EfKW9t78Tt4RkP1BlgdMPZ5pxfwiL+hAxMPxVB9LLcytfrTofrXao5AIglJlFVwMjdg0T7z6/RLMG9IK5BenaB5bayA+5/QgcmHYqg+jl+ZXv3pUP1LdYuSUPF01qncgC9Joczvi5H0I9irpQUgH+EGd9df0IEZDsVQfQyvzBHd6VD9K+XjATgEZgqcUUzAl/Yv/gs0ws9AbmkByA3NjW13A/M/oQOzHIqh+mNemelwOlT/Qolu4RhJKAFSSVCZLRhZK3cFFu09gaW/6Qpw9YbcgGfDDXhKkgNfer+EDsx0KIbqj3Rgtj+nQ/Uv1LSVPWIp94EDyro9gEV7N0h++ZOSfALMG3IDrqF92Vz7G5j+gg7MdiiG6m0jmPH9dKj+deoLIRABSjtsNUySgbv2L4P0pdufZJKeAGtDbsDku64D2wHIrwPN63x0sXGItcwxHzaqt/zQrvNxtfFenTmqmqj+ZRIUkidAEKjfCkwKKTyBuf6skBaAu+/kBpiP/AfufsCSnQPNq5PDvzZ2kQaJOtoYDCPt6uW4X20MtZGoXk1U9zLNSZCRIkZFkaYA5pIUBmx/2H4BsJdCkhtgtbcBHgcM2XmaVycRf22XnGSMFWzqJaZbbPMZiFcTv16mPg620mMD4BlGe7lBckmhB7BE/G0qV4Cq5hNIa8fgLn9PpajVSdTfYmTMYPUS+fd0xOtL5lASoeBZRntOwKZ9Bp7a/2mSAawNFQNyI4O5DvRFqZfIv8VIj1Srk+jT6YjXV0zmKC0abb9ovwJX/RPoCZAbqhNwD8mBLx24SFEXiV6OaCI4Sfg4Hbm+ZH3zfWlfgcn/GbQATL6TboC5LmDy99S3lUrK+Xz6l8yhOqgOYmHrW3s3sBqtx18nN8CqQpImwB7A5np/kg8LmapT6RhcBVLR3g3MQ+3858kngKxn9bLpGUE5XfTNg0jKQWCKXUyQXP1/APkN4A6SXPuNmRGH84WgdTYjMMhz3l0h1Tfmt7ry8DHJDfDK57uIeEZUOWFMMdA+oN8wSRegKH7mUlgB4h25gcjPE1cvc4zhE6OP0ZCIRooBuGr4D5qB4u/IDREJT9SZEVXqtRj/+3OSJQIqgtL2I6DfmFur/0nRyQCzDty8iIQnMOZQsdh/RLcIDRoDnUD6ar3+q3zE3lAraJZ4T+pFZFTGxYeGQ6VQHpKQ6jBXq/xppXU/gupFxM8aZZDPDJkqVTyQit/ctf/462pr1qF6l2fX/R6B+ibBX0hfKWQDAASOQGmPoRzY/hlkje9jyOVJxOkBBmmRX/6FyFKnbWSwDxAAQYLHY+V/iJqALz+Ktw0JB1Ra5Jd/I32l8FTLc1O4Vx3/iBMaxP2yqby+bqI1wwvww8vWZIL62nR91MzcSvvQOl75woVa4EBVk23/ZHBPnlawk9ooo97j5RikcbzylXOwoZyj2MKLw8c4jpOauMg58F5OkMbxSrO6V0uCrUWbYQXyW8+gFbycBe+lBGmJOarSrF5ebv8eyezzEQdVToNdGUGaIr16ecGXqmlhaIipQfzUcCKXIoI0lXp5xfuq1TCv2x92+R0qbROkqdTLa453yGfDfki7tgnSVOrlRQ91QnFojNrY9LOzNE2QplIvr3p3ALUgTmr6qzQBi0Zvl8tlOuJbZNGdIE2lXl73xVZRlAQas3IDyh9VwKpGv+X5YZulSpeD6eZhGAY18ed7eP6WplIvL/xtA9WJDoBQgKhOSQAWf0aMGTxiSDZH0+LrdDTdICLSwcS7xG8X9fLKu40zBAnQiDUWaM7pQXM9BiX4UAHqELY607c0g/Q23ptFo69eXvvlLMrM6da6H8PSLmAaWrY8safSEDLaeG8VeVf2FUMOqFCqT4K7huE27jQOTSE/Ng5/Kw5bqFCWALCjZW2NOXpzaTFSgBJD/BIR94/GVdpCgo3XPxWZt84boAIEy9Jq2Jckx6CS2zRg8oEMhA/NIuJB69AaMtnQ/an0Z5c0q/6ttZAcdpBFFGBtbECJAYM5NOxFZKZVfXPIr4nwfymCFyKutJUMsr1ksgJ87yJB8l4BNh/aRMTTfJP2kMVE9X8pUwS0AIqoRnskg2x7PqdTvQF8S9ILMPdoPCCFhv8jIotJpUXcaqL6P5R+D3tNWITTnUKZtnn8EsWagCxJK2BeGxPcx16IXGlV3yTi1cTVlfJ4wwl2zDi/5+yunSmUaacv/QKi4W7AS5I2wHznQNHwDRE1DVKbOdo9M/Fq4pKC9wQ/TMV7LK/vnClGI2ZWLrSnUKZtrvZ60KuVd4rqBsklaQPMQ1rBYmgFGWFRqQ7nSHfmJh4mzil4j3ZnOt7jeOU7p38JNrpTKNM2V/d2UG2lupPcE5hL0gaYSxdYNeqAKI1YKsQ5yp35SQcT7yk4R7ozBw4xvPKtI3gBPHWmUKa7qet2kKxBejXkNYEVSdoAqw68hjZgpHmoEe8R7ixBRhvvB242ri7GP9ony83G4ZhXmvGGCc0Xm9GeQpl2Kt6JiaNeLfhuSDUBVZI2gAlSjISBqWmWWo42TuPRf7QHyUV+bPyxSbBRx+O/tK/OIr823sejSjO6N4yLhHNDVjXRnUKZtrm6brS397R2+G6pJjCXpI3mrH7kBGw0D9WQ0ZY4SD4SbBxsEmzJZyf2X1tadPKGkSXOyWflie4UyrTN1a1G23SAXqnFd0sbYC5JW2Pt1cQ+TCoVHbMJkpMEGzubhIwmOfybCzp5y/QN8pzNRHcKZbqu7pZoTz4UHdXUIre0AeaStAGmvvHe0tVExkyC5CW/NnQ2GbMJEvE3D/XynpGl6S6dKZRpW1E30528DmmwphZ3b2gDzCVpg61XaLtllrqOWQTJTRYT1dukRx5Bov7moF7eNb7pcmsKZdoW6ma65qGDtHUwb9QFMJekbN6rByxS2zGDIPm5NYV0msMgkX/TqZe3jUwtF7a7hzJdVzfTTa7BDFk+oLWDxS5iAdJLkkLR0dyYZZyrI2OyIAWIV8Pq5bDXZLhI9N9U6uWN49Bw8sf9UaRMO32pm+la0egKqcaInh2eO4UWgKI3yy75iK+PjImCFCFedxYnEb0m0k4S/qZRL+8c+Wm5dqZtrm6mew8figTcfURrh7tLUsQCmL+hV865anCWGo9JghQiHhuzxPVrEvWS9DeFennvyHJGKOHC46hM21zdje5d71YDrI6oWgurkhRlASZ/403wUiUZEwQpRjqQDBLbPRKol8Qhnnp593SnA6aPQRVSOSbT3dTd6C4R7+iVAIsRubWYd4q6AlZ+gEEa+koG+WMNhSG/HGOoF+AliTfiQduKuivdRUd6AqYYCLm1uO8k34Dkxz2kqceb/LU6LavKMS7yPL/nRttc3Ux30bFuwOQ9Kdxa3BvyDZjiMN9Wf7F9A8mmvRVG96Xug+6iOEZ+A8yjJ/nU4ho7+QaYH6Ty8Tq1BCK5jemtK20raseVdvrSDy4A64hiajHFTmUD0uuY788Xpw3xHGPauL+Tad9D7TXRNo+f0AbwHFFMLabYhW9AqkeofMD2zcNJ4BqKsUvL1M10zfXDNQEWAyqpxRSSFLEA5mUr77hPGAnNg7VU7Y8oHbeOuX7cDXiOqHYw1z4WwADz840szYBYhNpDa2NW2422uYY39yPkBuQRubWwreEL7evQRT5jPVrhOc7+kJ7AHC032lNoNK5YDY/35AbkEbm1IEtSjVtrHlH3ISM/jYC8VPKmdjXaU4xETgDfkuIt+QTcfUA+dSiS5HHAIB+zv22wmdFgTbSnCA1m2quHvydPgJWBiGcnVUmKj8YUA/5zxmnDbYn2FKHBjWHzt+QGJO8pYmmRXJJKY1F/kg/art1WuuYarQBLuDW4vyc9AXNFSxG3Fq+dtpy3Tf2HfNT+tADSfRyR6V5DozUBi6TSwg/QmsBcg7ll6rprcPiskUcDbOb2oLu4RmsCFu1T63WEaoK0Dljr1Rt2+bB1WhIqgQJudL9rjGwA3xrzQ7QBPDsbzVmH3j5tpEMJ2KpqVjHRTkWhwQ1I32puNL/jB6xjrRJHOOfbnxJqnJE/jHaqodENSFXNmoB0/w4duiZgqq2V5r3qyNsJR6a8cHZbomseGs2AVTW3BDxDx8YDSEuo6dZyHVk45a5ZVTublb65hjNgrmYGWHSwT8Dk6txoLjr0cs7x2k6fPXMNZ8BczQykbx1cEnAPdZ2mxSGFk26HZrp0poihB2Cu5g2wqmPjAbBo8LO16dDbWUfGTFAeoiCv3LLQ8A2YQvu4AJPr2FcC0rcGN5qmQzPn3ZBH1bPRtPsKjcYFmEN7N+Cpgx8AVjUY1vJDgjPv1Eoq6xqh0ZiAu5puwKJj/QJgrtFMc9Gh66lHflvpbTeYq/b+mSB969hXAtISGnx90jQd6unc49YmcwNesQsDUtWxK8DkGq2Jdjlm5uTr1garBny5JMUEpKpD4wpwDw1Gprvo0OD067UiOId4JEg1JCkmINU4pBjAVaNrojvp2Hz+Ea+VALdBom4PIFXt3YBUdWhNgBUNxkR/9jiGM7DXCoAHkQ4FZSBV7asBXzp2S8AcGnSj/1TT34nbKUi8loSNmEi0W0IGUtW+JOBLccgKcNeoG930FaHIH2A+FBMnYa+lAEwPPIEkSAKlZSBVNQ2Y5TowHgCLRtdEd/KQtLGfR2LiNOy1kPLzy4B5tNyAZ9T3qgEsGowb/aeHJF0aqeefxonY67mglAyYu7pugLn8jRXAigaL0bUS2jvt3sS52K2nsp/bAzAPDcYTYFWM+AVgCQ2u9K8RaubW1ArjdPzbGumtuAHTS2+uAHf3nieAbw36hf4Sob1faG8hKbYHJ+TQGLwTE/DU+5sBVqPh6wSkLw2uie68hpprAtJ8n2dJ8gvn5NAybpC+I96TzwBZHooJ4Bnqx5X+onZcgbSE2m6clXttAKyluBTvuEGqETp0AZhdMQGpqBer0b96qxhgXl1yKZQ5L3s9O2UnYCG9URJY1eFugG0TMHuoG0Z/LqF9PACeoW48ODO7uULIijd5vr4RD8BcP7nQfmrQJ/pfoWYxIBX1s3FyDvVJGsNt2FhMgHn8iF4GpJf6kRP971AzA0zuvZXzs9dTkxgGTBE/JDfMFR03+lZCe58AnhHqrpyh/Xxi2m/MEZ46GZjDQz9eQ303umkJNdcE8BWhbuYkPeppYdkokj5aGbjLdWS8M+iXRHdyNf0CYDXUjQunaT+fFakO7hEtxRV46sBy+7j4UW70n2ptCWB29dw4U4+aAerEAbZQKyZgiXhvZV+OKYn+l1z7DWBaXf0tca72cxI8VXDtoqn1NGAJ19thjfmQlcGvUPMBYK5+vXG+/tYElZzEHmW/KPR2XGj7e3Gh/ww1/QJY0aAbp+xQtyBZXCP0djXapreL0U1F7S0BVjToxkn7qhWbJYf0pQO3RNfjnQf92SN28QDSKzRYOW97rdcliyp/70E3fccbPtFNXwrtiwGzh/rlwpnbrzXCk+Tw1Ps+0bVaNb4mulYjtH8ALNJAGOdut9YHJLnE++5Z8fdKortEaDiu9J8RIUl+Aawo1I+Js7fT6mw+4l16L73/oJtKaLwY3fRSaL8mYPbQoBvnb4/KYCOkq4p3/EJ3ch+rF/qzq7lOAE+N/4czeF+Z7e907xeje/fQcE30v9TO7L/kA3FLnMN/6oKNS271Qn+J0PCW6FpV+wFgRcMPTuO/Vdl2aeK9kuimh0Kj8aCfvr3hE8DTNRg+cR53a30kXnfIRv8aGq9G/xlqvhKQioZL4kzuURRiaIIv2Pydlf5d45HpWwnt4wEwewxEZE7mfVHEAZBcEsVYudC3Mlj9lRP9u6tZDLCXQv3QhdP5T1FHnx4JHKwafvAL00vtB8AzNOwTJ/SpHs9TAoFtxCd+4exq+gRYiaFw45S+VCUc89jQI278wq/Q3i8A5gqNrpzUndZkOOZ0gypgHq1q/Hz6Cu1LAtISrtF4cFr3qMjlmEggSPIH4NZY+YXPUHMFmF3jbpzYO9TDxZAfgiQXgLz7IE3zz96XaD0AnhoOVePU3qEWq8TtFKBqAVil8JAU/r4U7h5ydzV9Alj0Zkmc3DstDDtDJPFKUPEEyPq9awLmHDFWOb97LWvfxxKZCMndgKv/krgAfOndsBOcuLkGsyQMdEl6AlZ/xSsBKccb/kic40ctTn0K6TykiAXg++fiAbDoXU+c50ctrJO05tovAN8/VQ1gUbzxybn+MmtBgyRfwyVdAe7lJ18ZYC56M26c77vv8FhLwEUyzAqFnvzG9BUxFFGNs7673BbkpV6ynD0k3X7BXPVuMc79l0nzeTjJ1Dwk9+0x/+T1UTQe0oN/AXaTZoGb5JtecslDPxrxhuLKvwQvsyZbvGQdmH1M/Ivw+5FkuUjuP9Ss4nXl34Xue9ZIy0UK7PO68m/E7vbQI8vNSZleM8r8a9F/h8eyquoy3y5OyvVrLn7hX7ABWRTj37BOc6zGSRlWUDgg6lkAAJBJAZ0BKooDpwE+kUKcSqWjoqGls8sQsBIJZm78W5j6zX/DfwA/QD4lDtUA/AD9AEYVRv+T/uX7pd9PHfjH8H/XP8n/zv8j71Nk/xX9m/x3/X/wHu27MOxPMw83/a//N/fvap/f/+j/U/8j8D/1T/8f8j+////+wH+g/2b9mf9p7aP7g+4r/Hf938jfgD/af8v+2H/F+IX/M/sR7lf8B/wPzD+QX+xf6r/+/8z/5/GR/w//x7i/+h/8n///8XwE/0D/Xf+3/m+27+7n/n+Tn+w/9791f/f8On+t//f/D/8PwAf+T//+wB/2//////cA9U/qD/V/6H+qH4VebH+n6Vn2h+2/uXyrexvFP+Af5/+N9sH893n/IjUF/I/6R/od5jt/6Avu19788r6fzP/hvUB79TwWvTPYA/oH+g9F3PW9eew95dXsH/ef/////4ay6wE9kZh8alvJpz5S81JjRHSNMt3sF0braijD2AyZdickSaaNIX6ITXLcgogOWOA5Y4DljgOWOA5Y4DljgOWOA5Y4DiFfN34cy6N1NIhdEr4ptDpCVOiDbgOu7uNnHjWTyPSbl4T5cD3c19gb9+Z/Y4/5OA5Y4DljgOWOA5Y4DljgOWOA5YwFvwb416rxzdWHGn9/iOAevwKQHBpzrJ49Uoa9KyYnpIBAUOuFd/gwJfLcVvM80YCjRgKNGAo0YCjRgKNGAo0YCjRgAPYZEFMwlNpOcffbt7TcsKB3qUbEO1cbPILQgjbhZovMITjlSRjZESefNcy9eJrur9CdktrfK2t8ra3ytrfK2t8ra3ytreqPmqdJ/YcjXjJ3zUQCNWKBARV+YM1SqU/poJXsD7OOzxODQ/yRcAk48pmCZhO0NRB1H0lo4BpTCb9yMVbvRp8nAcscByxwHLHARqnBef4Vrf09XxeE5CGoSWIiZZnKHDoPkRP31jeelEXdGjqVCSzJGi7uKrJjs5uP2ZaXIrz7ypOeUpmRMJsYpfVyxwHLHAcscBytJzaqq2v1Wrj646scR0fxyIVVhF/FvQKkPECWn9Md2S+7bfW28ie+N32Gz/WwqF2OdE+rcsGjmqTrq1OS+Etfc56rU5L32bVDkMR+h9otGrljgOWOA5Y4DlVVw2uS5CDOAYL3blUIACGmr+HyZO4zgUofIfD5hBfn2juhzUr2ExlOQgU1TL02Cfet8QSuCAt+pExlBnWeLG8Gj6Gh+1ZSa0TSB3W2MVXtHbfK2t8ra3ytpKybEhnZtEMoeCqBSXiI4k+NifZTFNIq4ixJYWXDBlnHzTaEbWRMnNcsdq+UzkM3pHmslIaWxpdgtWu7R8jIaytrfK2t8ra3yshPMFDqY8SVs0nH8tFpdEHbUxZB0sH5NevJD/gC7YQwtJ1ABOakX+wXj71s6FfOq52EeI0yOY5nN66zj8uUagDHOhpRub9wTkV13IDljgOWOA5Y4Dlje4YkSdsOeWAFkAyJYl5Q2Najapx2SdOunVXImKxwJQ+bJlQqHrDLMvU8zWYL7k6FZ5YcfiOQWUzhVLvnX2xxY8f0QGIsWaXLK2kHehAhCo6dtyZUc8l2MSPIk7obKOo7SVydiPFUEaaBW1L5J5JYgtXKBaLNZ3gCiApYBiDY/zrauK9M9DnnYNT0ehKjwMqJC88ScfQgBfx3LMgvrM0isHEaD0G5eqQYt7ip13u1xlrPWQC4l1CCSJxgkk0RUHC5zf1XYDCnVEH8ecx9/oFmw8oO8tjLqhoTCSgDnpOIikBKQbx87q/FLWw8LN0ZEfyVoila/6X2iK1JVOR0lzzOH7KehhY81gDueBKpP9OJj1u/IXv0/PESXT1O98JLY58rBDHCjLg+/IttocGBce/HRGrgvKnxmYF2DV0gmiVM6JMRpHmslJfzLv8H01co2/1WUtNY9EMlSopfeoatVUc3NOSeYL6bVDiRJWCfSofvqCvFiV3oGTYX3B6em9kX91ZGBr309pWA3QUCjunGn2AHny6imu+83fr0jRFciRnSQCqA6G5/FqfUBkgzFk3Un7b3Z1yqmZ8Uef4G5u4XgMW+IrO39PGR2P8C8T6O1gs52QF6egztMsFdUcMeM8azxh0GHpxyjF9SSdkeIXOXWlDaA4sqLnoLyb+XkNVejrCgsjlHm/7qndEd1q53v4Bm7FfwIZ3nuCi/m6j1vWUK/MnOByTOv1m8f0+ybsO70U4nZ4+1EuLWjvgwkk3SzsJGiikBEg6QBHXqcPVKLQVLtDWT3Hy4ZmzY9e9FXKms1ZQeFPnK6iTf12hhtfTEMCLU02QS7yRZhZEi5RgaadgN/+O2RY4AqZS8toDkVE7FMyFtQFonzv0OhFM5i9vRTGd/UO6S9gdXRlAqVSy0COUqU7dwVzBn09qCIxXscarsaXvUJBbGl6wr5/cqENddw5E3BXcnTkV1mLgb4vsD2N9YgbTlC/YAptgWQz6bBrcXy7kIkV9Wu5RJ/2qWmq6NaMezdA5KGepQmUZZCzyrLAIVUnWqQe/jvZm7haN34UyUVNk80U9asZY0YCjRgAPVAGO/5ohTZoGKBHc+SmYFikwdeq8pby76YDRb1a+3eZHml3afm5V8lzkez2qVM8zLP324Zqds/iOEKj5+2hcz2TzLNEmGJOqOU7DSRO/ZlU0UaMBRowFF6V/FPKqtCaHmOtL51aLLGyPpJmR7edHZJFUuweo9qrLwwfGwVtLE5CHg3rB6ITcr+clrgVBSeYL95sLDOBHf9nHeBN1SRIICp6WWdlbW+Vtb5Wh3feIU/qyWh868GdzXkbBeF8sHHYpKbdvyMF28ZX0xyTF94ZNlpW9YDFe6XuS9WIKyiN4tMf+DTDswxzB7wZztZz7Eb2c7fwzOan6KZVyvq1NyU/JwHLHAcsY6fDoENM5wLqQVXHKbvVCdu8qo2bNCjuMNZPJ4jR+9Wew7Z9uE2ZYAVySM+S4eHUkuQ7RU7+neyPbwnAmp/P6WAPxeU0AFyXVJlzyxwHLHAcscBVGSvzcjfXiCrCwUXIdIHQIzLhWFRe0mXgSVW4MydejrLzSQAxowcDEHXfJiyGQBGRdTlaVrNh7neNl78CYtnyqJub+ZtOwm9kHM8ra3ytrfK2tnSGQg+y5CHjdKqJGQvtvHFdRS/7RPTjrToCN2dz+r5gtwi2RbpZ6/wXFpZpyCQq54SxowFGjAUaMBRowFGjAUaMBRowE/vs00yAlomkD1VOY0a5vmNTm4ks3BIfKxTwl3QBuXoqBsSSLG8N9aZW7lWhx60J8nk6xMSWW3gOWOA5Y4DljgOWOA5Y4DljgOV0ovZS/KTjHMsuI5txwUDK/blZIkdUBYN6DA2PwS4fcM7IiMtWVdYiMJctDb5W1vlbW+Vtb5W1vlbW+Vtb5W1vlbWo7uqJV340doHXCRACZXavzgK1tEDAFOwKvGHIl6Ny88Xjvy34TJN00rpfAUaMBRowFGjAUaMBRowFGjAUaMBRowC3nrNLsjq4DW/mhMMlzrXMqNXqoLTTbJbW+Vtb5W1vlbW+Vtb5W1vlbW+SQAAP3yx/gyXR91pfaps1lLb1u0HkCM3iwV2ub82tW8f6B1xdNYjAaE6UDlwdT+ZqgVdeiX7iKRH9RWQoLEDwRqzRTSIdSRkVfw73h/+Q9uwttSGuBJrNF3XZbr9GoC8S6F+Go56RuIailNUFCVnw1hv1s7SxPcStzS9Gf3jfyNsJNRYPnnMu/vSJxWk7cCMWizCwovXrhjjFtYo9WIpuqwsfRDSWNuOwfIRdqwM/arMwtyUjFbC5I7lmw0II3t4yFkpRagy13ctTfRzm18TVZvYsGeR9P/uthGcz206jMrwUnL41jCIGuIuS5oVl0j8+SUqV54z9C3fEn036XrDEFLM+xo/q1fE5fUvploLoR9fid+u0YC9aHhfR7nPIOtIQ+/A0HtWR/RamwJ/2hjsKKQf5Tl5R459JhCzvRc43YwE3yhSerBYC2GrBwteWq0uNrX9cS16+XTkK8fthfzZF5TuSHkxgVNadiuY9T8k5AY4AAAAFqWmrvLIpStdq5YfXijXjwrRq2N7T7DgPerxIXczX2njzE/IaCVipnFs7iY5yakjurDX+eRrec0ILv9MfPjZAMEoQF6iS0UhvIFHd+WBYD+p0g1wJzx+a7E+yx0FAQy6Rw0Zzstr5NceCDXVJUKoedeZ01cRLCUm9n20xsQhenOIz9pkZJcnwllZKKInHaXyJ4OHufarkvhrYq2WBIF3MPnhlFffiQq4zQHC9Poa2RXYCQBil4dFGa9egb6SCcvcyUP2Dty3szI959mNFPXhR8CpDxEPLspKPrJ8Z/gPP9IHOj1TQWzulcvH0ShcC1MkVLk0t+HzmWVCmwEw5QVoiAA6Nt075Eg72v84Q5cPGhFk3WGWZCYEq4QkCh3dwI9aO5afAWbDU40ci338iQ9cVwjVhPeb/Qoizr0dD2c4iN25lnfkxPmg4PPvDuFbQHFyXgysP21ZFXSdS5gSrTyrpLAY/4bIrgVU1ju7aeE0j65n7aglP324CBDGzL5I41eKKP9D2CagS9gmoTFxf2u7g+yroqT0S6vYbmzoDRgR5VpwgZ0zBaFIoarPf8Lr+dAHrZGX5QdClahbdWcRyts0VlmRR1Tgw/cDrCKoApJUeJ0r/qaeCJ9X9RR3cC8kMZFY+qyJpuASZspdV6RsP6YXB/4vFbiGyATw6C55M1+2nmE+87ezo+j193OACTe2cVJo1z4eY5cycUFwbBwghppe77YEZT+EJfKPYNugAAAABLIrhDgnpdDSAHFy2i2supsw15S9EDoUKlRe4BOKoGlVTDGZ0QjGpFusNHH7jpotwZNSFF6rywCdt6vmvhHvmReZpthXLLPmqMjjehiOHO/YX+khsLovZ9nSVhI0StFMeWpdOFsI2hGPnY1s6bUfqLsRRHj8Z1H1h/g5yzTB2PS4zuETicTGyrHF4U1bC51o6UwdRM9eSVhKhzFYPCC2zX0HPzsdXGzcWCDkqZtVX/fYup6xL/lW2t3oxPQgMht2+AnZLwJAfPq+GSLVTgtvY0tkCW5udg3EWeOvKbsdm+L8K1y8+RzoX+DZtlGP3mL18YFGHvRwJk3jz/7h+6kbF9H7PAV/bb0ipek78eyuGsxb9rJNEPLddNFCmnzBMFnhxaI+yXGVa8g2IR0FWiS8Pg0YhcmeRoy3bI85LcPxoIMoutLXtqY0JN1ncxDfIVTcwaN3Lz7qaYN+jGMptHE3iJ8mAV6wpZwUM85tHn/F+w1y5wrfmtmBl1CcgwL6uX3M5KgrEK/YD4AoKzzeYUhzfW8i5UdghUEP3r7kVoRwDtKSssUPjNGs5+DXjaJuuQcB3WtEFNMDdO9PhPfAISDrf7iSbjzBi1ndMSI8fZax49fL3ZZNrg1J4e0NObbXrgSF7jMJKXBcvta6Qkpy+2OdO8vMcD78qeljb890fsalasqilOIVy+jShQswSK7G+M9J+ghD/ZTW4bkGXFYXPJHr3eFyRTIszIe6cuVRLr6Dk/2Wo4dEVDztWajEBqRz1CVV3yFV1yB7mTaiGBshOBjt8BaQhhlpkjmCehrT3dvoH1iAAAAAb1LXTVMP6WHWJkjJrM1zBf04wBuSEVFg3WWAhvdjRZMxsjrQWLc1dtg+Q/9UUotFO3x8uwJlW/yA2mIc/QzWCMDNNZc8vq62P4iOH0eAQHeYzvyLM77J57iLWYDWpi8pi7r42uQvvAT7rzpFZDzRtgrznd5BtBnshI2CEQH7Pb8Ru33udd+4GcwwxsCD+QTm+aGN5uB324Hd/EVAtwwoKqOWG3v6HeDtcRewSH6jwhs6L9ShGCNaJKWha0Cjw9viWcz+d3mX7DXRYE2sQ3cSUyTn6GTR/s0SViaGP0Jk4UY2Ds3WciijTqD2I9N+v4eHdFK8IByjkm39mFBaRRDsVIe4czsocQCQftrzjAEw+tf2OpYslPIeZy0SrFlwo4vmYbAqCCPf2+pXWL8aQqY+gQR5vaN79uw4fKhmeEdTt/2XzkHagLBbS2xlo+HMtUNNj7tbqeu8nJXPD5/4ObKA3bsB+ShCGSDUprT1BJz7DHDktg3+YtJr8CNxqPktl0ZJRZ9InoM2DR+mKA0xSFjpsyaJpug25Az6M6JZlSuDXD8gvgDjGdq44KcSsnEzomla7kU08FXV3xX5wHUrPXgf4q6PxcJX2+cyBJy0v6L1xlxTCe134ONPZf/kFfGH4zwZjhKCrY4TGyrOC30p+9GUR64Er01zoSKID1kGvlAveivIE7DTmacxiLTvT1U8xwmhXZbpKfp4eDcVOM5HB7XL9aFoyav7rAEZOs17JXruR1XPXasY7eHVzJ2MV0e0zBleIakcZfxGNSagny4EG14DNmbm9ZtO589WOU6i2ncnNoAAAABfqp8Zc+TBBt1+/NyYeJ8WjS8NaS6cICOW6WYfAHSgG3jYg+r3Ye4BkN1RgsxKPtZrAlXV8rC/PB7vcshosP0Nll7mzDSciQgnfHeBnn/9bU1P/Y2EJSt8X6AFmQtpdYrlJxXAHXg8wf1lAxmXWUf7LTNOVxgqcs0F/ESM10Ze+zwPX6Fmb7tv01MgP63Go6UoyBg0wt8iHKH3O6lOHkoA4f5ud3MkFsZWZTYAaIcmZ0VuSaiY2/KpqmezYB8lYjM0oWouZv/o1uqGrOUQ9X7VAwTmGL/AzDkpscKyRDpg9+I5hsL1VDyJTLd3fUG6QP+hga3ye/jNYgld4jSf0P9p20c5R2YkIRaVoY3tl3ge898eGNePbT3KzBMxbKWqLWkC8Jc2dzWBEMbKnw+qTXcjBo1JCYHf+GSRDzzuOvcZRSwHLTB5mUdKfj4YvtsTpzMMJP62EboE4zylv6qP9SK5S02rrcnSok5ed8pcPNLMLC8qRVfOVRccjgDUQNwXJd38LEiD9WJ9PYM4t4jFSbw7rZKbOBDwiU/lDWjVwYxJAZXZQ6V4SC6D54HuANTjI+QWqPMhZkd1YVYto5r1yd2ie5kGX4vRMjIFf/95P1saAdEV+o9sqVO4fyrmcUUaWMI2iARCGgGa45FpPa56LaeOaLDIiY+E6liHm00mX37/wi2MZZ5V3VRImOrPhTDfs2px0ntAmNHjgqATaddh7rd2msfWWPxUaLa456hIzN3tS+6SSTJqmsMUVt29XkBJ0VZ9RtZdzFxin+gLEcrzqw5T0A5KDUNcxcoomKlrHnLycRcgnBFsX8jSKuc1Ebzh+KYV3uVBDzelaY4sQAAlCPMP0UtIurLPIMbk9xLSnJwRu8zTr4DVF1EnmGRpDXsZdTYpZ3s1hSEAM/AbRtvEyYKKf56xZBkfv26ZqMl3DPBWiKRpObZlV+cWxWxaRXWBwSPI76zJVFh+ElHjNcWCW0aH4DbVJ2YCeXRdeRCpdGxAr5jhrM6Esir9/7dEiQiiM5ua+rH4+eAKlwpZB+9HDflp5wgqxAmWQp9jtOF95zmObU5L3Amxky1AH1LdK4qKL2QKGxExemA7n9TYS3tC2vF+zv30N/DZeFUGk1VY5kR/Z1KjvsJq+gpxRP7Iv02vbOs/GVcfaAEpIB1Y3ZMzV9Wm7VIQSdhjRJwd8eIL91yqSIjgUVZZO2Ao53YLyI17uHGbCABEGMAe9/phspmWdAt0h/tSBneNbSgjCESzyTMn5EmzTD6PsN/zooOAUBbPSHFSOc9I/7sbDroarUtmTsbTUNRB8yJ0ZqgIlq92ew//bAFhKXkEY9CWjx5chX5oSzaI4SAnEtVaOMB3ubxsHtf+m7lDNIfzDfNwNPSXEk78xzYYxYropIGaC8ozNjy0Oyy0G2uAboSb2Vhg9IBxzTXRce7MdpvpuHxz8yUqYvpUeD9Vg8CUONCdHlauAEFRpQiveNfo5RqCqMv0B/p1nk1rIC8l1LrZWRu3FMSpulTTW4z0nu+ReJvlQ9qjmsJN4p8TdLYqu9wOPTagkEJea7TFVQDIpa4H5gyp8DNn0oNzVvl/XCeGxNyY5grbC84mE1PqVnTwIzj28tWrSlvQXhflwI7s/Q5ZsbD6dkWDVCoYjjtpeMlT6K+3/7N2XiVlOi1CXsNvdruyrqv4WJC0cMK+p+OWfblemiFWprlxXhNTlkICsrAAP9a7aCXlOcfcjwgwCQHM3Ymexon3y5UUxbvMjZ8oIWr562QdvsrebsocpqipDiis1tUs/glGPkL8500CyGRRjrZH5gdhxZSMJwtBhf2T20C14nXvBnaEJQlfGI+ThfZQ78Lj1nEtpVlh9HLcC0C91EBSO9bDZ3H2mE22MEj/ckgeMEh4J3xC49V39Ha6ytoxJAK+b7tHJVNlIe/DoH3lHmKTAGMRq78uXOMf6O09GajHcFvKEo3fgDMZ5Eqo4glSLjoU/7F9zEsUEEfvVaZRjtLsGkOLcAAQUGSA9lyWUXkc1vK2PsfLks+kvBnWT8pb5VcFauHnanXhtYYkTox9YA6RSDUdfAl+61JeZyxbFmANHO/oC56N5YUsrLyC0k2enqLXjP6G9whLL6SN42/0FP2L92SCLjI96D2y/BIg1h68wla8rYTAI1zhb9eei1eZ5uu/HUzUzUyNe5OAeG80tHlW35BLfkicdYPpHI7YxcYz8lsa4whuP87MVibxUNuCJBiJwO0we1mrkDDyLl0m1ros325re6N1iGsrkbF7UO20QSZbNmgdKDCeu9DuNXTKpK8mu3PX3hjY/0X7M9XTT4NNXSADCwKaDhv7ik+QtRPG84+gG0/xpjkea74p0sO8UbxY8TwUdk3VHBDOY33He/GY4CRYdNb9Y94tvmCPky/OkapckqjyJ7+szlggpzJhxvTejjAxlz/UXbw1oFFUURp12PDu0uKhhQyFIR9hVBB+WSTn6Sa5RSKqqNZnzAtBqq9rf/TNKebuolLsF/9LlMXFPNURQuOHyjZznuU8eCwej63W6ZVizAjysS8sZ0LXCTV2aE963LMPjjw71MrSU9B/cNYbcbxemsaBtixTXUXuwQS+iA5FCQGi9E1BHNZ1HCLVzE75bqdEavdpBCVmwzr7nepF0O6QF12JwySbwkBr1I3JVlMbTOAh41Pn9L3KFo43gNXoBIC8rW5Lv11HwOxm9oDqeHn1Nn5i7hqyTm2NimVBSFW69f8rjCndzdpjm7r4dFI2+p/fOM25LKLFD2aaTkpPtV4i1peKUx+hybMuAZVEhChLmpYBk0T+AP/t3CB8xXvgvunVqswcS461B4NnqBUfnyNnLKkM7Nd8uCMnc4TTrarIC5316N64rN1gJxI8OYaTR4lhrUiItGnWW+ir3Z4scbBwcY06OH+ioh6uJAoliWp8NqOvo97UEKk/Q7tFjQiV3zuq1dqjWxb17WKIw1Br6benVNHDZyOWFMYqxQCCANe+HHFPbQdZpgKm6oVZ7lXTEKABhrmRIWViCM1uwHOf8TfWB4HFijkupXHdZvoE1zccoPdIYmgyatjTrJ+tsoA5WQVP8QrMYq9lN0kJRuqe2MEEL23KvNhhHR2f9gDNwOwlibWtHYkwCwyRGml3zKsY3hpstLdkg6F4NFIW1WA4MnLXilUbB4986vKwZCZ+7X0vztes9JqFZKvDcle45vfyanzfC9IUoNHR/ROjllOSUAosFvto2isYNH9sZPU29/tzOqtuothtwvHOdSi/qpLIQltUF0EvKA43QAZw0+sCMEfSD6z8sLR0qkN+PVBnZxDm1NdUGBUqK9KFLS3k3yKPxjdgAn3FUC0A5K3IuX6p6xJjePTgkkjL47e+yLZwye6+uGEg0DxaoVqPZABJkGsd5H3kIOjyR90Dc5Aus6WtQexLnOjLkIhn8eDUDAwpCQGlXlPrbB34vB7eDhr9VZYczdtQkQCOLRrg5rnLk+WkrIv1/oEDxYiscsBVpFVoJ/99hU08eG2MXTgxiJdoUGkfR4YixyB0qUBeJtaqRpv9z63+B0rOOxJnbCiWzg1ZC1bAr8ALH5IgNQuHG1BN4tLybDu1txclhzBGIpL99eYqE9GikuimlUhv1Vwk9Bt56cEosaex0Bx8wPo+/yLIjQPhvfi+jUjaQZH7HAZ3qmT0BppHu21dxjxd/8F++bsVfjlkFk784K43s1hK8O35FWVEYwyLGcD042jHE82Y8sCSvHelrkxhI43UFyQBvnCAzqVpOqEWomCBm6HYaKvcqOZPL2Cg9ceIBpobEBWHK7IYVqIyLLOmptaQS1Lputsj88wcZeMsBFAVKY3Cnd78W3hOPqvWjs09ff2L970HRmg0p2ZEYGjXX3RACHaU1M8IJuG/1nTvt3akpcqhgt1MT4c04UqOn9/aQT6A+6MT8UXzwqCum0PsVdTrmvDVhOciiIZvLYk49a2945Et03NY3Wiumc+fF5d6xK/uVgXoAAJ0mlM5rPIbbvFbvl4lXv+AqO3crCePYfRn451qIoAjxl0IJcqtvGRB8COyzRl9gE2zRbUieVPOdGB12qP+wn9vqBbgXPc6IuN4oIIgedx1LoH+9v1HPdSSEtlq3j5xIAHprEkUF56ad8SMFwMU10npgVq0KIvEPkGSY/C1gACj72Sxk7jlPr4Fj127MJEhUW6gEHpwFfPyJYbWh1TVqxBdfQt6VkR6p7nQHl/igToA+H1P87/BBjrszjnhdaqf4ozgtVDQ3Jz1GnetEEqj5l93DivqxqZEnZxXxsGH0v4MtSl0DpktXAKJoZrSU3llVbC8lOggW9O++0fF4bw5k7Siv8WidOUCiC6HF7OXZwjY8+28aFek6RZ8x4l6ZQj+0U6utTfNsE1AGBTlXa+iWZn4NJkYwAk0ILc1HEc2NNST5vwXFrkEWIZlpAAE6oL0zAcui1K0qnghLWOIcGzDYIfSZCOyjyWbTK3ev21wNPQSZ+AowD4gXdZWYYKvE5jsBxoOgsikYRaccsErNaY7tcvcZmUaXfGfcqZ6AlbSvOdnYD5wAPRQCkb701cJ89Io+wPe8KdpCwyXPoOctJNUVZWPC/qgEJ/bIoFJzpG/tH0ZKrdIf0YJa+aT9UX3aLotIK37YUSG263Z3BvGIlPG2AJ6i2EqJMp554VU1h19X+cVtyNqrtyaPXkBSVc9jmhZrRc7Uht7eZ3lreqJn+D5ompgZsLYES+vWCtKK15YdqRwuuZxjhpvVexlAnvmdxzjY0r1pri8etU1knmRqzrl0l82hrrITwAAArlQ1r/tgeQO86cZvmmYovi49LBj43mCdFyiqwVH/C9p/09MlagvHGOZVV44dvpAW3860k9qA0khfJOK24wzIrKcCUdMa6NVnCrU9cMKwKtkJW3AMpcAOuNfRjkEhCjNHfPnTWH/Lcmaj1ePg5a4SwTKsN9M2gOyTSQSPy/M735Vld6HAMg3+omYrkW9yb0VEwg1cXeezxRd2efqfsfDGgL/+/e4TSHtUprGCcRGaGIShOqrLTnFXTzdODPoDz8urCBUjSGRerkfvKEBebyW7EoOpgpPEfBgXIUZTExp3Pwr6LLZcJ4UYYfzDoz46jW6bnKuv8C7pOLPXNUW6qyfM/4TcXypNhTIeTSJ5URAEH8yc8owQCCnvUPuMGJ/YW6haUW5InlAeTEGP0fwjkg0ALP6uHtAdm71kGM2Cy6zKUq3/rxV0o4ozYVIRRfDoMCVlnC59N1SmOFG0AZ+J/eTSy8cFfz+/D6dJg/UR8lPTw+ldpnZvvGqKrBzTe3ohm68+qRjTyMVrs/MBxBuUXoXr4U8q522srSLZcIxzzNVDjnAsyaFnjxoUJ2fUZy6mhaf9WmyLVk9wSos0uYijCaUNlXXX4O1UINyBFku94iA/4nJz8TvWdOCKiR2mRGtwk1OKI+XosHKpFY1H8OhrCTipXUIiPD5INMXDR6Cr5phBmSwY6VzIgu2tRjJzwDXJAvxRkaEF6yIF2T2jppGCnBwubd3d3sgjeLxf0QnHUw4PFQzmaH0bSp9VPNfK4KKykRxtdqSZYDjFZh0bWwIzgB/D2AZJFh1fQUG+hIbtndNr+7i5XlUKfsBAm8utsa3iHauefMlRQm09rKqw/cZJ1vXHZTZE5SOjk3+PqX8Q6qukAqyo+rkHcQZqp93c8pk/9V4uUPB2WBLTI85tQrVwIkaQ1I25sgGxEwDq4rzEM5Azi2MXpbVlLGsGavZj6zBgAAAAAAApS+eDveCFNNhnQEw9JIipFv1At+8UabCNA/4fHllzM0vglx70lGJwTmXWNh6XwQqwxrofHhd00lq0i8NT6sXoQah6XK4iuBEEb56flaarsoCekj7p/0X5b3xS5ymiqqyWtCmfInN2C7s9QyP9ZiBcBOCyooBSDKKDYjyplpA8LJTxXf9RnbNH6iY8N15OAGXQxhDrquBSMqHGcZmijx4s9+xtd1V+aSqJztvQ1OtH9xJJKHSAXXmHNViA3E7A5BryPu9NeiG+wf9EYJdn7Y2rzFr9w1GX9WiX4+EgqDjjTMxuyo6Bp9OknFTPv+Akl/Gp9duZn8HsIYLXKFcsWOJijmL4m/V28O99x1uVeo74YKKP4769RtQ38xej/bL/Ip4j5rlQ/W03SaBBWy14p5gNcz1xPmzIZ0f5FO/OJZzaLm+vVEPE0bQY8STLshRuE1cDVutuIcblKq+cnkDGWs8C+5gHCMaFpGY2uyM4fsZn886ar2ieYbtn9XvjIItaUABk1vydCcQv2nQ5ZOoUHVysltYdycUlb0JsUVCMa+6Go/MxcRx4vlbKzyj3QA4cUIuQgfRKB8M7vW2GCRNKSEkg1tdOKSlQxszs5poKvRYKG8YM8i1Y79jeuJ3uaivucqRWlyU/Ze0iqqF6+EEhMIA7LuH14FjhYNw/qx8EBttkaP5RDKWerUFyFc+RymKkfB2CLeEJLwAP8n5HAm1iOmbMR/AD3xog58tZRrLWzWriGxzkLSgqNAEwitwpcEubd7bAWLnY+4m9t+TFIkq3//r6GGpBmT/bAl71eQFHgfGibaD/JfvQWNITS7OPXKyMFpB9PEnUvMDfJUoudeRkmOsVZNAQBRxllNFTgb5KH86iX2h0daU/BP2TE426KvnNRFkctP//6+hhqQZd3oKRD7VNm2MxGSFZZVEa4khRSDI3f837yYhOplePO7dzMRe3Kgia9X+ND1bFmFthE14+glXwrSzN+dUDNoZn+mN/Oom9ZY/+1/P80tiTP7vckkZvSefBiuejUVaQlvri6Q0uClwbs2/Mi0blQ9DppRrx0X4EauX4ELMRLGDopeooTu6MmkjpUPQ6aUa8dF+BGrl+BAgNUB3nykk8ezFv/A/JTiMqBufp3gI1bcxROCF47JXUa5l0ovQzUiNiPiFENnKIoYpDcBQ7UrlDT5V+yDLPGgqfoo7hHeYPP6mzoaOlBt/EmJgCz9WhOBO6GYGgiKiQkLBFJ3dtyZO+qy0GRjrOme7HdWWXPAYcHRxUbzo/u7IMS069M2c7ucWwO5Abd63E/KyjuiVt0YV5nOlVzOjiHgQN3yQk1dBqs1n/McssjII333JBAQyIgoyfCKWmO2Se9P3o3rLN5uuXWxjc6iBi4ibniJX8EcBffg/xNUb939scEms6Nxhv8DbTSsv9ceR2lvkomMZ6A8wUfP1Z9wXBce1mnibjY8jakOWEDmqcgzQioCO4w8p93Mo0zbCekZ3QpoNqeIcyPopauAcf2yZbe8M5nrS4RRLuKfvaX957OzVkUTjAy3wwV1jrD0QBAsgNRLCXinVEa3iBAS2gehNFh8s/8KoSEHlmur44XPPMPGmdhdbuMRQccRynqDOFen1rY9BBpZUD/ym1/8687e64j1cqv4zZ/hVL9rLXKv1LCEmEWcW8kZcK6es+Y0+tuTv468UtFPhUG/NIhWPyRsbeZ3qscZs+m6L0WhFMI0tqsCZvK4z6MaOkit+ZDkkRl6TZiKhaYXAq8ZGESa+YbmfharcYyKA5Da0+EKzOM6moIcdfPr1ZTaPVFQkAg/9r8LBrKk98vtmmVaFSJvvKZFrusj4ITi7b1BIijKsr/UrxIUIkAc7q/CyO8/8moGNC3HfmDIfHfmRoZPa1ZPbRLsRsyGSOa1vFmwnAiqUYXwRAjA24y1okdviFzJtF1YGYobvs769MRpV7FQqLA8anTrfPSgikSzB7doh4LZteSyjG1RvBs79yRkkIfVRU3/+uq5efiIfCQNSjj9oFd+bJwhwJnZOiXbgi795rnJ6/FNORAKHwb79bwlIIc20CG3ACa70R7TEacrW7/eUjpUVavNxzhCWYxcV0MlosyrSMKmea0j9AStoQpFExq/9iIAsyZvLa/s9fVECTIryQIRCv+RVU/47mM5e2o/5NG5JRag7YcSQ+/h8tCjFisdtGpWkN/ht7tlZhDjH8XNLA9vhlP80UCembbai93GsluIgTzOyjQv8sZ4EGy5Xhb2NLvBbixhaRxrxGDNU4agF4qB6Ba2OG2Jiq1PKufrf9hlDWzNnotoDxQ35aZ+DXqkqTEvw28JHKq/txsRvXfVaFQzHtqyZzqFRDEoffdCSEGW+XpvGH/QUgeJo47Tgv53mk6KUW2fAwdJWPOG+gkrEo6liqBYw8qRn2ux/MNfr2vKF0cHPVyqRFvNl/BmrcmtAgfVNLZIg1RPMbmz2MS35pXD0fShvUa9sj8t1kFvafo7KUiOxfulMzYhqXLSp/DM+tW3dEo6FcPWuXFcH4TmYawpspd1/zhf1BwJ5VerLmAhhrRKRJYQtCxKss7Zfefj+nH5y31Gr1eiXii1PazmlA2f1UILzq3kG4IBB5r7VPUIauow0cBeLsR2OPvMKtqJPkl2VSdJ6yztYA0hX81gRhuDJJvUTzgJHx5sdvcajxJT6tOH9svn8LhaVxg8PvtkoUOO+vQCwQ0irbzX4Muu2bu2khMdFhG1VKv6QfR9734m8UqgLoZttTTp4sRtieFUY+aOuJbsAQAIOjTVeWMRDPrMOvm04ufETTdPTTJ2up7bYYqhGnL+3hF6n9WUpicXloDVn0212gf7FMf6KJ7DgfwLQ0ew/3NxuNaT12NfZBnc+zsP37ka3sePa+SAKV5wGe78Nh4uHcUnbWWH0ctwK60g6tRrVByNLecv3cnMIplM22bGjhgZTZQt1derA7N/vInL5D0NdoED6rmBbhp/YSIJBhJFZoafVHof+sogd8/N5hNhCFyQeMj2SgFh8kCX/mUmfeglDNCUd2RMNQGkpQ8KzyqUh98wxqOYrOIZywneN2ZWllqNWXcyfaP7X2KuptcNtbcSnzWyXpvWW/pYonz+IzEwRd+mk3HdbYqoNmziLK8rbFSmk6hWictPq0zaB73XEFB5xOzwj+Nl7R7U9lXednrBaU2EOJGStFLRTpCKEtzpeN0hIgmQ/CYv3I0j5ehk2ARWRYN9wgp7wQ6js3iEfi9Hknu/kvI0k8ujNfEnqrzgIdoggwxpVRlemYE9PvJo8RMqANhyDBt5DdS5yeTIyA+fypQyRQE4z6zF0/6I87eGpzOw4bC1687It8GhP2eGZBmqiUReYNAZNQzCbvvV54PlObQ45vCA0gRgCdp/sIme8tHeSXYMSvqyCu5QIX2vQyt2cqfIBIHs5m0qByZCb26Y9ZAXwuBRnwiZ8+EU65awM5Rpkvz1n9f0Nw9Ckz91dPlKe31V4cqMYZ/hKIKmrxpfsPpie65VfWyH9tDpeN3Swh45ZRHQT0winD0P0hQhFvK+B9vDXbrjxA2kEu7t+o7gwau/BWbubl/0yxyKSaUhRMb3/5TedQzuiO/XUqB356qG4hEdOO3OmAvdq+ItNXTSh6QWJtO6Ql/gvVwBSCAvPD2itE7q/4Um5XkjUVCyYzmV0WgFPv0nELwbSunj30ZADVZxuRetkDIOsbELMBXRkPTcCaLRU490UO56un1tOpPFZOQ9bEZadgd5/EdCf+wwOd1saY8qqgR10U9zMHDApohe9bFvigpsQJu4lWrQ8FO/81g2LA00bNAJ36Jm4LbHN15JmcW1EuIbV8VDCVWq/kj8L7KfYN0v773S7yDNS2ku4oeGE7S22lBo558haq5JfLg+ESWGk0WuFrCTChZfzOj66Z3NKB+r8tAcI4oVVFvZic8RytFN16o9XG1gN9EsLwqQEBrkoKRSt1BI5BR6yDMCAkZCIMtdnIIYWqqMmEILN7ncIAHiZ1NwLlMdh771Xna2kDwMunVczPCfcFXy6ZuZJe1u7r3+moIH/3AvxBJM3TaJurv+rooOBBdT4TA2AxaH/TDRRolXu4iTdUpnVGcbiuG1C0YtMQrJgsGnylN4rs3xOl8pQkYVob2+mQ6Po94dZyHFrjQqnU5lLXP/QHgVcHDBAIT8Ss25sKb6USqy2ERkDfcnGANnBoIH7iN8NK7rYOocaZ6hYcsNBfmT2MTvhWaEcJzkdNLkyvtY0LWELuDJKaFblq1bzwxTjjKWSVkHnKwG1RN3DymCKQrZSBwt0C2daXktSmW2KYvbmz2Xmfnl/DYXCurL3eAdwhZhsQgolkoiqmvwPUxfu/awlODvS+7SUPwxbX5ZixnsGjOvYTHbdpZbsiHdITv5uUKNpeF0V7sZE+lMz5CIvglTQRs5KrzdTAvL5cB31N3gfzHw5egfZpE+4+LzUs2zSAB6b0u1/zaNi4Hk28nx3I3sIjWp/IXU6hkTVDHEkHzfDg0jcKsXNI1ZiuDTpzxOcbzArVf2vkUgBoL+NAl40+9Dke9ZXUIssoGynalTmFTV0q+pq9Mc4fYunVHuU+ssgfo0/4CiKP6BsI45acbquKeqpuWdLdcL6vbBbuSztnO6cTICtzI0UPUS8b68vRkn4wpTnm2PncLGmIQC3cQz83YZXU6cSkQro0WKkJza0aax1HQHzTx1OqrldysL24nZtI0xehS9IX4ANIPc6HdGG5VKkaeL03p5o++x/JW6B4x9UWUt8YBD5S8UAUREgTxztPORjSFXFdBcNQupqTed/LfYnJquoz8DAW+07u/hvXE5m3m5+FYG43bPzW9r1CIUI/cTCEY1b+0Pfg+paxgG1/ZDlFc5SlTdzp4AKROFxJhRC9UPHFtBZbheGA7JYCDdqJzbCdIK0jqu5vlQuAil9cOBMDgO7A/6ikuQY1FyHxJzw9gpcwQU6PjxSjh0HYm5xRM0yyHlT2hT6dEZadUNGBb1fNSmrHJdpjAfh7J/X1cMxpPB4BUX5naw4rBum1AtpTGc0JwdFazMKyCi06FAIcjQr6rkwrxVBXWB/ob7McQeAuvM0alTjtRZxuGNwvbz3g2Tpk3Tp9uIfkQglRzKI/mDANzOAO1MSpEKJBDHpoLDDvTYCimMpKVhfOAGUyre8djQ9qTH2pYTdvnLOruA3RsAcMHEwG65o2jgHfd7+B0UTLDQ6TFAtibsKFyTl61rEycb1WWmsBnxutGS3aGYxI1VTb9ic2A/xI7aeuEo1uCD8MZ4szdM1f6RBor436YjAVijLlFjMudd2sy2ikCe4udAeuPV2eNHXMMc2ioWB+a/0lFiPq3TsIpBPAQJO/imD2iURHw7SUPn86YAqlo0NxLuT5PQN48/GTfVPFbjrSUIRdY0CFGmC9Qggkr4iXlZSGRZywO9O8bwi6PJBFkK73FObwx4XNlQbI/ygQRXg7vSg+ZFJXsBY8DsEpLpMqSAAaGhoN9mxFiTqag2HDUZGXmE5I7fTmfr7g/KEI0z2PqHDciy7l5PbG6ngiRWMCKzv5DWv+mJwa+V0510Eg38GVQbBqXmvswb2rfGuGBBq86AknwusAN0rvK6/avc89ZxG5cvJDL5yP38HDK8FTMRmhx3k4YADkeCTd0sD8hY6S+W+QW5nOTI9x2rdQUYwwW/b6yxAC3z1I9w8YNjThSOuya403xL0kFfw4HDiZu0OmlO3P0oP0rC2l9Gh8v5UEPltHtwXd5IDjUwOYSiX/4vcLeaCy0HnmDrdgizkKL0Jh9yCjc7kc55NlL03BszMikqCJQNqe0js5kocCOPAJG0C3Y8ksEa+17JKWp2f4gTjOljabkHrkTQHEMnFlw6CT2xkU0yjVzgYs28x1ETgzpkbv6KS7whE+Bs3KdPgZIpiNemcu9JkciE5VgdbfiK1/tYC8Rx8HGOhLlUM8gKIqr94/1R1ET57MLpF8i7OBozdTYbO3rJvSJZWxTEwzeNqGiPZz3D9KnyQSt410JIO6qo81wE5JaUD+lC4uzCqMeZjZHZzVucd4yDBSr/IL3/1GLnh7apyE9Vrj76UmAeMAykgBK9/mbbGP/B7IDL0NEZpvyCS4dsYc7YZ/1TpmJRefUeVR05YLZGivugdWC/AJls6hP7XUW7QUoSr7oq4Goe4Ef7WJjFu2+9borE6TN39hIWwueSM2MliHcRO2UY2S/ar//Ev7DzvoC68D+Ssll43eGMZLlDGubGPJOwWAY/hXr2TXq2Yv3g88d7M3tArW623ZqSR/Hw1R99EYvvzFfYw9QwFtnV3uff8h5pWNjwxvsEBnQWU+MUY2lHtWssWf4iGY73fWUcU0WZKiER+y7ykx7uOe9kgCd0akq8WLU4u4e4yzOvqwMV8XDmXvUIQQOR5/oXfHIGocQOoQEEo/vZ+uZi/yMnL8JQGE79IA3zmKFhueq2aEjHl3oSYgQKGxasnvEy1T6J+FokaRqHky+4C+fWWzGvOVyAdN/WcjsUcAohPB4/TgzBhJ/A3IcEUHgGpX8Ev1usmEF2HbH6yjl7ylA+lbQOQxUzzrVvOWZQdVJXcu/2cnWhEUrZ8v7lH1eZ59uNTzJsg1gs0nAFToHBDhfSxRw8EVEpqcga48aO1DDuldkPyb0dw4cgxvP62hFhh1CXSkorl7gnJ5Ag8wlCYdPhoYNdRbB5uiEHDggvtf8Xm9HrfAMIF1uFXUIqwb6eUE5Z+AMbPIZ53qbQNiS/Dvb9niu8ClpwfkSZZApUtU+GhmL/2Z2yu+t/FaPvGFds28bRiPlTNzJWvzI1iXA0gKZq/ovnt9Q48RE6t9tDlU1u8VMTVqwLrrltKMMjwm6nENf+v/vuncT43Ec91kduOX4AVaRDZrPz4xGSQeoIvbZDvtPNhDK1VqCVxsyWzFfZhP8Z7175fhMaIs3VWlo3C5BS08HDLF+7lI7SktenojuZ8vH/xSfgRHlv3YpY3enFU31mnfgD0m5Dn0evTF/iI4/DfMe/bXw4Yh0zp+FxRccLI+c85Xnb9T6qOqZdhmzzQzSay1rcJFbVuRNK5vICl5N1/bBaQTtXhfFhTKYevFRhf86kcJLE+CANSVKSaqgicUk/xriPGOGExiVUbrJ+pRLF4/NwSmDyjOjsCyDm3G99RKhJWReuA4LunL9ESjQYxX4yfxt6KvGG3h4KIwHw8UJayO7kaUlnsB6owzsYqFx9gfdSgFqYAlke5gfmha46EP5EsjjMrChOm9KnKtWp0nT78Tlfpd2W4vr0YvxhbDBIjfRl42oPOpVWvZhs7OfxJnf8n2k5pvUTHWwokNuTVTKPQ8+yGKVcKPid18nV37YW5rWoOcZjwpxlXHwjh5fOy6CurcPnnAnKslT4l1UwKc/c3r3Vh+GJ70BkIxJBydHLKXIK7aSKWf00FyItCcl4QXXFvPL9bly8oFjESsGq1wBvjyMKyng8RaRwFeO17/weAM/ZWXvKfFAgrRAxwxby6WLPTpYxlLjBLcei0CwKTq+k0glVuTiGd6UQIpSv0oBg98WytZdvXv/yokp1qRQunM0UzgNOhW3r0EKJ1mWWZmRk9QVSAu7rDOCSZF5iDEJxyyJQeHTI8Jry/f+kKGSPrFjRGDTfET410chdy5QPoymsRglGRflHZgyri7QrqZJoA2zSDIHhiiHd9XoZb5hMMZ6SsY97+V/syCpsyTnIrhqI81GMdOaFiOJs2nnnUyvSGFpi7y8u+yu1dTQE/oiQf5m6c3j7I/VtcONOb02HAGPzDpNFSdXzCqOh0zb5id7v2+MAx38/RBvs0Qm19WnLcz6P2NajNPhZ3Kx+qZMN+YV3pY72uT3HLFsnmizqKti+GBX0iXDy6s+z2hGe5M5uEKWE4IHlB3oKZIgAjoKZO2H/5U9FjShaqwjn2jMArumAhlh6XSC39n7hUnKKm/yDQcRdUCeEb8jWaIG9pEtqz1w1S9HdiQVQ3rxU7MqMAkUURUXBGdWrc6sjKOqeyfdnLwmz5qHsFQVG+YiVPYFH/JGirw7AfZFx4VANFPqo22iAaqxFvwfxtWwozNu5R7/+DoOK08WBvCfAT3ej6cb4XbM48gSpaRZN7tCp4gRUEEwiU+QXZQUF2t6dv4dEe0G+3peJDsRyNbNslPOVziKjy6p24KEncW2ChJR0tEzxsRv60e89OvFs2bt1QRNE99jNHXys7KHfYwc53sb2ykJeSpNhNZMwFjdF20WW8HZbtIIIN9uz1Sd+A6DGIUIKeXMUWCOmC1KBBbMI2ZMWHNh7opdsK6F3XwKG0XGmqCT9RCOMU2/0K2pHrSTIZAVM5qmoZPoF13CCnTJZe6fuB7a4UeypyiDU4w+gVe/7LvW1tvsI6lmnUy8bVvQoxIYGg1qV4yEzxNJqFrreegbup1WHbDi3iSyDtJWx111hLZA1iPqVJTlVxP7wSlmMZZAUny7X60yJgZMvAsg6lZH7/OxR20dIFcId/cCuF8/KJMrGJL5c8m1MZhbz27A1m8kPSqP/Epc/EwU8GW5SBlSoHYoEpzsJNm3LxkGBnGfRpfABg9LBppdkt93LyW/YRCL9bqJfwPRSSN2Sf75JREEVc9i76E8qWpurkBmXe0+AM7ykylG/gHt0obG0KwhOThZGJyM+rYnD1x48mukrr0o6JL7cM4bQusm+58TWWeDYAmmTqg0ePO5UGYao4h5/Je+yTFRf592xpOP4NK21tDqgdjmWlVCOJFTwR23pyoT/y+9yPvc0fxlmHDlGG43QNCx9s1ZkwMm/PmuB2IX7mhuWoV1ByKeYl/8glH/IN7VCytPS3bThth3Goe9nKDpgGceeuSzO1HN4M6b95/7rbP+3r041PaaI8dykxOeSUYPFPznd3u4Gji85cyZCDkHogAIZSnnjDxmy+8eYgIaliGZAAAAAAAAAAAAAAAAAAPNRx4fyaqn9Bq3E+6v27YYYqvXAkIGmmbReXRYL5WvYwX5q6wR0aqP5EiwAk2Um7/ErVkGdJCcWV0ZdJSKGHih2P6s8IosPEkyIMaGoT0VR1JL/91r7ig+hNo90AexfL4ZhviLkCQ6clH9Hz4quecRTHuCFYbAgefY+mFl/eLS1wzgsCqiLhrJzZHS51Itia234nLqurtm6+1+H1d1GFQih9Jyc4pfvSSSz1WJDx6GyTpS0hLYBABY1pxcj5kD7gkYcMySNaTn37B5s6P0J9VaTCg7fEG4P7ObWLPb0DhNvNy/Gg6MkcyRbcD9d46jg8Lv0uKOqgfoNg9BMapxgPqZ2t2350bgb4daaO7WCRYWZXj7Ngq5atFa4e/7Hr0KH/o0xFkuAG7fXOkG8Exmcy2ZiwQyPtGeJZZFL18S5Nk2Oo3BBe6o6V7kRDvY3tEWQSiUhEOhfyipz1vtrv2EZIJDcoPTAYFH1Q2CBZeBMaXl+HHcCRFexj+nnkimiSdebOczg6l2xb0dClvlvxJXJz2PtAOtXiEP5g0iyETPJHSaJqXlxqAVcETWIsUp8pOqeKnYFn84hoWrKAoFbtsQ1OaRhdqVrXRRpuWt2v3Hif+tJRpONPiozP9ncjmNBAf+Dugk5Uw5b2iyK8xk9KFRZTEha0Mu9mpHPzxkg+3tll5vBBtSvELy39lquB73rkW+l/Of8Rgz7Cix1iJZ9iMZobpEGh4ZlsRRqlwhE0m1yoiT8cDu0qp7ocdI1yH2DKbFSP4NaYHiPbTl6de0B2YyN+07ybtvZOdL/FfXRvZN8hXETC9Qky0/QvYkMcxxmNB39Z/B+/3dBMAMTWHAQpkMldh7vpC52PuC6J+yYnG3RV85qIkw9Uw7D11Ehc7H3BdE/ZGR5NhOS/Dr6iCF7XIZrxu/vgimvvO75Jw/sIsUkVji+Og77avXzfNR/E6+cCffbOo5lf8u/zqgZtDPt+0qLnXjHxpqE6THWKsrQQuZOMPD1l5UPQChfNK8rHHd5+9yDsAASo7MvdesjuQhwjgPapHROtz6olFPE+NAPfzPBPv00lWpAltiAmnnRhU8LbzO16ZvVl745HmLg1YnfRKMZ3UTUwufCTcGGK9dhD7CCRW33sr4avm8guFoNv5icy/4gd0ghXGCi50IF5v2TJS8Co6AbO+whRA5pJPeMezyaV60fYUOTVr1Of9wyD/9EAxNkyP8zvkEBnkNhIrUbfBddw1ClRyVnZ/EpANX71KTyvY+mm6Lwr9187/mNsad3ukwVaAbbGQ22mkg166Iesj4Sy2IVdjKdLZ3W0+BwpSoFVGGvaanCX9l95ZFzFaz/DkpQGcqhNf+ZQfEy2xAj5o2BFOSll4L3YmoS5cy7ej1ELji886bd1TN2voFWgxDRu7qIFwSVJzS46FtY1uEpIuesnE8dXMHalvTQYLm6nMynmi26eAhJ0dVB9FMyd0lY83+d8G8vYCskG4C+Nu+Cw/Bpokeht4mu1YNBreMDTCoRYOIeq2LQ/ygBwRZcNRBttD4LhxnP6yan0DTiE8dLL0bdm7F2I1m519ZnZCAXWViUWPg8M1PbbRbUz7p7jDon6CpUYrzZi5tG0v1LpDyUBAoppBEgb3h+CijGFnRa+GhZnolPS2yfZyMLH8U4tX+kgdnhngmP39J1a+fsIsMDfE7bxmFspVHxCGy8eGiG1SNdIRq1BjVo1kCK6xDYmc535BCTZ5kc4OgAn4JGeSZ5X7UtNliYjZuUZsUg+zkxEdGXFeNfhV5RK+XZxiP+ahNcSXeVsiUACS7Q0pqQ23Z3fleafzU57WQDzXHBVyOpN5B+EAjQBTOMOIuwtSkbd6p9f7aRH3VA/W4AIml22reXLqFwVgkvZkRZ7T5Mz+gqavl123NG4GX4T1Fs5eQ7Xpdl+mh+6BXjs6s7QUG3vFkaIYE8FikEj18sbyDTN8DlZPFWKD1UZAzrnTicr+DQEaZCT+qnuV7xbpUAWbLg2/K1K1NxJnn0wnlXW2KId8wwitWtwZalOn5ITaHHYWvVxmLKhxPQd4y1uP9IivaucjZSdSd9Vt0FWrQxWiGuasJAPqaysjTO5EexX3IsXyqZkYoD9vI8o2saaqbkROM5IKuoJ9HmYwY/ySK12haL//FPwpIBoM9jUj3CEnHOVYyoLu1/cCCQrUa1KGhE477Xas1xOFP/eh0RuV2cYl3s9tufFPx7ScAUM+Om88XLUmceSqB0SEV658f6O09G+t2aizry3Zxgs4/atElNZzZbFhZel9HHsoNg9NRVS84DO+Vt1TQZiDqLYKiXcPYBYszazMEDG377WviFa1of4vF7S4OypQsmIuelUj0k/jG297bxM0izgXdwdI7GDwdUQkv8E5UtnnFKdsHv1biK81Jdj3868jio0G8UAwsICh+22THNVQhNWBlR8RXhk9tp1uoZ6dLqCw4p79O0+v1gc58JRI9nm+K+kD15Yswk81IHcTIp3sSm+0sgq/5qINN6l9oW0JgNskUP/zBZObBFuw2PqaTLzfw9j642fAjPZijpqgIVti6NTurdMThUmo2SgG6zxVkbuu9C0xFgY80xV4nR40aZ8JSuHnAx8DQxcDcUPK99734YDy2qm/kKpAWMxUQP9arceBg5IHGm4WqWDZFLNYminaYQxkvcb9mPlqhNsvQaU6oZamykdmxlu688A/QztmCPYNehgMctCqB5yG/FDzFJUcso5oHzcxU0jCTkSZiqDDQ4Kanxsd2g51RERLXZmCiMqRYqOPh3dJRkngXHs8tb+qDSsQfdvAob8KFOofoS6HuOQgortH9YZSXbrAo2oqVHyZpfkuJywZNOGSSyTjXbmDqHbOaOE6Okfb/OS0qCUOp3zDf8cCeAzw/03S05tcuKkMt0GcZgNK2JETfe+xRxspPjMJh9hZdCfENHtqx9h0dX+mCu1tKhti12lZTz1tS5tBgF1TCTzaILiEnMaoGoM/8zfIxD0e72XVi+lOEhu0YXoa0kdTstvrUhZyCRyX4AnB/hQJbw5ayPVh/hWAR9jW4996wY3VHU+G/jx41hbnFYZ26prd2/Lw8yTzlLUhsz0iIIFqC5w8mEKGG0NcYuzNI5k1qhLCGLHg9zibHwJUzBr/8/Xh4E747vcJvX5YXWKWO/nM04luW8sbtQr/w6lqhnwwSS16Ko8ZR66JAJ0vjRVXAE/pKYbyHK2Xm1oZ1BLB34HNTD3ViI+DDMU1tqbREgm7WzQ2W6rpjxEv6MpAAChizDJwwFC4HyFiA2/qwdFtTpECvaWUFVeoNyBQ0SqnCcCwtQ9jgjg1647oSR69wbYxiW7ypT1T1YE5beEidYrMSOfDhduoiujwr5BClRkJbSD4usiwQXh9D/4EbkJZC1YBRY1+uxuT25lD+AkvErO9quYBwepCDzvsz2FOhjgCz9kQ5iQb5srHirnyZuuiGNrpDLvkBNCXLem9U5HHeKHaW/anEYvu0q6jsjGS0o8m+FGdfUwV/bQ7ZJkUn4FtTmzBrv+Uis4yk496SVuHSw5Rzr9TpVjh3jmwEeO1dYy8+FEKcnoYnnWLODAm3RRs1bDsSwEvVZpNVaYnU+4MKqsyPDG3PhgUWnin9cSW1GO0tOJhBW7pvP6ydRh0MAK50B1PTwv7W6QiKm+0JK3xCrcuaBO0edQ5+hIclLGK+Dl0LCzI/xSOZlyhZSYr6H5NC1YouDytfqnQXYbWng9KaJgjtmnGHwL7hq/i2pNdKhiogR2f2dutlAspREPAsPRWRN8LhCTeuc779wrA6Hs3C/1BB3yhJ7mhxIF1Go9Go+mnnz6pgRo0Ee5W+tL3dgpYSBesMYtzDccNnj0dzVPeTCarZsUeonepM292463571xlcNC/NofwGGqocyfG1cfDQMJvm4pzR9Ttur+hCyKk21GVMpNs9YM5NTbsiVOMf8CxatRF8UxntopEh+Apo49FFVBY6BEqtLi86t9/4eFmPh4wcJx/Nnd7wlQB4ZT/5MevTL0OObkPGHQ+XFKZQR4CTgb0hHH0A0iljk0sVKVFrm5CTtp01d+6nQX5iV0E/YSIWFCQ6BlPB4i0kWKhoaPEigFEAk6Vcici+t2yTfKtlJUUsbDYEas2PXxpJ7ZincOBLXRHiydc1eqdzEsSCy4NADahiqzrOLle7HStGegui0g10hzfR9hROZP4UKIOWWqrkiYK3dozPwBb+bkE8ItrR46CRIJPi76SMzxznKl1B+7ANG/4peZTG2QMyQwOPdR67X+j4JaQUir9XKyr8AwCXtGWpkvsH4lXR2fZYEJ6GEbrnWZq24X5+W1VWsE8YMeaTiFNAwG2wUvJBQtD0CPAgxCA3MKjCVq794XFQM7ExfS5ISJ8QTJcC91nCFtruN4b4V1wgbs9VsT4dIDUG8/yd0kbAECxwPzTcnMYlG4//AQbrK2hMEfh3rd1WU/6offyPewONOLKAWhT7/g4E2/NGBPCf8pQR0+/WxFCB4UAG4Sns3nsqCP+hBQTHbXZ+GxW/2D5FfvVHvrg6XKX7gRCEWaainrkhxAsMSixyG5+nUyuAYRkVT09rbbDfPH568PjzlUj+A+/AOARbnPpJ3Wbi+nTu6qtpoX9tT1qx30lA2QhVcrtLAClYArOE3heTr42EdPtWH906oO47Q8Ps1H1N7x/rInUffUdQX5KLUJgegWnVwjO3Me6h2Xf3CYFTImDChXk8GXp9PhIUISXr+msccZO2SqtoNHzhi9+qpQlp+d1p/rVSTbsxMhYBBrOOzmjSw/bEqLbsvVR6XuyFDW/qKd+juAJc4C8y4FsXz8UBwrJhM/8ge3SRruCjZFAMk3i3gvr2hOhblp8FAlkTjma8n5MiPkpYSPZGXJQyL/gMIPUz0i87Zjfxv7TIahpU7boy8UBe4Ty+j26A/byPAjN24TK0nc/SAFQ8oZDRE4uyGSabJc1f6VKh+J2/fmZkQrnfhAR4s/8Y+7geVVPAIaV1xjWOnHUUSEFs69JQAbl+WajL7IQLUNaxP6V48I++saxinNVS+q+dYzGyjk2C1wX3Fu68BgjToSg577SZF1fSEsBoOJKjKg0Fo1at+PChPhUYPfUs5KfotZ8i/xoi6Vrt/J9BeKuu9nnNtJrZSB9apbgOsK7PoaSag4IEZSs9XH5YSWizPaHGA+aKehTnZ5ypKeSQMbint6hVgOZ9YJ0C0+FdAIa3rVo+MWSSPANs0gyCARNkxvG4TyT8EtJpLDZ57Skd5OBI05JAIo+ad1I6GADfpcUTWyhYurxq4d04S+shFZVMGKwpWxTe0w61sPsMlqG7JNRVoLLD3GVRiLDWSVWypdC8Sv+r6wL7wi1zj4q9q/UmkNQO2evFiKIaU/Ih/XPtcOUlNjiWOxbNfBd4N0TtoP3WtwX9T+UUAxzEz2AkAAKHOO4/3ItSuSp2J8HE5H1+kfQJkH9E1WZNS2NwvHWIQV4DM+xAr6IlaZlB1ktpSo9Eus8Zt/P65HtC6o3dmAwrQg6Xi+cQpkRZ47qa8DQTElhrssMrZBG5J/57VGdxB9Ca8iEgruyMm5e4rl7hg1sZytMijMAAoNYnrIJCSIfvnbrAEkyaeGUh70MuJKI+tz2MsNAFWpUxtRkVKP60Y+b0A0tWXeBXQ2GfIODSEnFmiCpI+sih8Ply714NO9UWfMyuhHxT4m3jFfmqtYAwoyOrIxxh5E5iBk73U0709ho45caSNuiv/KwuAMCAKlBNgpgUcofU97dOi9U1nS8y3suwsiQ+cYJ9n2R/4QUR07FWMR9j8iVwGwIn4WY0ypmDilqY5ETQopJ97y5/5yxjWGEThf5kBp05UyK/tHnoNo8t9XHh9YN+mVSsCSfpDppeGnHYl9HgeKnLF2Kk4FsIZ+UpO58mz+GvZlGiIqNhRL1lqRDXBuIaX+VllUqram7FqAsf9cmlJF5RdEvpx2nDKECh4zx5RaTGijkiMraImBlfKJVEB2jw0WSbIbbknT4hQUmbFVnPlWVCSzwoT4ba/VjFxCcC9fh1YLWkzdZVl6LBP/ey7Cl3qVFN/V23DXpdzPQx0iK+Vh7+yp2qDF7oNuG4ez1opsfjpmafUMybwG2u1YMEk1HwY/B87EGhH/NEgl34Qwh341DGw8oujETx6psx8Nl1TjUytRSDDnvJb+XKdD+BTm6zlG2D+gUjFqCqMW1v922P4O9Hsmv35zNPCmL5i4jzYe54wJu0AxcbhUBv34rADQzictKkyMusIP+2wJjG1z/2vLnkfd3YZ/g1a4/wpmEAsWdURsZXaG1qiQenkT5Hed3CA0ORb7cJi61+EuvuemdXuPfN7oVbFmP0ccaIDcA5knztgxVKGuxQqcQEFE6iH0BxWJ98xslHHjeLUX0fgIK8WYF4utVODRf/nH44SigAAABkCyFBOvsWNNUHJIz4AAAAAAAADBihtBOOo8ZNn4530876vfTj1uirH4LgSUoVtmy3WqAGcMIG4jgemI7zsYUta40gsBCURiTY86/AEbJ7UPjYam71L4NfLORob/3XvjKZW1sqebNY3156LCTplKqAZYYXNMfD8VigJYb/jAwR6ms445cI7Re7KugJMmoUNd/IrIhiEoPLKFL1Ogu605eiqnHFspbA/OjuczNHVXj+7TTRh0My0a6u2nDpW5hb/GK5eOTJPx+2Bz1SJ2PX+CmS49C4nQ4SwiFOwPalKp1Q+S1NOxmFfY/S8J002LgvZbluSvlDM2jgIQ1+Gz5zkYYknQWqOdI7trIAdUmRKyuiCLhZ2bPn56ciBTuSNXuXdcb1O6H53S9OlOvP0OhdgDxynFPd0YzQ1anTqu2xhEulNtJgO/Hs2zMwj8/q86ELJ2qw7LGWt8APH6uk/kfvrGv6je6S+Fhcw1aHXa9+rGqfU4+6JiqFP0wbHHy+752jAIasW1WJ9iVpBbakowqdRjmfXQIfdpgt4xafjlCLqvICodBb9zkNjBhdjmibPb7VxX8bj5sOp0IPIIIpsjtOrKRc0C9qksopkvRHIVxDKDngVwfA1T9wxJ3sQk7pBD++u0qIkNhnwIyjwptYM0Tfe2hiMFWrn+3OAr4u5jVGgMXagvTm4rdikDhQo4xqI/dJdWRIftZPJNi5bMG5hoDfb9qN9Z9k3yApTRgkHYZwEXsLdX5shDQFqovThvCmjsMwM8PgW81hXC6iWIehVT6vcO3wc5aV4bha5PPPXGXf0JW8FBaw+1ICHNfsdDl33u/aa1H771H1j9n4ydCNZ+Dr/CM814swN2RQ4ByJDQfOgd0LkrJD5L/+azNwFP3SsEgAAAAATWKxdhehmoJRDoZuYb+WzltrPR+geykjn+Jt2ra4u5ASPYLwX3A3Pe2WG/ZqD/93M0FaaFLIluMtE/Sz6LmGSeov4EmoGMfZK5s/izBgQvzvhIOJVAdvD0QOG1Dl8EM3zl5vSyvkbozXMhCrbdaSgG3Mr/uKZeEybbDr+9YMU+27A2b5gZvF5WRXaL734FwMLOCvnClWyRZ2E3u1yF6YgICNmx3pwpu6cWqNX239UoKRxNpFRDEYSveCkr/MJBIbpXXxZLJ1JoKCHA9S/nceez6V/rYrxavPaEalQT2bWNPSbjlkYEioinyUtucQZXrztpiDgBg8zH1JUKIhLTbTXkEqNYuQDEcxLNsgoW84BOj7LS1+gwWHvlYnwtvW2iTB1owhEvH844GJKItPKITiFLpwL86QyyJphhZEvd8FLmRMPG+iXGK/Kc0LkZWjkSr2Qmm3uHnRlM/xo1S5gjdMGRb9XJ92q36pOW5ghtC2l3cTlONEPhJVW1fm/Xi3lE0g1ZTnUGSXkjDGxLLGCf5DrJiAC59nWSh1ozMN+bSOh/n21bZuaIjt7ifbfCOchuItBUwHzeztaAnVmOWYHiD0N2Uqps7ms5jMYaRRn5G58TcNuZo+pmyVskHBLIiEUn2rzWdYWLePjlF00L4JtgB45GSGZwRQqbR+dUSzqCO9UvZ4QugQOqbunkzWoNU6xJbHVwzdmKAFFPjXo3mi3vcuxnNkxdQVHr1B06sTko4fsCn/+FaldrzV0yWYs6VBFRljBH0ZT8yMcCoV+efMyZjhZomtxlk9VGPAeht9/z+nvY430lij/+BYH4oT139lxN+rlZeC0OPXtIAAAAAARszJZd+ARL15upGVU39zbx3mTAk1jeH5P3g2U4m/pFCRZduu0KxCTmuAbEXfoeJXmIubmpp4bCBvSKkRb3iKD75iaAVhC9DG7ewJYu5Wqm+VkUzNCaWOE7NZw5o7qEurPnU+OiFrNTqVUCgDNyGWuWA6DJ9rkuun3QId7kxpcI0v7BEyjYJ5CM9W2dDyZlyxd2vbkNw+z/8QhD9lqlYxosXEVeoCotMKDZPMI6pBINtZYb64YLPC5HESH2/rSfYCvIkSkv03Wn+8Kk7PZ6/vFOralNvlZCy0Ye6zLVK25xBdkFdNBEO4FYkBWB/A6wK9mQy8R8ETVGwvARqe2XFCLitgzGuQHLyrNPbXUm+0NjHT/a7Ucr1JVXUX4LxCQKvP1ak1kvgOxLsBJIq1I3YLRYPb5MWwsXZpjFBUBRiCej42t7n5vbJltiRh/XDYXEUmJfzYVS612KuTojgcEtYMNju/PD5+zZ5FUf5WQbxFHo21iPJozaymueXdkPGY1sJkiCi7dG62N/2iCu9MbeWxuJxljAjaYfUDxHz2nEWGgy8uVXu3pN+qaLtGfre+7ldbFsD0Iuec40fRxUSrd+YF4aQjE2HZ9I/dPVOhq1Uf56YughypKazwAAAAAAW0SFDY+yEdk1bD+KW6iDKsKYijwj4qaOANqT2jGm9GRRcRYvGGaQVH1JRWXzI487n40szPSngT9iTz8/z2hFiOQ6znB/HQAss81pPh4axwx0tj3Dk2xXRMpa/wcvIFNlRTcsyCUOvGSPeo9R01J2dHiK82kipoRDB+4onKLNXSx1Iot8Bts7rv+M+VLukoHWNxNnWPtU9fSt4wgvDxuxE49a/UZPoiRo0e5Usa/iA9Ap9T1WePhCOw4sWQ3W9EEvsvSs7bMsCMJakVLSaWK4cZq+RpSJ9Uamp8okUzdZse/vZcfxIUFLtYU8seAL0D/uWhym0fTThcfikQJAM7YE2Me7QZh7k11hbT9LgoYzw+viNP4Uxak7uNIrqU77Ztzy2zHbfYjVYZZIbBwk+/4pwym7jpn9mL2vlNke8/rCwtqVEoZzQPmpqiutYGFQuAWeRDrVHdRhr/FAv70Qdd6uSl1qyr1QhXvMs8SkvY8/XHrZFz2vFV3GIlUixdWRI6Q/Fj4FNpC6QOMysXxwJhsnY9YYyrZ2XoWZKuCyoGiMaSApMlyei9rbv4OyRn+7psJqs7Ds8XHzR/tRFiGiJEFIs9uvxTOOjCaa36ua7ifnFy4KktnB/9BvKmtCHxn1QtoKKfy8KjNZIEtPcvoxjiBPoAAAAAAAAqMP8GXt7NseF7VzN+GwIKk3ilY+j5kXl9eUVNAeCguys2u3/Eq9j07OvD3jTRwN5MO3mAywCZ+ycJZod3agw+OcqVLTfj8yu/vX3B56IAdTcWgrceE3xwPsia0vKdfDn0ff3dNRe4USf/QIwCIOwz7RlJxIY5TXo9ikBGEMO/euAUPwAAAAAAAAAAA",
+    "titleData": [
+      {
+        "data": [],
+        "title": " Deep Knowledge Group Analytics Platform   –   DeepTech, Longevity, Philanthropy",
+        "id": "caebfea0-a18e-4eab-a2a3-1f8fdc9d0748"
+      }
+    ]
+  },
+  "configs": {},
+  "type": "adminPanelsConstructorBlack"
+}

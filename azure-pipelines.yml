@@ -1,0 +1,47 @@
+# Node.js with React
+# Build a Node.js project that uses React.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- dev
+
+pool:
+  vmImage: ubuntu-latest
+
+jobs:
+- job: BuildReact
+  steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '18.x'
+    displayName: 'Install Node.js'
+
+  - script: |
+      npm i --force
+    displayName: 'Install dependencies'
+
+  - task: Bash@3
+    displayName: 'Build the project'
+    inputs:
+      targetType: inline
+      script: |
+        npm run build
+    env:
+      REACT_APP_PATH_TO_BACK_END: https://tools.dkv.global/
+      REACT_APP_BUSINESS_SALES_DOMAIN: business-sales.dkv.global
+      VITE_PATH_TO_BACK_END: https://tools.dkv.global/
+      VITE_BUSINESS_SALES_DOMAIN: business-sales.dkv.global
+
+  - task: CopyFiles@2
+    inputs:
+      SourceFolder: '$(System.DefaultWorkingDirectory)/build'
+      Contents: '**'
+      TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+      ArtifactName: 'dropWidget'
+      publishLocation: 'Container'
+

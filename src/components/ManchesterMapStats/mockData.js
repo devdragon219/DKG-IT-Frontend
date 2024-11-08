@@ -1,0 +1,31 @@
+export const mockData = {
+  originalData: {
+    title: "OAE Map",
+    backgroundColor: "none",
+    fontColor: "black",
+    hoverColor: "#3b729f",
+    markers: [
+      {
+        markerOffset: 10,
+        name: "Manchester",
+        coordinates: [-2.244644, 53.483959],
+        radius: "2",
+        fontColor: "black",
+        tooltip: "Manchester: 18",
+        fontSize: "5px",
+      },
+    ],
+    colors: {
+      Trafford: "#398bbc",
+      Manchester: "#569cc6",
+      Wigan: "#98c3de",
+      Oldham: "#398bbc",
+      Bolton: "#569cc6",
+      Rochdale: "#abcfe4",
+      Salford: "#abcfe4",
+      Bury: "#398bbc",
+      Stockport: "#98c3de",
+      Tameside: "#569cc6",
+    },
+  },
+};

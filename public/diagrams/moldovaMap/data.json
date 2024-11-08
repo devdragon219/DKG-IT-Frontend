@@ -1,0 +1,52 @@
+{
+  "originalData": {
+    "name": "moldovaMap",
+    "data": {
+      "headerText": "Digital Map of Moldova",
+      "headerFontColor": "#000000",
+      "mapBackgroundColor": "#ffffff",
+      "mapData": {
+        "briceni": "Briceni",
+        "ocnita": "Ocnita",
+        "edinet": "Edinet",
+        "donduseni": "Donduseni",
+        "riscani": "Riscani",
+        "drochia": "Drochia",
+        "soroca": "Soroca",
+        "glodeni": "Glodeni",
+        "balti": "Balti",
+        "falesti": "Falesti",
+        "singerei": "Singerei",
+        "floresti": "Floresti",
+        "camenca": "Camenca",
+        "ungheni": "Ungheni",
+        "telenesti": "Telenesti",
+        "rezina": "Rezina",
+        "ribnita": "Ribnita",
+        "nisporeni": "Nisporeni",
+        "calarasi": "Calarasi",
+        "straseni": "Straseni",
+        "orhei": "Orhei",
+        "transnistria": "Transnistria",
+        "hincesti": "Hincesti",
+        "ialoveni": "Ialoveni",
+        "criuleni": "Criuleni",
+        "chisinau": "Chisinau",
+        "stinga nistrului": "Stinga Nistrului",
+        "anenii noi": "Anenii Noi",
+        "grigoriopol": "Grigoriopol",
+        "leova": "Leova",
+        "cimislia": "Cimislia",
+        "causeni": "Causeni",
+        "bender": "Bender",
+        "cantemir": "Cantemir",
+        "comrat": "Comrat",
+        "basarabeasca": "Basarabeasca",
+        "cahul": "Cahul",
+        "stefan voda": "Stefan Voda",
+        "taraclia": "Taraclia",
+        "soldanesti": "Soldanesti"
+      }
+    }
+  }
+}

@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Valinor</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<link type="image/x-icon" href="favicon.ico">
+	</head>
+	<body>
+		<script src="js/tween.js"></script>
+		<script type="x-shader/x-vertex" id="vertexshader">
+
+			varying vec2 vUv;
+
+			void main() {
+
+				vUv = uv;
+
+				gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
+
+			}
+
+		</script>
+
+		<script type="x-shader/x-fragment" id="fragmentshader">
+
+			uniform sampler2D baseTexture;
+			uniform sampler2D bloomTexture;
+
+			varying vec2 vUv;
+
+			void main() {
+
+				gl_FragColor = ( texture2D( baseTexture, vUv ) + vec4( 1.0 ) * texture2D( bloomTexture, vUv ) );
+
+			}
+
+		</script>
+
+		<!-- Import maps polyfill -->
+		<!-- Remove this when import maps will be widely supported -->
+		<script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+
+		<script type="importmap">
+			{
+				"imports": {
+					"three": "./js/three.module.js",
+					"three/addons/": "./jsm/"
+				}
+			}
+		</script>
+
+		<script type="module">
+
+			import * as THREE from 'three';
+
+			import { RGBELoader } from 'three/addons/loaders/RGBELoader.js';
+
+			import { GUI } from 'three/addons/libs/lil-gui.module.min.js';
+
+			import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+			import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
+			import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
+			import { ShaderPass } from 'three/addons/postprocessing/ShaderPass.js';
+			import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
+			import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+			import { BokehPass } from "three/addons/postprocessing/BokehPass.js";
+			import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+			import { SSRPass } from "three/addons/postprocessing/SSRPass.js";
+
+			let companyData;
+
+			let cardsAmount = 10;
+			let cardsRadius = 8;
+
+			let models = [];
+			let spheres = [];
+			let spheres2 = [];
+			let mirrorPlane;
+
+			let hoveredObject;
+			let clicksEnabled = true;
+			let cardIsHovered = false;
+			let cardsRotateable = true;
+
+			let currentLevel = 1;
+
+			let cardsContainer = new THREE.Group();
+
+			const BLOOM_SCENE = 1;
+
+			let dofPass, ssrPass;
+
+			let bar = 0;
+			let barwidth = 250;
+
+			const bloomLayer = new THREE.Layers();
+			bloomLayer.set( BLOOM_SCENE );
+
+			const params = {
+				threshold: 0,
+				strength: 0.4,
+				radius: 0.5,
+				exposure: 0.8,
+				focus: 9,
+				maxblur: 0.003,
+				aperture: 0.003,
+				thickness: 0.05,
+				opacity: 0.15,
+				height: -1.4
+			};
+
+			const darkMaterial = new THREE.MeshBasicMaterial( { color: 'black' } );
+			const materials = {};
+
+			const renderer = new THREE.WebGLRenderer( { antialias: true, alpha:true } );
+			
+			renderer.setPixelRatio( Math.min(window.devicePixelRatio,2) );
+			renderer.setSize( window.innerWidth, window.innerHeight );
+			renderer.shadowMap.enabled = true;
+			renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+
+			renderer.toneMapping = THREE.ReinhardToneMapping;
+
+			renderer.toneMapping = THREE.ACESFilmicToneMapping;
+			renderer.toneMappingExposure = 1;
+			// renderer.outputEncoding = THREE.sRGBEncoding;
+			renderer.autoClear = false;
+			
+			document.body.appendChild( renderer.domElement );
+
+			const scene = new THREE.Scene();
+
+			const camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 0.1, 200 );
+			camera.position.set( 0, 0, 17 );
+			camera.lookAt( 0, 0, 0 );
+
+			THREE.DefaultLoadingManager.onProgress = function ( item, loaded, total ) {
+				bar = Math.floor( barwidth * loaded / total );
+				// $("#bar").css("width", ""+bar+"px");
+				// console.log(loaded/total);
+				if (loaded/total == 1) {
+					// $('#progressbar').fadeOut('300');
+					// $( "#progress" ).fadeOut('300');
+					// $(".loader2").fadeOut("slow");
+					animate();
+				}
+			};
+			let onProgress = function ( xhr ) {
+				if ( xhr.lengthComputable ) {
+					// var percentComplete = xhr.loaded / xhr.total * 100;
+					//console.log( Math.round(percentComplete, 2) + '% downloaded' );
+				}
+			};
+			let onError = function ( xhr ) { };
+
+			const controls = new OrbitControls( camera, renderer.domElement );
+			controls.maxPolarAngle = Math.PI * 0.5;
+			controls.minPolarAngle = Math.PI * 0.5;
+			controls.minDistance = 1;
+			controls.maxDistance = 100;
+			controls.enableDamping = true;
+			controls.dampiungFactor = 1;
+			controls.enabled = false;
+			// controls.addEventListener( 'change', render );
+
+			const renderScene = new RenderPass( scene, camera );
+
+			const bloomPass = new UnrealBloomPass( new THREE.Vector2( window.innerWidth, window.innerHeight ), 1.5, 0.4, 0.85 );
+			bloomPass.threshold = params.threshold;
+			bloomPass.strength = params.strength;
+			bloomPass.radius = params.radius;
+
+			// let target = new renderer.domElement.getContext('webgl2').WebGLMultisampleRenderTarget(window.innerWidth, window.innerHeight, {
+			// 	format: THREE.RGBAFormat,
+			// 	encoding: THREE.sRGBEncoding,
+			// });
+			// target.samples = 8;
+
+			dofPass = new BokehPass(scene, camera, {
+				focus: params.focus,
+				aperture: params.aperture,
+				maxblur: params.maxblur,
+				aspect: window.innerWidth / window.innerHeight
+			});
+
+			ssrPass = new SSRPass( {
+				renderer,
+				scene,
+				camera,
+				width: innerWidth,
+				height: innerHeight,
+				groundReflector: null,
+				selects: null
+			} );
+
+			// const bloomComposer = new EffectComposer( renderer, target );
+			const bloomComposer = new EffectComposer( renderer );
+			bloomComposer.renderToScreen = false;
+			bloomComposer.addPass( renderScene );
+			bloomComposer.addPass( bloomPass );
+
+			const mixPass = new ShaderPass(
+				new THREE.ShaderMaterial( {
+					uniforms: {
+						baseTexture: { value: null },
+						bloomTexture: { value: bloomComposer.renderTarget2.texture }
+					},
+					vertexShader: document.getElementById( 'vertexshader' ).textContent,
+					fragmentShader: document.getElementById( 'fragmentshader' ).textContent,
+					defines: {}
+				} ), 'baseTexture'
+			);
+			mixPass.needsSwap = true;
+
+			const outputPass = new OutputPass();
+
+			const finalComposer = new EffectComposer( renderer );
+			finalComposer.addPass( renderScene );
+//			finalComposer.addPass( ssrPass );
+			finalComposer.addPass( mixPass );
+			finalComposer.addPass( dofPass );
+			finalComposer.addPass( outputPass );
+
+			const raycaster = new THREE.Raycaster();
+
+			const mouse = new THREE.Vector2();
+
+			const gui = new GUI();
+			gui.close();
+
+			const bloomFolder = gui.addFolder( 'bloom' );
+
+			bloomFolder.add( params, 'threshold', 0.0, 1.0 ).onChange( function ( value ) {
+
+				bloomPass.threshold = Number( value );
+				render();
+
+			} );
+
+			bloomFolder.add( params, 'strength', 0.0, 3 ).onChange( function ( value ) {
+
+				bloomPass.strength = Number( value );
+				render();
+
+			} );
+
+			bloomFolder.add( params, 'radius', 0.0, 1.0 ).step( 0.01 ).onChange( function ( value ) {
+
+				bloomPass.radius = Number( value );
+				render();
+
+			} );
+
+			const dofFolder = gui.addFolder( 'dof' );
+
+			dofFolder.add( params, 'focus', 0.1, 20 ).step( 0.001 ).onChange( function ( value ) {
+
+				dofPass.uniforms.focus.value = parseFloat( value );
+
+			} );
+
+			dofFolder.add( params, 'maxblur', 0.0, 0.05 ).step( 0.001 ).onChange( function ( value ) {
+
+				dofPass.uniforms.maxblur.value = parseFloat( value );
+
+			} );
+
+			dofFolder.add( params, 'aperture', 0.0005, 0.01 ).step( 0.0001 ).onChange( function ( value ) {
+
+				dofPass.uniforms.aperture.value = parseFloat( value );
+
+			} );
+
+			const ssrFolder = gui.addFolder( 'thickness' );
+
+			ssrPass.thickness = 0;
+			ssrFolder.add( params, 'thickness', 0, 0.1 ).step( 0.001 ).onChange( function ( value ) {
+
+				ssrPass.thickness = parseFloat( value );
+
+			} );
+
+			ssrPass.opacity = params.opacity;
+			ssrFolder.add( params, 'opacity', 0, 1 ).step( 0.01 ).onChange( function ( value ) {
+
+				ssrPass.opacity = parseFloat( value );
+
+			} );
+
+			ssrFolder.add( params, 'height', -5, 1 ).step( 0.01 ).onChange( function ( value ) {
+
+				mirrorPlane.position.y = parseFloat( value );
+
+			} );
+
+			const toneMappingFolder = gui.addFolder( 'tone mapping' );
+
+			toneMappingFolder.add( params, 'exposure', 0.1, 2 ).onChange( function ( value ) {
+
+				renderer.toneMappingExposure = Math.pow( value, 4.0 );
+				render();
+
+			} );
+
+			setupScene();
+
+			const loader = new GLTFLoader().setPath( 'models/' );
+			// loader.setDRACOLoader( dracoLoader );
+
+			scene.add (cardsContainer);
+
+			let planeGeom = new THREE.BoxGeometry(100, 0.1, 100);
+			mirrorPlane = new THREE.Mesh(planeGeom, new THREE.MeshBasicMaterial({color: 'black'}));
+			mirrorPlane.position.y = -1.5;
+
+			mirrorPlane.position.y = params.height;
+			scene.add(mirrorPlane);
+
+
+			const boxGeometry = new THREE.BoxGeometry( 1.5, 2.4, 0.2 ); 
+			const boxMaterial = new THREE.MeshStandardMaterial( {color: 0x00ff00, alpha:true, opacity:0.2} ); 
+
+			loader.load( 'rebuildData3.glb', function ( gltf ) {
+				companyData = gltf.scene;
+				companyData.position.y = -0.6;
+				companyData.scale.x = 0.8;
+				companyData.scale.y = 0.2;
+				companyData.scale.z = 0.8;
+				scene.add(companyData);
+			} );
+
+			loader.load( 'ui_1_1_3.glb', function ( gltf ) {
+
+				console.log(gltf.scene);
+				for (let i=0;i<cardsAmount;i++){
+
+					let mdl = gltf.scene.clone();
+
+					for (let j=0;j<mdl.children.length;j++){
+						if (mdl.children[j].material){
+							mdl.children[j].material = gltf.scene.children[j].material.clone();
+						}
+					}
+					mdl.name = 'card-'+i;
+					
+					models.push(mdl);
+					
+					mdl.traverse( function( node ) {
+	
+						if ( node.name.indexOf("neon-sphere001") !== -1 ) {
+							spheres.push(node);
+							
+						}
+						if ( node.name.indexOf("neon-sphereBase2") !== -1 ) {
+							node.visible = false;
+							spheres2.push(node);
+						}
+
+						// console.log(spheres2)
+						
+						if ( node.name.indexOf("neon") !== -1 ) {
+							
+							// console.log('found object',node);
+							if (node.children.length > 0){
+								node.children[1].layers.enable( BLOOM_SCENE );
+							} else {
+								node.layers.enable( BLOOM_SCENE );
+							}
+							
+						}
+						
+						// node.layers.enable( BLOOM_SCENE );
+						
+					});
+					
+					let angle = (Math.PI/2+Math.PI/4)  / cardsAmount * i;
+					
+					let rot = -angle+0.5*Math.PI;
+					
+					let x = Math.cos(angle) * cardsRadius;
+                    let z = Math.sin(angle) * cardsRadius;
+					
+					mdl.position.set(x,0,z);
+					mdl.rotation.y = rot;
+					mdl.userData.angle = angle;
+
+					let clickBox = new THREE.Mesh( boxGeometry, boxMaterial );
+					clickBox.position.set(x,0,z);
+					clickBox.rotation.y = rot;
+					clickBox.visible = false;
+					clickBox.name = 'clickbox-'+i;
+					clickBox.userData.id = i;
+					clickBox.userData.type='card';
+					// clickBox.userData.posX = x;
+					// clickBox.userData.posZ = z;
+					clickBox.userData.angle = angle;
+					cardsContainer.add( clickBox );
+					
+					cardsContainer.add( mdl );
+				}
+
+			} );
+
+			new RGBELoader()
+			.setPath( 'textures/' )
+			// .load( 'studio_den.hdr', function ( texture ) {
+			.load( 'studio_den.hdr', function ( texture ) {
+
+				texture.mapping = THREE.EquirectangularReflectionMapping;
+
+				// scene.background = texture;
+				scene.environment = texture;
+			} );
+
+			document.addEventListener('mousedown', onDocumentMouseDown, false);
+			document.addEventListener('mousemove', onDocumentMouseMove, false);
+
+			function onDocumentMouseDown(e) {
+
+				let elemNodes = document.getElementById('nodes');
+				let elemGraph1 = document.getElementById('graph1');
+				let elemGraph2 = document.getElementById('graph2');
+				let elemSideBarLeft = document.getElementById('sidebar-left');
+				
+				raycaster.setFromCamera( mouse, camera );
+				const intersects = raycaster.intersectObjects( cardsContainer.children, false );
+				
+				let elemIndustry = document.getElementById('industry');
+				let elemCompanies = document.getElementById('companies');
+				let elemCompany = document.getElementById('company');
+				
+				elemIndustry.style.transform = 'translate3d(486px,0,0)';
+				
+				if (currentLevel == 2){
+					if(e.target.id == 'connections'){
+						elemGraph2.style.transform = 'translate3d(0,0,0)';
+						for (let i=0;i<spheres.length;i++){
+							spheres[i].visible = false;
+						}
+						for (let i=0;i<spheres2.length;i++){
+							spheres2[i].visible = true;
+						}
+						mirrorPlane.position.y = -20;
+					} else {
+
+						if(e.target.id == 'lv3'){
+
+							elemCompanies.style.transform = 'translate3d(486px,0,0)';
+
+							currentLevel = 3;
+							elemNodes.innerHTML = '<img src="img/nodes-3.png">';
+							elemSideBarLeft.innerHTML = '<img src="img/sidebar-3.png">';
+							
+							mirrorPlane.position.y = -1.2;
+		
+							elemGraph1.style.transform = 'translate3d(0,0,0)';
+							elemGraph2.style.transform = 'translate3d(0,-250px,0)';
+		
+							let cpA = { z: camera.position.z };
+							let tpA = { z: 5 };
+							let tween = new TWEEN.Tween(cpA).to(tpA, 800);
+							tween.easing(TWEEN.Easing.Quartic.Out);
+							tween.onUpdate(function () {
+								camera.position.z = cpA.z;
+							});
+							tween.start();
+							tween.onComplete(function(){
+								let cpA = { scaleY: companyData.scale.y, focus: dofPass.uniforms.focus.value };
+								let tpA = { scaleY: 1, focus: 4.3 };
+								let tween = new TWEEN.Tween(cpA).to(tpA, 800);
+								tween.easing(TWEEN.Easing.Quartic.Out);
+								tween.onUpdate(function () {
+									companyData.scale.y = cpA.scaleY;
+									dofPass.uniforms.focus.value = cpA.focus;
+									elemCompany.style.transform = 'translate3d(0,0,0)';
+								});
+								tween.start();
+							});
+						}
+					}
+				}
+				
+				if ((clicksEnabled)&&( intersects.length > 0 )){
+					
+					if (hoveredObject.userData.type == 'card') {
+						
+						mirrorPlane.position.z = 10;
+						elemNodes.innerHTML = '<img id="connections" src="img/nodes-2.png">';
+						elemSideBarLeft.innerHTML = '<img src="img/sidebar-2.png">';
+
+						currentLevel = 2;
+						cardsRotateable = false;
+
+						clicksEnabled = false;
+						const object = intersects[ 0 ].object;
+						hoveredObject = object;
+						document.body.style.cursor = 'auto';
+
+						console.log('mouse pressed', hoveredObject, cardsContainer.rotation.y, hoveredObject.rotation.y);
+		
+						let angleToRotateCards = -hoveredObject.rotation.y;				
+		
+						let cpA = { y: cardsContainer.rotation.y };
+						let tpA = { y: angleToRotateCards };
+						let tween = new TWEEN.Tween(cpA).to(tpA, 800);
+						tween.easing(TWEEN.Easing.Quartic.Out);
+						tween.onUpdate(function () {
+							cardsContainer.rotation.y = cpA.y;
+						});
+						tween.start();
+						tween.onComplete(function(){
+							
+							clicksEnabled = true;
+							raycaster.setFromCamera( mouse, camera );
+							const intersects = raycaster.intersectObjects( cardsContainer.children, false );
+							elemCompanies.style.transform = 'translate3d(0,0,0)';
+		
+							if ( intersects.length == 0 ) {
+		
+								document.body.style.cursor = 'auto';
+		
+							}						
+
+							for (let i=0;i<cardsContainer.children.length;i++){
+								if (cardsContainer.children[i].name !== 'card-'+hoveredObject.userData.id){
+
+									let cpA = { x: cardsContainer.children[i].position.x, z: cardsContainer.children[i].position.z, mirrorY: mirrorPlane.position.y };
+									let tpA = { x: Math.cos(cardsContainer.children[i].userData.angle) * 25, z: Math.sin(cardsContainer.children[i].userData.angle) * 25, mirrorY: -0.4  };
+									let tween = new TWEEN.Tween(cpA).to(tpA, 1600);
+									tween.easing(TWEEN.Easing.Quartic.Out);
+									tween.onUpdate(function () {
+										cardsContainer.children[i].position.set(cpA.x, 0, cpA.z);
+										mirrorPlane.position.y = cpA.mirrorY;
+									});
+									tween.start();
+								} else {
+									let cpA = { x: cardsContainer.children[i].position.x, z: cardsContainer.children[i].position.z };
+									let tpA = { x: Math.cos(cardsContainer.children[i].userData.angle) * 15.7, z: Math.sin(cardsContainer.children[i].userData.angle) * 15.7};
+									let tween = new TWEEN.Tween(cpA).to(tpA, 1600);
+									tween.easing(TWEEN.Easing.Quartic.Out);
+									tween.onUpdate(function () {
+										cardsContainer.children[i].position.set(cpA.x, 0, cpA.z);
+									});
+									tween.start();
+
+									for (let j=0;j<cardsContainer.children[i].children.length;j++){
+										if (cardsContainer.children[i].children[j].name =='neon-corner'){
+											cardsContainer.children[i].children[j].visible = false;
+										}
+										if (cardsContainer.children[i].children[j].name =='Glass'){
+											cardsContainer.children[i].children[j].visible = false;
+										}
+										if (cardsContainer.children[i].children[j].material){
+											let cpA = { o: cardsContainer.children[i].children[j].material.opacity };
+											let tpA = { o: 0 };
+											let tween = new TWEEN.Tween(cpA).to(tpA, 400);
+											tween.easing(TWEEN.Easing.Quartic.Out);
+											tween.onUpdate(function () {
+												cardsContainer.children[i].children[j].material.opacity = cpA.o;
+											});
+											tween.start();
+		
+											// cardsContainer.children[i].children[j].material.opacity = 0.1;
+											cardsContainer.children[i].children[j].layers.disable( BLOOM_SCENE );
+											// console.log(cardsContainer.children[i])
+										}
+									}
+								}
+							}
+							
+							// cardsContainer.traverse( function( node ) {
+								
+							// });
+						});
+					}
+	
+					// let cpA2 = { y: cardsContainer.rotation.y };
+					// let tpA2 = { y: angleToRotateCards };
+					// let tween2 = new TWEEN.Tween(cpA).to(tpA, 800);
+				}
+
+
+
+			}
+			function onDocumentMouseMove( event ) {
+				mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+				mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+				raycaster.setFromCamera( mouse, camera );
+				const intersects = raycaster.intersectObjects( cardsContainer.children, false );
+				let elemIndustry = document.getElementById('industry');
+
+				if (( intersects.length > 0 )&&(currentLevel == 1)) {
+					
+					document.body.style.cursor = 'pointer';
+					const object = intersects[ 0 ].object;
+					
+					hoveredObject = object;
+					
+					// dofPass.uniforms.focus.value = intersects[ 0 ].distance;
+					
+					if (hoveredObject.userData.type == 'card') {
+						cardIsHovered = true;
+						
+						for (let i=0;i<cardsContainer.children.length;i++){
+							if (cardsContainer.children[i].name !== 'card-'+hoveredObject.userData.id){
+								for (let j=0;j<cardsContainer.children[i].children.length;j++){
+									if (cardsContainer.children[i].children[j].material){
+										let cpA = { o: cardsContainer.children[i].children[j].material.opacity };
+										let tpA = { o: 0.15 };
+										let tween = new TWEEN.Tween(cpA).to(tpA, 400);
+										tween.easing(TWEEN.Easing.Quartic.Out);
+										tween.onUpdate(function () {
+											cardsContainer.children[i].children[j].material.opacity = cpA.o;
+										});
+										tween.start();
+										tween.onComplete(function(){
+											elemIndustry.style.transform = 'translate3d(0,0,0)';
+											// elemIndustry.style.transform = 'translate3d(486px,0,0)';
+											
+										});
+	
+										// cardsContainer.children[i].children[j].material.opacity = 0.1;
+										// cardsContainer.children[i].children[j].layers.disable( BLOOM_SCENE );
+									}
+								}
+							} else {
+								// console.log(cardsContainer.children[i]);	
+							}
+						}
+					}
+
+				} else {
+
+					
+					if(currentLevel == 1){						
+						
+						document.body.style.cursor = 'auto';
+						
+						if (cardIsHovered){
+							
+							for (let i=0;i<cardsContainer.children.length;i++){
+								
+								for (let j=0;j<cardsContainer.children[i].children.length;j++){
+									if (cardsContainer.children[i].children[j].material){
+										let cpA = { o: cardsContainer.children[i].children[j].material.opacity };
+										let tpA = { o: 1 };
+										let tween = new TWEEN.Tween(cpA).to(tpA, 400);
+										tween.easing(TWEEN.Easing.Quartic.Out);
+										tween.onUpdate(function () {
+											cardsContainer.children[i].children[j].material.opacity = cpA.o;
+										});
+										tween.start();
+										tween.onComplete(function(){
+											elemIndustry.style.transform = 'translate3d(486px,0,0)';
+											
+										});
+										// cardsContainer.children[i].children[j].material.opacity = 0.1;
+										// cardsContainer.children[i].children[j].layers.enable( BLOOM_SCENE );
+									}
+								}		
+							}
+						}
+						cardIsHovered = false;
+					}
+				}
+			}
+
+			window.onresize = function () {
+
+				const width = window.innerWidth;
+				const height = window.innerHeight;
+
+				camera.aspect = width / height;
+				camera.updateProjectionMatrix();
+
+				renderer.setSize( width, height );
+
+				bloomComposer.setSize( width, height );
+				finalComposer.setSize( width, height );
+
+				ssrPass.setSize(width, height);
+
+				dofPass.uniforms.aspect.value = width / height;
+
+				render();
+
+			};
+
+			function setupScene() {
+
+				scene.traverse( disposeMaterial );
+
+				render();
+
+			}
+
+			function disposeMaterial( obj ) {
+
+				if ( obj.material ) {
+
+					obj.material.dispose();
+
+				}
+
+			}
+
+			function animate() {
+
+				TWEEN.update();
+
+				requestAnimationFrame( animate );
+				
+				if (spheres) {
+					for (var i=0;i<spheres.length;i++){
+						spheres[i].rotation.y -= 0.001;	
+					}
+				}
+
+				if (spheres2) {
+					for (var i=0;i<spheres2.length;i++){
+						spheres2[i].rotation.y -= 0.001;	
+					}
+				}
+
+				if (cardsRotateable) {
+
+					cardsContainer.rotation.y = -mouse.x * 1-0.5;
+				}
+
+				companyData.rotation.y += 0.0005
+
+				// if (cardsContainer.rotation.y > -Math.PI * 2){
+				// 	cardsContainer.rotation.y -= 0.0005;	
+				// } else {
+				// 	cardsContainer.rotation.y = 0;
+				// }
+
+				// const mixerUpdateDelta = clock.getDelta();
+				// const speed = 1;
+
+				// elapsedTime = clock.getElapsedTime();
+				// TWEEN.update();
+
+				// if (elapsedTime>(durations[currentClip])){
+				// 	// timer = 0;
+				// 	// clock.stop();
+				// } else {
+				// 	mixer.update( mixerUpdateDelta * speed );
+				// 	// timer = 0.01;
+				// }
+
+
+
+				render();
+
+			}
+
+			function render() {
+
+				 scene.traverse( darkenNonBloomed );
+				bloomComposer.render();
+				scene.traverse( restoreMaterial );
+
+				 //render the entire scene, then render bloom scene on top
+				finalComposer.render();
+
+			}
+
+			function darkenNonBloomed( obj ) {
+
+				if ( obj.isMesh && bloomLayer.test( obj.layers ) === false ) {
+
+					materials[ obj.uuid ] = obj.material;
+					obj.material = darkMaterial;
+
+				}
+
+			}
+
+			function restoreMaterial( obj ) {
+
+				if ( materials[ obj.uuid ] ) {
+
+					obj.material = materials[ obj.uuid ];
+					delete materials[ obj.uuid ];
+
+				}
+
+			}
+
+		</script>
+		<div class="sidebar-left" id="sidebar-left">
+			<img src="img/sidebar-left.png">
+		</div>
+		<div class="sidebar-right" id="industry">
+			<img src="img/ui-right-industry.png">
+		</div>
+		<div class="sidebar-right" id="companies">
+			<img src="img/ui-right-companies.png">
+		</div>
+		<div class="sidebar-right" id="company">
+			<img src="img/ui-right-company.png">
+		</div>
+		<div class="bottom-bar" id="timeline">
+			<img id="lv3" src="img/timeline.png">
+		</div>
+		<div class="bottom-nodes" id="nodes">
+			<img src="img/nodes-1.png">
+		</div>
+		<div class="top-graph1" id="graph1">
+			<img src="img/ui-righttop-overview.png">
+		</div>
+		<div class="top-graph2" id="graph2">
+			<img id="lv2" src="img/ui-leftbot-connections.png">
+		</div>
+	</body>
+
+</html>

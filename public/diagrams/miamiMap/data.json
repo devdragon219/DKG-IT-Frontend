@@ -1,0 +1,25 @@
+{
+  "originalData": {
+    "title": "Miami GeoMap",
+    "backgroundColor": "white",
+    "fontColor": "black",
+    "hoverColor": "#3b729f",
+    "markers": [],
+    "colors": {
+      "Allapattah": "",
+      "Coral Way": "",
+      "Downtown": "",
+      "Flagami": "",
+      "Islands": "",
+      "Little Haiti": "",
+      "Little Havana": "",
+      "Model City": "",
+      "North Coconut Grove": "",
+      "Overtown": "",
+      "South Coconut Grove": "",
+      "Upper Eastside": "",
+      "West Flagler": "",
+      "Wynwood": ""
+    }
+  }
+}

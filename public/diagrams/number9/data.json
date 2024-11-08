@@ -1,0 +1,43 @@
+{
+  "originalData": {
+    "name": "Where investors are based",
+    "data": [
+      {
+        "name": "EU",
+        "percentage": "0.31",
+        "name_size": "14px",
+        "percentage_size": "20px"
+      },
+      {
+        "name": "US",
+        "percentage": "0.288",
+        "name_size": "14px",
+        "percentage_size": "20px"
+      },
+      {
+        "name": "Others",
+        "percentage": "0.183",
+        "name_size": "14px",
+        "percentage_size": "20px"
+      },
+      {
+        "name": "RU",
+        "percentage": "0.122",
+        "name_size": "14px",
+        "percentage_size": "20px"
+      },
+      {
+        "name": "UK",
+        "percentage": "0.066",
+        "name_size": "14px",
+        "percentage_size": "20px"
+      },
+      {
+        "name": "Asia",
+        "percentage": "0.031",
+        "name_size": "14px",
+        "percentage_size": "20px"
+      }
+    ]
+  }
+}

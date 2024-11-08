@@ -1,0 +1,74 @@
+{
+  "data": [
+    [{ "value": "Label" }, { "value": "Public" }, { "value": "Private" }],
+    [{ "value": "Page A" }, { "value": "500" }, { "value": "300" }],
+    [{ "value": "Page B" }, { "value": "1000" }, { "value": "600" }],
+    [{ "value": "Page C" }, { "value": "2000" }, { "value": "900" }],
+    [{ "value": "Page D" }, { "value": "3000" }, { "value": "1200" }],
+    [{ "value": "Page E" }, { "value": "4000" }, { "value": "1500" }],
+    [{ "value": "Page F" }, { "value": "5000" }, { "value": "1800" }]
+  ],
+  "dataSettingsConfig": [
+    {
+      "name": "label",
+      "type": "select"
+    },
+    {
+      "name": "values",
+      "type": "multi-select"
+    }
+  ],
+  "customizeConfig": [
+    {
+      "name": "title",
+      "type": "input"
+    },
+    {
+      "name": "color",
+      "type": "color",
+      "valueConected": true,
+      "valueConectedName": "values"
+    }
+  ],
+  "dataSettings": {
+    "label": 0,
+    "values": [1, 2]
+  },
+  "customizeSettings": {
+    "title": "Title",
+    "Public": {
+      "metaColor": {
+        "originalInput": {
+          "h": 0,
+          "s": 0.9221766980959206,
+          "a": 1,
+          "v": 0.8717883110046387
+        },
+        "r": 222.2835,
+        "g": 17.31588465000002,
+        "b": 17.31588465000002,
+        "a": 1,
+        "roundA": 1,
+        "format": "hsv",
+        "isValid": true
+      }
+    },
+    "Private": {
+      "metaColor": {
+        "originalInput": {
+          "h": 225.98696974020493,
+          "s": 0.9136294365101464,
+          "a": 1,
+          "v": 0.8896486282348632
+        },
+        "r": 19.59966720000001,
+        "g": 68.00261984697467,
+        "b": 226.84799999999998,
+        "a": 1,
+        "roundA": 1,
+        "format": "hsv",
+        "isValid": true
+      }
+    }
+  }
+}

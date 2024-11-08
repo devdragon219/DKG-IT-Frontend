@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chart Number 4</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      const render = (originalData) => {
+        const fontFamily = "Roboto";
+
+        const originalWidth = 1200;
+        const originalHeight = 600;
+
+        const margin = originalHeight * 0.2;
+
+        const width = originalWidth - margin;
+        const height = originalHeight - margin * 2;
+
+        // Sort data by "money" in ascending order
+        const data = originalData.data
+          .slice()
+          .sort((a, b) => a.money - b.money);
+
+        /* Svg */
+        const svg = d3
+          .select("body")
+          .append("svg")
+          .attr("xmlns", "http://www.w3.org/2000/svg")
+          .attr("width", originalWidth)
+          .attr("height", originalHeight)
+          .attr("viewBox", `0 0 ${originalWidth} ${originalHeight}`)
+          .style("max-width", "100%")
+          .style("height", "auto");
+        /* */
+
+        /* Defs */
+        const defs = svg.append("defs");
+        /* */
+
+        /* Load "Roboto" font */
+        defs
+          .append("style")
+          .attr("type", "text/css")
+          .text(
+            "@import url('https://fonts.googleapis.com/css?family=Roboto:400,700')"
+          );
+        /* */
+
+        /* Gradient */
+        const barGradientId = "barGradient";
+        const barGradient = defs
+          .append("linearGradient")
+          .attr("id", barGradientId)
+          .attr("gradientUnits", "userSpaceOnUse")
+          .attr("x1", 0)
+          .attr("y1", 0)
+          .attr("x2", 0)
+          .attr("y2", height);
+        barGradient
+          .append("stop")
+          .attr("offset", "0%")
+          .attr("stop-color", "#0080BF")
+          .attr("stop-opacity", 1);
+        barGradient
+          .append("stop")
+          .attr("offset", "100%")
+          .attr("stop-color", "#479ECE")
+          .attr("stop-opacity", 1);
+        /* */
+
+        /* Main title */
+        const titleFontSize = height * 0.1;
+        svg
+          .append("text")
+          .attr("x", originalWidth / 2)
+          .attr("y", titleFontSize)
+          .style("font-family", fontFamily)
+          .style("font-size", `${titleFontSize}px`)
+          .style("font-weight", 700)
+          .style("text-anchor", "middle")
+          .attr("fill", "#0d5295")
+          .text(originalData.name);
+        /* */
+
+        /* X scale */
+        const xScale = d3.scaleBand().range([0, width]).padding(0.4);
+        xScale.domain(data.map((d) => d.name));
+        /* */
+
+        /* Y scale */
+        const yScale = d3.scaleLinear().range([height, 0]);
+        yScale.domain([0, d3.max(data, (d) => d.money)]);
+        /* */
+
+        /* Main group */
+        const g = svg
+          .append("g")
+          .attr("transform", `translate(${margin}, ${margin})`);
+        /* */
+
+        /* Sub group for X axis */
+        const xAxis = g
+          .append("g")
+          .attr("transform", `translate(0, ${height})`)
+          .call(
+            d3
+              .axisBottom(xScale)
+              .tickFormat(() => "")
+              .tickSizeInner(0)
+          )
+          .call((g) => g.select(".domain").remove());
+
+        /* Append "image" as a tick value */
+        const imageWidth = (height / data.length) * 2;
+        const imageHeight = (height / data.length) * 2;
+
+        xAxis
+          .selectAll(".tick")
+          .append("image")
+          .attr(
+            "href",
+            (name) => data.find((d) => d.name === name)?.image || ""
+          )
+          .attr("height", (name) => {
+            return imageHeight;
+          })
+          .attr("width", (name) => {
+            return imageHeight;
+          })
+          .attr("x", -imageWidth)
+          .attr("y", imageWidth / 3)
+          .attr(
+            "transform",
+            `rotate(-45 -${imageWidth / 4} ${imageHeight / 2})`
+          );
+        /* */
+
+        /* Sub group for Y axis */
+        const yScaleTicks = 4;
+        const yScaleTickFontSize = height * 0.06;
+        g.append("g")
+          .call(
+            d3
+              .axisLeft(yScale)
+              .tickFormat((d) => `${d.toLocaleString()}`)
+              .ticks(yScaleTicks)
+              .tickSizeInner(0)
+              .tickPadding(height * 0.1)
+          )
+          .call((g) => g.select(".domain").remove())
+          .call((g) =>
+            g
+              .selectAll(".tick")
+              .style("font-size", `${yScaleTickFontSize}px`)
+              .style("font-family", fontFamily)
+              .style("color", "#696969")
+          );
+
+        /* Y axis grid lines */
+        const yGrid = (g) =>
+          g
+            .selectAll("line")
+            .data(yScale.ticks(yScaleTicks))
+            .join("line")
+            .attr("x1", 0)
+            .attr("y1", (d) => yScale(d))
+            .attr("x2", width)
+            .attr("y2", (d) => yScale(d))
+            .attr("stroke", (n) => {
+              if (n === 0) {
+                return "#000";
+              }
+              return "#C0C0C0";
+            });
+        g.append("g").call(yGrid);
+        /* */
+
+        /* Bar group */
+        const barGroup = g.append("g").attr("transform", `translate(0, 0)`);
+        /* */
+
+        /* Vertical bar */
+        barGroup
+          .selectAll(".bar")
+          .data(data)
+          .enter()
+          .append("path")
+          .attr("d", (d) => {
+            const x1 = xScale(d.name);
+            const y1 = height;
+
+            const x2 = xScale(d.name);
+            const y2 = yScale(d.money);
+
+            const x3 = xScale(d.name) + xScale.bandwidth();
+            const y3 = yScale(d.money);
+
+            const x4 = xScale(d.name) + xScale.bandwidth();
+            const y4 = height;
+
+            return `M${x1} ${y1} L${x2} ${y2} L${x3} ${y3} L${x4} ${y4} Z`;
+          })
+          .attr("fill", `url(#${barGradientId})`)
+          .style("filter", "drop-shadow(8px 2px 6px rgba(0,0,0,0.4))");
+        /* */
+
+        /* Labels for vertical bar */
+        const labelFontSize = xScale.bandwidth() / 4;
+        const labelTopOffset = 5;
+        barGroup
+          .selectAll(".bar")
+          .data(data)
+          .enter()
+          .append("text")
+          .attr("x", (d) => xScale(d.name) + xScale.bandwidth() / 2)
+          .attr("y", (d) => yScale(d.money))
+          .attr("dy", labelFontSize + labelTopOffset)
+          .attr("fill", "#fff")
+          .attr("text-anchor", "middle")
+          .style("font-family", fontFamily)
+          .style("font-size", `${labelFontSize}px`)
+          .text((d) => `${d.money.toLocaleString()}`);;
+        /* */
+      };
+
+      const apiUrl = "/api/diagrams";
+      const params = new URLSearchParams(window.location.search);
+      const KEY = "slug";
+
+      window.onmessage = (e) => {
+        if (e.data?.name === "parentMessage") {
+          if (e.data.data?.originalData) {
+            render(e.data.data.originalData);
+          }
+        }
+      };
+
+      if (params.has(KEY)) {
+        const key = params.get(KEY);
+        let url = `${apiUrl}/${key}`;
+        if (key.includes("demo_example")) {
+          const type = key.split("?")[1];
+
+          url = `/diagrams/${type}/data.json`;
+        }
+        const fetchData = async () => {
+          try {
+            const response = await fetch(url);
+            const data = await response.json();
+            if (data?.originalData) {
+              render(data.originalData);
+            }
+            if (data?.source?.originalData) {
+              render(data.source.originalData);
+            }
+          } catch (error) {
+            console.error(error);
+          }
+        };
+        fetchData();
+      }
+    </script>
+  </body>
+</html>

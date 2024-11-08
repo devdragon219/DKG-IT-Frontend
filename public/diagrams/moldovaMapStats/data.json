@@ -1,0 +1,705 @@
+{
+    "originalData": {
+      "mapTitle": "Digital Map of Moldova",
+      "map_and_stats_connected": true,
+      "stats": [
+        {
+          "label": "Companies",
+          "value": "8900",
+          "iconBackground": "rgba(115, 103, 240, 0.12)",
+          "icon": "bag"
+        },
+        {
+          "label": "Total Investors",
+          "value": "4100",
+          "iconBackground": "rgba(115, 103, 240, 0.12)",
+          "icon": "fourSquares"
+        },
+        {
+          "label": "Investors based in UK",
+          "value": "600",
+          "iconBackground": "rgba(40, 199, 111, 0.12)",
+          "icon": "flower"
+        },
+        {
+          "label": "Leaders",
+          "value": "1600",
+          "iconBackground": "rgba(0, 207, 232, 0.12)",
+          "icon": "person"
+        },
+        {
+          "label": "Hubs",
+          "value": "300",
+          "iconBackground": "rgba(234, 84, 85, 0.12)",
+          "icon": "cube"
+        },
+        {
+          "label": "Public Companies",
+          "value": "70",
+          "iconBackground": "rgba(115, 103, 240, 0.12)",
+          "icon": "arrow"
+        }
+      ],
+      "dataForBArChart": {
+        "East Londonderry": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "Foyle": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "West Tyrone": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "Fermanagh And South Tyrone": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "Mid Ulster": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "North Antrim": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "South Antrim": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "East Antrim": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "Newry And Armagh": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "Upper Bann": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "Lagan Valley": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "Belfast West": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "Belfast North": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "Belfast South": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "Belfast East": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "South Down": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "Strangford": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        },
+        "North Down": {
+          "height": "700px",
+          "labels": { "value1": "Companies", "value2": "R&D Centres" },
+          "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+          "data": [
+            { "name": "Page A", "value1": 23, "value2": 26 },
+            { "name": "Page B", "value1": 23, "value2": 11 },
+            { "name": "Page C", "value1": 6, "value2": 1 },
+            { "name": "Page D", "value1": 5, "value2": 3 },
+            { "name": "Page E", "value1": 4, "value2": 3 },
+            { "name": "Page F", "value1": 2, "value2": 2 }
+          ]
+        }
+      },
+      "dataForPolarChart": {
+        "East Londonderry": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "Foyle": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [2, 5, 1, 3, 3]
+        },
+        "West Tyrone": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [172, 515, 441, 123, 293]
+        },
+        "Fermanagh And South Tyrone": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "Mid Ulster": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "North Antrim": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "South Antrim": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "East Antrim": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "Newry And Armagh": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "Upper Bann": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "Lagan Valley": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "Belfast West": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "Belfast North": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "Belfast South": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "Belfast East": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "South Down": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "Strangford": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "North Down": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        }
+      },
+      "dataForKeyIndicator": {
+        "East Londonderry": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "Foyle": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "West Tyrone": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "Fermanagh And South Tyrone": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "Mid Ulster": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "North Antrim": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "South Antrim": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "East Antrim": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "Newry And Armagh": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "Upper Bann": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "Lagan Valley": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "Belfast West": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "Belfast North": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "Belfast South": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "Belfast East": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "South Down": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "Strangford": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        },
+        "North Down": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        }
+      },
+      "defaultData": {
+        "polarData": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "keyIndicatorData": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            { "header": "Technology", "value": "31812" },
+            { "header": "Consulting", "value": "24793" },
+            { "header": "Infrastructure and Others", "value": "34275" },
+            { "header": "Institutional", "value": "525" },
+            { "header": "Investment Funds", "value": "4903" },
+            { "header": "Others", "value": "883" }
+          ]
+        }
+      }
+    },
+    "type": "MoldovaMapStats"
+  }

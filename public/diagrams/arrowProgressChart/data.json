@@ -1,0 +1,35 @@
+{
+  "originalData": {
+    "height": "500px",
+    "title": "",
+    "titleColor": "",
+    "phases": [200, 400, 600, 800, 1000],
+    "phasesText": ["Phase 1", "Phase 2", "Phase 3", "Phase 4", "Phase 5"],
+    "data": {
+      "labels": [
+        "Company A",
+        "Company B",
+        "Company C",
+        "Company D",
+        "Company X",
+        "Company Y",
+        "Company Z",
+        null
+      ],
+      "datasets": [
+        {
+          "label": "Before Investment",
+          "data": [50, 100, 150, 100, 75, 400, 250, null],
+          "backgroundColor": "#3D85C6",
+          "barPercentage": "0.7"
+        },
+        {
+          "label": "Before Investment",
+          "data": [100, 200, 300, 400, 500, 600, 600, null],
+          "backgroundColor": "#A4C2F4",
+          "barPercentage": "0.7"
+        }
+      ]
+    }
+  }
+}

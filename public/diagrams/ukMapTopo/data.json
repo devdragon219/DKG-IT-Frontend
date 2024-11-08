@@ -1,0 +1,33 @@
+{
+  "originalData": {
+    "title": "London Map",
+    "backgroundColor": "white",
+    "fontColor": "black",
+    "hoverColor": "#3b729f",
+    "markers": [
+      {
+        "markerOffset": -5,
+        "name": "London",
+        "coordinates": [-0.1441804, 51.5142134],
+        "radius": "2",
+        "fontColor": "black",
+        "tooltip": "London",
+        "fontSize": "10px"
+      }
+    ],
+    "colors": {
+      "Wales": "",
+      "Scotland": "",
+      "Northern Ireland": "",
+      "South West": "",
+      "South East": "",
+      "London": "",
+      "East of England": "",
+      "West Midlands": "",
+      "East Midlands": "",
+      "North West": "",
+      "North East": "",
+      "Yorkshire and The Humber": ""
+    }
+  }
+}

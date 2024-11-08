@@ -1,0 +1,35 @@
+{
+  "originalData": {
+    "containerStyle": {
+      "marginTop": "0px"
+    },
+    "data": {
+      "labels": ["Page A", "Page B", "Page C", "Page D", "Page E", "Page F"],
+      "datasets": [
+        {
+          "label": "Public",
+          "data": [500, 1000, 2000, 3000, 4000, 5000],
+          "gradient": {
+            "start": "darkgray",
+            "end": "blue"
+          }
+        },
+        {
+          "label": "Private",
+          "data": [300, 600, 900, 1200, 1500, 1800],
+          "backgroundColor": "lightblue"
+        }
+      ]
+    },
+    "options": {
+      "indexAxis": "y",
+      "responsive": true,
+      "plugins": {
+        "title": {
+          "display": true,
+          "text": "Chart.js Bar Chart"
+        }
+      }
+    }
+  }
+}

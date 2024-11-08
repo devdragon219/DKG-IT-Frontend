@@ -1,0 +1,2942 @@
+{
+  "originalData": {
+    "name": "UsaMap",
+    "data": {
+      "headerText": "Digital Map of USA",
+      "stats": [
+        {
+          "label": "Companies",
+          "value": "1600"
+        },
+        {
+          "label": "Total Investors",
+          "value": "350"
+        },
+        {
+          "label": "Investors based in UK",
+          "value": "600"
+        },
+        {
+          "label": "Leaders",
+          "value": "1600"
+        },
+        {
+          "label": "Hubs",
+          "value": "300"
+        },
+        {
+          "label": "Public Companies",
+          "value": "70"
+        }
+      ],
+      "defaultData": {
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+        "polarData": {
+          "title": "Number of Hubs by Type",
+          "labels": [
+            "Accelerators",
+            "Government Offices",
+            "Incubators",
+            "Industrials Hubs",
+            "R & D Hubs"
+          ],
+          "data": [12, 15, 41, 13, 23]
+        },
+        "keyIndicatorData": {
+          "title": "Companies and Investors Split",
+          "indicators": [
+            {
+              "header": "Technology",
+              "value": "31812"
+            },
+            {
+              "header": "Consulting",
+              "value": "24793"
+            },
+            {
+              "header": "Infrastructure and Others",
+              "value": "34275"
+            },
+            {
+              "header": "Institutional",
+              "value": "525"
+            },
+            {
+              "header": "Investment Funds",
+              "value": "4903"
+            },
+            {
+              "header": "Others",
+              "value": "883"
+            }
+          ]
+        }
+      },
+      "mapData": {
+        "alabama": {
+          "label": "Alabama",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "alaska": {
+          "label": "Alaska",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "arizona": {
+          "label": "Arizona",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "arkansas": {
+          "label": "Arkansas",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "california": {
+          "label": "Californaia",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "colorado": {
+          "label": "Colorado",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "connecticut": {
+          "label": "Connecticut",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "delaware": {
+          "label": "Delaware",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "florida": {
+          "label": "Florida",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "georgia": {
+          "label": "Georgia",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "hawaii": {
+          "label": "Hawaii",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "idaho": {
+          "label": "Idaho",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "illinois": {
+          "label": "Illinois",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "indiana": {
+          "label": "Indiana",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "iowa": {
+          "label": "Iowa",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "kansas": {
+          "label": "Kansas",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "kentucky": {
+          "label": "Kentucky",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "louisiana": {
+          "label": "Louisiana",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "maine": {
+          "label": "Maine",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "mary_land": {
+          "label": "Maryland",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "massachusetts": {
+          "label": "Massachusetts",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "michigan": {
+          "label": "Michigan",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "minnesota": {
+          "label": "Minnesota",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "mississippi": {
+          "label": "Mississippi",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "missouri": {
+          "label": "Missouri",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "montana": {
+          "label": "Montana",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 1000, "value2": 1000 },
+                { "name": "Page B", "value1": 2000, "value2": 1398 },
+                { "name": "Page C", "value1": 3000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 4000 },
+                { "name": "Page E", "value1": 200000, "value2": 4800 },
+                { "name": "Page F", "value1": 10000, "value2": 5000 },
+                { "name": "Page G", "value1": 3490, "value2": 6000 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "nebraska": {
+          "label": "Nebraska",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "nevada": {
+          "label": "Nevada",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "new_jersey": {
+          "label": "New Jersey",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "new_mexico": {
+          "label": "New Mexico",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "new_york": {
+          "label": "New York",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "north_carolina": {
+          "label": "North Carolina",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "north_dakota": {
+          "label": "North Dakota",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "ohio": {
+          "label": "Ohio",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "oklahoma": {
+          "label": "Oklahoma Dakota",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "oregon": {
+          "label": "Oregon",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "pennsylvania": {
+          "label": "Pennsylvania",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "rhode_island": {
+          "label": "Rhode Island",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "south_carolina": {
+          "label": "South Carolina",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "south_dakota": {
+          "label": "South Dakota",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "tennessee": {
+          "label": "Tennessee",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "texas": {
+          "label": "Texas",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                  { "name": "Page A", "value1": 1000, "value2": 1000 },
+                  { "name": "Page B", "value1": 2000, "value2": 1398 },
+                  { "name": "Page C", "value1": 3000, "value2": 9800 },
+                  { "name": "Page D", "value1": 2780, "value2": 4000 },
+                  { "name": "Page E", "value1": 200000, "value2": 4800 },
+                  { "name": "Page F", "value1": 10000, "value2": 5000 },
+                  { "name": "Page G", "value1": 3490, "value2": 6000 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [1, 2, 3, 4, 5]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "utah": {
+          "label": "Utah",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "vermont": {
+          "label": "Vermont",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "virginia": {
+          "label": "Virginia",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "washington": {
+          "label": "Washington",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "west_virginia": {
+          "label": "West Virginia",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [2, 5, 4, 3, 2]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "wisconsin": {
+          "label": "Wisconsin",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [12, 15, 14, 13, 12]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "wyoming": {
+          "label": "Wyoming",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [12, 15, 14, 13, 12]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        },
+        "new_hampshire": {
+          "label": "New Hampshire",
+          "barChartData": {
+              "height": "700px",
+              "labels": { "value1": "Public 1", "value2": "Private 1" },
+              "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+              "data": [
+                { "name": "Page A", "value1": 4000, "value2": 2400 },
+                { "name": "Page B", "value1": 3000, "value2": 1398 },
+                { "name": "Page C", "value1": 2000, "value2": 9800 },
+                { "name": "Page D", "value1": 2780, "value2": 3908 },
+                { "name": "Page E", "value1": 1890, "value2": 4800 },
+                { "name": "Page F", "value1": 2390, "value2": 3800 },
+                { "name": "Page G", "value1": 3490, "value2": 4300 }
+                ]
+                },
+          "polarData": {
+            "title": "Number of Hubs by Type",
+            "labels": [
+              "Accelerators",
+              "Government Offices",
+              "Incubators",
+              "Industrials Hubs",
+              "R & D Hubs"
+            ],
+            "data": [12, 15, 14, 13, 12]
+          },
+          "keyIndicatorData": {
+            "title": "Companies and Investors Split",
+            "indicators": [
+              {
+                "header": "Technology",
+                "value": "3181"
+              },
+              {
+                "header": "Consulting",
+                "value": "2479"
+              },
+              {
+                "header": "Infrastructure and Others",
+                "value": "3427"
+              },
+              {
+                "header": "Institutional",
+                "value": "52"
+              },
+              {
+                "header": "Investment Funds",
+                "value": "490"
+              },
+              {
+                "header": "Others",
+                "value": "88"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

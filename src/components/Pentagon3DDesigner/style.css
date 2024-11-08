@@ -1,0 +1,269 @@
+.scenePolygon {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+}
+
+.polWrap {
+    height: 400px;
+    perspective: 35rem;
+    perspective-origin: 50% 50%;
+    position: absolute;
+    left: 50%;
+}
+
+.polDodecahedron {
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    animation: up 60s infinite;
+}
+
+.polPentagonText {
+    position: absolute;
+    top: auto;
+    left: 30%;
+    right: 30%;
+    bottom: 0;
+    color: #fff;
+    height: 140px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    /* text-shadow: 1px 2px 1px #222296; */
+    font-size: 1em;
+}
+
+.polPentagon:nth-child(1) .polPentagonText,
+.polPentagon:nth-child(2) .polPentagonText,
+.polPentagon:nth-child(3) .polPentagonText,
+.polPentagon:nth-child(4) .polPentagonText,
+.polPentagon:nth-child(5) .polPentagonText,
+.polPentagon:nth-child(6) .polPentagonText,
+.polPentagon:nth-child(12) .polPentagonText {
+    transform: scaleY(-1);
+}
+
+.polPentagonText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.polPentagonText span {
+    text-align: center;
+}
+
+.polDodecahedron,
+.polPentagon,
+.polPentagonInner,
+.polPentagonContent {
+    top: 50%;
+    left: 50%;
+    margin: -10em;
+    width: 20em;
+    height: 20em;
+}
+
+.polPentagon, .polPentagonInner, .polPentagonContent {
+    position: absolute;
+    overflow: hidden;
+}
+
+.polPentagon:nth-child(1) .polPentagonContent {
+    background: rgb(20, 20, 135);
+    background: radial-gradient(circle, rgba(20, 20, 135, 1) 0%, rgba(94, 107, 189, 0.75) 100%);
+}
+
+.polPentagon:nth-child(2) .polPentagonContent {
+    background: rgba(23, 23, 139, 1);
+    background: radial-gradient(circle, rgba(23, 23, 139, 1) 0%, rgba(94, 107, 189, 0.75) 100%);
+}
+
+.polPentagon:nth-child(3) .polPentagonContent {
+    background: rgba(26, 26, 143, 1);
+    background: radial-gradient(circle, rgba(26, 26, 143, 1) 0%, rgba(94, 107, 189, 0.75) 100%);
+}
+
+.polPentagon:nth-child(4) .polPentagonContent {
+    background: rgba(33, 33, 150, 1);
+    background: radial-gradient(circle, rgba(33, 33, 150, 1) 0%, rgba(94, 107, 189, 0.75) 100%);
+}
+
+.polPentagon:nth-child(5) .polPentagonContent {
+    background: rgba(36, 36, 154, 1);
+    background: radial-gradient(circle, rgba(36, 36, 154, 1) 0%, rgba(94, 107, 189, 0.75) 100%);
+}
+
+.polPentagon:nth-child(6) .polPentagonContent {
+    background: rgba(39, 39, 157, 1);
+    background: radial-gradient(circle, rgba(39, 39, 157, 1) 0%, rgba(94, 107, 189, 0.75) 100%);
+}
+
+.polPentagon:nth-child(7) .polPentagonContent {
+    background: rgba(49, 49, 168, 1);
+    background: radial-gradient(circle, rgba(49, 49, 168, 1) 0%, rgba(94, 107, 189, 0.75) 100%);
+}
+
+.polPentagon:nth-child(8) .polPentagonContent {
+    background: rgba(46, 46, 165, 1);
+    background: radial-gradient(circle, rgba(46, 46, 165, 1) 0%, rgba(94, 107, 189, 0.75) 100%);
+}
+
+.polPentagon:nth-child(9) .polPentagonContent {
+    background: rgba(43, 43, 161, 1);
+    background: radial-gradient(circle, rgba(43, 43, 161, 1) 0%, rgba(94, 107, 189, 0.75) 100%);
+}
+
+.polPentagon:nth-child(10) .polPentagonContent {
+    background: rgba(53, 53, 172, 1);
+    background: radial-gradient(circle, rgba(53, 53, 172, 1) 0%, rgba(94, 107, 189, 0.75) 100%);
+}
+
+.polPentagon:nth-child(11) .polPentagonContent {
+    background: rgba(36, 36, 154, 1);
+    background: radial-gradient(circle, rgba(36, 36, 154, 1) 0%, rgba(94, 107, 189, 0.75) 100%);
+}
+
+.polPentagon:nth-child(12) .polPentagonContent {
+    background: rgba(56, 56, 176, 1);
+    background: radial-gradient(circle, rgba(56, 56, 176, 1) 0%, rgba(94, 107, 189, 0.75) 100%);
+}
+
+.polPentagon:nth-child(1) {
+    transform: scaleY(-1) translateY(8.50651em) rotateY(1.88496rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagon:nth-child(2) {
+    transform: scaleY(-1) translateY(8.50651em) rotateY(3.14159rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagon:nth-child(3) {
+    transform: scaleY(-1) translateY(8.50651em) rotateY(4.39823rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagon:nth-child(4) {
+    transform: scaleY(-1) translateY(8.50651em) rotateY(5.65487rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagon:nth-child(5) {
+    transform: scaleY(-1) translateY(8.50651em) rotateY(6.9115rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagon:nth-child(6) {
+    transform: scaleY(-1) translateY(8.50651em) rotateX(1.5708rad) scaleY(-1) translateY(5.25731em) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagon:nth-child(7) {
+    transform: translateY(8.50651em) rotateY(10.0531rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad);
+}
+
+.polPentagon:nth-child(8) {
+    transform: translateY(8.50651em) rotateY(11.30973rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad);
+}
+
+.polPentagon:nth-child(9) {
+    transform: translateY(8.50651em) rotateY(12.56637rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad);
+}
+
+.polPentagon:nth-child(10) {
+    transform: translateY(8.50651em) rotateY(13.82301rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad);
+}
+
+.polPentagon:nth-child(11) {
+    transform: translateY(8.50651em) rotateY(15.07964rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad);
+}
+
+.polPentagon:nth-child(12) {
+    transform: translateY(8.50651em) rotateX(1.5708rad) translateY(5.25731em) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagonInner {
+    transform: scaleY(1.05146) skewX(-0.31416rad) rotate(0.62832rad) translateY(-7.26543em) rotate(0.31416rad) skewY(0.94248rad) scaleX(0.58779);
+}
+
+.polPentagonInner .polPentagonContent {
+    transform: scaleX(1.7013) skewY(-0.94248rad) rotate(-0.31416rad) translateY(-2.73457em);
+}
+
+.polPentagon:nth-child(1) {
+    transform: scaleY(-1) translateY(8.50651em) rotateY(1.88496rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagon:nth-child(2) {
+    transform: scaleY(-1) translateY(8.50651em) rotateY(3.14159rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagon:nth-child(3) {
+    transform: scaleY(-1) translateY(8.50651em) rotateY(4.39823rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagon:nth-child(4) {
+    transform: scaleY(-1) translateY(8.50651em) rotateY(5.65487rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagon:nth-child(5) {
+    transform: scaleY(-1) translateY(8.50651em) rotateY(6.9115rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagon:nth-child(6) {
+}
+
+.polPentagon:nth-child(7) {
+    transform: translateY(8.50651em) rotateY(10.0531rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagon:nth-child(8) {
+    transform: translateY(8.50651em) rotateY(11.30973rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagon:nth-child(9) {
+    transform: translateY(8.50651em) rotateY(12.56637rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagon:nth-child(10) {
+    transform: translateY(8.50651em) rotateY(13.82301rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagon:nth-child(11) {
+    transform: translateY(8.50651em) rotateY(15.07964rad) translateZ(5.25731em) rotateX(-0.46365rad) rotate(-0.62832rad) skewX(0.31416rad) scaleY(0.95106);
+}
+
+.polPentagon:nth-child(12) {
+}
+
+@keyframes up {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); /*6*/
+    }
+    10% {
+        transform: rotateX(266deg) rotateY(0deg) rotateZ(0deg); /*1*/
+    }
+    20% {
+        transform: rotateX(253deg) rotateY(0deg) rotateZ(0deg); /*5*/
+    }
+    30% {
+        transform: rotateX(242deg) rotateY(287deg) rotateZ(281deg); /*1*/
+    }
+    40% {
+        transform: rotateX(286deg) rotateY(271deg) rotateZ(247deg); /*10*/
+    }
+    50% {
+        transform: rotateX(260deg) rotateY(89deg) rotateZ(70deg); /*3*/
+    }
+    60% {
+        transform: rotate(0deg) rotateX(0deg) rotateY(0deg);
+    }
+    70% {
+        transform: rotateX(341deg) rotateY(194deg) rotateZ(9deg) /*2*/
+    }
+    80% {
+        transform: rotateX(2deg) rotateY(224deg) rotateZ(349deg); /*11*/
+    }
+    90% {
+        transform: rotateX(350deg) rotateY(78deg) rotateZ(38deg); /*8*/
+    }
+    100% {
+        transform: rotate(360deg) rotateX(360deg) rotateY(360deg);
+    }
+}

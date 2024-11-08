@@ -1,0 +1,18 @@
+{
+  "originalData": {
+    "name": "Pathways",
+    "tooltip": "Explore Longevity Pathways: Discover various pathways you can follow to improve your health and well-being.",
+    "children": [
+      {
+        "name": "Child Health",
+        "tooltip": "Get insights into promoting the health and development of children, from infancy to adolescence.",
+        "children": [
+          {
+            "name": "Child Health",
+            "tooltip": "Health optimization services tailored for children to ensure proper growth and development."
+          }
+        ]
+      }
+    ]
+  }
+}

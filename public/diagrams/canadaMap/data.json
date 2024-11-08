@@ -1,0 +1,51 @@
+{
+  "originalData": {
+    "title": "Digital Map of Canada",
+    "backgroundColor": "white",
+    "fontColor": "black",
+    "hoverColor": "#fd8b51",
+    "markers": [
+      {
+        "markerOffset": -15,
+        "markerOffsetX": 0,
+        "markerColor": "#F00",
+        "name": "Ottawa",
+        "coordinates": [-77.00556393099993, 45.66908559200006],
+        "radius": "3",
+        "fontColor": "black",
+        "tooltip": null,
+        "fontSize": "8px"
+      }
+    ],
+    "colors": {
+      "Ontario": "",
+      "British Columbia": "",
+      "Alberta": "",
+      "Saskatchewan": "",
+      "Manitoba": "",
+      "Québec": "",
+      "New Brunswick": "",
+      "Yukon": "",
+      "Nunavut": "",
+      "Newfoundland and Labrador": "",
+      "Nova Scotia": "",
+      "Northwest Territories": "",
+      "Prince Edward Island": ""
+    },
+    "countryNames": {
+      "ON": "Ontario",
+      "BC": "British Columbia",
+      "AB": "Alberta",
+      "SK": "Saskatchewan",
+      "MB": "Manitoba",
+      "QC": "Québec",
+      "NB": "New Brunswick",
+      "YT": "Yukon",
+      "NU": "Nunavut",
+      "NF": "Newfoundland and Labrador",
+      "NS": "Nova Scotia",
+      "NT": "Northwest Territories",
+      "PE": "Prince Edward Island"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "originalData": {
+    "height": 700,
+    "name": "stackBar",
+    "containerStyle": {
+      "marginTop": "0px"
+    },
+    "options": {
+      "plugins": {
+        "title": {
+          "display": true,
+          "text": "Chart.js Bar Chart - Stacked",
+          "font": {
+            "size": 24
+          }
+        },
+        "legend": {
+          "labels": {
+            "font": {
+              "size": 24
+            }
+          }
+        }
+      },
+      "responsive": true,
+      "maintainAspectRatio": false,
+      "scales": {
+        "x": {
+          "stacked": true,
+          "ticks": {
+            "font": {
+              "size": 32
+            }
+          },
+          "grid": {
+            "color": "darkgray"
+          },
+          "backgroundColor": "white"
+        },
+        "y": {
+          "stacked": true,
+          "grid": {
+            "color": "darkgray"
+          },
+          "backgroundColor": "white"
+        }
+      }
+    },
+    "data": {
+      "labels": ["USA", "China", "Germany", "Japan", "France"],
+      "datasets": [
+        {
+          "label": "Electric Vehicles",
+          "data": [250000, 200000, 180000, 150000, 120000],
+          "gradient": {
+            "start": "darkgray",
+            "end": "blue",
+            "coordinates": {
+              "x0": 0,
+              "y0": 0,
+              "x1": 0,
+              "y1": 0
+            }
+          }
+        },
+        {
+          "label": "ICE Vehicles",
+          "data": [300000, 280000, 320000, 270000, 250000],
+          "backgroundColor": "#1c8eb1"
+        }
+      ]
+    }
+  }
+}

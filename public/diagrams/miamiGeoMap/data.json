@@ -1,0 +1,32 @@
+{
+  "originalData": {
+    "title": "Miami GeoMap",
+    "backgroundColor": "white",
+    "fontColor": "black",
+    "hoverColor": "#3b729f",
+    "mapMarker": true,
+    "markers": [
+      {
+        "coordinates": [-80.19077276137732, 25.766118027222436],
+        "tooltip": "Wall Street, Brickell Avenue",
+        "markerColor": "#ff0000"
+      }
+    ],
+    "colors": {
+      "Allapattah": "#98c3de",
+      "Coral Way": "#569cc6",
+      "Downtown": "#569cc6",
+      "Flagami": "#abcfe4",
+      "Islands": "#569cc6",
+      "Little Haiti": "#398bbc",
+      "Little Havana": "#569cc6",
+      "Model City": "#569cc6",
+      "North Coconut Grove": "#abcfe4",
+      "Overtown": "#98c3de",
+      "South Coconut Grove": "#98c3de",
+      "Upper Eastside": "#569cc6",
+      "West Flagler": "#398bbc",
+      "Wynwood": "#abcfe4"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="https://data-science.dkv.global/favicon.ico">
+    <title>Data Science</title>
+</head>
+
+<body style="margin:0px">
+    <iframe src="http://localhost:3000/product/pas?parentUrl=http://localhost:5500"
+        style="width: 100%; height: 1440px; border: 0px;"></iframe>
+    <script>
+        const currentUrl = window.location.host
+        const getTokenfromCookies = () => {
+            const cookies = document.cookie.split(';');
+            const token = cookies.find(cookie => cookie.includes('auth_token'));
+            return token ? token.split('=')[1].trim() : null;
+        };
+        const authToken = getTokenfromCookies();
+        const checkUserAuthentication = async () => {
+            if (!authToken) {
+                window.location.href = '/login';
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/user', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Token ${authToken}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+                if (response.ok) {
+                    const userData = await response.json();
+                } else {
+                    console.log('response not ok');
+                    throw new Error('User not authenticated');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                window.location.href = '/login';
+            }
+        };
+        
+
+        window.addEventListener('message', function (event) {
+            // Check the origin of the message
+            if (event.origin === 'https://tools.dkv.global' || event.origin === 'http://localhost:3000') {
+                // Verify the message type and perform the redirect
+                if (event.data.type === 'pageIsProtected') {
+                    checkUserAuthentication(); // Call the function to check user authentication
+                } 
+            }
+        }, false);
+
+    </script>
+</body>
+
+</html>

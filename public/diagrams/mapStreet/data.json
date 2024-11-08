@@ -1,0 +1,43 @@
+{
+  "originalData": {
+    "spreadSheetLink": "https://docs.google.com/spreadsheets/d/{key}/gviz/tq?tqx=out:csv&sheet={sheetname}",
+    "center": [-0.147273, 51.51784],
+    "zoom": 14.5,
+    "pitch": 0,
+    "bearing": -15,
+    "title": "Longevity Clinics",
+    "description": "The Longevity Clinic extends an invitation to potential investors to join this groundbreaking venture, which promises not only substantial financial returns but also the opportunity to be at the forefront of a shift in how health and wellness are understood and achieved. Investing in the Longevity Clinic offers a chance to be part of a venture that is set to redefine the healthcare landscape, contributing to a societal shift towards greater health, longevity, and well-being.",
+    "sideBarInfo": [
+      "Name of Clinic",
+      "Type of Clinic",
+      "Address",
+      "Phone",
+      "Working Hours",
+      "Website Link",
+      "Average Price",
+      "Rating"
+    ],
+    "popupInfo": ["Name of Clinic"],
+    "filters": [
+      {
+        "type": "dropdown",
+        "title": "Languages supported: ",
+        "columnHeader": "Languages",
+        "listItems": [
+          "English",
+          "Spanish",
+          "Portugal",
+          "Arabic",
+          "Urdu",
+          "French"
+        ]
+      },
+      {
+        "type": "checkbox",
+        "title": "Muslim Doctor Available",
+        "columnHeader": "Muslim Doctor",
+        "listItems": ["Yes", "No"]
+      }
+    ]
+  }
+}

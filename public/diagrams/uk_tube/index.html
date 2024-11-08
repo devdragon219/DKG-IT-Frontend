@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>3D Mind Map V2.0</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/circle.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="ico/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="ico/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="ico/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="ico/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="ico/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="ico/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="ico/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="ico/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="ico/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="ico/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="ico/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="ico/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="ico/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <meta
+      property="og:title"
+      content="3D Mind Map V2.0 - Aging Analytics Agency"
+    />
+    <meta
+      property="og:description"
+      content="Premier Source of Industry Analytics"
+    />
+    <meta
+      property="og:image"
+      content="https://dkg-mindmaps-3d.com/ai/img/preview.jpg"
+    />
+    <meta property="og:url" content="https://dkg-mindmaps-3d.com/ai/" />
+
+    <meta
+      name="twitter:title"
+      content="3D Mind Map V2.0 - Aging Analytics Agency"
+    />
+    <meta
+      name="twitter:description"
+      content="Premier Source of Industry Analytics"
+    />
+    <meta
+      name="twitter:image"
+      content="https://dkg-mindmaps-3d.com/ai/img/preview.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.tagcanvas.min.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/tween.js"></script>
+    <script src="js/Detector.js"></script>
+    <script src="js/three.js"></script>
+  </head>
+  <body>
+    <div class="container" id="container"></div>
+    <!-- <div class="filters">
+      <div class="filters__label">Filters example:</div>
+      <input type="text" placeholder="type company name" id="filter__name">
+      <input type="text" placeholder="id filter more then" id="filter__id">
+      <input type="text" placeholder="image filter include text" id="filter__image">
+      <input type="text" placeholder="sector filter include text" id="filter__sector">
+      <div id="filter__result"></div>
+    </div> -->
+    <div class="not">
+      <img src="img/180.png" />
+    </div>
+    <div class="cloud-container">
+      <!-- <div class="cloud-header">Company Market Filter</div> -->
+      <div id="myCanvasContainer">
+        <canvas width="300" height="200" id="myCanvas">
+          <p>
+            Anything in here will be replaced on browsers that support the
+            canvas element
+          </p>
+          <ul>
+            <li>
+              <a class="cloud-link" id="cloud-0">Consulting & Outsourcing</a>
+            </li>
+            <li><a class="cloud-link" id="cloud-1">Education</a></li>
+            <li><a class="cloud-link" id="cloud-2">Entertainment</a></li>
+            <li><a class="cloud-link" id="cloud-3">FinTech</a></li>
+            <li><a class="cloud-link" id="cloud-4">GovTech</a></li>
+            <li><a class="cloud-link" id="cloud-5">Healthcare</a></li>
+            <li><a class="cloud-link" id="cloud-6">HR</a></li>
+            <li><a class="cloud-link" id="cloud-7">InsurTech</a></li>
+            <li><a class="cloud-link" id="cloud-8">Legaltech</a></li>
+            <li>
+              <a class="cloud-link" id="cloud-9">Marketing & Advertising</a>
+            </li>
+            <li><a class="cloud-link" id="cloud-10">Others</a></li>
+            <li><a class="cloud-link" id="cloud-11">Security</a></li>
+            <li>
+              <a class="cloud-link" id="cloud-12">Transport & Infrastructure</a>
+            </li>
+          </ul>
+        </canvas>
+      </div>
+    </div>
+    <div class="popup"></div>
+    <div class="company-popup">
+      <div class="main-side-flex">
+        <div class="left-side">
+          <div class="company-header">Company description</div>
+          <div class="main-info"></div>
+          <div class="company-header">
+            Capitalization dynamic for last 10 years
+          </div>
+          <div class="echart" id="echart"></div>
+        </div>
+      </div>
+      <img class="close" src="img/close.svg" />
+    </div>
+    <div class="">
+      <div class="group">
+        <input type="text" id="filter__name" required="required" disabled />
+        <!-- <label for="name">Type company name here</label> -->
+        <!-- <div class="bar2"></div> -->
+        <!-- <div class="close-search"><img src="img/close.svg" /></div> -->
+      </div>
+    </div>
+
+    <!-- <div class="filters-container">
+      <div class="filter-category">
+        <select id="filter-category-select">
+          <option value="capitalization">Capitalization</option>
+          <option value="founded_year">Founded Year</option>
+          <option value="number_of_employees">Number of Employees</option>
+        </select>
+      </div>
+
+      <div class="slider">
+        <div class="range-slider">
+          <div class="range-label">Capitalization greater than:</div>
+          <input
+            id="range1"
+            class="range-slider__range"
+            type="range"
+            step="0.1"
+            value="0"
+            min="0"
+            max="200"
+          />
+          <input type="hidden" id="range-actual-value" />
+          <span class="range-slider__value">0</span>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="filters-container">
+      <div id="filter-box" class="filter-category">
+        <select id="filter-category-select">
+          <!-- Options will be dynamically populated -->
+        </select>
+      </div>
+      <div id="filter-container"></div>
+    </div>
+    <div class="location-input-container">
+      <input type="text" id="filter__location" required="required" disabled />
+      <!-- <label for="name">Type location here</label> -->
+      <!-- <div class="bar2"></div> -->
+      <!-- <div class="close-search-location"><img src="img/close.svg" /></div> -->
+    </div>
+    <!-- <div class="group founded-year-input">
+        <input type="number" id="filter__founded_year" required="required" />
+        <label for="name">Type foundation year here</label>
+        <div class="bar2"></div>
+        <div class="close-search"><img src="img/close.svg" /></div>
+    </div> -->
+    <div class="uil">
+      <div class="com-filter company-reset">Reset</div>
+      <div class="com-filter company-list">View selected</div>
+      <div class="clearfix">
+        <div class="c100 big on" id="counter0">
+          <div class="additional">
+            <div class="lbl">Companies</div>
+            <div class="count" id="c0-1">93</div>
+            <div class="d">companies</div>
+            <div class="lh">
+              <div class="lbl">TOTAL</div>
+              <div class="count" id="c0-2">23.5</div>
+              <div class="d">b</div>
+            </div>
+            <div class="rh">
+              <div class="lbl">AV. GROWTH</div>
+              <div class="count" id="c0-3">+11.7</div>
+              <div class="d">%</div>
+            </div>
+          </div>
+          <div class="hint">Click to Enable/Disable</div>
+          <span class="number color1">103</span>
+          <span class="text">Companies</span>
+          <div class="slice">
+            <div class="bar color1"></div>
+            <div class="fill"></div>
+          </div>
+        </div>
+
+        <br />
+        <div class="c100 big on" id="counter1">
+          <div class="additional">
+            <div class="lbl">Investors</div>
+            <div class="count" id="c1-1">93</div>
+            <div class="d">companies</div>
+            <div class="lh">
+              <div class="lbl">TOTAL</div>
+              <div class="count" id="c1-2">23.5</div>
+              <div class="d">b</div>
+            </div>
+            <div class="rh">
+              <div class="lbl">AV. GROWTH</div>
+              <div class="count" id="c1-3">+11.7</div>
+              <div class="d">%</div>
+            </div>
+          </div>
+          <div class="hint">Click to Enable/Disable</div>
+          <span class="number color2">103</span>
+          <span class="text">Investors</span>
+          <div class="slice">
+            <div class="bar color2"></div>
+            <div class="fill"></div>
+          </div>
+        </div>
+        <br />
+
+        <div class="c100 big on" id="counter2">
+          <div class="additional">
+            <div class="lbl">Non profit organizations</div>
+            <div class="count" id="c2-1">93</div>
+            <div class="d">companies</div>
+            <div class="lh">
+              <div class="lbl">TOTAL</div>
+              <div class="count" id="c2-2">0</div>
+              <div class="d">b</div>
+            </div>
+            <div class="rh">
+              <div class="lbl">AV. GROWTH</div>
+              <div class="count" id="c2-3">0</div>
+              <div class="d">%</div>
+            </div>
+          </div>
+          <div class="hint">Click to Enable/Disable</div>
+          <span class="number color3">103</span>
+          <span class="text">Non profit</span>
+          <div class="slice">
+            <div class="bar color3"></div>
+            <div class="fill"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="loader2">
+      <div id="progress" style="display: block">
+        <img class="logo_load" src="img/logo_grey.png" />
+        <center>
+          <!-- LOADING -->
+          <div id="progressbar" class="shadow">
+            <div id="bar" class="shadow"></div>
+          </div>
+          <br /><br />
+          <div class="percent" id="percent">0%</div>
+          <br />
+          LOADING...
+        </center>
+      </div>
+    </div>
+    <div class="list-container">
+      <div class="list-header">List of the companies</div>
+      <img class="close-list" src="img/close.svg" />
+      <div class="main-container scrollbar3 style-1">
+        <div class="list list1"></div>
+        <div class="list list2"></div>
+        <div class="list list3"></div>
+      </div>
+      <div class="add-container">
+        <div class="company-logo"></div>
+        <div class="c-name"></div>
+        <div class="main-info2"></div>
+        <div class="add-info">Advanced information</div>
+      </div>
+    </div>
+  </body>
+  <script src="js/main.js"></script>
+  <script src="js/echarts.min.js"></script>
+  <script src="js/echarts.js"></script>
+  <!-- <script src="js/filter.js"></script> -->
+  <!-- <script src="js/galaxy.js"></script> -->
+</html>

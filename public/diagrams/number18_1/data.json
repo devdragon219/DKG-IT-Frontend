@@ -1,0 +1,111 @@
+{
+  "originalData": {
+    "country": "Australia",
+    "left_title_1": "Australia: #8 Region",
+    "left_title_2": "by COVID-19 Safery Ranking",
+    "right_title_1": "Tier 1 Countries & Regions",
+    "right_title_2": "June 3, 2020",
+    "score": 716,
+    "score_text": "Cumulative score",
+    "data": [
+      {
+        "title": "COVID-19 Regional Resiliency",
+        "points": 89,
+        "point_text": "Points",
+        "point_text_font_size": "0.019",
+        "items": [
+          "Infection Spread Risk",
+          "Culture Specifics and Societal Discipline",
+          "Level of Modern Sanitization Methods",
+          "Demography",
+          "Chronic Diseases",
+          "Societal Risks"
+        ],
+        "factors": [0.0909, 0.1161, 0.15, 0.0689, 0.0751, 0.136]
+      },
+      {
+        "title": "COVID-19 Emergency Preparedness",
+        "points": 118,
+        "point_text": "Points",
+        "point_text_font_size": "0.019",
+        "items": [
+          "Social Emergency Resilience",
+          "Emergency Military Mobilization Experience",
+          "Surveillance Capabilities (Scale, Scope and Technological Sophistication)",
+          "Previous National Emergency Experience"
+        ],
+        "factors": [0.2025, 0.1533, 0.2025, 0.23]
+      },
+      {
+        "title": "COVID-19 Monitoring and Detection",
+        "points": 116,
+        "point_text": "Points",
+        "point_text_font_size": "0.019",
+        "items": [
+          "Monitoring Systems and Disaster Management",
+          "Scope of Diagnosic Methods",
+          "Testing Efficiency",
+          "AI for Diagnostics and Prognostics",
+          "Government Surveillance Technology for Monitoring",
+          "Reliability and Transparency of Data"
+        ],
+        "factors": [0.18, 0.15, 0.092, 0.15, 0.85, 0.1133]
+      },
+      {
+        "title": "COVID-19 Government Efficiency of Risk Management",
+        "points": 181,
+        "point_text": "Points",
+        "point_text_font_size": "0.019",
+        "items": [
+          "Level of Security and Defense Advancement",
+          "Rapid Emergency Mobilization",
+          "Efficiency of Government Structure",
+          "Economic Sustainability",
+          "Legislative Efficiency",
+          "Political Stability"
+        ],
+        "factors": [0.17, 0.1543, 0.145, 0.0785, 0.12, 0.1543]
+      },
+      {
+        "title": "COVID-19 Quarantine Efficiency",
+        "points": 131,
+        "point_text": "Points",
+        "point_text_font_size": "0.019",
+        "items": [
+          "Scale of Quarantine",
+          "Quarantine Timeline",
+          "Criminal Penalties for Violating Quarantine",
+          "Economic Support for quarantined Citizens",
+          "Economic and Supply Chain Freezing",
+          "Travel Restrictions"
+        ],
+        "factors": [0.1651, 0.0567, 0.0759, 0.072, 0.124, 0.1021]
+      },
+      {
+        "title": "COVID-19 Healthcare Readiness",
+        "points": 81,
+        "point_text": "Points",
+        "point_text_font_size": "0.019",
+        "items": [
+          "COVID-19 Equipment Availability",
+          "Mobilization of New Healthcare Resources",
+          "Quantity and Quality of Medical Staff",
+          "Level of Healthcare Progressiveness",
+          "Level of Technological Advancement",
+          "Epidemiology System Level of Development"
+        ],
+        "factors": [0.1047, 0.1458, 0.1341, 0.0929, 0.0196, 0.1246]
+      }
+    ],
+    "logoConfig": {
+      "background": "#FFF",
+      "xPosition": "15",
+      "yPosition": "80",
+      "width": "150",
+      "height": "80",
+      "imgWidth": "105px",
+      "padding": "10px",
+      "link": "https://www.google.com"
+    }
+  }
+}

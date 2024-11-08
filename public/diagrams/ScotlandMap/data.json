@@ -1,0 +1,62 @@
+{
+  "originalData": {
+    "title": "Scotland GeoMap",
+    "backgroundColor": "white",
+    "fontColor": "black",
+    "hoverColor": "#3b729f",
+    "markers": [
+      {
+        "markerOffset": 10,
+        "name": "Glasgow City",
+        "coordinates": [-4.25763, 55.86515],
+        "radius": "2",
+        "fontColor": "black",
+        "tooltip": "Glasgow City: 62",
+        "fontSize": "5px"
+      },
+      {
+        "markerOffset": 10,
+        "name": "Aberdeenshire",
+        "coordinates": [-2.52404, 57.6665],
+        "radius": "2",
+        "fontColor": "black",
+        "tooltip": "Aberdeenshire: 18",
+        "fontSize": "5px"
+      }
+    ],
+    "colors": {
+      "Clackmannanshire": "#398bbc",
+      "Dumfries and Galloway": "#398bbc",
+      "East Ayrshire": "#398bbc",
+      "East Lothian": "#abcfe4",
+      "East Renfrewshire": "#abcfe4",
+      "Eilean Siar": "#398bbc",
+      "Falkirk": "#abcfe4",
+      "Fife": "#abcfe4",
+      "Highland": "#98c3de",
+      "Inverclyde": "#569cc6",
+      "Moray": "#abcfe4",
+      "North Ayrshire": "#98c3de",
+      "Orkney Islands": "#398bbc",
+      "Perth and Kinross": "#398bbc",
+      "Scottish Borders": "#569cc6",
+      "Shetland Islands": "#98c3de",
+      "South Ayrshire": "#398bbc",
+      "South Lanarkshire": "#398bbc",
+      "Stirling": "#398bbc",
+      "Aberdeen City": "#abcfe4",
+      "Aberdeenshire": "#abcfe4",
+      "Argyll and Bute": "#398bbc",
+      "City of Edinburgh": "#abcfe4",
+      "West Dunbartonshire": "#abcfe4",
+      "West Lothian": "#98c3de",
+      "Angus": "#569cc6",
+      "Dundee City": "#abcfe4",
+      "North Lanarkshire": "#98c3de",
+      "East Dunbartonshire": "#398bbc",
+      "Glasgow City": "#398bbc",
+      "Renfrewshire": "#398bbc",
+      "Midlothian": "#398bbc"
+    }
+  }
+}

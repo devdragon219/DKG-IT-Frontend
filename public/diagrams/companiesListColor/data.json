@@ -1,0 +1,46 @@
+{
+    "originalData": {
+        "title": "Join the Largest AI Ecosystem",
+        "rowNumber": 3,
+        "data": [
+            {
+                "label": "Register your account",
+                "link": "https://www.ai-ecosystem.org/log-in",
+                "backgroundColor": "#DD7171"
+            },
+            {
+                "label": "Claim ownership of your organization profile",
+                "link": "https://platform.dkv.global/dashboards/claim-organisation?slug=AI-Industry-2023",
+                "backgroundColor": "#6E64E5"
+            },
+            {
+                "label": "Become our Partner",
+                "link": "https://www.ai-ecosystem.org/partner",
+                "backgroundColor": "#3979D9"
+            },
+            {
+                "label": "Suggest an organisation for the AI database",
+                "link": "https://share-eu1.hsforms.com/1-tnDs9QtQUCMuj21kpQeRQetdrd",
+                "backgroundColor": "#FAB760"
+            },
+            {
+                "link": "https://www.ai-ecosystem.org/ambassador",
+                "label": "Become our Ambassador",
+                "backgroundColor": "#0F9CAD"
+            },
+            {
+                "link": "https://share-eu1.hsforms.com/1Us45cUfUQ0GqHKxZVQuyXgetdrd",
+                "label": "Suggest an item for the AI Knowledge Hub",
+                "backgroundColor": "#5AC4EE"
+            }
+        ],
+        "settings": {
+            "color": "#ffffff",
+            "backgroundColor": "#104E85",
+            "paddingTop": 3,
+            "paddingRight": 9,
+            "paddingBottom": 7,
+            "paddingLeft": 9
+        }
+    }
+}

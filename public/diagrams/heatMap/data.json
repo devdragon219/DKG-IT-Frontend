@@ -1,0 +1,183 @@
+{
+  "originalData": {
+    "data": {
+      "title": "Heat Map", 
+      "width": 500,
+      "height": 500,
+      "yMargin": 20,
+      "colorTitle": "#3993E1",
+      "colorAxis": "#3993E1",
+      "colorRangeStart": "#3993E1",
+      "colorRangeFinish": "#03294A",
+      "colorText": "white",
+      "padding": 2,
+      "children": [
+        {
+          "x": "Category 1",
+          "y": "Category",
+          "value": 15,
+          "hoverText": "hoverText A"
+        },
+        {
+          "x": "Category 2",
+          "y": "Category",
+          "value": 25,
+          "hoverText": "hoverText A"
+        },
+        {
+          "x": "Category 3",
+          "y": "Category",
+          "value": 10,
+          "hoverText": "hoverText A"
+        },
+        {
+          "x": "Category 1",
+          "y": "B",
+          "value": 20,
+          "hoverText": "hoverText B"
+        },
+        {
+          "x": "Category 2",
+          "y": "B",
+          "value": 30,
+          "hoverText": "hoverText B"
+        },
+        {
+          "x": "Category 3",
+          "y": "B",
+          "value": 15,
+          "hoverText": "hoverText B"
+        },
+        {
+          "x": "Category 1",
+          "y": "C",
+          "value": 10,
+          "hoverText": "hoverText C hoverText C hoverText C hoverText C hoverText C  hoverText C  hoverText C hoverText C",
+          "colorText": "red"
+        },
+        {
+          "x": "Category 2",
+          "y": "C",
+          "value": 35,
+          "hoverText": "hoverText C"
+        },
+        {
+          "x": "Category 3",
+          "y": "C",
+          "value": 25,
+          "hoverText": "hoverText C"
+        },
+        {
+          "x": "Category 1",
+          "y": "Category",
+          "value": 15,
+          "hoverText": "hoverText A"
+        },
+        {
+          "x": "Category 2",
+          "y": "Category",
+          "value": 25,
+          "hoverText": "hoverText A"
+        },
+        {
+          "x": "Category 3",
+          "y": "Category",
+          "value": 10,
+          "hoverText": "hoverText A"
+        },
+        {
+          "x": "Category 1",
+          "y": "B",
+          "value": 20,
+          "hoverText": "hoverText B"
+        },
+        {
+          "x": "Category 2",
+          "y": "B",
+          "value": 30,
+          "hoverText": "hoverText B"
+        },
+        {
+          "x": "Category 3",
+          "y": "B",
+          "value": 15,
+          "hoverText": "hoverText B"
+        },
+        {
+          "x": "Category 1",
+          "y": "C",
+          "value": 10,
+          "hoverText": "hoverText C hoverText C hoverText C hoverText C hoverText C  hoverText C  hoverText C hoverText C",
+          "colorText": "red"
+        },
+        {
+          "x": "Category 2",
+          "y": "C",
+          "value": 35,
+          "hoverText": "hoverText C"
+        },
+        {
+          "x": "Category 3",
+          "y": "C",
+          "value": 25,
+          "hoverText": "hoverText C"
+        },
+        {
+          "x": "Category 1",
+          "y": "Category",
+          "value": 15,
+          "hoverText": "hoverText A"
+        },
+        {
+          "x": "Category 2",
+          "y": "Category",
+          "value": 25,
+          "hoverText": "hoverText A"
+        },
+        {
+          "x": "Category 3",
+          "y": "Category",
+          "value": 10,
+          "hoverText": "hoverText A"
+        },
+        {
+          "x": "Category 1",
+          "y": "B",
+          "value": 20,
+          "hoverText": "hoverText B"
+        },
+        {
+          "x": "Category 2",
+          "y": "B",
+          "value": 30,
+          "hoverText": "hoverText B"
+        },
+        {
+          "x": "Category 3",
+          "y": "B",
+          "value": 15,
+          "hoverText": "hoverText B"
+        },
+        {
+          "x": "Category 1",
+          "y": "C",
+          "value": 10,
+          "hoverText": "hoverText C hoverText C hoverText C hoverText C hoverText C  hoverText C  hoverText C hoverText C",
+          "colorText": "red"
+        },
+        {
+          "x": "Category 2",
+          "y": "C",
+          "value": 35,
+          "hoverText": "hoverText C"
+        },
+        {
+          "x": "Category 3",
+          "y": "C",
+          "value": 25,
+          "hoverText": "hoverText C"
+        }
+      ]
+    }
+  }
+}

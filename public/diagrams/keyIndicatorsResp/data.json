@@ -1,0 +1,74 @@
+{
+  "originalData": {
+    "title": "Longevity Governance Index",
+    "backgroundColor": "white",
+    "titleColor": "#0c5392",
+    "titleFontSize": "0.04em",
+    "rows": [
+      [
+        {
+          "header": "DEMOGRAPHY",
+          "value": "24th place",
+          "borderColor": "#3f40b9",
+          "textColor": "#6c53cb",
+          "textFirstLineFontSize": "0.032em",
+          "textFirstLineFontWeight": "100",
+          "textSecondLineFontSize": "0.032em",
+          "textSecondLineFontWeight": "600"
+        },
+        {
+          "header": "ECOLOGY",
+          "value": "19th place",
+          "borderColor": "#3f40b9",
+          "textColor": "#6c53cb",
+          "textFirstLineFontSize": "0.032em",
+          "textFirstLineFontWeight": "100",
+          "textSecondLineFontSize": "0.032em",
+          "textSecondLineFontWeight": "600"
+        },
+        {
+          "header": "ECONOMY",
+          "value": "19th place",
+          "borderColor": "#3f40b9",
+          "textColor": "#6c53cb",
+          "textFirstLineFontSize": "0.032em",
+          "textFirstLineFontWeight": "100",
+          "textSecondLineFontSize": "0.032em",
+          "textSecondLineFontWeight": "600"
+        }
+      ],
+      [
+        {
+          "header": "GOVCARE",
+          "value": "13th place",
+          "borderColor": "#f1c395",
+          "textColor": "#e86177",
+          "textFirstLineFontSize": "0.032em",
+          "textFirstLineFontWeight": "100",
+          "textSecondLineFontSize": "0.032em",
+          "textSecondLineFontWeight": "600"
+        },
+        {
+          "header": "HEALTH",
+          "value": "68th place",
+          "borderColor": "#f1c395",
+          "textColor": "#e86177",
+          "textFirstLineFontSize": "0.032em",
+          "textFirstLineFontWeight": "100",
+          "textSecondLineFontSize": "0.032em",
+          "textSecondLineFontWeight": "600"
+        },
+        {
+          "header": "SOCIETY",
+          "value": "13th place",
+          "borderColor": "#f1c395",
+          "textColor": "#e86177",
+          "textFirstLineFontSize": "0.032em",
+          "textFirstLineFontWeight": "100",
+          "textSecondLineFontSize": "0.032em",
+          "textSecondLineFontWeight": "600"
+        }
+      ]
+    ]
+  }
+}

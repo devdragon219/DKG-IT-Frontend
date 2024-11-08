@@ -1,0 +1,31 @@
+{
+  "originalData": {
+    "title": "Digital Map of UAE",
+    "backgroundColor": "white",
+    "fontColor": "black",
+    "hoverColor": "#3b729f",
+    "markers": [
+      {
+        "markerOffset": -15,
+        "markerOffsetX": 0,
+        "name": "Abu Dhabi",
+        "coordinates": [54.524975, 24.421222],
+        "radius": "5",
+        "fontColor": "black",
+        "tooltip": null,
+        "fontSize": "10px",
+        "markerColor": "#F00"
+      }
+    ],
+    "colors": {
+      "Fujayrah": "",
+      "Sharjah": "",
+      "Ras Al Khaymah": "",
+      "Dubai": "",
+      "Abu Dhabi": "",
+      "Umm Al Qaywayn": "",
+      "Ajman": "",
+      "Neutral Zone": ""
+    }
+  }
+}

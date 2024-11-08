@@ -1,0 +1,55 @@
+{
+  "originalData": {
+    "title": "Digital Map of China",
+    "backgroundColor": "white",
+    "fontColor": "black",
+    "hoverColor": "#3b729f",
+    "markers": [
+      {
+        "markerOffset": 20,
+        "markerOffsetX": 20,
+        "markerColor": "#F00",
+        "name": "Beijing",
+        "coordinates": [116.4074, 39.9042],
+        "radius": "2",
+        "fontColor": "black",
+        "tooltip": "Beijing",
+        "fontSize": "12px"
+      }
+    ],
+    "colors": {
+      "Xinjiang": "#abcfe4",
+      "Xizang": "#569cc6",
+      "Inner Mongol": "#abcfe4",
+      "Gansu": "#398bbc",
+      "Yunnan": "#569cc6",
+      "Heilongjiang": "#98c3de",
+      "Jilin": "#398bbc",
+      "Liaoning": "#98c3de",
+      "Guangxi": "#98c3de",
+      "Guangdong": "#398bbc",
+      "Hainan": "#398bbc",
+      "Fujian": "#398bbc",
+      "Zhejiang": "#398bbc",
+      "Shanghai": "#398bbc",
+      "Jiangsu": "#398bbc",
+      "Shandong": "#abcfe4",
+      "Hebei": "#98c3de",
+      "Tianjin": "#398bbc",
+      "Paracel Islands": "#398bbc",
+      "Beijing": "#398bbc",
+      "Sichuan": "#abcfe4",
+      "Chongqing": "#398bbc",
+      "Guizhou": "#abcfe4",
+      "Hunan": "#98c3de",
+      "Ningxia": "#569cc6",
+      "Shaanxi": "#98c3de",
+      "Qinghai": "#98c3de ",
+      "Shanxi": "#398bbc",
+      "Jiangxi": "#569cc6",
+      "Henan": "#98c3de",
+      "Hubei": "#abcfe4",
+      "Anhui": "#569cc6"
+    }
+  }
+}

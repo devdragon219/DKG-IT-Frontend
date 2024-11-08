@@ -1,0 +1,252 @@
+{
+  "originalData": {
+    "data": {
+      "backgroundColor": "transparent",
+      "textColor": "#000000",
+      "hoverTextColor": "#000000",
+      "legendData": [
+        {
+          "color": "black",
+          "label": "Black Nodes",
+          "radius": 7,
+          "fontSize": "20px",
+          "xOffsetCircle": 0,
+          "yOffsetCircle": 0,
+          "xOffsetText": "10",
+          "yOffsetText": "5"
+        },
+        {
+          "color": "red",
+          "label": "Red Nodes",
+          "radius": 7,
+          "fontSize": "20px",
+          "xOffsetCircle": 0,
+          "yOffsetCircle": 0,
+          "xOffsetText": "10",
+          "yOffsetText": "5"
+        }
+      ],
+      "nodes": [
+        {
+          "id": "Odivelas",
+          "color": "black",
+          "modal": true,
+          "imgTop": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/OdivelasMetroLx2.JPG/800px-OdivelasMetroLx2.JPG?20081230230139",
+          "description": "Odivelas station is the northern terminus on the Yellow Line of the Lisbon Metro in the Odivelas neighbourhood, north west of central Lisbon.<br> The station opened on 27 March 2004 in conjunction with the Senhor Roubado, Ameixoeira, Lumiar and Quinta das Conchas stations, and it is located on Rua Professor Doutor Egas Moniz.Odivelas station is the northern terminus on the Yellow Line of the Lisbon Metro in the Odivelas neighbourhood, north west of central Lisbon.<br> The station opened on 27 March 2004 in conjunction with the Senhor Roubado, Ameixoeira, Lumiar and Quinta das Conchas stations, and it is located on Rua Professor Doutor Egas Moniz.Odivelas station is the northern terminus on the Yellow Line of the Lisbon Metro in the Odivelas neighbourhood, north west of central Lisbon.<br> The station opened on 27 March 2004 in conjunction with the Senhor Roubado, Ameixoeira, Lumiar and Quinta das Conchas stations, and it is located on Rua Professor Doutor Egas Moniz.Odivelas station is the northern terminus on the Yellow Line of the Lisbon Metro in the Odivelas neighbourhood, north west of central Lisbon.<br> The station opened on 27 March 2004 in conjunction with the Senhor Roubado, Ameixoeira, Lumiar and Quinta das Conchas stations, and it is located on Rua Professor Doutor Egas Moniz."
+        },
+        {
+          "id": "Senhor Roubado",
+          "color": "black",
+          "modal": true,
+          "imgTop": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Metro_Lisboa_Lisbon_Senhor_Roubado_station.jpg/300px-Metro_Lisboa_Lisbon_Senhor_Roubado_station.jpg",
+          "description": "Senhor Roubado station is part of the Yellow Line of the Lisbon Metro.<br>It opened on March 27, 2004, in conjunction with the Odivelas, Ameixoeira, Lumiar and Quinta das Conchas stations, and it is located on Rua do Senhor Roubado. Rather than serving a residential neighbourhood, it is located close to the junction of the N8, A8 and A36 highways, and operates as a park and ride interchange station."
+        },
+        {
+          "id": "Ameixoeira",
+          "color": "black"
+        },
+        {
+          "id": "Lumiar",
+          "color": "black"
+        },
+        {
+          "id": "Quinta das Conchas",
+          "color": "black"
+        },
+        {
+          "id": "Campo Grande",
+          "color": "black"
+        },
+        {
+          "id": "Cidade Universitária",
+          "color": "black"
+        },
+        {
+          "id": "Entre Campos",
+          "color": "black"
+        },
+        {
+          "id": "Campo Pequeno",
+          "color": "black"
+        },
+        {
+          "id": "Saldanha",
+          "color": "black"
+        },
+        {
+          "id": "Picoas",
+          "color": "black"
+        },
+        {
+          "id": "Marquês de Pombal",
+          "color": "black"
+        },
+        {
+          "id": "Rato",
+          "color": "black"
+        },
+        {
+          "id": "Aeroporto",
+          "color": "black"
+        },
+        {
+          "id": "Encarnação",
+          "color": "black"
+        },
+        {
+          "id": "Moscavide",
+          "color": "black"
+        },
+        {
+          "id": "Oriente",
+          "color": "black"
+        },
+        {
+          "id": "Cabo Ruivo",
+          "color": "black"
+        },
+        {
+          "id": "Olivais",
+          "color": "black"
+        },
+        {
+          "id": "Chelas",
+          "color": "black"
+        },
+        {
+          "id": "Bela Vista",
+          "color": "black"
+        },
+        {
+          "id": "Olaias",
+          "color": "black"
+        },
+        {
+          "id": "Alameda",
+          "color": "black"
+        },
+        {
+          "id": "São Sebastião",
+          "color": "black"
+        }
+      ],
+      "links": [
+        {
+          "source": "Odivelas",
+          "target": "Senhor Roubado",
+          "color": "yellow"
+        },
+        {
+          "source": "Senhor Roubado",
+          "target": "Ameixoeira",
+          "color": "yellow"
+        },
+        {
+          "source": "Ameixoeira",
+          "target": "Lumiar",
+          "color": "yellow"
+        },
+        {
+          "source": "Lumiar",
+          "target": "Quinta das Conchas",
+          "color": "yellow"
+        },
+        {
+          "source": "Quinta das Conchas",
+          "target": "Campo Grande",
+          "color": "yellow"
+        },
+        {
+          "source": "Campo Grande",
+          "target": "Cidade Universitária",
+          "color": "yellow"
+        },
+        {
+          "source": "Cidade Universitária",
+          "target": "Entre Campos",
+          "color": "yellow"
+        },
+        {
+          "source": "Entre Campos",
+          "target": "Campo Pequeno",
+          "color": "yellow"
+        },
+        {
+          "source": "Campo Pequeno",
+          "target": "Saldanha",
+          "color": "yellow"
+        },
+        {
+          "source": "Saldanha",
+          "target": "Picoas",
+          "color": "yellow"
+        },
+        {
+          "source": "Picoas",
+          "target": "Marquês de Pombal",
+          "color": "yellow"
+        },
+        {
+          "source": "Marquês de Pombal",
+          "target": "Rato",
+          "color": "yellow"
+        },
+        {
+          "source": "Aeroporto",
+          "target": "Encarnação",
+          "color": "red"
+        },
+        {
+          "source": "Encarnação",
+          "target": "Moscavide",
+          "color": "red"
+        },
+        {
+          "source": "Moscavide",
+          "target": "Oriente",
+          "color": "red"
+        },
+        {
+          "source": "Oriente",
+          "target": "Cabo Ruivo",
+          "color": "red"
+        },
+        {
+          "source": "Cabo Ruivo",
+          "target": "Olivais",
+          "color": "red"
+        },
+        {
+          "source": "Olivais",
+          "target": "Chelas",
+          "color": "red"
+        },
+        {
+          "source": "Chelas",
+          "target": "Bela Vista",
+          "color": "red"
+        },
+        {
+          "source": "Bela Vista",
+          "target": "Olaias",
+          "color": "red"
+        },
+        {
+          "source": "Olaias",
+          "target": "Alameda",
+          "color": "red"
+        },
+        {
+          "source": "Alameda",
+          "target": "Saldanha",
+          "color": "red"
+        },
+        {
+          "source": "Saldanha",
+          "target": "São Sebastião",
+          "color": "red"
+        }
+      ]
+    }
+  }
+}

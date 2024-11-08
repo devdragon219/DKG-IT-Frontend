@@ -1,0 +1,992 @@
+{
+  "originalData": {
+    "title": "Switzerland GeoMap",
+    "backgroundColor": "",
+    "fontColor": "black",
+    "hoverColor": "#3b729f",
+    "markers": [],
+    "colors": {
+      "Aargau": "",
+      "Appenzell Ausserrhoden": "",
+      "Appenzell Innerrhoden": "",
+      "Basel-Landschaft": "",
+      "Basel-Stadt": "",
+      "Bern": "",
+      "Fribourg": "",
+      "Genève": "",
+      "Glarus": "",
+      "Graubünden": "",
+      "Jura": "",
+      "Lucerne": "",
+      "Neuchâtel": "",
+      "Nidwalden": "",
+      "Obwalden": "",
+      "Schaffhausen": "",
+      "Schwyz": "",
+      "Solothurn": "",
+      "Sankt Gallen": "",
+      "Thurgau": "",
+      "Ticino": "",
+      "Uri": "",
+      "Valais": "",
+      "Vaud": "",
+      "Zug": "",
+      "Zürich": ""
+    },
+    "stats": [
+      {
+        "label": "Companies",
+        "value": "8900",
+        "iconBackground": "rgba(115, 103, 240, 0.12)",
+        "icon": "bag"
+      },
+      {
+        "label": "Total Investors",
+        "value": "4100",
+        "iconBackground": "rgba(115, 103, 240, 0.12)",
+        "icon": "fourSquares"
+      },
+      {
+        "label": "Investors based in UK",
+        "value": "600",
+        "iconBackground": "rgba(40, 199, 111, 0.12)",
+        "icon": "flower"
+      },
+      {
+        "label": "Leaders",
+        "value": "1600",
+        "iconBackground": "rgba(0, 207, 232, 0.12)",
+        "icon": "person"
+      },
+      {
+        "label": "Hubs",
+        "value": "300",
+        "iconBackground": "rgba(234, 84, 85, 0.12)",
+        "icon": "cube"
+      },
+      {
+        "label": "Public Companies",
+        "value": "70",
+        "iconBackground": "rgba(115, 103, 240, 0.12)",
+        "icon": "arrow"
+      }
+    ],
+    "dataForBArChart": {
+      "Aargau": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Appenzell Ausserrhoden": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Appenzell Innerrhoden": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Basel-Landschaft": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Basel-Stadt": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Bern": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Fribourg": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Genève": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Glarus": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Graubünden": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Jura": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Lucerne": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Neuchâtel": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Nidwalden": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Obwalden": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Schaffhausen": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Schwyz": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Solothurn": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Sankt Gallen": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Thurgau": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Ticino": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Uri": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Valais": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Vaud": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Zug": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Zürich": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      }
+    },
+    "dataForPolarChart": {
+      "Aargau": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Appenzell Ausserrhoden": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [2, 5, 1, 3, 3]
+      },
+      "Appenzell Innerrhoden": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [2, 5, 1, 3, 3]
+      },
+      "Basel-Landschaft": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [172, 515, 441, 123, 293]
+      },
+      "Basel-Stadt": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Bern": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Fribourg": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Genève": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Glarus": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Graubünden": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Jura": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Lucerne": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Neuchâtel": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Nidwalden": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Obwalden": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Schaffhausen": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Schwyz": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Solothurn": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Sankt Gallen": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Thurgau": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Ticino": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Uri": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Valais": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Vaud": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Zug": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Zürich": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      }
+    },
+    "dataForKeyIndicator": {
+      "Aargau": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Appenzell Ausserrhoden": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Appenzell Innerrhoden": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Basel-Landschaft": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Basel-Stadt": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Bern": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Fribourg": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Genève": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Glarus": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Graubünden": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Jura": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Lucerne": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Neuchâtel": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Nidwalden": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Obwalden": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "3000" },
+          { "header": "Consulting", "value": "3000" },
+          { "header": "Infrastructure and Others", "value": "3000" },
+          { "header": "Institutional", "value": "4000" },
+          { "header": "Investment Funds", "value": "5000" },
+          { "header": "Others", "value": "8000" }
+        ]
+      },
+      "Schaffhausen": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "3000" },
+          { "header": "Consulting", "value": "3000" },
+          { "header": "Infrastructure and Others", "value": "3000" },
+          { "header": "Institutional", "value": "4000" },
+          { "header": "Investment Funds", "value": "5000" },
+          { "header": "Others", "value": "8000" }
+        ]
+      },
+      "Schwyz": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "3000" },
+          { "header": "Consulting", "value": "3000" },
+          { "header": "Infrastructure and Others", "value": "3000" },
+          { "header": "Institutional", "value": "4000" },
+          { "header": "Investment Funds", "value": "5000" },
+          { "header": "Others", "value": "8000" }
+        ]
+      },
+      "Solothurn": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "3000" },
+          { "header": "Consulting", "value": "3000" },
+          { "header": "Infrastructure and Others", "value": "3000" },
+          { "header": "Institutional", "value": "4000" },
+          { "header": "Investment Funds", "value": "5000" },
+          { "header": "Others", "value": "8000" }
+        ]
+      },
+      "Sankt Gallen": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "3000" },
+          { "header": "Consulting", "value": "3000" },
+          { "header": "Infrastructure and Others", "value": "3000" },
+          { "header": "Institutional", "value": "4000" },
+          { "header": "Investment Funds", "value": "5000" },
+          { "header": "Others", "value": "8000" }
+        ]
+      },
+      "Thurgau": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "3000" },
+          { "header": "Consulting", "value": "3000" },
+          { "header": "Infrastructure and Others", "value": "3000" },
+          { "header": "Institutional", "value": "4000" },
+          { "header": "Investment Funds", "value": "5000" },
+          { "header": "Others", "value": "8000" }
+        ]
+      },
+      "Ticino": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "3000" },
+          { "header": "Consulting", "value": "3000" },
+          { "header": "Infrastructure and Others", "value": "3000" },
+          { "header": "Institutional", "value": "4000" },
+          { "header": "Investment Funds", "value": "5000" },
+          { "header": "Others", "value": "8000" }
+        ]
+      },
+      "Uri": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "3000" },
+          { "header": "Consulting", "value": "3000" },
+          { "header": "Infrastructure and Others", "value": "3000" },
+          { "header": "Institutional", "value": "4000" },
+          { "header": "Investment Funds", "value": "5000" },
+          { "header": "Others", "value": "8000" }
+        ]
+      },
+      "Valais": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "3000" },
+          { "header": "Consulting", "value": "3000" },
+          { "header": "Infrastructure and Others", "value": "3000" },
+          { "header": "Institutional", "value": "4000" },
+          { "header": "Investment Funds", "value": "5000" },
+          { "header": "Others", "value": "8000" }
+        ]
+      },
+      "Vaud": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "3000" },
+          { "header": "Consulting", "value": "3000" },
+          { "header": "Infrastructure and Others", "value": "3000" },
+          { "header": "Institutional", "value": "4000" },
+          { "header": "Investment Funds", "value": "5000" },
+          { "header": "Others", "value": "8000" }
+        ]
+      },
+      "Zug": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "3000" },
+          { "header": "Consulting", "value": "3000" },
+          { "header": "Infrastructure and Others", "value": "3000" },
+          { "header": "Institutional", "value": "4000" },
+          { "header": "Investment Funds", "value": "5000" },
+          { "header": "Others", "value": "8000" }
+        ]
+      },
+      "Zürich": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "3000" },
+          { "header": "Consulting", "value": "3000" },
+          { "header": "Infrastructure and Others", "value": "3000" },
+          { "header": "Institutional", "value": "4000" },
+          { "header": "Investment Funds", "value": "5000" },
+          { "header": "Others", "value": "8000" }
+        ]
+      }
+    }
+  },
+  "type": "SwitzerlandMapStats"
+}

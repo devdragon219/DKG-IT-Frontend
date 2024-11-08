@@ -1,0 +1,29 @@
+{
+  "originalData": {
+    "title": "Digital Map of Israel",
+    "backgroundColor": "white",
+    "fontColor": "black",
+    "hoverColor": "#3b729f",
+    "markers": [
+      {
+        "markerOffset": 10,
+        "markerOffsetX": 10,
+        "markerColor": "#F00",
+        "name": "Jerusalem",
+        "coordinates": [35.11, 31.7683],
+        "radius": "4",
+        "fontColor": "black",
+        "tooltip": "Jerusalem",
+        "fontSize": "12px"
+      }
+    ],
+    "colors": {
+      "HaDarom": "",
+      "HaZafon": "",
+      "Haifa": "",
+      "HaMerkaz": "",
+      "Jerusalem": "",
+      "Tel Aviv": ""
+    }
+  }
+}

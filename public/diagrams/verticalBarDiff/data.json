@@ -1,0 +1,16 @@
+{
+  "originalData": {
+    "height": 500,
+    "title": "Vertical Bar Diff",
+    "yAxisLabel": "million USD",
+    "data": [
+      { "name": "ARMENIA", "current": 35, "up": 15, "down": 0 },
+      { "name": "ANGOLA", "current": 20, "up": 10, "down": 0 },
+      { "name": "SOUTH KOREA", "current": 57, "up": 8, "down": 0 },
+      { "name": "UZBEKISTAN", "current": 30, "up": 5, "down": 0 },
+      { "name": "VENEZUELA", "current": 16, "up": 0, "down": 4 },
+      { "name": "HONDURAS", "current": 24, "up": 0, "down": 6 },
+      { "name": "CANADA", "current": 72, "up": 0, "down": 8 }
+    ]
+  }
+}

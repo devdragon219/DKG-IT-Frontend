@@ -1,0 +1,100 @@
+{
+  "originalData": {
+    "backgroundColor": "#283045",
+    "height": 700,
+    "labels": [
+      "General",
+      "Technical",
+      "Marketing",
+      "Legal",
+      "Geographical Influence",
+      "Data Delivery",
+      "Visualisation",
+      "Integration",
+      "Financial",
+      "Customer Satisfaction"
+    ],
+    "datasets": [
+      {
+        "legend": "Company A",
+        "data": [
+          78.125,
+          58.601,
+          16.667,
+          28.261,
+          100,
+          68.182,
+          86,
+          0,
+          19.626,
+          45.714
+        ],
+        "color": "#be5bba"
+      },
+      {
+        "legend": "Company B",
+        "data": [
+          68.75,
+          54.253,
+          50,
+          73.913,
+          0,
+          61.364,
+          4,
+          63.542,
+          59.813,
+          69.286
+        ],
+        "color": "#d44c7d"
+      },
+      {
+        "legend": "Company C",
+        "data": [
+          62.5,
+          42.722,
+          66.667,
+          43.478,
+          40,
+          25,
+          10.667,
+          0,
+          85.981,
+          58.571
+        ],
+        "color": "#ab2354"
+      },
+      {
+        "legend": "Company D",
+        "data": [
+          59.375,
+          58.034,
+          55.556,
+          65.217,
+          0,
+          15.341,
+          20,
+          28.125,
+          90.654,
+          62.857
+        ],
+        "color": "#821c43"
+      },
+      {
+        "legend": "Company E",
+        "data": [
+          79.687,
+          69.376,
+          41.667,
+          73.913,
+          100,
+          100,
+          80,
+          79.167,
+          48.598,
+          75.714
+        ],
+        "color": "#5a1631"
+      }
+    ]
+  }
+}

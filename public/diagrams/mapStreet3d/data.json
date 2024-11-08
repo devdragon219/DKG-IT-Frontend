@@ -1,0 +1,69 @@
+{
+  "originalData": {
+    "buildingData": [
+      {
+        "buildingId": 364348752,
+        "color": "#2A395F",
+        "popupText": "Clinic A"
+      },
+      {
+        "buildingId": 669899577,
+        "color": "#2A395F",
+        "popupText": "Clinic B"
+      },
+      {
+        "buildingId": 670141400,
+        "color": "#2A395F",
+        "popupText": "Clinic C"
+      },
+      {
+        "buildingId": 670778509,
+        "color": "#2A395F",
+        "popupText": "Clinic D"
+      }
+    ],
+    "otherBuildingColor": "#aaa",
+    "markerImageUrl": "https://cdn.pixabay.com/photo/2013/07/13/10/29/icon-157354_1280.png",
+    "markerImageName": "icon-157354_1280",
+    "markerImageSize": 0.02,
+    "spreadSheetLink": "https://docs.google.com/spreadsheets/d/1xIZKHpTUhlOLs8Lr9LQR8UTw4ReYxh7zRb_CwSvpCY8/gviz/tq?tqx=out:csv&sheet=sample_spreadsheet",
+    "center": [-0.146273, 51.51784],
+    "zoom": 16.8,
+    "pitch": 70,
+    "bearing": -15,
+    "title": "Longevity Clinics",
+    "description": "The Longevity Clinic extends an invitation to potential investors to join this groundbreaking venture, which promises not only substantial financial returns but also the opportunity to be at the forefront of a shift in how health and wellness are understood and achieved. Investing in the Longevity Clinic offers a chance to be part of a venture that is set to redefine the healthcare landscape, contributing to a societal shift towards greater health, longevity, and well-being.",
+    "sideBarInfo": [
+      "Name of Clinic",
+      "Type of Clinic",
+      "Address",
+      "Phone",
+      "Working Hours",
+      "Website Link",
+      "Average Price",
+      "Rating"
+    ],
+    "popupInfo": ["Name of Clinic"],
+    "filters": [
+      {
+        "type": "dropdown",
+        "title": "Languages supported: ",
+        "columnHeader": "Languages",
+        "listItems": [
+          "English",
+          "Spanish",
+          "Portugal",
+          "Arabic",
+          "Urdu",
+          "French"
+        ]
+      },
+      {
+        "type": "checkbox",
+        "title": "Muslim Doctor Available",
+        "columnHeader": "Muslim Doctor",
+        "listItems": ["Yes", "No"]
+      }
+    ]
+  }
+}

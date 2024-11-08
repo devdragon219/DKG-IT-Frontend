@@ -1,0 +1,220 @@
+{
+  "originalData": {
+    "title": "DKG OE Potential Partner Ranking 3.0",
+    "blockHeight": "300px",
+    "blockWidth": "600px",
+    "backgroundColor": "linear-gradient(145deg, #0191A5, #018EA3 40%, #013E7A)",
+    "backgroundHeader": "rgb(1, 142, 163)",
+    "underlayerBackground": "rgba(13, 15, 17, 0.15)",
+    "contentStyle": {
+      "marginTop": "10px",
+      "paddingTop": "10px"
+    },
+    "color": "#fff",
+    "isNameBlurred": false,
+    "header": [
+      {
+        "label": "#",
+        "sortable": false,
+        "sortBy": "id"
+      },
+      {
+        "label": "Name",
+        "sortable": false,
+        "sortBy": "name"
+      },
+      {
+        "label": "Overall Rating",
+        "sortable": true,
+        "sortBy": "overallRating"
+      },
+      {
+        "label": "OE ranking",
+        "sortable": true,
+        "sortBy": "ranking"
+      },
+      {
+        "label": "Name Color",
+        "sortable": true,
+        "sortBy": "NameColor"
+      }
+    ],
+    "data": [
+      {
+        "id": 145,
+        "name": "Clearbit",
+        "overallRating": 1,
+        "ranking": 86.1,
+        "NameColor": "Clearbit"
+      },
+      {
+        "id": 232,
+        "name": "Groww",
+        "overallRating": 2,
+        "ranking": 84.1,
+        "NameColor": "dClearbit"
+      },
+      {
+        "id": 1,
+        "name": "Clearbit",
+        "overallRating": 1,
+        "ranking": 86.1,
+        "NameColor": "Clearbit"
+      },
+      {
+        "id": 2,
+        "name": "Groww",
+        "overallRating": 2,
+        "ranking": 84.1,
+        "NameColor": "dClearbit"
+      },
+      {
+        "id": 3,
+        "name": "ION Group",
+        "overallRating": 3,
+        "ranking": 80.8,
+        "NameColor": "eeClearbit"
+      },
+      {
+        "id": 4,
+        "name": "Clearbit",
+        "overallRating": 4,
+        "ranking": 86.1,
+        "NameColor": "rrlearbit"
+      },
+      {
+        "id": 5,
+        "name": "Groww",
+        "overallRating": 5,
+        "ranking": 84.1,
+        "NameColor": "wwwlearbit"
+      },
+      {
+        "id": 6,
+        "name": "ION Group",
+        "overallRating": 6,
+        "ranking": 80.8,
+        "NameColor": "qqlearbit"
+      },
+      {
+        "id": 7,
+        "name": "Clearbit",
+        "overallRating": 7,
+        "ranking": 86.1,
+        "NameColor": "wwlearbit"
+      },
+      {
+        "id": 8,
+        "name": "Groww",
+        "overallRating": 8,
+        "ranking": 84.1,
+        "NameColor": "aalearbit"
+      },
+      {
+        "id": 9,
+        "name": "ION Group",
+        "overallRating": 9,
+        "ranking": 80.8,
+        "NameColor": "iilearbit"
+      },
+      {
+        "id": 10,
+        "name": "Clearbit",
+        "overallRating": 10,
+        "ranking": 86.1,
+        "NameColor": "iiearbit"
+      },
+      {
+        "id": 11,
+        "name": "Groww",
+        "overallRating": 11,
+        "ranking": 84.1,
+        "NameColor": "iiearbit"
+      },
+      {
+        "id": 12,
+        "name": "ION Group",
+        "overallRating": 12,
+        "ranking": 80.8,
+        "NameColor": "iiearbit"
+      },
+      {
+        "id": 13,
+        "name": "Clearbit",
+        "overallRating": 13,
+        "ranking": 86.1,
+        "NameColor": "iiearbit"
+      },
+      {
+        "id": 14,
+        "name": "Groww",
+        "overallRating": 14,
+        "ranking": 84.1,
+        "NameColor": "iiearbit"
+      },
+      {
+        "id": 15,
+        "name": "ION Group",
+        "overallRating": 15,
+        "ranking": 80,
+        "NameColor": "iiearbit"
+      },
+      {
+        "id": 16,
+        "name": "ION Group",
+        "overallRating": 16,
+        "ranking": 80.8,
+        "NameColor": "iiearbit"
+      },
+      {
+        "id": 17,
+        "name": "Clearbit",
+        "overallRating": 17,
+        "ranking": 86.1,
+        "NameColor": "iiearbit"
+      },
+      {
+        "id": 18,
+        "name": "Groww",
+        "overallRating": 18,
+        "ranking": 84.1,
+        "NameColor": "iiearbit"
+      },
+      {
+        "id": 19,
+        "name": "ION Group",
+        "overallRating": 19,
+        "ranking": 80.8,
+        "NameColor": "iiearbit"
+      },
+      {
+        "id": 20,
+        "name": "ION Group",
+        "overallRating": 20,
+        "ranking": 80.8,
+        "NameColor": "iiearbit"
+      },
+      {
+        "id": 21,
+        "name": "Clearbit",
+        "overallRating": 21,
+        "ranking": 86.1,
+        "NameColor": "hiearbit"
+      },
+      {
+        "id": 22,
+        "name": "Groww",
+        "overallRating": 22,
+        "ranking": 84.1,
+        "NameColor": "iiearbit"
+      },
+      {
+        "id": 23,
+        "name": "ION Group",
+        "overallRating": 23,
+        "ranking": 80.8,
+        "NameColor": "eiearbit"
+      }
+    ]
+  }
+}

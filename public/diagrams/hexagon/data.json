@@ -1,0 +1,668 @@
+{
+  "originalData": {
+    "name": "hexagon",
+    "data": {
+      "outerHexagon": [
+        {
+          "hexagon": [
+            {
+              "id": 1,
+              "text": "ChatGPT",
+              "extraInfo": "ChatGPT is a type of conversational AI powered by the GPT (Generative Pre-trained Transformer) architecture, which is developed by OpenAI. It is designed to generate human-like text responses in a conversational context. ChatGPT can be used for a wide range of natural language processing tasks, including answering questions, providing explanations, engaging in text-based conversations, and more.\nLink to service: https://chat.openai.com/"
+            },
+            {
+              "id": 2,
+              "text": "Microsoft Bing",
+              "extraInfo": "Microsoft's Bing AI chatbot is an integrated feature within the Bing search engine that utilizes the same technology found in ChatGPT. It enhances search results and performs various tasks by simulating human conversation, thanks to the underlying GPT technology. Unlike conventional search engines that primarily provide lists of links and brief page descriptions, Bing's AI chatbot can respond to your queries in a more human-like and detailed manner.\nLink to service: https://www.bing.com/?/ai"
+            },
+            {
+              "id": 3,
+              "text": "Bard",
+              "extraInfo": "Bard is Google's experimental, conversational, AI chat service. It is meant to function similarly to ChatGPT, with the biggest difference being that Google's service will pull its information from the web. Like most AI chatbots, Bard can code, answer math problems, and help with your writing needs.\nLink to service: https://bard.google.com/"
+            },
+            {
+              "id": 4,
+              "text": "Hugging Chat",
+              "extraInfo": "HuggingChat is a recently developed AI chatbot that enters the competitive landscape alongside established models like OpenAI's ChatGPT, Bing Chat, Bard, and others. Similar to its counterparts, HuggingChat is a generative AI tool proficient in generating text for various purposes, such as crafting summaries, essays, letters, emails, and song lyrics. It can also assist in debugging and coding, formulate Excel functions, and provide answers to general inquiries, mirroring the capabilities of ChatGPT and similar AI chatbots.\nLink to service: https://huggingface.co/chat/"
+            },
+            {
+              "id": 5,
+              "text": "YouChat",
+              "extraInfo": "YouChat is an AI tool developed by You.com, akin to ChatGPT. It's constructed by integrating established Large Language Models (LLMs) with unique features designed by You.com. With YouChat, you have the option to perform web searches in the conventional manner, and you can also utilize it to obtain the information you're looking for.\nLink to service: https://about.you.com/youchat/"
+            },
+            {
+              "id": 6,
+              "text": "LaMDA",
+              "extraInfo": "LaMDA is a factual language model from Google AI, trained on a massive dataset of text and code. It can generate different creative text formats of text content, like poems, code, scripts, musical pieces, email, letters, etc. It will try its best to fulfill all your requirements.\nLink to service: https://aitestkitchen.withgoogle.com/"
+            },
+            {
+              "id": 7,
+              "text": "Replika",
+              "extraInfo": "Replika is a chatbot that is designed to be a companion. It can learn your personality and interests, and it can have conversations with you about a variety of topics. Replika can also help you to relax and de-stress, and it can even be a friend to confide in.\nLink to service: https://replika.com/"
+            },
+            {
+              "id": 8,
+              "text": "Megatron NLG",
+              "extraInfo": "Megatron-Turing NLG is a large language model chatbot developed by Google AI. It is trained on a massive dataset of text and code, and is able to generate human-quality text in response to a wide range of prompts and questions.\nLink to service: https://turing.microsoft.com/"
+            },
+            {
+              "id": 9,
+              "text": "Blender",
+              "extraInfo": "Blender is a large language model chatbot developed by Meta AI. It is trained on a massive dataset of text and code, and is able to generate human-quality text, translate languages, write different kinds of creative content, and answer questions in an informative way.\nLink to service: https://blenderbot.ai/"
+            },
+            {
+              "id": 10,
+              "text": "ChatBots",
+              "extraInfo": "Chatbot Landscape: Explore a diverse collection of diagrams showcasing a multitude of chatbots. These visual representations provide an overview of the ever-evolving chatbot ecosystem, highlighting different designs, use cases, and technologies employed in the world of conversational AI."
+            },
+            {
+              "id": 11,
+              "text": "PaLM",
+              "extraInfo": "PaLM is a large language model chatbot developed by Google AI. It is trained on a massive dataset of text and code, and is able to generate human-quality text, translate languages, write different kinds of creative content, and answer questions in an informative way. PaLM is also able to perform advanced reasoning tasks, including code and math, classification and question answering, translation and multilingual proficiency, and natural language generation.\nLink to service: https://cloud.google.com/vertex-ai"
+            },
+            {
+              "id": 12,
+              "text": "Jurassic-1 Jumbo",
+              "extraInfo": "Jurassic-1 Jumbo is a large language model chatbot developed by AI21 Labs. It is trained on a massive dataset of text and code, and is able to generate human-quality text, translate languages, write different kinds of creative content, and answer questions in an informative way. Jurassic-1 Jumbo is also able to perform advanced reasoning tasks, and is one of the largest language models in the world.\nLink to service: https://www.ai21.com/blog/announcing-ai21-studio-and-jurassic-1"
+            },
+            {
+              "id": 13,
+              "text": "Amazon Alexa",
+              "extraInfo": "Alexa is a virtual assistant developed by Amazon. It is available on a variety of devices, including Echo smart speakers, Fire TV devices, and smartphones. Alexa can be used to control smart home devices, get information such as the weather, news, and traffic, play music, and more.\nLink to service: https://alexa.amazon.com/"
+            },
+            {
+              "id": 14,
+              "text": "Gopher",
+              "extraInfo": "Gopher is a large language model chatbot developed by DeepMind. It is trained on a massive dataset of text and code, and is able to generate human-quality text, translate languages, write different kinds of creative content, and answer questions in an informative way. Gopher is also able to perform advanced reasoning tasks, and is one of the largest language models in the world.\nLink to service: https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval"
+            },
+            {
+              "id": 15,
+              "text": "Anima",
+              "extraInfo": "Anima is a chatbot that is designed to help you to learn about yourself. It asks you questions about your thoughts, feelings, and experiences, and it uses its knowledge of psychology to provide you with insights. Anima can also help you to set goals and develop strategies for achieving them.\nLink to service: https://myanima.ai/"
+            },
+            {
+              "id": 16,
+              "text": "Meena",
+              "extraInfo": "Google AI Meena is a conversational AI chatbot that can have open-ended conversations with people. It is trained on a massive dataset of text and code, and it can learn and adapt to the conversations it has. Meena can be used for a variety of purposes, such as customer service, education, and entertainment.\nLink to service: https://blog.research.google/2020/01/towards-conversational-agent-that-can.html"
+            },
+            {
+              "id": 17,
+              "text": "Sparrow",
+              "extraInfo": "With the rapid advancement of AI technology, a valid concern arises regarding the accuracy and safety of chatbots that may provide unreliable information and promote risky behaviour. Sparrow has been developed as a dialogue agent dedicated to mitigating the risks associated with inappropriate or unsafe responses commonly observed in Large Language Models (LLMs). Its primary objective is to strike a delicate balance between being informative and helpful while minimising the potential for undesirable outcomes.\nLink to service: https://www.deepmind.com/blog/building-safer-dialogue-agents"
+            },
+            {
+              "id": 18,
+              "text": "SimSimi",
+              "extraInfo": "SimSimi is an artificial intelligence conversation program created in 2002 by ISMaker. It grows its artificial intelligence day by day assisted by a feature that allows users to teach it to respond correctly. SimSimi, pronounced as \"shim-shimi\", is from a Korean word simsim which means \"bored\"\nLink to service: https://simsimi.com/"
+            },
+            {
+              "id": 19,
+              "text": "Bixby",
+              "extraInfo": "Bixby is a virtual assistant developed by Samsung. It is available on Samsung smartphones and TVs. Bixby can be used to control smart home devices, get information from the web, and set alarms and reminders.\nLink to service: https://www.samsung.com/us/apps/bixby/"
+            }
+          ],
+          "color": ["#ff7075"]
+        },
+        {
+          "hexagon": [
+            {
+              "id": 20,
+              "text": "AI-Writer",
+              "extraInfo": "AI-Writer is a web-based AI writing assistant that can help you generate content for a variety of purposes, including blog posts, articles, social media posts, and more. It uses artificial intelligence to understand your content needs and generate text that is relevant, engaging, and SEO-friendly.\nLink to service: https://ai-writer.com/"
+            },
+            {
+              "id": 21,
+              "text": "Article Fiesta",
+              "extraInfo": "Article Fiesta is an AI writing tool that can help you create high-quality, informative articles quickly and easily. It uses a variety of features, including artificial intelligence, to generate text that is relevant, engaging, and well-written.\nLink to service: https://articlefiesta.com/"
+            },
+            {
+              "id": 22,
+              "text": "BlogNLP",
+              "extraInfo": "BlogNLP is an AI-powered writing assistant that can help you write better blog posts. It uses natural language processing to identify areas where your writing can be improved, and it provides suggestions on how to make your writing more clear, concise, and engaging.\nLink to service: https://www.blognlp.com/"
+            },
+            {
+              "id": 23,
+              "text": "Closers Copy",
+              "extraInfo": "Closers Copy is an AI writing tool that can help you write sales copy that converts. It uses a variety of features, including artificial intelligence, to generate text that is persuasive, engaging, and results-oriented.\nLink to service: https://www.closerscopy.com/"
+            },
+            {
+              "id": 24,
+              "text": "Compar",
+              "extraInfo": "Compar is an AI writing tool that can help you write comparison articles quickly and easily. It uses artificial intelligence to identify the key features of different products or services, and it generates text that compares and contrasts them in a clear and concise way.\nLink to service: https://compar.ai/"
+            },
+            {
+              "id": 25,
+              "text": "CTRify",
+              "extraInfo": "CTRify is an AI writing tool that can help you write click-through rate (CTR)-optimized ad copy. It uses artificial intelligence to identify the elements of ad copy that are most likely to lead to clicks, and it generates text that incorporates these elements in a compelling and persuasive way.\nLink to service: https://www.ctrify.com/ai-that-do-webs-content-traffic-and-backlinks"
+            },
+            {
+              "id": 26,
+              "text": "Eilla AI",
+              "extraInfo": "Eilla AI is an AI writing tool that can help you write different kinds of creative text formats, like poems, code, scripts, musical pieces, email, letters, etc. It will try its best to fulfill all your requirements.\nLink to service: https://eilla.ai/"
+            },
+            {
+              "id": 27,
+              "text": "Genie AI",
+              "extraInfo": "Genie AI is a web-based AI writing assistant that can help you generate content for a variety of purposes, including blog posts, articles, social media posts, and more. It uses artificial intelligence to understand your content needs and generate text that is relevant, engaging, and SEO-friendly.\nLink to service: https://www.usegenie.ai/"
+            },
+            {
+              "id": 28,
+              "text": "Jenni",
+              "extraInfo": "Jenni is an AI-powered writing assistant that can help you write better email. It uses natural language processing to identify areas where your email writing could be improved, and it provides suggestions on how to make your emails more clear, concise, and professional."
+            },
+            {
+              "id": 29,
+              "text": "Article Writing",
+              "extraInfo": "Article Writing Tools: Discover a range of tools and resources designed to assist with various aspects of article writing, from research and content generation to editing and optimization."
+            },
+            {
+              "id": 30,
+              "text": "Keywrds.ai",
+              "extraInfo": "Keywrds.ai is an AI-powered keyword research tool that can help you find the right keywords to target for your content. It uses artificial intelligence to identify long tail keywords, related keywords, and search intent. It also provides insights into keyword competition and search volume.\nLink to service: https://keywrds.ai/"
+            },
+            {
+              "id": 31,
+              "text": "Letterdrop",
+              "extraInfo": "Letterdrop is an AI-powered email marketing platform that can help you create and send personalized email campaigns. It uses artificial intelligence to segment your email list, generate personalized email content, and track the performance of your campaigns.\nLink to service: https://letterdrop.com/"
+            },
+            {
+              "id": 32,
+              "text": "LongShot",
+              "extraInfo": "LongShot is an AI-powered writing tool that can help you write longer pieces of content, such as blog posts, articles, and ebooks. It uses artificial intelligence to generate text that is relevant, engaging, and SEO-friendly.\nLink to service: https://www.longshot.ai/"
+            },
+            {
+              "id": 33,
+              "text": "Mentioned",
+              "extraInfo": "Mentioned is a media monitoring tool that can help you track mentions of your brand, product, or service online. It uses artificial intelligence to identify mentions of your brand across a variety of sources, including social media, news websites, and blogs.\nLink to service: https://mention.com/en/"
+            },
+            {
+              "id": 34,
+              "text": "Neuron writer",
+              "extraInfo": "Neuronwriter is an AI-powered writing tool that can help you write better articles, blog posts, and other types of content. It uses artificial intelligence to generate text that is clear, concise, and engaging. It also provides feedback on your writing and helps you to identify areas where you can improve.\nLink to service: https://neuronwriter.com/"
+            },
+            {
+              "id": 35,
+              "text": "SEO GPT",
+              "extraInfo": "SEO GPT is an AI-powered writing tool that can help you write SEO-friendly content. It uses artificial intelligence to identify the keywords and phrases that you should be targeting, and it generates text that is optimized for search engines.\nLink to service: https://www.futuretools.io/tools/seo-gpt"
+            },
+            {
+              "id": 36,
+              "text": "Seo.ai",
+              "extraInfo": "Seo.ai is a suite of AI-powered SEO tools that can help you improve your website's ranking in search engines. It includes a variety of tools, such as keyword research, competitor analysis, and backlink tracking.\nLink to service: https://seo.ai/"
+            },
+            {
+              "id": 37,
+              "text": "Spin rewriter",
+              "extraInfo": "Spinrewriter is an AI-powered article rewriting tool that can help you create new and unique content from existing content. It uses artificial intelligence to rewrite articles in a way that is still human-readable and SEO-friendly.\nLink to service: https://www.spinrewriter.com/"
+            },
+            {
+              "id": 38,
+              "text": "Wordtune",
+              "extraInfo": "Wordtune is an AI-powered writing assistant that can help you improve your writing in a variety of ways. It can help you to make your writing more clear, concise, engaging, and persuasive. It can also help you to identify and correct grammatical errors.\nLink to service: https://www.wordtune.com/"
+            }
+          ],
+          "color": ["#ffa7e2"]
+        },
+        {
+          "hexagon": [
+            {
+              "id": 39,
+              "text": "Awe My Face",
+              "extraInfo": "AweMyFace is an AI-powered skincare app that analyzes your facial skin and detects acne with 99.1% accuracy, providing personalized guidance for perfect skin.\nLink to service: https://www.awemyface.com/"
+            },
+            {
+              "id": 40,
+              "text": "CognoSpeak",
+              "extraInfo": "A new AI tool that could help doctors assess the early signs of dementia and Alzheimer's more quickly and efficiently, has been developed by researchers at the University of Sheffield. The system, known as CognoSpeak, uses a virtual agent displayed on a screen to engage a patient in a conversation. It asks memory-probing questions inspired by those used in outpatient consultations and conducts cognitive tests, such as picture descriptions and verbal fluency tests.\nLink to service: https://cognospeak.co.uk/cognospeak-login"
+            },
+            {
+              "id": 41,
+              "text": "Facial Assessment Tool",
+              "extraInfo": "Facial Assessment Tool is a facial analysis tool that uses Artificial Intelligence (AI) to analyze facial features and create a comprehensive report of a person’s facial characteristics. This report is then used to assess a person’s overall facial attractiveness and to provide detailed feedback on which features should be improved and which features are best suited for a particular face. The facial assessment tool can be used by individuals to gain insights into their facial characteristics and to understand how to improve their overall appearance. It can also be used by professionals in the beauty industry, such as makeup artists, to gain insights into the facial features of their clients and to provide them with personalized advice on the best makeup and beauty products for their particular face. Link to service: https://topai.tools/t/facial-assessment-tool"
+            },
+            {
+              "id": 42,
+              "text": "Glow AI",
+              "extraInfo": "GlowAI is a website that helps you create your own skincare routine in seconds. It asks you a few simple questions about your budget, skin type, and top skin concerns, and then uses AI to generate a list of products that suit your needs. You can also see the ratings, reviews, and ingredients of each product before you buy them.\nLink to service: https://glow-ai.vercel.app/"
+            },
+            {
+              "id": 43,
+              "text": "Hippocratic AI",
+              "extraInfo": "Hippocratic AI is an AI-powered platform that helps healthcare professionals to make better clinical decisions. It uses deep learning to analyze large datasets of medical data and identify patterns that can be used to predict the risk of different diseases and complications.\nLink to service: https://www.hippocraticai.com/"
+            },
+            {
+              "id": 44,
+              "text": "Lunit",
+              "extraInfo": "Lunit is an AI-powered platform that helps healthcare professionals to diagnose and treat lung cancer. It uses deep learning to analyze chest X-rays and CT scans and identify abnormalities that may be indicative of lung cancer.\nLink to service: https://www.lunit.io/en"
+            },
+            {
+              "id": 45,
+              "text": "Therachat ",
+              "extraInfo": "Therachat is an AI-powered chatbot that helps people with social anxiety by providing them with personalized support and resources.\nLink to service: https://therachat.io/index.html"
+            },
+            {
+              "id": 46,
+              "text": "Woebot Health",
+              "extraInfo": "Woebot Health is an AI-powered chatbot that helps people with depression and anxiety. It provides users with cognitive-behavioral therapy (CBT) and other evidence-based therapies in a conversational and engaging format.\nLink to service: https://woebothealth.com/"
+            },
+            {
+              "id": 47,
+              "text": "Viz.ai",
+              "extraInfo": "Viz.ai is an AI-powered platform that helps radiologists to detect and diagnose strokes. It uses deep learning to analyze CT scans and identify signs of stroke with high accuracy.\nLink to service: https://www.viz.ai/"
+            },
+            {
+              "id": 48,
+              "text": "AI Healthcare",
+
+              "extraInfo": "AI in Healthcare: Explore the intersection of artificial intelligence and healthcare. Learn about innovative applications, technologies, and advancements in the field of AI that are transforming healthcare delivery, diagnosis, and patient care."
+            },
+            {
+              "id": 49,
+              "text": "DeepMind Health",
+              "extraInfo": "DeepMind Health is a research division of Alphabet Inc. that is developing AI technologies to improve healthcare. It has developed a number of AI models that have been shown to be effective in diagnosing and treating a range of medical conditions, including cancer, eye disease, and kidney disease.\nLink to service: https://www.deepmind.com/blog/codoc-developing-reliable-ai-tools-for-healthcare"
+            },
+            {
+              "id": 50,
+              "text": "Paige.AI",
+              "extraInfo": "Paige.AI is an AI-powered platform that helps healthcare professionals to detect and diagnose cancer. It uses deep learning to analyze pathology images and identify cancer cells with high accuracy.\nLink to service: https://paige.ai/"
+            },
+            {
+              "id": 51,
+              "text": "Verily",
+              "extraInfo": "Verily is a research division of Alphabet Inc. that is developing AI technologies to improve healthcare. It has developed a number of AI models that are being used in clinical trials to diagnose and treat a range of medical conditions, including diabetes, heart disease, and Parkinson's disease.\nLink to service: https://verily.com/"
+            },
+            {
+              "id": 52,
+              "text": "Flatiron Health",
+              "extraInfo": "Flatiron Health is an oncology technology company that is using AI to improve the care of cancer patients. It has developed a number of AI models that are being used to predict the risk of cancer recurrence, identify patients who are eligible for clinical trials, and optimize treatment plans.\nLink to service: https://flatiron.com/"
+            },
+            {
+              "id": 53,
+              "text": "Oncology AI",
+              "extraInfo": "Oncology.ai is an AI-powered platform that helps oncologists to make better treatment decisions. It uses deep learning to analyze large datasets of medical data and identify patterns that can be used to predict how different patients will respond to different treatments.\nLink to service: https://www.aiforoncology.nl/"
+            },
+            {
+              "id": 54,
+              "text": "Cardea",
+              "extraInfo": "Cardea is an AI-powered platform that helps cardiologists to detect and diagnose heart disease. It uses deep learning to analyze medical images and identify abnormalities that may be indicative of heart disease.\nLink to service: https://cardeahealth.io/"
+            },
+            {
+              "id": 55,
+              "text": "Renalytix AI",
+              "extraInfo": "RenalytixAI is an AI-powered platform that helps nephrologists to manage patients with kidney disease. It uses deep learning to analyze large datasets of medical data and identify patterns that can be used to predict the risk of kidney failure and other complications.\nLink to service: https://renalytix.com/"
+            },
+            {
+              "id": 56,
+              "text": "Babylon Health",
+              "extraInfo": "Babylon Health is an AI-powered platform that provides patients with access to healthcare services, including online consultations and prescriptions. It uses AI to assess patients' symptoms and provide them with personalized recommendations.\nLink to service: https://www.babylonhealth.com/"
+            },
+            {
+              "id": 57,
+              "text": "Butterfly Network",
+              "extraInfo": "Butterfly Network's mission is to enable universal access to superior medical imaging, making high quality ultrasound affordable, easy-to-use, globally accessible and intelligently connected.\nLink to service: https://www.butterflynetwork.com/"
+            }
+          ],
+          "color": ["#287caa"]
+        },
+        {
+          "hexagon": [
+            {
+              "id": 58,
+              "text": "Kinetix",
+              "extraInfo": "Kinetix is a cloud-based 3D animation software that allows users to create and animate characters, objects, and scenes without any prior experience. It uses a drag-and-drop interface and a library of pre-made assets to make the animation process as easy as possible. Kinetix is used by a variety of industries, including film, TV, gaming, and advertising.\nLink to service: https://www.kinetix.tech/"
+            },
+            {
+              "id": 59,
+              "text": "Pixela AI",
+              "extraInfo": "Pixela AI is a cloud-based 3D animation software that uses AI to automate many of the tasks involved in animation, such as rigging, character creation, and motion capture. This makes it possible for users to create professional-quality animations without the need for a large team or expensive equipment. Pixela AI is used by a variety of industries, including film, TV, gaming, and marketing.\nLink to service: https://pixela.ai/"
+            },
+            {
+              "id": 60,
+              "text": "GET3D",
+              "extraInfo": "GET3D is a cloud-based 3D animation software that uses Nvidia's Omniverse platform to enable real-time collaboration between multiple users working on the same scene. It also offers a variety of AI-powered tools to help users create animations more quickly and efficiently. GET3D is used by a variety of industries, including film, TV, gaming, and architecture.\nLink to service: https://nv-tlabs.github.io/GET3D/"
+            },
+            {
+              "id": 61,
+              "text": "Deep Motion",
+              "extraInfo": "DeepMotion is a cloud-based 3D animation software that uses AI to generate realistic human movement. It can be used to create animations for characters in films, TV shows, games, and other media. DeepMotion is also used by the healthcare industry to create simulations of human movement for medical training and research.\nLink to service: https://www.deepmotion.com/"
+            },
+            {
+              "id": 62,
+              "text": "G3DAI {Jedi}",
+              "extraInfo": "G3DAI {Jedi} is a cloud-based 3D animation software that uses a game engine to render animations in real time. This makes it ideal for creating interactive animations for games, VR, and AR applications. G3DAI {Jedi} is also used by the film and TV industry to create pre-visualizations and special effects.\nLink to service: https://g3d.ai/"
+            },
+            {
+              "id": 63,
+              "text": "Luma AI",
+              "extraInfo": "Luma AI is a cloud-based 3D animation software that uses AI to upscale and enhance low-resolution video footage. This makes it possible to create high-quality animations from lower-quality footage, which can save time and money. Luma AI is used by a variety of industries, including film, TV, gaming, and advertising.\nLink to service: https://lumalabs.ai/"
+            },
+            {
+              "id": 64,
+              "text": "Autodesk Maya",
+              "extraInfo": "Autodesk Maya, commonly shortened to just Maya, is a 3D computer graphics application that runs on Windows, macOS and Linux, originally developed by Alias and currently owned and developed by Autodesk. It is used to create assets for interactive 3D applications, animated films, TV series, and visual effects.\nLink to service: https://www.autodesk.com/products/maya/overview?term=1-YEAR&tab=subscription"
+            },
+            {
+              "id": 65,
+              "text": "Spline",
+              "extraInfo": "Spline is an easy to use 3D design tool geared for any designer regardless of their 3D experience. It's simpler to learn than full featured 3D apps—such as Cinema 4D or Blender—because it doesn't bog you down with loads and loads of settings and features.\nLink to service: https://spline.design/"
+            },
+            {
+              "id": 66,
+              "text": "Kaedim",
+              "extraInfo": "Kaedim is a cloud-based 3D animation software that is designed to be used by professionals in the film and TV industry. It offers a wide range of features for creating high-quality animations, including character creation, rigging, animation, and rendering. Kaedim is used by studios such as Disney, Pixar, and DreamWorks.\nLink to service: https://www.kaedim3d.com/"
+            },
+            {
+              "id": 67,
+              "text": "3D",
+
+              "extraInfo": "3D: Delve into the realm of three-dimensional art and technology. Explore the fascinating world of 3D modeling, animation, and innovative applications that bring depth and dimension to visual experiences."
+            },
+            {
+              "id": 68,
+              "text": "Mirageml",
+              "extraInfo": "Mirageml is a cloud-based 3D animation software that uses AI to generate realistic facial animations. It can be used to create animations for characters in films, TV shows, games, and other media. Mirageml is also used by the healthcare industry to create simulations of human facial expressions for medical training and research.\nLink to service: https://mirageml.com/"
+            },
+            {
+              "id": 69,
+              "text": "Promethean AI",
+              "extraInfo": "PrometheanAI is a cloud-based 3D animation software that uses AI to automate many of the tasks involved in animation, such as rigging, character creation, and motion capture. This makes it possible for users to create professional-quality animations without the need for a large team or expensive equipment. PrometheanAI is used by a variety of industries, including film, TV, gaming, and advertising.\nLink to service: https://www.prometheanai.com/"
+            },
+            {
+              "id": 70,
+              "text": "Leonardo AI",
+              "extraInfo": "Leonardo.Ai is a cloud-based 3D animation software that uses AI to generate realistic human movement and facial animations. It can be used to create animations for characters in films, TV shows, games, and other media. Leonardo.Ai is also used by the healthcare industry to create simulations of human movement and facial expressions for medical training and research.\nLink to service: https://leonardo.ai/"
+            },
+            {
+              "id": 71,
+              "text": "Plask",
+              "extraInfo": "Plask is a cloud-based 3D animation software that uses AI to generate realistic clothing and hair animations. It can be used to create animations for characters in films, TV shows, games, and other media. Plask is also used by the fashion industry to create simulations of clothing and hair for virtual fashion shows and product demonstrations.\nLink to service: https://plask.ai/"
+            },
+            {
+              "id": 72,
+              "text": "Imagine 3D",
+              "extraInfo": "Imagine 3D is a cloud-based 3D animation software that is designed to be used by everyone, from beginners to professionals. It offers a variety of features for creating high-quality animations, including character creation, rigging, animation, and rendering. Imagine 3D is used by a variety of people, including hobbyists, students, and professionals.\nLink to service: https://lumalabs.ai/dashboard/imagine"
+            },
+            {
+              "id": 73,
+              "text": "Masterpiece Studio",
+              "extraInfo": "Masterpiece Studio is a cloud-based 3D animation software that is designed to be used by professionals in the film and TV industry. It offers a wide range of features for creating high-quality animations, including character creation, rigging, animation, rendering, and special effects. Masterpiece Studio is used by studios such as Disney, Pixar, and DreamWorks.\nLink to service: https://masterpiecestudio.com/"
+            },
+            {
+              "id": 74,
+              "text": "3Dfy.ai",
+              "extraInfo": "3DFY.ai uses generative artificial intelligence to create high quality 3D models from text (just describe what you want) and allow you to express yourself – in 3D.\nLink to service: https://3dfy.ai/"
+            },
+            {
+              "id": 75,
+              "text": "Alpha3D",
+              "extraInfo": "Alpha3D is a generative AI-powered platform that enables anyone, regardless of their 3D modelling knowledge, to automatically transform text prompts or 2D images of real-world objects into 3D digital assets in minutes.\nLink to service: https://www.alpha3d.io/"
+            },
+            {
+              "id": 76,
+              "text": "Adobe Creative Cloud",
+              "extraInfo": "Adobe Creative Cloud is a subscription-based service that provides users with access to a variety of creative software applications, including Adobe After Effects, Adobe Animate, and Adobe Illustrator. These applications can be used to create 3D animations, motion graphics, and visual effects for a variety of industries, including film, TV, gaming, and advertising.\nLink to service: https://www.adobe.com/creativecloud.html"
+            }
+          ],
+          "color": ["#04a3c3"]
+        },
+        {
+          "hexagon": [
+            {
+              "id": 77,
+              "text": "Airbrush",
+              "extraInfo": "Airbrush is an AI-powered image generation tool that can create high-quality images from text prompts. It offers a wide range of features, including the ability to generate images in different styles, upscale images, and create cover images for blog articles and presentations.\nLink to service: https://www.airbrush.ai/"
+            },
+            {
+              "id": 78,
+              "text": "NightCafe",
+              "extraInfo": "NightCafe Creator is an AI Art Generator app with multiple methods of AI art generation. Using neural style transfer you can turn your photo into a masterpiece. Using text-to-image AI, you can create an artwork from nothing but words on a page. Enter a text prompt, and the generator will make stunning images.\nLink to service: https://creator.nightcafe.studio/"
+            },
+            {
+              "id": 79,
+              "text": "Artssy",
+              "extraInfo": "Artssy is an AI-powered image generation tool that can create unique and artistic images from text prompts. It offers a variety of features, including the ability to generate images in different styles, adjust the image size, and control the level of creativity.\nLink to service: https://www.artiphoria.ai/"
+            },
+            {
+              "id": 80,
+              "text": "BlueWillow",
+              "extraInfo": "BlueWillow is an AI-powered image generation tool that can create realistic and photorealistic images from text prompts. It offers a variety of features, including the ability to generate images in different styles, adjust the image quality, and control the level of detail.\nLink to service: https://www.bluewillow.ai/"
+            },
+            {
+              "id": 81,
+              "text": "Canva",
+              "extraInfo": "Canva Text to Image is an AI-powered image generation tool that is integrated into the popular design platform Canva. It allows users to create high-quality images from text prompts in just a few clicks.\nLink to service: https://www.canva.com/"
+            },
+            {
+              "id": 82,
+              "text": "Craiyon",
+              "extraInfo": "Craiyon (formerly DALL-E Mini) is a popular AI-powered image generation tool that is known for its quirky and creative images. It allows users to generate images from text prompts in just a few seconds.\nLink to service: https://www.craiyon.com/"
+            },
+            {
+              "id": 83,
+              "text": "DallE-2",
+              "extraInfo": "DallE-2 is a powerful AI-powered image generation tool that can create realistic and creative images from text prompts. It is still under development, but it has already been used to create some impressive images.\nLink to service: https://openai.com/dall-e-2"
+            },
+            {
+              "id": 84,
+              "text": "Hotpot AI",
+              "extraInfo": "Hotpot AI is a powerful graphic and art generator that uses artificial intelligence algorithms. It offers various AI tools to edit, recolorize, resize, or modify images in various manners. It is an innovative text-to-art generator that uses NFT algorithms to generate art.\nLink to service: https://hotpot.ai/art-generator"
+            },
+            {
+              "id": 85,
+              "text": "Alpaca",
+              "extraInfo": "Alpaca is a Photoshop Plugin for to combine AI image generation power with human skill.\nLink to service: https://www.alpacaml.com/"
+            },
+            {
+              "id": 86,
+              "text": "Image Generation",
+
+              "extraInfo": "Image Generation Models: Explore a comprehensive list of models for generating images. This resource provides an overview of various techniques, architectures, and applications in the field of image generation."
+            },
+            {
+              "id": 87,
+              "text": "Go Charlie",
+              "extraInfo": "Go Charlie is an AI-powered image generation tool that is known for its ability to generate creative and artistic images from text prompts. It offers a variety of features, including the ability to generate images in different styles, adjust the image quality, and control the level of detail.\nLink to service: https://gocharlie.ai/"
+            },
+            {
+              "id": 88,
+              "text": "Nijijourney",
+              "extraInfo": "Nijijourney is an AI-powered image generation tool that is known for its ability to generate anime-style images from text prompts. It offers a variety of features, including the ability to generate images in different styles, adjust the image quality, and control the level of detail.\nLink to service: https://nijijourney.com/en/"
+            },
+            {
+              "id": 89,
+              "text": "Pollinations",
+              "extraInfo": "Pollinations is an AI-powered image generation tool that is known for its ability to generate creative and artistic images from text prompts. It offers a variety of features, including the ability to generate images in different styles, adjust the image quality, and control the level of detail.\nLink to service: https://pollinations.ai/"
+            },
+            {
+              "id": 90,
+              "text": "RocketAI",
+              "extraInfo": "RocketAI is an AI-powered image generation tool that is known for its ability to generate realistic and high-quality images from text prompts. It offers a variety of features, including the ability to generate images in different styles, adjust the image quality, and control the level of detail.\nLink to service: https://www.rocketai.io/"
+            },
+            {
+              "id": 91,
+              "text": "Roll Art Die",
+              "extraInfo": "Roll Art Die is an AI-powered image generation tool that is known for its ability to generate creative and artistic images from text prompts. It offers a variety of features, including the ability to generate images in different styles, adjust the image quality, and control the level of detail.\nLink to service: https://www.openlink.ai/post/roll-art-die"
+            },
+            {
+              "id": 92,
+              "text": "Soreal.AI Studio",
+              "extraInfo": "Soreal.AI Studio is an AI-powered image generation tool that is known for its ability to generate realistic and high-quality images from text prompts. It offers a variety of features, including the ability to generate images in different styles, adjust the image quality, and control the level of detail.\nLink to service: https://www.soreal.ai/"
+            },
+            {
+              "id": 93,
+              "text": "Stable Diffusion",
+              "extraInfo": "Stable Diffusion is an AI-powered image generation tool that is known for its ability to generate realistic and high-quality images from text prompts. It is still under development, but it has already been used to create some impressive images.\nLink to service: https://stability.ai/stable-diffusion"
+            },
+            {
+              "id": 94,
+              "text": "Getimg.ai",
+              "extraInfo": "Getimg.ai is an AI-powered image generation tool that offers a variety of features, including the ability to generate images in different styles, adjust the image quality, and control the level of detail. It also offers a variety of pre-trained models that can be used to generate specific types of images, such as anime or photorealistic images.\nLink to service: https://getimg.ai/"
+            },
+            {
+              "id": 95,
+              "text": "TheDream.ai",
+              "extraInfo": "TheDream.ai is an AI-powered tool that enables users to create their perfect profile picture or avatar. The tool offers a range of styles to choose from, including Fashion, Artistic, Fantasy, Movies, Futuristic, History, Illustrations, Beauty, Vision, Sculpture, Fun, and Travel.\nLink to service: https://thedream.ai/"
+            }
+          ],
+          "color": ["#0eb169"]
+        },
+        {
+          "hexagon": [
+            {
+              "id": 96,
+              "text": "CheckForAI",
+              "extraInfo": "CheckForAI is an AI detection tool that allows users to distinguish between genuine content and content generated or edited by AI. It is useful for identifying high-risk content for search engine penalization, ensuring students are not plagiarizing with AI technology, and providing insights into the authenticity of written work.\nLink to service: https://checkforai.com/"
+            },
+            {
+              "id": 97,
+              "text": "Doctrina AI",
+              "extraInfo": "Doctrina AI is a platform that helps users create and manage interactive learning content. It provides a variety of features, such as the ability to create branching scenarios, embed quizzes and surveys, and track user progress. Doctrina AI is used by educators, businesses, and individuals to create engaging and effective learning experiences.\nLink to service: https://www.doctrina.ai/"
+            },
+            {
+              "id": 98,
+              "text": "ClassPoint AI",
+              "extraInfo": "ClassPoint AI is a game-changing solution that effortlessly generates quiz questions from any PowerPoint slide in a matter of seconds. With its lightning-speed slide scanning technology, ClassPoint AI seamlessly examines the content of your slides, transforming it into instant quiz questions. Powered by OpenAI, let our intelligence algorithms do the work for you with unparalleled flexibility in quiz customization.\nLink to service: https://www.classpoint.io/classpoint-ai"
+            },
+            {
+              "id": 99,
+              "text": "ExamCram",
+              "extraInfo": "ExamCram is an online study platform that helps students prepare for exams. It provides a variety of features, such as practice exams, study guides, and video tutorials. ExamCram is used by students of all ages and levels to prepare for exams in a variety of subjects.\nLink to service: https://examcram.app/"
+            },
+            {
+              "id": 100,
+              "text": "SlidesAI.io",
+              "extraInfo": "SlidesAI.io, the ultimate time-saving tool for creating professional and engaging presentations. With just a few clicks, you can transform any piece of text into visually appealing slides that are perfect for any occasion.\nLink to service: https://www.slidesai.io/en"
+            },
+            {
+              "id": 101,
+              "text": "Gradescope",
+              "extraInfo": "Gradescope (stylized as gradescope) is an American ed-tech company that offers online and AI-assisted grading tools for higher education. Founded in 2014, the company is headquartered in Berkeley, California. The company's grading software offers tools for grading written exams, homework assignments, and auto-grading submitted code.[1] As of the 2020 school year Gradescope boasted over \"25,000 educators\" used their product.\nLink to service: https://www.gradescope.com/"
+            },
+            {
+              "id": 102,
+              "text": "LangoTalk",
+              "extraInfo": "LangoTalk is an online language learning platform that uses AI to help students learn new languages. It provides a variety of features, such as interactive lessons, conversation practice, and feedback from native speakers. LangoTalk is used by students of all ages and levels to learn new languages in a fun and effective way.\nLink to service: https://www.langotalk.org/"
+            },
+            {
+              "id": 103,
+              "text": "Lesson Plans.ai",
+              "extraInfo": "LessonPlans.ai is an AI-powered platform that helps teachers create and manage lesson plans. It provides a variety of features, such as a library of pre-made lesson plans, the ability to create custom lesson plans, and tools for tracking student progress. LessonPlans.ai is used by teachers of all ages and levels to create engaging and effective lesson plans.\nLink to service: https://www.lessonplans.ai/"
+            },
+            {
+              "id": 104,
+              "text": "MindSmith",
+              "extraInfo": "MindSmith is an AI-powered platform that helps users learn and practice cognitive skills. It provides a variety of exercises and games that target different cognitive skills, such as memory, attention, and processing speed. MindSmith is used by individuals of all ages to improve their cognitive skills.\nLink to service: https://www.mindsmith.ai/"
+            },
+            {
+              "id": 105,
+              "text": "Education Assistants",
+              "extraInfo": "Education Assistants: Discover how AI-powered education assistants are transforming learning. This section offers insights into the innovative technologies and applications that enhance the educational experience."
+            },
+            {
+              "id": 106,
+              "text": "PaperBrain",
+              "extraInfo": "PaperBrain is an AI-powered platform that helps researchers and students write better research papers. It provides feedback on grammar, style, clarity, and the overall structure and organization of research papers. PaperBrain also helps users to avoid plagiarism and to ensure that their research papers are well-cited. PaperBrain is a valuable tool for researchers and students who want to write high-quality research papers.\nLink to service: https://www.paperbrain.study/"
+            },
+            {
+              "id": 107,
+              "text": "PrepAI",
+              "extraInfo": "PrepAI is an AI-powered platform that helps students prepare for standardized tests. It provides a variety of features, such as practice tests, personalized study plans, and feedback on performance. PrepAI is used by students of all ages to prepare for standardized tests in a variety of subjects.\nLink to service: https://www.prepai.io/eu/"
+            },
+            {
+              "id": 108,
+              "text": "Quizgecko",
+              "extraInfo": "Quizgecko is an AI-powered platform that helps teachers create and manage quizzes and exams. It provides a variety of features, such as the ability to create custom quizzes and exams, embed multimedia content, and track student progress. Quizgecko is used by teachers of all ages and levels to create engaging and effective quizzes and exams.\nLink to service: https://quizgecko.com/"
+            },
+            {
+              "id": 109,
+              "text": "Formative AI",
+              "extraInfo": "Formative AI is a company that provides AI-powered solutions for the education sector. Their flagship product, Formative, is an assessment and learning platform that uses AI to provide personalized feedback to students and teachers. Formative AI also offers a suite of other AI-powered tools, such as a question generator and a hint generator, that can help teachers create more effective lessons.\nLink to service: https://www.formative.com/"
+            },
+            {
+              "id": 110,
+              "text": "Soofy",
+              "extraInfo": "Soofy is an AI-powered platform that helps students with their homework. It provides a variety of features, such as the ability to solve math problems, explain scientific concepts, and write essays. Soofy is a valuable tool for students of all ages who need help with their homework.\nLink to service: https://soofy.io/"
+            },
+            {
+              "id": 111,
+              "text": "To Teach AI",
+              "extraInfo": "To Teach AI is an online platform that provides resources for teaching AI to students. It includes a variety of lesson plans, activities, and tutorials. To Teach AI is used by educators of all levels to teach AI to students in a fun and engaging way.\nLink to service: https://www.to-teach.ai/"
+            },
+            {
+              "id": 112,
+              "text": "TutorAI",
+              "extraInfo": "TutorAI is an AI-powered platform that provides one-on-one tutoring to students. It uses adaptive learning technology to personalize the tutoring experience for each student. TutorAI offers tutoring in a variety of subjects, such as math, science, and language arts.\nLink to service: https://www.tutorai.me/"
+            },
+            {
+              "id": 113,
+              "text": "Wolfram Alpha",
+              "extraInfo": "WolframAlpha is a computational knowledge engine that can answer questions in a variety of areas, including math, science, and history. It can also generate graphs, charts, and other visualizations. WolframAlpha is a valuable tool for students, researchers, and professionals who need to find information or solve problems.\nLink to service: https://www.wolframalpha.com/"
+            },
+            {
+              "id": 114,
+              "text": "Yip",
+              "extraInfo": "Yip is an AI-powered platform that helps students learn new languages. It provides a variety of features, such as interactive lessons, conversation practice, and feedback from native speakers. Yip is used by students of all ages and levels to learn new languages in a fun and effective way.\nLink to service: https://yip.com/"
+            }
+          ],
+          "color": ["#9ce458"]
+        }
+      ],
+      "centerHexagon": {
+        "centerHexagonRotation": 0,
+        "centerHexagonTextRotation": 0,
+        "hexagon": [
+          {
+            "id": 109,
+            "text": "Image Generation",
+
+            "extraInfo": "Image Generation Models: Explore a comprehensive list of models for generating images. This resource provides an overview of various techniques, architectures, and applications in the field of image generation."
+          },
+          {
+            "id": 110,
+            "text": "Education Assistants",
+
+            "extraInfo": "Education Assistants: Discover how AI-powered education assistants are transforming learning. This section offers insights into the innovative technologies and applications that enhance the educational experience."
+          },
+          {
+            "id": 111,
+            "text": "3D",
+
+            "extraInfo": "3D: Delve into the realm of three-dimensional art and technology. Explore the fascinating world of 3D modeling, animation, and innovative applications that bring depth and dimension to visual experiences."
+          },
+          {
+            "id": 114,
+            "text": "AI Tools",
+
+            "extraInfo": "AI Tools Overview: Discover a comprehensive guide to various AI tools and software, including their applications, features, and the latest advancements in the field of artificial intelligence."
+          },
+          {
+            "id": 113,
+            "text": "ChatBots",
+            "extraInfo": "Chatbot Landscape: Explore a diverse collection of diagrams showcasing a multitude of chatbots. These visual representations provide an overview of the ever-evolving chatbot ecosystem, highlighting different designs, use cases, and technologies employed in the world of conversational AI."
+          },
+          {
+            "id": 114,
+            "text": "Article Writing",
+
+            "extraInfo": "Article Writing Tools: Discover a range of tools and resources designed to assist with various aspects of article writing, from research and content generation to editing and optimization."
+          },
+          {
+            "id": 115,
+            "text": "Healthcare",
+            "extraInfo": "AI in Healthcare: Explore the intersection of artificial intelligence and healthcare. Learn about innovative applications, technologies, and advancements in the field of AI that are transforming healthcare delivery, diagnosis, and patient care."
+          }
+        ],
+        "color": [
+          "#0eb169",
+          "#9ce458",
+          "#04a3c3",
+          "",
+          "#ff7075",
+          "#ffa7e2",
+          "#287caa"
+        ]
+      }
+    }
+  },
+  "type": "hexagon"
+}

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chart Number 3</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <body>
+    <script>
+      const sliceArray = (arr, start, end) => arr.slice(start, end);
+
+      const splitArray = (arr, chunkSize) => {
+        let result = [];
+        for (let i = 0; i < arr.length; i += chunkSize) {
+          let chunk = arr.slice(i, i + chunkSize);
+          result.push(chunk);
+        }
+        return result;
+      };
+
+      const render = (originalData) => {
+        const fontFamily = "Roboto";
+
+        const originalWidth = 1000;
+        const originalHeight = 600;
+        const margin = originalHeight * 0.3;
+
+        const width = originalWidth - margin;
+        const height = originalHeight - margin;
+
+
+        const getNumberOfColumns = (dataLength) => {
+          if (dataLength <= 20) {
+            return 2;
+          }
+          return 3;
+        };
+        const getItemsInColumn = (dataLength) => {
+          if (dataLength <= 10) {
+            return 5;
+          }
+          if (dataLength <= 25) {
+            return 10;
+          }
+          return 20;
+        };
+
+        const itemsInColumn = getItemsInColumn(originalData?.data?.length);
+        const numberOfColumns = getNumberOfColumns(originalData?.data?.length);
+
+
+        // Sort data by "money " in descending order
+        const data = originalData.data
+          .slice()
+          .sort((a, b) => b.money - a.money);
+
+        /* Svg */
+        var svg = d3
+          .select("body")
+          .append("svg")
+          .attr("width", originalWidth)
+          .attr("height", originalHeight)
+          .attr("viewBox", `0 0 ${originalWidth} ${originalHeight}`)
+          .style("max-width", "100%")
+          .style("height", "auto");
+        /* */
+
+        /* Defs */
+        const defs = svg.append("defs");
+        /* */
+
+        /* Load "Roboto" font */
+        defs
+          .append("style")
+          .attr("type", "text/css")
+          .text(
+            "@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700')"
+          );
+        /* */
+
+        /* Gradient */
+        const barGradientId = "barGradient";
+        const barGradient = defs
+          .append("linearGradient")
+          .attr("id", barGradientId);
+        barGradient
+          .append("stop")
+          .attr("offset", "0%")
+          .attr("stop-color", "#186793");
+        barGradient
+          .append("stop")
+          .attr("offset", "100%")
+          .attr("stop-color", "#0E9AEC");
+        /* */
+
+        /* Main title */
+        const titleFontSize = height * 0.075;;
+        svg
+          .append("text")
+          .attr("x", 0)
+          .attr("y", titleFontSize)
+          .attr("fill", "#0d5295")
+          .style("font-family", fontFamily)
+          .style("font-size", `${titleFontSize}px`)
+          .style("font-weight", 700)
+          .text(originalData.name);
+        /* */
+
+        /* Main group */
+        const g = svg
+          .append("g")
+          .attr("transform", `translate(${margin / 2} ${margin / 2})`);
+        /* */
+
+        const slicedData = sliceArray(data, 0, itemsInColumn * numberOfColumns);
+        const columns = splitArray(slicedData, itemsInColumn);
+
+        const barHorizontalPadding = (width / numberOfColumns) * 0.4;
+        const barVerticalPadding = (height / itemsInColumn) * 0.35;
+
+        const barWidth =
+          (width - barHorizontalPadding * (numberOfColumns - 1)) /
+          numberOfColumns;
+        const barHeight = height / itemsInColumn - barVerticalPadding;
+
+        columns.forEach((columnItems, columnIndex) => {
+          columnItems.forEach((item, itemIndex) => {
+            /* Bar */
+            const rx = height * 0.01;
+            const ry = height * 0.01;
+            g.append("rect")
+              .attr("x", (barWidth + barHorizontalPadding) * columnIndex)
+              .attr("y", (barHeight + barVerticalPadding) * itemIndex)
+              .attr("width", barWidth)
+              .attr("height", barHeight)
+              .style("fill", `url(#${barGradientId})`)
+              .style("filter", "drop-shadow(2px 2px 4px rgba(0,0,0,0.4))")
+              .attr("rx", rx)
+              .attr("ry", ry);
+            /* */
+
+            /* Image pattern */
+            const patternId = `pattern-${columnIndex}-${itemIndex}`;
+            const imagePattern = g
+              .append("pattern")
+              .attr("id", patternId)
+              .attr("width", 1)
+              .attr("height", 1)
+              .attr("patternContentUnits", "objectBoundingBox");
+            /* */
+
+            /* Image */
+            const image = imagePattern
+              .append("image")
+              .attr("width", 1)
+              .attr("height", 1)
+              .attr("preserveAspectRatio", "xMidYMid slice")
+              .attr("href", item.picture);
+            /* */
+
+            /* Circle group */
+            const outerCircleRadius = (height / itemsInColumn)  * 0.43;
+            const innerCircleRadius = (height / itemsInColumn) * 0.33;
+            const circleGroup = g
+              .append("g")
+              .attr(
+                "transform",
+                `translate(${
+                  (barWidth + barHorizontalPadding) * columnIndex
+                }, ${
+                  (barHeight + barVerticalPadding) * itemIndex + barHeight / 2
+                })`
+              );
+            /* */
+
+            /* Outer circle */
+            const strokeWidth = (height / itemsInColumn) * 0.075;
+            circleGroup
+              .append("circle")
+              .attr("r", outerCircleRadius)
+              .attr("stroke-width", strokeWidth)
+              .style("stroke", "#0E9AEC")
+              .attr("fill", "#fff")
+              .style("filter", "drop-shadow(2px 2px 4px rgba(0,0,0,0.4))");
+            /* */
+
+            /* Inner circle */
+            circleGroup
+              .append("circle")
+              .attr("r", innerCircleRadius)
+              .attr("fill", `url(#${patternId})`);
+            /* */
+
+            /* Number text */
+            // const numberTextRightPadding = (height / itemsInColumn) * 0.4;
+            // const numberTextFontSize = (height / itemsInColumn) * 0.3;
+            // g.append("text")
+            //   .text(`#${data.indexOf(item) + 1}`)
+            //   .attr(
+            //     "x",
+            //     (barWidth + barHorizontalPadding) * columnIndex -
+            //       outerCircleRadius -
+            //       numberTextRightPadding
+            //   )
+            //   .attr(
+            //     "y",
+            //     (barHeight + barVerticalPadding) * itemIndex +
+            //       barHeight / 2 +
+            //       numberTextFontSize / 3
+            //   )
+            //   .style("fill", "#0E9AEC")
+            //   .style("font-size", `${numberTextFontSize}px`)
+            //   .attr("font-weight", 500)
+            //   .attr("text-anchor", "middle")
+            //   .attr("font-family", fontFamily)
+            //   .style("font-weight", "bold");
+            /* */
+
+            /* Name text */
+            const nameTextLeftPadding = (height / itemsInColumn) * 0.3;
+            const nameTextFontSize = (height / itemsInColumn) * 0.25;
+            g.append("text")
+              .text(item.name)
+              .attr(
+                "x",
+                (barWidth + barHorizontalPadding) * columnIndex +
+                  outerCircleRadius +
+                  nameTextLeftPadding
+              )
+              .attr(
+                "y",
+                (barHeight + barVerticalPadding) * itemIndex +
+                  barHeight / 2 +
+                  nameTextFontSize / 3
+              )
+              .style("fill", "white")
+              .style("font-size", `${nameTextFontSize}px`)
+              .style("font-weight", "bold")
+              .attr("font-family", fontFamily);
+            /* */
+
+            /* Money text */
+            const moneyTextRightPadding = height * 0.025;
+            const moneyTextFontSize = height * 0.04;
+            g.append("text")
+              .text(` `)
+              // .text(`$${item.money / 1_000_000_000}B`)
+              .attr(
+                "x",
+                (barWidth + barHorizontalPadding) * columnIndex +
+                  barWidth -
+                  moneyTextRightPadding
+              )
+              .attr(
+                "y",
+                (barHeight + barVerticalPadding) * itemIndex +
+                  barHeight / 2 +
+                  nameTextFontSize / 3
+              )
+              .attr("text-anchor", "end")
+              .style("fill", "white")
+              .style("font-size", `${moneyTextFontSize}px`)
+              .style("font-weight", "bold")
+              .attr("font-family", fontFamily);
+            /* */
+          });
+          /* */
+        });
+      };
+
+      const apiUrl = "/api/diagrams";
+      const params = new URLSearchParams(window.location.search);
+      const KEY = "slug";
+
+      window.onmessage = (e) => {
+        if (e.data?.name === "parentMessage") {
+          if (e.data.data?.originalData) {
+            render(e.data.data.originalData);
+          }
+        }
+      };
+
+      if (params.has(KEY)) {
+        const key = params.get(KEY);
+        let url = `${apiUrl}/${key}`;
+        if (key.includes("demo_example")) {
+          const type = key.split("?")[1];
+
+          url = `/diagrams/${type}/data.json`;
+        }
+        const fetchData = async () => {
+          try {
+            const response = await fetch(url);
+            const data = await response.json();
+            if (data?.originalData) {
+              render(data.originalData);
+            }
+            if (data?.source?.originalData) {
+              render(data.source.originalData);
+            }
+          } catch (error) {
+            console.error(error);
+          }
+        };
+        fetchData();
+      }
+    </script>
+  </body>
+</html>

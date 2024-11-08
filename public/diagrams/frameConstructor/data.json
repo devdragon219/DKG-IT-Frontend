@@ -1,0 +1,755 @@
+{
+  "originalData": {
+    "data": [
+      {
+        "graph_one": {
+          "type": "KeyIndicatorsFrame",
+          "data": {
+            "originalData": {
+              "backgroundColor": "white",
+              "titleColor": "#0c5392",
+              "rows": [
+                [
+                  {
+                    "value": "Longevity WealthTech and Asset Management",
+                    "shadowColor": "black",
+                    "backgroundColor": "#0c5391",
+                    "borderColor": "#0c5391",
+                    "textColor": "white",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Novel Retirement Plans and Robo-Retirement",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Investment Banks and Asset Management Corporations",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Digital Brokers",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "New-Gen AI-Driven Portfolio Management",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "AI-Driven Advisory Services",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Micro-Investments",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ]
+              ]
+            }
+          },
+          "blured": false,
+          "shadowColor": "#0094A4",
+          "withBox": true
+        },
+        "graph_two": {
+          "type": "KeyIndicatorsFrame",
+          "data": {
+            "originalData": {
+              "backgroundColor": "white",
+              "titleColor": "#0c5392",
+              "rows": [
+                [
+                  {
+                    "value": "Longevity Insurance and InsurTech",
+                    "shadowColor": "black",
+                    "backgroundColor": "#0c5391",
+                    "borderColor": "#0c5391",
+                    "textColor": "white",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "InsurTech Marketplaces and Platforms",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Life Insurance and InsurTech",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Disability Insurance and InsurTech",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Health Insurance and InsurTech",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Big Data Actuarial Models and AI-Driven Premium Calculation",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "IoT InsurTech (Wearables)",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Wealth Insurance and InsurTech",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Automated Claims Management",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ]
+              ]
+            }
+          },
+          "blured": false,
+          "shadowColor": "#0094A4",
+          "withBox": true
+        },
+        "graph_three": {
+          "type": "KeyIndicatorsFrame",
+          "data": {
+            "originalData": {
+              "backgroundColor": "white",
+              "rows": [
+                [
+                  {
+                    "value": "Longevity Investment Organizations",
+                    "shadowColor": "black",
+                    "backgroundColor": "#0c5391",
+                    "borderColor": "#0c5391",
+                    "textColor": "white",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Longevity Companies",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Longevity-Focused VCs",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Longevity-Focused Family Offices",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Private Equity Funds ",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Hedge Funds",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Accelerators and Incubators",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ]
+              ]
+            }
+          },
+          "blured": false,
+          "shadowColor": "#69A74C",
+          "withBox": true
+        },
+        "graph_fore": {
+          "type": "KeyIndicatorsFrame",
+          "data": {
+            "originalData": {
+              "backgroundColor": "white",
+              "titleColor": "#0c5392",
+              "rows": [
+                [
+                  {
+                    "value": "Longevity FinTech",
+                    "shadowColor": "black",
+                    "backgroundColor": "#0c5391",
+                    "borderColor": "#0c5391",
+                    "textColor": "white",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Age-Friendly Banks",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Healthy Lifestyle Bonuses",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Longevity Credit Unions",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Providers of Reverse Mortgage for the USA",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Retiree Employment",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Providers of Equity Release for Europe",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ]
+              ]
+            }
+          },
+          "blured": false,
+          "shadowColor": "#0094A4",
+          "withBox": true
+        },
+        "graph_five": {
+          "type": "KeyIndicatorsFrame",
+          "data": {
+            "originalData": {
+              "backgroundColor": "white",
+              "titleColor": "#0c5392",
+              "rows": [
+                [
+                  {
+                    "value": "Longevity Securitization",
+                    "shadowColor": "black",
+                    "backgroundColor": "#0c5391",
+                    "borderColor": "#0c5391",
+                    "textColor": "white",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Securitization Service Providers",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Derivatives Providers",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Government Bodies",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Clearing and Settlement Services",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Trust Companies",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Rating Agencies",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ]
+              ]
+            }
+          },
+          "blured": false,
+          "shadowColor": "#0094A4",
+          "withBox": true
+        },
+        "graph_six": {
+          "type": "KeyIndicatorsFrame",
+          "data": {
+            "originalData": {
+              "backgroundColor": "white",
+              "titleColor": "#0c5392",
+              "rows": [
+                [
+                  {
+                    "value": "Bridge Solutions to Neutralize Longevity Risk Impact",
+                    "shadowColor": "black",
+                    "backgroundColor": "#0c5391",
+                    "borderColor": "#0c5391",
+                    "textColor": "white",
+                    "fontSize": "0.016em",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Longevity Risk Reinsurance",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "fontSize": "0.016em",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Longevity Risk Transfer",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "fontSize": "0.016em",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Actuarial Consulting Firms",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "fontSize": "0.016em",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Longevity-Enhanced Annuities (QLACs)",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "fontSize": "0.016em",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Pension Derivatives",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "fontSize": "0.016em",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Underwriters (Banks and Asset Managers)",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "fontSize": "0.016em",
+                    "link": "https://www.google.com/"
+                  }
+                ]
+              ]
+            }
+          },
+          "blured": false,
+          "shadowColor": "#F9A83E",
+          "withBox": true
+        },
+        "graph_seven": {
+          "type": "KeyIndicatorsFrame",
+          "data": {
+            "originalData": {
+              "backgroundColor": "white",
+              "titleColor": "#0c5392",
+              "rows": [
+                [
+                  {
+                    "value": "Longevity Risk-Exposed Organizations",
+                    "shadowColor": "black",
+                    "backgroundColor": "#0c5391",
+                    "borderColor": "#0c5391",
+                    "textColor": "white",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Corporate and Independent Pension Funds",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Public (State) Pension Funds",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Annuity Providers",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "National Healthcare Budget",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Healthcare Providers",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "link": "https://www.google.com/"
+                  }
+                ]
+              ]
+            }
+          },
+          "blured": false,
+          "shadowColor": "#FF0000",
+          "withBox": true
+        },
+        "graph_eight": {
+          "type": "KeyIndicatorsFrame",
+          "data": {
+            "originalData": {
+              "backgroundColor": "white",
+              "titleColor": "#0c5392",
+              "rows": [
+                [
+                  {
+                    "value": "Novel Longevity Financial System (Concepts)",
+                    "shadowColor": "black",
+                    "backgroundColor": "#0c5391",
+                    "borderColor": "#0c5391",
+                    "textColor": "white",
+                    "fontSize": "0.01em",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Longevity Investment Bank",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "fontSize": "0.01em",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Longevity Stock Exchange",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "fontSize": "0.01em",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Longevity Innovation Marketplace",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "fontSize": "0.01em",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Longevity Biomarkers for De-Risking",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "fontSize": "0.01em",
+                    "link": "https://www.google.com/"
+                  }
+                ],
+                [
+                  {
+                    "value": "Longevity Exchange-Traded Fund",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "fontSize": "0.01em",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Biological Age-Based Insurance",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "fontSize": "0.01em",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "AgeTech-Friendly NeoBanks",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "fontSize": "0.01em",
+                    "link": "https://www.google.com/"
+                  },
+                  {
+                    "value": "Longevity Rating Agency",
+                    "shadowColor": "black",
+                    "backgroundColor": "white",
+                    "borderColor": "none",
+                    "textColor": "#0c5391",
+                    "fontSize": "0.01em",
+                    "link": "https://www.google.com/"
+                  }
+                ]
+              ]
+            }
+          },
+          "blured": false,
+          "shadowColor": "#674DA9",
+          "withBox": true
+        }
+      }
+    ],
+    "layout": [
+      [
+        {
+          "w": 3,
+          "h": 15,
+          "x": 0,
+          "y": 0,
+          "i": "graph_three-1-KeyIndicatorsFrame",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 3,
+          "h": 5,
+          "x": 3,
+          "y": 0,
+          "i": "graph_one-1-KeyIndicatorsFrame",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 3,
+          "h": 6,
+          "x": 3,
+          "y": 5,
+          "i": "graph_two-1-KeyIndicatorsFrame",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 3,
+          "h": 5,
+          "x": 6,
+          "y": 0,
+          "i": "graph_fore-1-KeyIndicatorsFrame",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 3,
+          "h": 6,
+          "x": 6,
+          "y": 5,
+          "i": "graph_five-1-KeyIndicatorsFrame",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 6,
+          "h": 4,
+          "x": 3,
+          "y": 11,
+          "i": "graph_six-1-KeyIndicatorsFrame",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 3,
+          "h": 15,
+          "x": 9,
+          "y": 0,
+          "i": "graph_seven-1-KeyIndicatorsFrame",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 12,
+          "h": 4,
+          "x": 0,
+          "y": 15,
+          "i": "graph_eight-1-KeyIndicatorsFrame",
+          "moved": false,
+          "static": false
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "originalData": {
+    "title": "Digital Map of South Korea",
+    "backgroundColor": "white",
+    "fontColor": "black",
+    "hoverColor": "#fd8b51",
+    "markers": [],
+    "colors": {
+      "Gangwon-do": "",
+      "Gyeonggi-do": "",
+      "Gyeongsangnam-do": "",
+      "Gyeongsangbuk-do": "",
+      "Jeollanam-do": "",
+      "Jeollabuk-do": "",
+      "Chungcheongnam-do": "",
+      "Chungcheongbuk-do": "",
+      "Gwangju": "",
+      "Daegu": "",
+      "Daejeon": "",
+      "Busan": "",
+      "Seoul": "",
+      "Ulsan": "",
+      "Incheon": "",
+      "Sejong": "",
+      "Jeju": ""
+    }
+  }
+}

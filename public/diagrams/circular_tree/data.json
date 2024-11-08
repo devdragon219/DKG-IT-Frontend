@@ -1,0 +1,86 @@
+{
+  "AI": {
+  "Machine Learning": {
+    "Reinforcement": {
+      "RL": {
+        "Q-Learning": "1992",
+            "Policy Gradient Methods": "1999"
+      }
+    },
+    "Supervised/Unsupervised Learning": {
+      "Neural Network Based Algorithms": {
+        "Siamese Neural Networks": {
+          "Manifold-based Siamese network": "2019",
+              "Cross-modal Siamese network": "2019",
+              "DenseDisp": "2020"
+        },
+        "Graph neural networks": {
+          "Convolutional Graph Neural Networks": {
+            "Spectral-based Convolutional Graph Neural Network": "2014",
+                "Diffusion-convolutional Graph Neural Network": "2016"
+          },
+          "Graph Autoencoders": {
+            "Network Embeddings": {
+              "Graph Autoencoder": "2016"
+            },
+            "Graph Generation": {
+              "GraphRNN": "2018",
+                  "GraphVAE": "2018",
+                  "NetGAN": "2018"
+            }
+          }
+        },
+        "Language Models (LM)": {
+          "Statistical Language Models": {
+            "Statistical Language model": "1998"
+          },
+          "Neural Language Models": {
+            "Neural language model": "2003"
+          }
+        },
+        "Generative adversarial networks": {
+          "Vanilla GAN": "2014",
+              "Conditional GAN": "2014"
+
+        },
+        "Transformers": {
+          "Vanilla Transformer": "2017",
+              "BERT (Bidirectional Encoder Representations from Transformers)": "2018",
+              "XLNet": "2019"
+        },
+        "Convolutional Neural Networks (ConvNets, CNNs)": {
+          "Video Processing": {
+            "3D CNN": "2012",
+                "Two-Steam CNN": "2014"
+          },
+          "Image Processing Networks": {
+            "LeNet": "1998",
+                "Vision Transformer (ViT)": "2020",
+                "ResNeSt": "2020",
+                "Swin Transformer": "2021",
+                "CrossViT": "2021"
+          }
+        },
+        "Feedforward neural networks": {
+          "Single-layer perceptron": "1958",
+              "Multi-layer perceptron": "1965"
+        }
+      },
+      "Classical ML": {
+        "Instance-based ML": {
+          "k-Nearest Neighbors (kNN)": "1951",
+              "Memory-Based Reasoning (MBR)": "1991",
+              "Case-Based Reasoning": "1993"
+        },
+        "Non-instance-based ML": {
+          "Bayesian Algorithms": {
+            "Clusterization": {
+              "Gaussian Mixture Model": "1977"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+}

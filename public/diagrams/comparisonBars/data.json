@@ -1,0 +1,172 @@
+{
+  "originalData": [
+    {
+      "originalData": {
+        "title": "Financial Position",
+        "data": {
+          "labels": ["012Factory", "100bebes", "100Farmers", "021 Dentals"],
+          "datasets": [
+            {
+              "label": "Financial Position",
+              "data": [0.00099, 0.003, 0.00045, 0.0012]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalData": {
+        "title": "Marketing",
+        "data": {
+          "labels": ["012Factory", "100bebes", "100Farmers", "021 Dentals"],
+          "datasets": [
+            {
+              "label": "Marketing",
+              "data": [0.00099, 0.003, 0.00045, 0.0012]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalData": {
+        "title": "Team Composition",
+        "data": {
+          "labels": ["012Factory", "100bebes", "100Farmers", "021 Dentals"],
+          "datasets": [
+            {
+              "label": "Team Composition",
+              "data": [0.00099, 0.003, 0.00045, 0.0012]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalData": {
+        "title": "Intellectual Property",
+        "data": {
+          "labels": ["012Factory", "100bebes", "100Farmers", "021 Dentals"],
+          "datasets": [
+            {
+              "label": "Intellectual Property",
+              "data": [0.00099, 0.003, 0.00045, 0.0012]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalData": {
+        "title": "Business Development",
+        "data": {
+          "labels": ["012Factory", "100bebes", "100Farmers", "021 Dentals"],
+          "datasets": [
+            {
+              "label": "Business Development",
+              "data": [0.00099, 0.003, 0.00045, 0.0012]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalData": {
+        "title": "Economy",
+        "data": {
+          "labels": ["012Factory", "100bebes", "100Farmers", "021 Dentals"],
+          "datasets": [
+            {
+              "label": "Economy",
+              "data": [0.00099, 0.003, 0.00045, 0.0012]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalData": {
+        "title": "Product Development (Biomedicine)",
+        "data": {
+          "labels": ["012Factory", "100bebes", "100Farmers", "021 Dentals"],
+          "datasets": [
+            {
+              "label": "Product Development (Biomedicine)",
+              "data": [0.00099, 0.003, 0.00045, 0.0012]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalData": {
+        "title": "Product Development (IT)",
+        "data": {
+          "labels": ["012Factory", "100bebes", "100Farmers", "021 Dentals"],
+          "datasets": [
+            {
+              "label": "Product Development (IT)",
+              "data": [0.00099, 0.003, 0.00045, 0.0012]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalData": {
+        "title": "R&D Environment",
+        "data": {
+          "labels": ["012Factory", "100bebes", "100Farmers", "021 Dentals"],
+          "datasets": [
+            {
+              "label": "R&D Environment",
+              "data": [0.00099, 0.003, 0.00045, 0.0012]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalData": {
+        "title": "R&D Management",
+        "data": {
+          "labels": ["012Factory", "100bebes", "100Farmers", "021 Dentals"],
+          "datasets": [
+            {
+              "label": "R&D Management",
+              "data": [0.00099, 0.003, 0.00045, 0.0012]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalData": {
+        "title": "General",
+        "data": {
+          "labels": ["012Factory", "100bebes", "100Farmers", "021 Dentals"],
+          "datasets": [
+            {
+              "label": "General",
+              "data": [0.00099, 0.003, 0.00045, 0.0012]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalData": {
+        "title": "General Characteristics",
+        "data": {
+          "labels": ["012Factory", "100bebes", "100Farmers", "021 Dentals"],
+          "datasets": [
+            {
+              "label": "General Characteristics",
+              "data": [0.00099, 0.003, 0.00045, 0.0012]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

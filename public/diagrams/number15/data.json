@@ -1,0 +1,48 @@
+{
+  "originalData": {
+    "name": "Data Points",
+    "title_1": "Data Points",
+    "isCentreRed": false,
+    "itemsInColumn": 3,
+    "isItemsInColumnTwo": true,
+    "numberOfColumns": 3,
+    "data": [
+      {
+        "name": "AI Leaders",
+        "value": 7500
+      },
+      {
+        "name": "AI Books",
+        "value": 200
+      },
+      {
+        "name": "AI Communities",
+        "value": 250
+      },
+      {
+        "name": "Open Source Collection",
+        "value": 8500
+      },
+      {
+        "name": "Benchmarks",
+        "value": 550
+      },
+      {
+        "name": "Mindmaps",
+        "value": 150
+      },
+      {
+        "name": "AI Tools",
+        "value": 7200
+      },
+      {
+        "name": "API Platforms",
+        "value": 150
+      },
+      {
+        "name": "AI Financials",
+        "value": 120
+      }
+    ]
+  }
+}

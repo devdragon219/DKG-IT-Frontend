@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chart Number 13</title>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      const getTextWidth = (text, font, fontSize, fontWeight) => {
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+        context.font = `${fontWeight} ${fontSize}px ${font}`;
+        const metrics = context.measureText(text);
+        return metrics.width;
+      };
+
+      const render = (originalData) => {
+        const fontFamily = 'Roboto';
+
+        const originalWidth = 1200;
+        const originalHeight = 1200;
+        const margin = originalHeight * 0.2;
+
+        const width = originalWidth - margin;
+        const height = originalHeight - margin;
+
+        const titleName = originalData.name;
+        const titleColor = originalData.titleColor || '#0d5295';
+        const legendTextColor = originalData.legendTextColor || '#232323';
+        const textColorLeft = originalData.textColorLeft || '#232323';
+        const textColorNumber = originalData.textColorNumber || '#fff';
+
+        /* Svg */
+        const svg = d3
+          .select('body')
+          .append('svg')
+          .attr('xmlns', 'http://www.w3.org/2000/svg')
+          .attr('width', originalWidth)
+          .attr('height', originalHeight)
+          .attr('viewBox', `0 0 ${originalWidth} ${originalHeight}`)
+          .style('max-width', '100%')
+          .style('height', 'auto');
+        /* */
+
+        /* Defs */
+        const defs = svg.append('defs');
+        /* */
+
+        /* Load "Roboto" font */
+        defs
+          .append('style')
+          .attr('type', 'text/css')
+          .text(
+            "@import url('https://fonts.googleapis.com/css?family=Roboto:400,500')"
+          );
+        /* */
+
+        /* Main title */
+        const titleFontSize = height * 0.035;
+        svg
+          .append('text')
+          .attr('x', originalWidth / 2)
+          .attr('y', titleFontSize)
+          .attr('fill', titleColor )
+          .style('font-family', fontFamily)
+          .style('font-size', `${titleFontSize}px`)
+          .style('font-weight', 700)
+          .style('text-anchor', 'middle')
+          .text(titleName);
+        /* */
+
+        /* Main group */
+        const g = svg
+          .append('g')
+          .attr('transform', `translate(${margin / 2}, ${margin / 2})`);
+        /* */
+
+        /* Available colors, from left to right */
+        const colors = originalData.colors || [
+          '#204E5E',
+          '#55B0BF',
+          '#2D533A',
+          '#CD8E87',
+          '#9C241C',
+          '#726389',
+        ];
+        /* */
+
+        // Sort data in descending order
+        const data = originalData.data.slice().sort((a, b) => {
+          const aFieldsSum = Object.keys(a)
+            .filter((k) => typeof a[k] === 'number')
+            .reduce((acc, k) => acc + a[k], 0);
+          const bFieldsSum = Object.keys(b)
+            .filter((k) => typeof b[k] === 'number')
+            .reduce((acc, k) => acc + b[k], 0);
+          return bFieldsSum - aFieldsSum;
+        });
+
+        /* Prepare dataset */
+        const datasetProperties = Object.keys(data[0]).filter(
+          (k) => typeof data[0][k] === 'number'
+        );
+        const dataset = d3.layout.stack()(
+          datasetProperties.map((category) =>
+            data.map((d) => ({ x: d.city, y: d[category] }))
+          )
+        );
+        /* */
+
+        /* Legend */
+        const legendFontSize = height * 0.015;
+        const legendData = datasetProperties.map((text) => ({
+          text,
+          width: getTextWidth(text, fontFamily, legendFontSize + 2, 400),
+        }));
+        console.log(legendData);
+        var legend = g
+          .append('g')
+          .attr('transform', `translate(0, ${-legendFontSize * 2})`);
+
+        // Legend rectangle
+        const rectSize = height * 0.015;
+        legend
+          .selectAll('rect')
+          .data(legendData)
+          .enter()
+          .append('rect')
+          .attr('x', (d, i) =>
+            i === 0
+              ? 0
+              : rectSize * 2 * i +
+                legendData.slice(0, i).reduce((acc, obj) => acc + obj.width, 0)
+          )
+          .attr('y', 0)
+          .attr('width', rectSize)
+          .attr('height', rectSize)
+          .attr('rx', 3)
+          .attr('fill', (d, i) => colors[i]);
+
+        // Legend label
+        legend
+          .selectAll('text')
+          .data(legendData)
+          .enter()
+          .append('text')
+          .text((d) => d.text)
+          .attr(
+            'x',
+            (d, i) =>
+              rectSize * 1.5 +
+              (i === 0
+                ? 0
+                : rectSize * 2 * i +
+                  legendData
+                    .slice(0, i)
+                    .reduce((acc, obj) => acc + obj.width, 0))
+          )
+          .attr('y', 0)
+          .attr('alignment-baseline', 'before-edge')
+          .style('font-size', `${legendFontSize}px`)
+          .style('font-family', fontFamily)
+          .attr('fill', legendTextColor);
+;
+        /* */
+
+        /* X Scale */
+        const xScale = d3.scale.linear().domain([0, 400]).range([0, width]);
+        /* */
+
+        /* Y Scale */
+        const yScale = d3.scale
+          .ordinal()
+          .domain(dataset[0].map((d) => d.x))
+          .rangeRoundBands([0, height], 0.1);
+        /* */
+
+      /* Y Axis */
+        const yAxis = d3.svg.axis().scale(yScale).orient('left');
+        const xTickFontSize = height * 0.0125;
+        g.call(yAxis)
+          .call((g) => g.select('.domain').remove())
+          .call((g) =>
+            g
+              .selectAll('.tick')
+              .attr('fill', textColorLeft)
+              .style('font-size', (d) => {
+                const fontSize = 11;
+                const textLength = d.toString().length; 
+                const widthAvailable = 210;
+                return `${Math.min(fontSize, widthAvailable / textLength)}px`;
+              })
+              .style('font-family', fontFamily)
+              .style('font-weight', 500)
+              .selectAll('text')
+          );
+        /* */
+
+        /* Apply proper color to bars */
+        const barsGroup = g
+          .selectAll('.bars')
+          .data(dataset)
+          .enter()
+          .append('g')
+          .attr('fill', (d, i) => colors[i])
+          .attr('stroke', '#fff');
+        /* */
+
+        /* Append rectangles */
+        barsGroup
+          .selectAll('rect')
+          .data((d) => d)
+          .enter()
+          .append('rect')
+          .attr('x', (d) => xScale(d.y0))
+          .attr('y', (d) => yScale(d.x))
+          .attr('height', yScale.rangeBand())
+          .attr('width', (d) => xScale(d.y));
+        /* */
+
+        /* Append rectangle value labels */
+        const labelFontSize = height * 0.0125;
+        const labelOffset = 5;
+
+
+/* Append rectangle value labels */
+barsGroup
+  .selectAll('text')
+  .data((d) => d)
+  .enter()
+  .append('text')
+  .attr('x', (d) => xScale(d.y0) + xScale(d.y) - labelOffset)
+  .attr('y', (d) => yScale(d.x) + yScale.rangeBand() / 2)
+  .attr('dy', '.35em')
+  .style('text-anchor', 'end')
+  .style('font-size', `${labelFontSize}px`)
+  .style('font-family', fontFamily)
+  .style('font-weight', 500)
+  .style('fill', textColorNumber)
+  .style('stroke', 'none')
+  .text((d) => d.y);
+
+      };
+
+      const apiUrl = '/api/diagrams';
+      const params = new URLSearchParams(window.location.search);
+      const KEY = 'slug';
+
+      window.onmessage = (e) => {
+        if (e.data?.name === 'parentMessage') {
+          if (e.data.data?.originalData) {
+            render(e.data.data.originalData);
+          }
+        }
+      };
+
+      if (params.has(KEY)) {
+        const key = params.get(KEY);
+        let url = `${apiUrl}/${key}`;
+        if (key.includes("demo_example")) {
+          const type = key.split("?")[1];
+
+          url = `/diagrams/${type}/data.json`;
+        }
+        const fetchData = async () => {
+          try {
+            const response = await fetch(url);
+            const data = await response.json();
+            if (data?.originalData) {
+              render(data.originalData);
+            }
+            if (data?.source?.originalData) {
+              render(data.source.originalData);
+            }
+          } catch (error) {
+            console.error(error);
+          }
+        };
+        fetchData();
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+.pointer {
+  cursor: pointer;
+}
+
+.arc-all{
+  transition: transform .2s
+}
+
+.arc-all:hover {
+  transform: scale(1.05);
+}

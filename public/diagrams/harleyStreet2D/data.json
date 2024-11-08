@@ -1,0 +1,116 @@
+{
+  "originalData": {
+    "markerLabelTitle": "Types of Clinins Located in Harley Street",
+    "markersGroups": {
+      "Dental Clinins": [
+        {
+          "coordinates": [-0.148904, 51.5232241],
+          "popupText": "111 Harley St., Worktime:Monday-Friday: 8am-7pm, Saturday: 9am-5pm, Sunday: Closed",
+          "markerSize": 1,
+          "markerColor": "#3FB1CE"
+        },
+        {
+          "coordinates": [-0.146933789440673, 51.5196796],
+          "popupText": "66 Harley Street Investigations, Worktime:Monday-Friday: 8am-7pm, Saturday: 9am-5pm",
+          "markerSize": 1,
+          "markerColor": "#3FB1CE"
+        },
+        {
+          "coordinates": [-0.146459691411359, 51.51705585],
+          "popupText": "9 Harley Street, Worktime:Monday: 08:00 - 18:00, Tuesday: 08:00 - 18:00, Wednesday: 08:00 - 18:00, Thursday: 08:00 - 18:00, Friday: 08:00 - 18:00, Saturday: Closed, Sunday: Closed",
+          "markerSize": 1,
+          "markerColor": "#3FB1CE"
+        },
+        {
+          "coordinates": [-0.14591888220557, 51.51741475],
+          "popupText": "ABC Clinic, Worktime:Monday-Friday: 8am-7pm, Saturday: 9am-5pm, Sunday: Closed",
+          "markerSize": 1,
+          "markerColor": "#3FB1CE"
+        },
+        {
+          "coordinates": [-0.142193639608078, 51.5200999],
+          "popupText": "Aeste SKIN, Worktime:Monday-Friday: 9am-6pm, Saturday: 9am-1pm",
+          "markerSize": 1,
+          "markerColor": "#3FB1CE"
+        }
+      ],
+      "Hair Clinics": [
+        {
+          "coordinates": [-0.14591888220557, 51.51741475],
+          "popupText": "Artistry Clinic, Worktime:Monday-Friday: 8am-6pm, Saturday: Closed, Sunday: Closed",
+          "markerSize": 1,
+          "markerColor": "red"
+        },
+        {
+          "coordinates": [-0.148448396153846, 51.5217217],
+          "popupText": "Baker Street Health Clinic, Worktime:Monday-Friday: 8am-7pm, Saturday: 9am-5pm",
+          "markerSize": 1,
+          "markerColor": "red"
+        },
+        {
+          "coordinates": [-0.147309313715084, 51.52040165],
+          "popupText": "BLU Clinics, Worktime:Monday-Friday: 8am-8pm, Saturday: 9am-5pm, Sunday: Closed",
+          "markerSize": 1,
+          "markerColor": "red"
+        },
+        {
+          "coordinates": [-0.144809404984945, 51.5223993],
+          "popupText": "Box Tree Clinic, Worktime:Mo-Thu 8:00-19:00, Fr 8:00-17:00",
+          "markerSize": 1,
+          "markerColor": "red"
+        },
+        {
+          "coordinates": [-0.1459128, 51.517045],
+          "popupText": "Cannabis Access Clinics, Worktime:Monday-Friday: 9am-5pm, Saturday: Closed, Sunday: Closed",
+          "markerSize": 1,
+          "markerColor": "red"
+        },
+        {
+          "coordinates": [-0.147405631845229, 51.521049],
+          "popupText": "Complete Clinics, Worktime:Monday-Friday: 8am-7pm, Saturday: Closed, Sunday: Closed",
+          "markerSize": 1,
+          "markerColor": "red"
+        }
+      ],
+      "Orthopeadics": [
+        {
+          "coordinates": [-0.146956620586206, 51.518307],
+          "popupText": "Cosmedics Skin Clinics, Worktime:Monday-Friday: 8:30am-6pm, Saturday: Closed, Sunday: Closed",
+          "markerSize": 1,
+          "markerColor": "#000000"
+        },
+        {
+          "coordinates": [-0.146186240848267, 51.51666495],
+          "popupText": "Cura-Medical Ltd, Worktime:NA",
+          "markerSize": 1,
+          "markerColor": "#000000"
+        },
+        {
+          "coordinates": [-0.146214825469396, 51.51789975],
+          "popupText": "Dermanda Clinic, Worktime:Monday-Friday: 8am-7pm, Saturday: 9am-5pm, Sunday: Closed",
+          "markerSize": 1,
+          "markerColor": "#000000"
+        },
+        {
+          "coordinates": [-0.148631287215907, 51.52169065],
+          "popupText": "Doctors Clinic Surgery - العيادة الخاصة ، طبيب بنفس اليوم الذي تزورنا به في شارع هارلي لندن, Worktime:Monday-Friday: 8am-7pm, Saturday: 9am-5pm, Sunday: Closed",
+          "markerSize": 1,
+          "markerColor": "#000000"
+        },
+        {
+          "coordinates": [-0.146846, 51.5220069],
+          "popupText": "Gastro Practice, Worktime:NA",
+          "markerSize": 1,
+          "markerColor": "#000000"
+        },
+        {
+          "coordinates": [-0.147309313715084, 51.52040165],
+          "popupText": "Harley Street Audiovestibular Clinic, Worktime:Monday-Friday: 8:30am-5pm, Saturday: Closed, Sunday: Closed",
+          "markerSize": 1,
+          "markerColor": "#000000"
+        }
+      ]
+    },
+    "markers": []
+  }
+}

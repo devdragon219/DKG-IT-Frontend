@@ -1,0 +1,65 @@
+{
+  "originalData" : {
+    "data": {
+      "width": 450,
+      "height": 450,
+      "backgroundColor": "white",
+      "margin": {"top": 30, "right": 30, "bottom": 30, "left": 30},
+      "cellConfig": {"defaultColour":  "lightgray", "padding":  0.05, "round": 4},
+      "axis": {
+        "x": {
+          "label": "Enterprise value",
+          "labelColor": "darkgreen",
+          "color": "darkgreen"
+        },
+        "y": {
+          "label": "Revenue growth",
+          "labelColor": "darkblue",
+          "color": "darkblue"
+        }
+      },
+      "size": {"x": 7, "y": 10},
+      "groups": [
+        {"name":  "type1", "color": "#001b2e", "label": "Type 1" },
+        {"name":  "type2", "color": "#1d3f58", "label": "Type 2" },
+        {"name":  "type3", "color": "#537692", "label": "Type 3" },
+        {"name":  "type4", "color": "#b3cde4", "label": "Type 4" },
+        {"name":  "type5", "color": "#6768ab", "label": "Type 5" }
+      ],
+      "cells": [
+        {"y": 1, "x":  1, "group":  "type1", "tooltipHTML": "<b>bold text</b>"},
+        {"y": 1, "x":  2, "group":  "type1"},
+        {"y": 2, "x":  1, "group":  "type1"},
+        {"y": 2, "x":  1, "group":  "type1"},
+        {"y": 3, "x":  1, "group":  "type1"},
+
+        {"y": 5, "x":  1, "group":  "type2"},
+        {"y": 5, "x":  2, "group":  "type2"},
+        {"y": 5, "x":  3, "group":  "type2"},
+        {"y": 5, "x":  4, "group":  "type2"},
+        {"y": 5, "x":  5, "group":  "type2"},
+        {"y": 5, "x":  6, "group":  "type2"},
+
+        {"y": 6, "x":  1, "group":  "type3"},
+        {"y": 6, "x":  2, "group":  "type3"},
+        {"y": 6, "x":  3, "group":  "type3"},
+        {"y": 7, "x":  1, "group":  "type3"},
+        {"y": 7, "x":  2, "group":  "type3"},
+        {"y": 7, "x":  3, "group":  "type3"},
+        {"y": 8, "x":  3, "group":  "type4"},
+        {"y": 8, "x":  4, "group":  "type4"},
+        {"y": 8, "x":  5, "group":  "type4"},
+        {"y": 8, "x":  6, "group":  "type4"},
+        {"y": 9, "x":  1, "group":  "type4"},
+        {"y": 9, "x":  2, "group":  "type4"},
+        {"y": 9, "x":  3, "group":  "type4"},
+        {"y": 9, "x":  4, "group":  "type4"},
+        {"y": 10, "x":  1, "group":  "type4"},
+        {"y": 10, "x":  2, "group":  "type5"},
+        {"y": 10, "x":  3, "group":  "type5"},
+        {"y": 10, "x":  4, "group":  "type5"}
+      ]
+    }
+
+  }
+}

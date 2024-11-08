@@ -1,0 +1,1440 @@
+{
+  "originalData": {
+    "data": [
+      {
+        "macro_panel": {
+          "type": "KeyParameters",
+          "data": {
+            "originalData": {
+              "macroBlocks": [
+                {
+                  "iconName": "FiGlobe",
+                  "text": "Share of production in GDP",
+                  "infoMain": "12%",
+                  "description11": "Share of agricultural production in GDP 12%",
+                  "fontColor": "#fff"
+                },
+                {
+                  "iconName": "FiPackage",
+                  "text": "Of total exports",
+                  "infoMain": "45%",
+                  "description11": "Of total exports 45%",
+                  "fontColor": "#fff"
+                },
+                {
+                  "iconName": "FiTruck",
+                  "text": "Exports",
+                  "infoMain": "in 70+ countries",
+                  "description1": "Exports in 70+ countries",
+                  "fontColor": "#fff"
+                },
+                {
+                  "iconName": "FiBarChart2",
+                  "text": "International trade ",
+                  "infoMain": "82% – EU & CIS",
+                  "description1": "International trade 82% – EU & CIS",
+                  "fontColor": "#fff"
+                },
+                {
+                  "iconName": "FiPercent",
+                  "text": "Standrt VAT – 20%",
+                  "infoMain": "8% VAT",
+                  "description1": "tandrt VAT – 20% 8% VAT În sectorul agricol",
+                  "fontColor": "#fff"
+                },
+                {
+                  "iconName": "FiFeather",
+                  "text": "Black soils",
+                  "infoMain": "12%",
+                  "description1": "Around 75% of the territory",
+                  "fontColor": "#fff"
+                },
+                {
+                  "iconName": "FiAward",
+                  "text": "20th wine producer in the world",
+                  "infoMain": "2019",
+                  "description1": "Around 75% of the territory",
+                  "fontColor": "#fff"
+                }
+              ]
+            }
+          },
+          "blured": false
+        },
+        "graph_one": {
+          "type": "MoldovaMapLegend",
+          "data": {
+            "originalData": {
+              "title": "Digital Map of Moldova",
+              "backgroundColor": "white",
+              "fontColor": "black",
+              "hoverColor": "#8fbeda",
+              "legend": {
+                "size": 10,
+                "logoLists": [
+                  {
+                    "name": "FcBearish",
+                    "label": "Bearish",
+                    "visible": true
+                  },
+                  {
+                    "name": "FcPackage",
+                    "label": "Package",
+                    "visible": true
+                  },
+                  {
+                    "name": "FcInspection",
+                    "label": "Inspection",
+                    "visible": true
+                  },
+                  {
+                    "name": "FcLightAtTheEndOfTunnel",
+                    "label": "LightAtTheEndOfTunnel",
+                    "visible": true
+                  },
+                  {
+                    "name": "FcLandscape",
+                    "label": "Landscape",
+                    "visible": true
+                  },
+                  {
+                    "name": "FcMms",
+                    "label": "Mms",
+                    "visible": true
+                  }
+                ],
+                "list": [
+                  {
+                    "name": "Name 1",
+                    "iconNames": [
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish"
+                    ],
+                    "fontColor": "#083763",
+                    "coordinates": [27.99, 47.2]
+                  },
+                  {
+                    "name": "R&D",
+                    "iconNames": ["FcPackage", "FcBearish"],
+                    "fontColor": "#083763",
+                    "coordinates": [27.99, 47.6]
+                  },
+                  {
+                    "name": "Furniture",
+                    "iconNames": [
+                      "FcBearish",
+                      "FcInspection",
+                      "FcLightAtTheEndOfTunnel"
+                    ],
+                    "fontColor": "#083763",
+                    "coordinates": [27.99, 47.9]
+                  },
+                  {
+                    "name": "Winerysd",
+                    "iconNames": [
+                      "FcLandscape",
+                      "FcNoVideo",
+                      "FcLightAtTheEndOfTunnel",
+                      "FcMms"
+                    ],
+                    "fontColor": "#083763",
+                    "coordinates": [28.8, 47.55]
+                  },
+                  {
+                    "name": "Winerysdd",
+                    "iconNames": [
+                      "FcLandscape",
+                      "FcNoVideo",
+                      "FcLightAtTheEndOfTunnel",
+                      "FcMms"
+                    ],
+                    "fontColor": "#083763",
+                    "coordinates": [28.737241, 46.569597]
+                  },
+                  {
+                    "name": "Winerysdwda",
+                    "iconNames": [
+                      "FcLandscape",
+                      "FcNoVideo",
+                      "FcLightAtTheEndOfTunnel",
+                      "FcMms"
+                    ],
+                    "fontColor": "#083763",
+                    "coordinates": [29.524388, 46.72618]
+                  }
+                ]
+              },
+              "colors": {},
+              "areaDescription": {
+                "Briceni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Edinet": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Riscani": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Glodeni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Falesti": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Ungheni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Nisporeni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Hincesti": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Leova": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Cantemir": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Cahul": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Ocnita": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Donduseni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Soroca": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Camenca": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Rezina": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Ribnita": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Stinga Nistrul": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Grigoriopol": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Bender": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Stefan-Voda": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Causeni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Cimislia": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Basarabeasca": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Taraclia": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Comrat": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Criuleni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Straseni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Anenii Noi": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Orhei": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Transnistria": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Chisinau": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Telenesti": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Soldanesti": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Floresti": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Ialoveni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Calarasi": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Drochia": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Singerei": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Balti": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                }
+              }
+            },
+            "type": "moldovaMapV2"
+          },
+          "blured": false
+        },
+        "graph_two": {
+          "type": "LineChartSimple",
+          "data": {
+            "originalData": {
+              "height": "700px",
+              "labels": {
+                "value1": "Public",
+                "value2": "Private"
+              },
+              "colors": {
+                "value1": "#66b1c9",
+                "value2": "#548cd8"
+              },
+              "data": [
+                {
+                  "name": "Page A",
+                  "value1": 4000,
+                  "value2": 2400
+                },
+                {
+                  "name": "Page B",
+                  "value1": 3000,
+                  "value2": 1398
+                },
+                {
+                  "name": "Page C",
+                  "value1": 2000,
+                  "value2": 9800
+                },
+                {
+                  "name": "Page D",
+                  "value1": 2780,
+                  "value2": 3908
+                },
+                {
+                  "name": "Page E",
+                  "value1": 1890,
+                  "value2": 4800
+                },
+                {
+                  "name": "Page F",
+                  "value1": 2390,
+                  "value2": 3800
+                },
+                {
+                  "name": "Page G",
+                  "value1": 3490,
+                  "value2": 4300
+                }
+              ]
+            }
+          },
+          "blured": true
+        },
+        "graph_three": {
+          "type": "TimelineHorizontal",
+          "data": {
+            "originalData": {
+              "startY": 140,
+              "height": 400,
+              "data": [
+                {
+                  "year": "2012",
+                  "text": "AlexNet",
+                  "data": {
+                    "title": "AlexNet",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                  }
+                },
+                {
+                  "year": "2013",
+                  "text": "Computer vision switches to neural nets. VAEs",
+                  "data": {
+                    "title": "Computer vision switches to neural nets. VAEs",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                  }
+                },
+                {
+                  "year": "2014",
+                  "text": "GANS",
+                  "data": {
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                  }
+                },
+                {
+                  "year": "2015",
+                  "text": "Residual Nets, RNNs & LSTMs",
+                  "data": {
+                    "title": "Residual Nets, RNNs & LSTMs",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                  }
+                },
+                {
+                  "year": "2016",
+                  "text": "AlphaGO",
+                  "data": {
+                    "title": "AlphaGO",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                  }
+                },
+                {
+                  "year": "2017",
+                  "text": "Transformer architecture",
+                  "data": {
+                    "title": "Transformer architecture",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                  }
+                },
+                {
+                  "year": "2018",
+                  "text": "GPT-1, BERT & Graph Neural Networks",
+                  "data": {
+                    "title": "GPT-1, BERT & Graph Neural Networks",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                  }
+                },
+                {
+                  "year": "2019",
+                  "text": "GPT-2 & Improved Generative Models",
+                  "data": {
+                    "title": "GPT-2 & Improved Generative Models",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                  }
+                },
+                {
+                  "year": "2020",
+                  "text": "GPT-3 & Self-Supervised Learning",
+                  "data": {
+                    "title": "GPT-3",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                  }
+                },
+                {
+                  "year": "2021",
+                  "text": "AlphaFold 2, DALL-E & GitHub Copilot",
+                  "data": {
+                    "title": "AlphaFold",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                  }
+                },
+                {
+                  "year": "2022",
+                  "text": "ChatGPT & Stable Diffusion",
+                  "data": {
+                    "title": "ChatGPT",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                  }
+                },
+                {
+                  "year": "2023",
+                  "text": "Generative AI",
+                  "data": {
+                    "title": "Generative AI",
+                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                  }
+                }
+              ]
+            },
+            "type": "timelineHorizontal"
+          },
+          "blured": false
+        },
+        "graph_fore": {
+          "type": "RadarChartDesigner",
+          "data": {
+            "originalData": {
+              "name": "Radar Chart",
+              "height": 300,
+              "data": {
+                "labels": [
+                  "Eating",
+                  "Drinking",
+                  "Sleeping",
+                  "Designing",
+                  "Coding",
+                  "Cycling",
+                  "Running"
+                ],
+                "datasets": [
+                  {
+                    "label": "My First Dataset",
+                    "data": [28, 48, 40, 19, 96, 27, 100],
+                    "fill": true,
+                    "backgroundColor": "rgba(54, 162, 235, 0.2)",
+                    "borderColor": "rgb(54, 162, 235)",
+                    "pointBackgroundColor": "rgb(54, 162, 235)",
+                    "pointBorderColor": "#fff",
+                    "pointHoverBackgroundColor": "#fff",
+                    "pointHoverBorderColor": "rgb(54, 162, 235)"
+                  }
+                ]
+              }
+            }
+          },
+          "blured": false
+        }
+      },
+      {
+        "graph_one": {
+          "type": "VerticalBarForGeoMaps",
+          "data": {
+            "originalData": {
+              "labels": {
+                "value1": "Publicssd",
+                "value2": "Private"
+              },
+              "colors": {
+                "value1": "#7234de",
+                "value2": "#548cd8"
+              },
+              "height": 700,
+              "data": [
+                {
+                  "name": "Page A",
+                  "value1": 4000,
+                  "value2": 2400
+                },
+                {
+                  "name": "Page B",
+                  "value1": 3000,
+                  "value2": 1398
+                },
+                {
+                  "name": "Page C",
+                  "value1": 2000,
+                  "value2": 9800
+                },
+                {
+                  "name": "Page D",
+                  "value1": 2780,
+                  "value2": 3908
+                },
+                {
+                  "name": "Page E",
+                  "value1": 1890,
+                  "value2": 4800
+                },
+                {
+                  "name": "Page F",
+                  "value1": 2390,
+                  "value2": 3800
+                },
+                {
+                  "name": "Page G",
+                  "value1": 3490,
+                  "value2": 4300
+                }
+              ]
+            }
+          },
+          "blured": false
+        },
+        "graph_two": {
+          "type": "RadarChartDesigner",
+          "data": {
+            "originalData": {
+              "name": "Radar Chart",
+              "height": 300,
+              "data": {
+                "labels": [
+                  "Eating",
+                  "Drinking",
+                  "Sleeping",
+                  "Designing",
+                  "Coding",
+                  "Cycling",
+                  "Running"
+                ],
+                "datasets": [
+                  {
+                    "label": "My First Dataset",
+                    "data": [28, 48, 40, 19, 96, 27, 100],
+                    "fill": true,
+                    "backgroundColor": "rgba(54, 162, 235, 0.2)",
+                    "borderColor": "rgb(54, 162, 235)",
+                    "pointBackgroundColor": "rgb(54, 162, 235)",
+                    "pointBorderColor": "#fff",
+                    "pointHoverBackgroundColor": "#fff",
+                    "pointHoverBorderColor": "rgb(54, 162, 235)"
+                  }
+                ]
+              }
+            }
+          },
+          "blured": false
+        },
+        "graph_three": {
+          "type": "PieChartLabels",
+          "data": {
+            "originalData": {
+              "title": "Exports to EU countries, 2020",
+              "height": 300,
+              "data": [
+                {
+                  "name": "Chemical and related products",
+                  "value": 2.4,
+                  "color": "#f69446",
+                  "label": "2.4%"
+                },
+                {
+                  "name": "Manufacturing goods",
+                  "value": 8,
+                  "color": "#faa41a",
+                  "label": "8%"
+                },
+                {
+                  "name": "Beverages and tabacco",
+                  "value": 3.9,
+                  "color": "#fdba11",
+                  "label": "3.9%"
+                },
+                {
+                  "name": "Crude materials, inedible, except fuels",
+                  "value": 10.7,
+                  "color": "#fcc942",
+                  "label": "10.7%"
+                },
+                {
+                  "name": "Machinery and transport equipment",
+                  "value": 31,
+                  "color": "#e0c647",
+                  "label": "31%"
+                },
+                {
+                  "name": "Different Manufacturing goods",
+                  "value": 24,
+                  "color": "#ccbf4d",
+                  "label": "24%"
+                },
+                {
+                  "name": "Food an live animal",
+                  "value": 14.8,
+                  "color": "#a5b452",
+                  "label": "14.8%"
+                },
+                {
+                  "name": "Minerals fuels, lubricants and related materials",
+                  "value": 1,
+                  "color": "#f68d70",
+                  "label": "0.1%"
+                },
+                {
+                  "name": "Animal and vegetables oils, fats and waves",
+                  "value": 5.1,
+                  "color": "#f5834e",
+                  "label": "5.1%"
+                }
+              ]
+            }
+          },
+          "blured": true
+        },
+        "graph_fore": {
+          "type": "MoldovaMapLegend",
+          "data": {
+            "originalData": {
+              "title": "Digital Map of Moldova",
+              "backgroundColor": "white",
+              "fontColor": "black",
+              "hoverColor": "#8fbeda",
+              "legend": {
+                "size": 10,
+                "logoLists": [
+                  {
+                    "name": "FcBearish",
+                    "label": "Bearish",
+                    "visible": true
+                  },
+                  {
+                    "name": "FcPackage",
+                    "label": "Package",
+                    "visible": true
+                  },
+                  {
+                    "name": "FcInspection",
+                    "label": "Inspection",
+                    "visible": true
+                  },
+                  {
+                    "name": "FcLightAtTheEndOfTunnel",
+                    "label": "LightAtTheEndOfTunnel",
+                    "visible": true
+                  },
+                  {
+                    "name": "FcLandscape",
+                    "label": "Landscape",
+                    "visible": true
+                  },
+                  {
+                    "name": "FcMms",
+                    "label": "Mms",
+                    "visible": true
+                  }
+                ],
+                "list": [
+                  {
+                    "name": "Name 1",
+                    "iconNames": [
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish",
+                      "FcBearish"
+                    ],
+                    "fontColor": "#083763",
+                    "coordinates": [27.99, 47.2]
+                  },
+                  {
+                    "name": "R&D",
+                    "iconNames": ["FcPackage", "FcBearish"],
+                    "fontColor": "#083763",
+                    "coordinates": [27.99, 47.6]
+                  },
+                  {
+                    "name": "Furniture",
+                    "iconNames": [
+                      "FcBearish",
+                      "FcInspection",
+                      "FcLightAtTheEndOfTunnel"
+                    ],
+                    "fontColor": "#083763",
+                    "coordinates": [27.99, 47.9]
+                  },
+                  {
+                    "name": "Winerysd",
+                    "iconNames": [
+                      "FcLandscape",
+                      "FcNoVideo",
+                      "FcLightAtTheEndOfTunnel",
+                      "FcMms"
+                    ],
+                    "fontColor": "#083763",
+                    "coordinates": [28.8, 47.55]
+                  },
+                  {
+                    "name": "Winerysdd",
+                    "iconNames": [
+                      "FcLandscape",
+                      "FcNoVideo",
+                      "FcLightAtTheEndOfTunnel",
+                      "FcMms"
+                    ],
+                    "fontColor": "#083763",
+                    "coordinates": [28.737241, 46.569597]
+                  },
+                  {
+                    "name": "Winerysdwda",
+                    "iconNames": [
+                      "FcLandscape",
+                      "FcNoVideo",
+                      "FcLightAtTheEndOfTunnel",
+                      "FcMms"
+                    ],
+                    "fontColor": "#083763",
+                    "coordinates": [29.524388, 46.72618]
+                  }
+                ]
+              },
+              "colors": {},
+              "areaDescription": {
+                "Briceni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Edinet": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Riscani": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Glodeni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Falesti": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Ungheni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Nisporeni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Hincesti": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Leova": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Cantemir": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Cahul": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Ocnita": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Donduseni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Soroca": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Camenca": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Rezina": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Ribnita": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Stinga Nistrul": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Grigoriopol": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Bender": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Stefan-Voda": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Causeni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Cimislia": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Basarabeasca": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Taraclia": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Comrat": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Criuleni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Straseni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Anenii Noi": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Orhei": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Transnistria": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Chisinau": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Telenesti": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Soldanesti": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Floresti": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Ialoveni": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Calarasi": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Drochia": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Singerei": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                },
+                "Balti": {
+                  "logos": [
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png",
+                    "https://1000logos.net/wp-content/uploads/2023/01/LinkedIn-logo.png"
+                  ],
+                  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                }
+              }
+            },
+            "type": "moldovaMapV2"
+          },
+          "blured": false
+        },
+        "macro_panel": {
+          "type": "KeyParameters",
+          "data": {
+            "originalData": {
+              "macroBlocks": [
+                {
+                  "iconName": "FiGlobe",
+                  "text": "Share of production in GDP",
+                  "infoMain": "12%",
+                  "description11": "Share of agricultural production in GDP 12%",
+                  "fontColor": "#fff"
+                },
+                {
+                  "iconName": "FiPackage",
+                  "text": "Of total exports",
+                  "infoMain": "45%",
+                  "description11": "Of total exports 45%",
+                  "fontColor": "#fff"
+                },
+                {
+                  "iconName": "FiTruck",
+                  "text": "Exports",
+                  "infoMain": "in 70+ countries",
+                  "description1": "Exports in 70+ countries",
+                  "fontColor": "#fff"
+                },
+                {
+                  "iconName": "FiBarChart2",
+                  "text": "International trade ",
+                  "infoMain": "82% – EU & CIS",
+                  "description1": "International trade 82% – EU & CIS",
+                  "fontColor": "#fff"
+                },
+                {
+                  "iconName": "FiPercent",
+                  "text": "Standrt VAT – 20%",
+                  "infoMain": "8% VAT",
+                  "description1": "tandrt VAT – 20% 8% VAT În sectorul agricol",
+                  "fontColor": "#fff"
+                },
+                {
+                  "iconName": "FiFeather",
+                  "text": "Black soils",
+                  "infoMain": "12%",
+                  "description1": "Around 75% of the territory",
+                  "fontColor": "#fff"
+                },
+                {
+                  "iconName": "FiAward",
+                  "text": "20th wine producer in the world",
+                  "infoMain": "2019",
+                  "description1": "Around 75% of the territory",
+                  "fontColor": "#fff"
+                }
+              ]
+            }
+          },
+          "blured": true
+        }
+      }
+    ],
+    "layout": [
+      [
+        {
+          "w": 4,
+          "h": 17,
+          "x": 0,
+          "y": 0,
+          "i": "graph_one-1-MoldovaMapLegend",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 4,
+          "h": 8,
+          "x": 4,
+          "y": 0,
+          "i": "graph_two-1-LineChartSimple",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 8,
+          "h": 9,
+          "x": 4,
+          "y": 8,
+          "i": "graph_three-1-TimelineHorizontal",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 4,
+          "h": 8,
+          "x": 8,
+          "y": 0,
+          "i": "graph_fore-1-RadarChartDesigner",
+          "moved": false,
+          "static": false
+        }
+      ],
+      [
+        {
+          "w": 4,
+          "h": 17,
+          "x": 0,
+          "y": 0,
+          "i": "graph_one-2-VerticalBarForGeoMaps",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 4,
+          "h": 8,
+          "x": 4,
+          "y": 0,
+          "i": "graph_two-2-RadarChartDesigner",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 4,
+          "h": 9,
+          "x": 4,
+          "y": 8,
+          "i": "graph_three-2-PieChartLabels",
+          "moved": false,
+          "static": false
+        },
+        {
+          "w": 4,
+          "h": 17,
+          "x": 8,
+          "y": 0,
+          "i": "graph_fore-2-MoldovaMapLegend",
+          "moved": false,
+          "static": false
+        }
+      ]
+    ]
+  }
+}

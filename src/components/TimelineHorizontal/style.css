@@ -1,0 +1,35 @@
+.label {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.text {
+  font-weight: 600;
+  padding: 5px;
+  border: 1px solid #3069a0;
+  border-radius: 5px;
+}
+
+.text-container {
+  color: #3069a0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.align-end {
+  align-items: end;
+}
+
+.align-start {
+  align-items: start;
+}
+
+.rect-container {
+  pointer-events: none;
+  fill: white;
+}

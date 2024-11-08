@@ -1,0 +1,128 @@
+{
+  "originalData": [
+    {
+      "originalData": {
+        "name": "Radar Chart",
+        "title": "Title 1",
+        "height": "700",
+        "data": {
+          "labels": [
+            "Eating",
+            "Drinking",
+            "Sleeping",
+            "Designing",
+            "Coding",
+            "Cycling",
+            "Running"
+          ],
+          "datasets": [
+            {
+              "label": "My First Dataset",
+              "data": [28, 48, 40, 19, 96, 27, 100],
+              "fill": true,
+              "backgroundColor": "rgba(54, 162, 235, 0.2)",
+              "borderColor": "rgb(54, 162, 235)",
+              "pointBackgroundColor": "rgb(54, 162, 235)",
+              "pointBorderColor": "#fff",
+              "pointHoverBackgroundColor": "#fff",
+              "pointHoverBorderColor": "rgb(54, 162, 235)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalData": {
+        "name": "Radar Chart",
+        "title": "Title 1",
+        "height": "700",
+        "data": {
+          "labels": [
+            "Eating",
+            "Drinking",
+            "Sleeping",
+            "Designing",
+            "Coding",
+            "Cycling",
+            "Running"
+          ],
+          "datasets": [
+            {
+              "label": "My First Dataset",
+              "data": [28, 8, 40, 29, 96, 2, 100],
+              "fill": true,
+              "backgroundColor": "rgba(54, 162, 235, 0.2)",
+              "borderColor": "rgb(54, 162, 235)",
+              "pointBackgroundColor": "rgb(54, 162, 235)",
+              "pointBorderColor": "#fff",
+              "pointHoverBackgroundColor": "#fff",
+              "pointHoverBorderColor": "rgb(54, 162, 235)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalData": {
+        "name": "Radar Chart",
+        "title": "Title 1",
+        "height": "700",
+        "data": {
+          "labels": [
+            "Eating",
+            "Drinking",
+            "Sleeping",
+            "Designing",
+            "Coding",
+            "Cycling",
+            "Running"
+          ],
+          "datasets": [
+            {
+              "label": "My First Dataset",
+              "data": [100, 8, 40, 9, 96, 2, 23],
+              "fill": true,
+              "backgroundColor": "rgba(54, 162, 235, 0.2)",
+              "borderColor": "rgb(54, 162, 235)",
+              "pointBackgroundColor": "rgb(54, 162, 235)",
+              "pointBorderColor": "#fff",
+              "pointHoverBackgroundColor": "#fff",
+              "pointHoverBorderColor": "rgb(54, 162, 235)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalData": {
+        "name": "Radar Chart",
+        "title": "Title 1",
+        "height": "700",
+        "data": {
+          "labels": [
+            "Eating",
+            "Drinking",
+            "Sleeping",
+            "Designing",
+            "Coding",
+            "Cycling",
+            "Running"
+          ],
+          "datasets": [
+            {
+              "label": "My First Dataset",
+              "data": [30, 20, 40, 60, 10, 4, 99],
+              "fill": true,
+              "backgroundColor": "rgba(54, 162, 235, 0.2)",
+              "borderColor": "rgb(54, 162, 235)",
+              "pointBackgroundColor": "rgb(54, 162, 235)",
+              "pointBorderColor": "#fff",
+              "pointHoverBackgroundColor": "#fff",
+              "pointHoverBorderColor": "rgb(54, 162, 235)"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

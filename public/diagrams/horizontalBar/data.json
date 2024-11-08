@@ -1,0 +1,31 @@
+{
+  "originalData": {
+    "labels": {
+      "pv": "Publicssd",
+      "uv": "Private"
+    },
+    "colors": {
+      "value1": "#7234de",
+      "value2": "#548cd8"
+    },
+    "height": 200,
+    "title": "Title Text",
+    "data": [
+      {
+        "name": "Page A",
+        "uv": 4000,
+        "pv": 2400
+      },
+      {
+        "name": "Page B",
+        "uv": 3000,
+        "pv": 1398
+      },
+      {
+        "name": "Page C",
+        "uv": 2000,
+        "pv": 9800
+      }
+    ]
+  }
+}

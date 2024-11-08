@@ -1,0 +1,11 @@
+{
+  "originalData": {
+    "title": "MENA GeoMap",
+    "backgroundColor": "white",
+    "fontColor": "black",
+    "hoverColor": "#3b729f",
+    "markers": [],
+    "disabledCountries": ["Saudi Arabia"],
+    "colors": {}
+  }
+}

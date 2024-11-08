@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "target": "ESNext",
+        "types": ["vite/client"],
+        "isolatedModules": true,
+        "moduleResolution": "nodenext",
+        "jsx": "react",
+    },
+    "include": ["src", "src/vis3d.min.js"]
+}

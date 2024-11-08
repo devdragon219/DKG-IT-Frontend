@@ -1,0 +1,13 @@
+.tool-card-component {
+  border: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.tool-card-component .ant-card-cover {
+  height: 70%;
+}
+
+.tool-card-component .ant-card-body {
+  padding: 0;
+}

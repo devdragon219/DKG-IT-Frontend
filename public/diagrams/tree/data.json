@@ -1,0 +1,161 @@
+{
+  "originalData": {
+    "name": "Al in Drug Discovery Companies Focus on Oncology: Leadership by Funding Level",
+    "startPoint": 20,
+    "data": {
+      "AI": {
+        "Classical ML": {
+          "Gradient Boosting": {
+            "Gradient Tree Boosting": "2001",
+            "XGBoost": "2016",
+            "LightGBM": "2017",
+            "CatBoost": "2018"
+          }
+        },
+        "Reinforcement Learning": {
+          "Trust Region Policy Optimization (TRPO)": "2015",
+          "Deep Q-Network (DQN)": "2015",
+          "Double DQN": "2016",
+          "Dueling DQN": "2016",
+          "Advantage Actor-Critic (A2C)": "2016",
+          "Asynchronous Advantage Actor-Critic (A3C)": "2016",
+          "Soft Actor-Critic (SAC)": "2018"
+        },
+        "Supervised/Unsupervised Learning": {
+          "Neural Network Based Algorithms": {
+            "Convolutional Neural Networks (ConvNets, CNNs)": {
+              "Image Processing Networks": {
+                "LeNet": "1998",
+                "AlexNet": "2012",
+                "VGG": "2014",
+                "GoogLeNet (Inception)": "2014",
+                "ResNet": "2015",
+                "DenseNet": "2016",
+                "MobileNet": "2017",
+                "ImageNet": "2017",
+                "EfficientNet": "2019",
+                "EfficientNetV2": "2020",
+                "Vision Transformer (ViT)": "2020",
+                "ResNeSt": "2020",
+                "Swin Transformer": "2021",
+                "CrossViT": "2021"
+              },
+              "Video Processing": {
+                "3D CNN": "2012",
+                "Two-Steam CNN": "2014",
+                "Two-Steam CNN with Fusion": "2016",
+                "Temporal Segment CNN": "2016",
+                "You Look Only Once (YOLO)": "2016",
+                "R(2+1)D": "2018"
+              }
+            },
+            "Recurrent neural networks": {
+              "Long Short-Term Memory (LSTM)": "1997",
+              "Bidirectional RNN (BRNN)": "1997",
+              "Echo State Network (ESN)": "2002",
+              "Gated Recurrent Unit (GRU)": "2014",
+              "RNNsearch": "2014",
+              "Hierarchical RNN (HRNN)": "2015",
+              "Recurrent Convolutional Neural Network (RCNN)": "2015",
+              "UGRNN": "2015",
+              "QRNN": "2016",
+              "GNMT": "2016",
+              "AWD-LSTM": "2018",
+              "SRU": "2018"
+            },
+            "Autoencoders": {
+              "Denoising Autoencoder": "2008",
+              "Convolutional Autoencoder": "2011",
+              "Contractive Autoencoder": "2011",
+              "Variational Autoencoder": "2013",
+              "Adversarial Autoencoder": "2015"
+            },
+            "Transformers": {
+              "Vanilla Transformer": "2017",
+              "BERT (Bidirectional Encoder Representations from Transformers)": "2018",
+              "XLNet": "2019"
+            },
+            "Language Models (LM)": {
+              "Neural Language Models": {
+                "Neural language model": "2003"
+              },
+              "Pre-trained Language Models": {
+                "Embeddings from Language Models (ELMo)": "2018",
+                "RoBERTa (Robustly Optimized BERT Pretraining Approach)": "2019",
+                "Bidirectional Encoder Representations from Transformers (BERT)": "2018",
+                "GPT (Generative Pre-trained Transformer)": "2018",
+                "GPT-2": "2019",
+                "BART": "2019"
+              },
+              "Large Language Models": {
+                "T5 (Text-to-Text Transfer Transformer)": "2019",
+                "GPT-3": "2020",
+                "LaMDA": "2022",
+                "PaLM": "2022",
+                "Galactica": "2022",
+                "GPT-4": "2023",
+                "LLaMA": "2023"
+              }
+            },
+            "Generative adversarial networks": {
+              "Vanilla GAN": "2014",
+              "Conditional GAN": "2014",
+              "Wasserstein GAN (WGAN)": "2017",
+              "CycleGAN": "2017",
+              "Progressive GAN": "2017",
+              "StarGAN": "2017"
+            },
+            "Diffusion models": {
+              "Diffusion Probabilistic Model": "2015",
+              "Noise-conditioned Score Network": "2019",
+              "Denoising diffusion probabilistic model": "2020",
+              "Latent Diffusion Model": "2022"
+            },
+            "Siamese Neural Networks": {
+              "Basic Siamese network": "2005",
+              "Triple network": "2015",
+              "Quadruple network": "2017",
+              "RNN-based Siamese network": "2017",
+              "Multi-view Siamese network": "2018",
+              "Pseudo Siamese network": "2018",
+              "GNN-based Siamese network": "2019",
+              "Siamese GAN": "2019",
+              "Manifold-based Siamese network": "2019",
+              "Cross-modal Siamee network": "2019",
+              "DenseDisp": "2020"
+            },
+            "Graph neural networks": {
+              "Recurrent Graph Neural Networks": {
+                "Graph Neural Network": "2005",
+                "Graph Echo State Networks (GraphESN)": "2010",
+                "Graph Attention Network": "2017"
+              },
+              "Convolutional Graph Neural Networks": {
+                "Spectral-based Convolutional Graph Neural Network": "2014",
+                "Diffusion-convolutional Graph Neural Network": "2016"
+              },
+              "Graph Autoencoders": {
+                "Network Embeddings": {
+                  "Graph Autoencoder": "2016",
+                  "Variational Graph Auto-Encoders": "2016",
+                  "Adversarially Regularized Graph Autoencoder": "2018"
+                },
+                "Graph Generation": {
+                  "GraphRNN": "2018",
+                  "GraphVAE": "2018",
+                  "NetGAN": "2018"
+                }
+              },
+              "Spatial-temporal Graph Neural Networks": {
+                "Structural-RNN": "2016",
+                "Graph WaveNet": "2018",
+                "Spatio-Temporal Graph Convolutional Networks": "2018",
+                "Attention Based Spatial-Temporal Graph Convolutional Networks": "2019"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

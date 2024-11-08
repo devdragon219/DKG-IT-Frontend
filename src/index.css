@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  background-color: transparent !important;
+}
+
+.gauge-chart > table {
+  margin: 0 auto !important;
+}

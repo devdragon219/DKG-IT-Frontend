@@ -1,0 +1,29 @@
+{
+  "originalData": {
+    "name": "Radar Gradient Chart",
+    "data": {
+      "datasets": [
+        {
+          "label": "My Dataset",
+          "data": [
+            10, 15, 5, 65, 4
+          ],
+          "fill": true,
+          "c1": "#FF0000",
+          "c2":  "#FF3333",
+          "c3":  "#FF6666"
+        },
+        {
+          "label": "My Dataset2",
+          "data": [
+            35, 53, 59, 47, 90
+          ],
+          "fill": true,
+          "c1": "#FFA500",
+          "c2":  "#FFB266",
+          "c3":  "#FFC933"
+        }
+      ]
+    }
+  }
+}

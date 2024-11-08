@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chart Number 15</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      const sliceArray = (arr, start, end) => arr.slice(start, end);
+
+      const splitArray = (arr, chunkSize) => {
+        let result = [];
+        for (let i = 0; i < arr.length; i += chunkSize) {
+          let chunk = arr.slice(i, i + chunkSize);
+          result.push(chunk);
+        }
+        return result;
+      };
+
+      const render = (originalData) => {
+        const fontFamily = "Roboto";
+        const isCentreRed = originalData?.isCentreRed || false;
+        const itemsInColumn = originalData?.itemsInColumn || 3;
+        const numberOfColumns = originalData?.numberOfColumns || 3;
+        const isItemsInColumnTwo = originalData?.isItemsInColumnTwo;
+
+        const width = numberOfColumns * 200;
+        const height = 600;
+
+        const outerCircleRadius = height / 7;
+
+        const innerCircleRadius = outerCircleRadius * 0.85;
+
+        const radiusDiff = outerCircleRadius - innerCircleRadius;
+
+        /* Title variables */
+        const titleFontSize = height * 0.06;
+        const titleLinePadding = 5;
+        const titleBottomPadding = height * 0.05;
+        const titleBlockHeight =
+          titleFontSize * 2 + titleLinePadding + titleBottomPadding;
+        /* */
+
+        /* Svg */
+        const svg = d3
+          .select("body")
+          .append("svg")
+          .attr("xmlns", "http://www.w3.org/2000/svg")
+          .attr("width", width)
+          .attr("height", height + titleBlockHeight)
+          .attr("viewBox", `0 0 ${width} ${height + titleBlockHeight}`)
+          .style("max-width", "100%")
+          .style("height", "auto");
+        /* */
+
+        /* Defs */
+        const defs = svg.append("defs");
+        /* */
+
+        /* Load "Roboto" font */
+        defs
+          .append("style")
+          .attr("type", "text/css")
+          .text(
+            "@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700')"
+          );
+        /* */
+
+        /*Red Gradient */
+        const innerCircleGradientRedId = "innerCircleGradientRed";
+        const innerCircleGradientRed = defs
+          .append("radialGradient")
+          .attr("id", innerCircleGradientRedId);
+        innerCircleGradientRed
+          .append("stop")
+          .attr("offset", "10%")
+          .attr("stop-color", "#db1a22");
+        innerCircleGradientRed
+          .append("stop")
+          .attr("offset", "100%")
+          .attr("stop-color", "#db1a22");
+
+        /* Gradient */
+        const innerCircleGradientId = "innerCircleGradient";
+        const innerCircleGradient = defs
+          .append("radialGradient")
+          .attr("id", innerCircleGradientId);
+        innerCircleGradient
+          .append("stop")
+          .attr("offset", "10%")
+          .attr("stop-color", "#119DF1");
+        innerCircleGradient
+          .append("stop")
+          .attr("offset", "100%")
+          .attr("stop-color", "#0179c4");
+        /* */
+
+        /* Main title */
+        svg
+          .append("text")
+          .attr("x", width / 2)
+          .attr("y", titleFontSize)
+          .attr("fill", "#0d5295")
+          .style("font-size", `${titleFontSize}px`)
+          .style("font-weight", 700)
+          .style("font-family", fontFamily)
+          .style("text-anchor", "middle")
+          .text(originalData.title_1);
+        svg
+          .append("text")
+          .attr("x", width / 2)
+          .attr("y", titleFontSize * 2 + titleLinePadding)
+          .attr("fill", "#0d5295")
+          .style("font-size", `${titleFontSize}px`)
+          .style("font-weight", 700)
+          .style("font-family", fontFamily)
+          .style("text-anchor", "middle")
+          .text(originalData.title_2);
+        /* */
+
+        /* Main group */
+        const g = svg
+          .append("g")
+          .attr("transform", `translate(0, ${titleBlockHeight})`);
+        /* */
+
+        /* Element list */
+        const slicedData = sliceArray(
+          originalData.data,
+          0,
+          itemsInColumn * numberOfColumns
+        );
+        const columns = splitArray(slicedData, itemsInColumn);
+        const columnsss = splitArray(slicedData, 2);
+
+        const isTwoItemsInColumn = itemsInColumn === 2 && isItemsInColumnTwo;
+
+        columns.forEach((columnItems, columnIndex) => {
+          columnItems.forEach((item, itemIndex) => {
+            const outerCx =
+              outerCircleRadius +
+              (width / numberOfColumns) * columnIndex +
+              radiusDiff;
+            const outerCy =
+              outerCircleRadius +
+              (height / itemsInColumn) * itemIndex +
+              radiusDiff;
+            const outerCircleShadowSpread = outerCircleRadius * 0.025;
+
+            /* Outer circle */
+            g.append("circle")
+              .attr("cx", outerCx)
+              .attr(
+                "cy",
+                isTwoItemsInColumn && itemIndex === 1 ? outerCy - 100 : outerCy
+              )
+              .attr("r", outerCircleRadius)
+              .attr(
+                "stroke",
+                itemIndex === 1 && columnIndex === 1 && isCentreRed
+                  ? "#db1a22"
+                  : "#1F4E9B"
+              )
+              .attr("stroke-width", 5)
+              .style("fill", "#fff")
+              .style(
+                "filter",
+                `drop-shadow(rgba(0,0,0,0.4) -${outerCircleShadowSpread}px ${outerCircleShadowSpread}px ${outerCircleShadowSpread}px)`
+              );
+            /* */
+
+            const innerCx =
+              innerCircleRadius +
+              (width / numberOfColumns) * columnIndex +
+              radiusDiff * 2;
+            const innerCy =
+              innerCircleRadius +
+              (height / itemsInColumn) * itemIndex +
+              radiusDiff * 2;
+            const innerCircleShadowSpread = innerCircleRadius * 0.025;
+
+            /* Inner circle */
+            g.append("circle")
+              .attr("cx", innerCx)
+              .attr(
+                "cy",
+                isTwoItemsInColumn && itemIndex === 1 ? outerCy - 100 : outerCy
+              )
+              .attr("r", innerCircleRadius)
+              .attr(
+                "fill",
+                `url(#${
+                  itemIndex === 1 && columnIndex === 1 && isCentreRed
+                    ? innerCircleGradientRedId
+                    : innerCircleGradientId
+                })`
+              )
+              .style(
+                "filter",
+                `drop-shadow(rgba(0,0,0,0.4) -2px ${innerCircleShadowSpread}px ${innerCircleShadowSpread}px)`
+              );
+            /* */
+
+            /* Foreign object */
+            const valueTextFontSize = height * 0.06;
+            const nameTextFontSize = height * 0.028;
+            g
+              .append("foreignObject")
+              .attr("x", outerCx - outerCircleRadius)
+              .attr(
+                "y",
+                isTwoItemsInColumn && itemIndex === 1
+                  ? outerCy - outerCircleRadius - 100
+                  : outerCy - outerCircleRadius
+              )
+              .attr("width", outerCircleRadius * 2)
+              .attr("height", outerCircleRadius * 2).html(`
+              <div style="
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                height: 100%;
+                font-family: ${fontFamily};
+              ">
+                <p style="
+                  margin: 0;
+                  font-size: ${valueTextFontSize}px;
+                  filter: drop-shadow(rgba(0,0,0,0.4) 2px 2px 2px);
+                ">
+                  ${item.value.toLocaleString()}
+                </p>
+                <p style="
+                  margin: 0;
+                  font-size: ${nameTextFontSize}px;
+                  max-width: 75%;
+                  margin-top: 5px;
+                  filter: drop-shadow(rgba(0,0,0,0.4) 2px 2px 2px);
+                ">
+                  ${item.name}
+                </p>
+              </div>
+            `);
+            /* */
+          });
+        });
+        /* */
+      };
+
+      const apiUrl = "/api/diagrams";
+      const params = new URLSearchParams(window.location.search);
+      const KEY = "slug";
+
+      window.onmessage = (e) => {
+        if (e.data?.name === "parentMessage") {
+          if (e.data.data?.originalData) {
+            render(e.data.data.originalData);
+          }
+        }
+      };
+
+      if (params.has(KEY)) {
+        const key = params.get(KEY);
+        let url = `${apiUrl}/${key}`;
+        if (key.includes("demo_example")) {
+          const type = key.split("?")[1];
+
+          url = `/diagrams/${type}/data.json`;
+        }
+        const fetchData = async () => {
+          try {
+            const response = await fetch(url);
+            const data = await response.json();
+            if (data?.originalData) {
+              render(data.originalData);
+            }
+            if (data?.source?.originalData) {
+              render(data.source.originalData);
+            }
+          } catch (error) {
+            console.error(error);
+          }
+        };
+        fetchData();
+      }
+    </script>
+  </body>
+</html>

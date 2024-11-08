@@ -1,0 +1,48 @@
+{
+  "originalData": {
+    "title": "Longevity Governance Index of the United Kingdom: 67.47 (15th)",
+    "backgroundColor": "#293046",
+    "headerFontSize": "20px",
+    "valueFontSize": "20px",
+    "titleColor": "#D0D2D6",
+    "twoRows": false,
+    "indicators": [
+      {
+        "header": "Companies",
+        "value": "65",
+        "textColor": "",
+        "borderStyle": ""
+      },
+      {
+        "header": "Total Investors",
+        "value": "25",
+        "textColor": "",
+        "borderStyle": ""
+      },
+      {
+        "header": "Global Investors",
+        "value": "15",
+        "textColor": "",
+        "borderStyle": ""
+      },
+      {
+        "header": "AI Focused Companies",
+        "value": "10",
+        "textColor": "",
+        "borderStyle": ""
+      },
+      {
+        "header": "Public Companies",
+        "value": "5",
+        "textColor": "",
+        "borderStyle": ""
+      },
+      {
+        "header": "Hubs",
+        "value": "5",
+        "textColor": "",
+        "borderStyle": ""
+      }
+    ]
+  }
+}

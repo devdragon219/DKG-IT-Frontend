@@ -1,0 +1,18 @@
+{
+  "originalData": {
+    "title": "Financial Position",
+    "height": "500",
+    "beginAtZero": false,
+    "data": {
+      "labels": ["012Factory", "100bebes", "100Farmers", "021 Dentals"],
+      "datasets": [
+        {
+          "label": "Financial Position",
+          "data": [0.00099, 0.003, 0.00045, 0.0012],
+          "fill": true,
+          "color": "#5CCCE4"
+        }
+      ]
+    }
+  }
+}

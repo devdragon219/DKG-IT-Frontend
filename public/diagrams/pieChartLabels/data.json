@@ -1,0 +1,73 @@
+{
+  "originalData": {
+    "title": "Exports to EU countries, 2020",
+    "titleFontSize": "1em",
+    "titleFontColor": "#0c5393",
+    "height": 300,
+    "data": [
+      {
+        "name": "Chemical and related products",
+        "value": 2.4,
+        "color": "#f69446",
+        "label": "2.4%",
+        "fontSize": 7
+      },
+      {
+        "name": "Manufacturing goods",
+        "value": 8,
+        "color": "#faa41a",
+        "label": "8%",
+        "fontSize": 7
+      },
+      {
+        "name": "Beverages and tabacco",
+        "value": 3.9,
+        "color": "#fdba11",
+        "label": "3.9%",
+        "fontSize": 7
+      },
+      {
+        "name": "Crude materials, inedible, except fuels",
+        "value": 10.7,
+        "color": "#fcc942",
+        "label": "10.7%",
+        "fontSize": 7
+      },
+      {
+        "name": "Machinery and transport equipment",
+        "value": 31,
+        "color": "#e0c647",
+        "label": "31%",
+        "fontSize": 7
+      },
+      {
+        "name": "Different Manufacturing goods",
+        "value": 24,
+        "color": "#ccbf4d",
+        "label": "24%",
+        "fontSize": 7
+      },
+      {
+        "name": "Food an live animal",
+        "value": 14.8,
+        "color": "#a5b452",
+        "label": "14.8%",
+        "fontSize": 7
+      },
+      {
+        "name": "Minerals fuels, lubricants and related materials",
+        "value": 1,
+        "color": "#f68d70",
+        "label": "0.1%",
+        "fontSize": 7
+      },
+      {
+        "name": "Animal and vegetables oils, fats and waves",
+        "value": 5.1,
+        "color": "#f5834e",
+        "label": "5.1%",
+        "fontSize": 7
+      }
+    ]
+  }
+}

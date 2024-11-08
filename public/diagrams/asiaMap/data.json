@@ -1,0 +1,32 @@
+{
+  "originalData": {
+    "title": "Asia Map",
+    "backgroundColor": "white",
+    "fontColor": "black",
+    "hoverColor": "#3b729f",
+    "markers": [
+      {
+        "markerOffset": -45,
+        "markerOffsetX": 0,
+        "markerColor": "#F00",
+        "name": "Beijing",
+        "coordinates": [116.4074, 39.902],
+        "radius": "25",
+        "fontColor": "black",
+        "tooltip": "China",
+        "fontSize": "30px"
+      },
+      {
+        "markerOffset": 35,
+        "markerOffsetX": 0,
+        "markerColor": "#F00",
+        "name": "New Delhi",
+        "coordinates": [77.209, 28.6139],
+        "radius": "10",
+        "fontColor": "black",
+        "tooltip": "India",
+        "fontSize": "30px"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "originalData": {
+    "title": "Chisinau Digital GeoMap",
+    "backgroundColor": "white",
+    "fontColor": "black",
+    "hoverColor": "#3b729f",
+    "markers": [
+      {
+        "markerOffset": 10,
+        "name": "Ciocana Sector",
+        "coordinates": [28.884, 47.0208],
+        "radius": "2",
+        "fontColor": "black",
+        "tooltip": "Ciocana: 18",
+        "fontSize": "5px"
+      }
+    ],
+    "colors": {
+      "Centru Sector": "#398BBC",
+      "Buiucani Sector": "#8FBEDA",
+      "Botanica Sector": "#1474AF",
+      "Ciocana Sector": "#8FBEDA",
+      "Rîșcani Sector": "#4C96C3"
+    }
+  }
+}

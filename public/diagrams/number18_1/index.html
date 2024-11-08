@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chart Number 18.1</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      const render = (data) => {
+        const fontFamily = "Roboto";
+
+        const width = 1400;
+        const height = 700;
+
+        const outerCircleRadius = height / 10;
+        const outerCircleStrokeWidth = outerCircleRadius * 0.05;
+
+        const innerCircleRadius = outerCircleRadius * 0.85;
+
+        const mainOuterCircleRadius = outerCircleRadius * 2;
+        const mainOuterCircleStrokeWidth = outerCircleStrokeWidth * 3;
+
+        const mainInnerCircleRadius = innerCircleRadius * 2;
+
+        const mainCircleRadiusDiff =
+          mainOuterCircleRadius - mainInnerCircleRadius;
+
+        /* Svg */
+        const svg = d3
+          .select("body")
+          .append("svg")
+          .attr("xmlns", "http://www.w3.org/2000/svg")
+          .attr("width", width)
+          .attr("height", height)
+          .attr("viewBox", `0 0 ${width} ${height}`)
+          .style("max-width", "100%")
+          .style("height", "auto");
+        /* */
+
+        /* Defs */
+        const defs = svg.append("defs");
+        /* */
+
+        /* Load "Roboto" font */
+        defs
+          .append("style")
+          .attr("type", "text/css")
+          .text(
+            "@import url('https://fonts.googleapis.com/css?family=Roboto:400,700')"
+          );
+        /* */
+
+        /* Gradient */
+        const innerCircleGradientId = "innerCircleGradient";
+        const innerCircleGradient = defs
+          .append("radialGradient")
+          .attr("id", innerCircleGradientId);
+        innerCircleGradient
+          .append("stop")
+          .attr("offset", "10%")
+          .attr("stop-color", "#119DF1");
+        innerCircleGradient
+          .append("stop")
+          .attr("offset", "100%")
+          .attr("stop-color", "#0179c4");
+        /* */
+
+        /* Main title */
+        const titleFontSize = height * 0.06;
+        const titleLinePadding = 10;
+
+        // Left top
+        data.left_title_1 &&
+          svg
+            .append("text")
+            .attr("x", titleFontSize)
+            .attr("y", titleFontSize)
+            .attr("fill", "#0d5295")
+            .style("font-size", `${titleFontSize}px`)
+            .style("font-weight", 700)
+            .style("font-family", fontFamily)
+            .text(data.left_title_1);
+
+        // Left bottom
+        data.left_title_2 &&
+          svg
+            .append("text")
+            .attr("x", titleFontSize)
+            .attr("y", titleFontSize * 2 + titleLinePadding)
+            .attr("fill", "#0d5295")
+            .style("font-size", `${titleFontSize}px`)
+            .style("font-weight", 700)
+            .style("font-family", fontFamily)
+            .text(data.left_title_2);
+
+        // Right top
+        data.right_title_1 &&
+          svg
+            .append("text")
+            .attr("x", width - titleLinePadding)
+            .attr("y", titleFontSize)
+            .attr("fill", "#0d5295")
+            .style("font-size", `${titleFontSize}px`)
+            .style("font-weight", 700)
+            .style("font-family", fontFamily)
+            .style("text-anchor", "end")
+            .text(data.right_title_1);
+
+        // Right bottom
+        data.right_title_1 &&
+          svg
+            .append("text")
+            .attr("x", width - titleLinePadding)
+            .attr("y", titleFontSize * 2 + titleLinePadding)
+            .attr("fill", "#0d5295")
+            .style("font-size", `${titleFontSize}px`)
+            .style("font-weight", 700)
+            .style("font-family", fontFamily)
+            .style("text-anchor", "end")
+            .text(data.right_title_2);
+        /* */
+
+        /* Main group */
+        const g = svg.append("g");
+        /* */
+
+        let titleText = null;
+
+        if (
+          data.left_title_1 ||
+          data.left_title_2 ||
+          data.right_title_1 ||
+          data.right_title_2
+        ) {
+          titleText =
+            data.left_title_1 ||
+            data.left_title_2 ||
+            data.right_title_1 ||
+            data.right_title_2;
+        }
+
+        /* Cicle group */
+        const circleGroup = g
+          .append("g")
+          .attr(
+            "transform",
+            titleText ? `translate(0, ${titleFontSize})` : `translate(0, -60)`
+          );
+        /* */
+
+        /* Main outer circle */
+        const mainOuterCx = width / 2;
+        const mainOuterCy = height / 2;
+        const mainOuterCircleShadowSpread = mainOuterCircleRadius / 15;
+        circleGroup
+          .append("circle")
+          .attr("cx", mainOuterCx)
+          .attr("cy", mainOuterCy)
+          .attr("r", mainOuterCircleRadius)
+          .attr("stroke", "#1F4E9B")
+          .attr("stroke-width", mainOuterCircleStrokeWidth)
+          .style("fill", "#fff")
+          .style(
+            "filter",
+            `drop-shadow(rgba(0,0,0,0.4) -${mainOuterCircleShadowSpread}px ${mainOuterCircleShadowSpread}px ${mainOuterCircleShadowSpread}px)`
+          );
+        /* */
+
+        /* Main inner circle */
+        const mainInnerCx = width / 2;
+        const mainInnerCy = height / 2;
+        circleGroup
+          .append("circle")
+          .attr("cx", mainInnerCx)
+          .attr("cy", mainInnerCy)
+          .attr("r", mainInnerCircleRadius)
+          .attr("fill", `url(#${innerCircleGradientId})`)
+          .style("filter", "drop-shadow(rgba(0,0,0,0.5) 0 0 2px)");
+        /* */
+
+        /* Foreign object containing main circle text */
+        const dynamicMainTextFontSize = height * 0.06;
+        const staticMainTextFontSize = height * 0.03;
+        circleGroup
+          .append("foreignObject")
+          .attr("x", mainInnerCx - mainInnerCircleRadius)
+          .attr("y", mainInnerCy - mainInnerCircleRadius)
+          .attr("width", mainInnerCircleRadius * 2)
+          .attr("height", mainInnerCircleRadius * 2).html(`
+              <div style="
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                height: 100%;
+                font-family: ${fontFamily};
+              ">
+                <p style="
+                  margin: 0;
+                  font-size: ${dynamicMainTextFontSize}px;
+                ">
+                  ${data.score}
+                </p>
+                <p style="
+                  margin: 0;
+                  font-size: ${staticMainTextFontSize}px;
+                  max-width: 80%;
+                  text-transform: uppercase;
+                ">
+                  ${data.score_text}
+                </p>
+              </div>
+            `);
+        /* */
+
+        /* Logo */
+        svg
+          .append("foreignObject")
+          .attr("x", data?.logoConfig?.xPosition)
+          .attr("y", height - data?.logoConfig?.yPosition)
+          .attr("width", data?.logoConfig?.width)
+          .attr("height", data?.logoConfig?.height).html(`
+            <div style="
+              background: ${data?.logoConfig?.background};
+              border: 3px solid #1F4E9B;
+              padding: ${data?.logoConfig?.padding};
+              cursor: pointer;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            ">
+            <a href=${data?.logoConfig?.link} target="_blank"> 
+              <img style="width: ${data?.logoConfig?.imgWidth};" src="/assets/Logo.webp" />
+              </a>
+            </div>
+          `);
+
+        /* Find small circle thetas */
+        const thetas = [];
+
+        // Skip small circles at the very top and very bottom
+        const skip = [2, 6];
+
+        for (let i = 0; i < 8; i++) {
+          if (!skip.includes(i)) {
+            thetas.push((i * Math.PI) / 4);
+          }
+        }
+
+        /* Draw small circles */
+        const outerCircleShadowSpread = outerCircleRadius / 8;
+
+        // Foreign objects that have to be moved to the left part of small circle
+        const move = [2, 3, 4];
+
+        for (let i = 0; i < thetas.length; i++) {
+          const theta = thetas[i];
+
+          // Calculate "x" and "y" of small circles
+          const x =
+            mainOuterCx +
+            (mainOuterCircleRadius + outerCircleRadius * 1.5) * Math.cos(theta);
+          const y =
+            mainOuterCy +
+            (mainOuterCircleRadius + outerCircleRadius * 1.5) * Math.sin(theta);
+
+          /* Foreign object containing all texts */
+          const foreignObjectPadding = outerCircleRadius + 15;
+          const foreignObjectTitleFontSize = height * 0.02;
+          const foreignObjectSubtitleFontSize = height * 0.0175;
+          const listFontSize = height * 0.0175;
+          const shouldMove = move.includes(i);
+          circleGroup
+            .append("foreignObject")
+            .attr("x", x)
+            .attr("y", y - outerCircleRadius)
+            .attr("width", shouldMove ? width - (width - x) : width - x)
+            .attr("height", height / 3)
+            .attr(
+              "transform",
+              shouldMove ? `translate(-${x}, 0)` : "translate(0, 0)"
+            )
+            .append("xhtml:div")
+            .style("font-family", fontFamily)
+            .html(
+              `
+                <p style="
+                  margin: 0 0 5px 0;
+                  padding-left: ${
+                    shouldMove ? foreignObjectPadding / 4 : foreignObjectPadding
+                  }px;
+                  font-size: ${foreignObjectTitleFontSize}px;
+                  font-weight: 700;
+                  color: #0d5295;
+                ">
+                  ${data.data[i].title}
+                </p>
+                <div style="
+                  display: flex;
+                  align-items: center;
+                ">
+                  <div style="
+                    height: 3px;
+                    width: 100%;
+                    background-color: #1F4E9B;
+                  "></div>
+                </div>
+                <ul style="
+                  margin: 5px 0 0 0;
+                  padding: 0;
+                  list-style: none;
+                  color: #696969;
+                  font-size: ${listFontSize}px;
+                ">
+                  ${data.data[i].items
+                    .map(
+                      (element, index) =>
+                        `<li style="
+                          ${
+                            shouldMove
+                              ? `
+                                padding-left: ${foreignObjectPadding / 4}px;
+                                padding-right: ${foreignObjectPadding / 1.5}px;
+                              `
+                              : `
+                                padding-left: ${foreignObjectPadding}px;
+                              `
+                          }
+                          display: flex;
+                        ">
+                          <div style="
+                            flex: 3;
+                          ">
+                            <div style="
+                              background-color: #fff;
+                              display: inline-block;
+                              min-width: 8px;
+                              min-height: 8px;
+                              border: 1px solid #696969;
+                              border-radius: 50%;
+                              margin-right: 10px;
+                              box-shadow: rgba(0,0,0,0.8) 1px 1px 0;
+                            "></div>
+                            ${element}
+                          </div>
+                          <div style="
+                            flex: 1;
+                            text-align: center;
+                            font-weight: 700;
+                            color: #696969;
+                            font-size: ${listFontSize}px;
+                            margin-left: 15px;
+                            left: -7.5px;
+                          ">
+                            ${data.data[i].factors[index]}
+                          </div>
+                      </li>`
+                    )
+                    .join("")}
+                </ul>
+              `
+            );
+          /* */
+
+          /* Outer circle */
+          circleGroup
+            .append("circle")
+            .attr("cx", x)
+            .attr("cy", y)
+            .attr("r", outerCircleRadius)
+            .attr("stroke", "#1F4E9B")
+            .attr("stroke-width", outerCircleStrokeWidth)
+            .style("fill", "#fff")
+            .style(
+              "filter",
+              `drop-shadow(rgba(0,0,0,0.4) -${outerCircleShadowSpread}px ${outerCircleShadowSpread}px ${outerCircleShadowSpread}px)`
+            );
+          /* */
+
+          /* Inner circle */
+          circleGroup
+            .append("circle")
+            .attr("cx", x)
+            .attr("cy", y)
+            .attr("r", innerCircleRadius)
+            .attr("fill", `url(#${innerCircleGradientId})`)
+            .style("filter", "drop-shadow(rgba(0,0,0,0.5) 0 0 2px)");
+          /* */
+
+          /* Foreign object containing small circle text */
+          const dynamicTextFontSize = height * 0.03;
+          const staticTextFontSize = data.data[i].point_text_font_size
+            ? height * data.data[i].point_text_font_size
+            : height * 0.019;
+
+          circleGroup
+            .append("foreignObject")
+            .attr("x", x - innerCircleRadius)
+            .attr("y", y - innerCircleRadius)
+            .attr("width", innerCircleRadius * 2)
+            .attr("height", innerCircleRadius * 2).html(`
+              <div style="
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                height: 100%;
+                font-family: ${fontFamily};
+                font-weight: 700;
+              ">
+                <p style="
+                  margin: 0;
+                  font-size: ${dynamicTextFontSize}px;
+                ">
+                  ${data.data[i].points}
+                </p>
+                <p style="
+                  margin: 0;
+                  font-size: ${staticTextFontSize}px;
+                  text-transform: uppercase;
+                ">
+                  ${data.data[i].point_text}
+                </p>
+              </div>
+            `);
+          /* */
+        }
+        /* */
+      };
+
+      const apiUrl = "/api/diagrams";
+      const params = new URLSearchParams(window.location.search);
+      const KEY = "slug";
+
+      window.onmessage = (e) => {
+        if (e.data?.name === "parentMessage") {
+          if (e.data.data?.originalData) {
+            render(e.data.data.originalData);
+          }
+        }
+      };
+
+      if (params.has(KEY)) {
+        const key = params.get(KEY);
+        let url = `${apiUrl}/${key}`;
+        if (key.includes("demo_example")) {
+          const type = key.split("?")[1];
+
+          url = `/diagrams/${type}/data.json`;
+        }
+        const fetchData = async () => {
+          try {
+            const response = await fetch(url);
+            const data = await response.json();
+            if (data?.originalData) {
+              render(data.originalData);
+            }
+            if (data?.source?.originalData) {
+              render(data.source.originalData);
+            }
+          } catch (error) {
+            console.error(error);
+          }
+        };
+        fetchData();
+      }
+    </script>
+  </body>
+</html>

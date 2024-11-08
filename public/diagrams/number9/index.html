@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chart Number 9</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      const getCoordinatesOfAnyPointOnCircleElement = (cx, cy, r, theta) => {
+        const x = cx + r * Math.cos(theta);
+        const y = cy + r * Math.sin(theta);
+        return { x, y };
+      };
+
+      const render = (originalData) => {
+
+          // instead of grouping by name, which breaks for duplicate entries, use index into the array as an identifier
+          originalData.data.forEach((o, idx) => {
+              o.id = idx;
+          });
+
+        const fontFamily = 'Roboto';
+
+        const width = 1000;
+        const height = 200;
+
+        const circleRadius = height / 3.5;
+
+        // Sort data by "percentage" in descending order
+        const data = originalData.data
+          .slice();
+
+        /* Svg */
+        const svg = d3
+          .select('body')
+          .append('svg')
+          .attr('xmlns', 'http://www.w3.org/2000/svg')
+          .attr('width', width)
+          .attr('height', height)
+          .attr('viewBox', `0 0 ${width} ${height}`)
+          .style('max-width', '100%')
+          .style('height', 'auto');
+        /* */
+
+        /* Defs */
+        const defs = svg.append('defs');
+        /* */
+
+        /* Load "Roboto" font */
+        defs
+          .append('style')
+          .attr('type', 'text/css')
+          .text(
+            "@import url('https://fonts.googleapis.com/css?family=Roboto:400,700')"
+          );
+        /* */
+
+        /* Gradient */
+        const connectorGradientId = 'connectorGradientId';
+        const connectorGradient = defs
+          .append('linearGradient')
+          .attr('id', connectorGradientId)
+          .attr('x1', 0)
+          .attr('y1', 0)
+          .attr('x2', '100%')
+          .attr('y2', 0);
+        connectorGradient
+          .append('stop')
+          .attr('offset', '0%')
+          .attr('stop-color', '#0053A7')
+          .attr('stop-opacity', 1);
+        connectorGradient
+          .append('stop')
+          .attr('offset', '100%')
+          .attr('stop-color', '#0297A7')
+          .attr('stop-opacity', 1);
+        /* */
+
+        /* Main title */
+        const titleFontSize = height * 0.1;
+        svg
+          .append('text')
+          .attr('x', width / 2)
+          .attr('y', titleFontSize)
+          .style('font-family', fontFamily)
+          .style('font-size', `${titleFontSize}px`)
+          .style('font-weight', 700)
+          .attr('text-anchor', 'middle')
+          .attr('fill', '#000')
+          .text(originalData.name);
+        /* */
+
+        /* X scale */
+        const xScale = d3.scaleBand().range([0, width]);
+        xScale.domain(data.map((d) => d.id));
+        /* */
+
+        /* Main group */
+        const g = svg
+          .append('g')
+          .attr('transform', `translate(0, ${circleRadius * 2})`);
+        /* */
+
+        /* Sub group for X axis */
+        const xAxis = g
+          .append('g')
+          .call(d3.axisBottom(xScale).tickValues([]).tickSizeInner(0))
+          .call((g) => g.select('.domain').remove());
+
+        /* Circle group */
+        const circleGroup = g.append('g');
+        const circleCx = (d) => xScale(d.id) + xScale.bandwidth() / 2;
+        const circleCy = 0;
+        /* */
+
+        /* Connector path */
+        circleGroup
+          .selectAll('.path')
+          .data(data)
+          .enter()
+          .append('path')
+          .attr('d', (d, i) => {
+            if (i === 0) {
+              return;
+            }
+
+            // Grab previous "data"
+            const previousD = data[i - 1];
+
+            // Curve offset
+            const curveOffset = 10;
+
+            /*
+            Find the top left position of the point on circle
+            From which we want to make a curve
+          */
+            const { x: leftTopX, y: leftTopY } =
+              getCoordinatesOfAnyPointOnCircleElement(
+                circleCx(d),
+                circleCy,
+                circleRadius,
+                (-150 * Math.PI) / 180
+              );
+
+            /*
+            Find the top right position of the point on previous circle
+            To which we want to make a curve
+          */
+            const { x: rightTopX, y: rightTopY } =
+              getCoordinatesOfAnyPointOnCircleElement(
+                circleCx(previousD),
+                circleCy,
+                circleRadius,
+                (-30 * Math.PI) / 180
+              );
+
+            /*
+            Find the bottom left position of the point on circle
+            From which we want to make a curve
+          */
+            const { x: leftBottomX, y: leftBottomY } =
+              getCoordinatesOfAnyPointOnCircleElement(
+                circleCx(d),
+                circleCy,
+                circleRadius,
+                (150 * Math.PI) / 180
+              );
+
+            /*
+            Find the bottom right position of the point on previous circle
+            To which we want to make a curve
+          */
+            const { x: rightBottomX, y: rightBottomY } =
+              getCoordinatesOfAnyPointOnCircleElement(
+                circleCx(previousD),
+                circleCy,
+                circleRadius,
+                (30 * Math.PI) / 180
+              );
+
+            const start = `${leftTopX} ${leftTopY}`;
+
+            const topCurve = `${leftTopX - curveOffset} ${
+              leftTopY + curveOffset
+            } ${rightTopX + curveOffset} ${
+              rightTopY + curveOffset
+            } ${rightTopX} ${rightTopY}`;
+            const leftVerticalLine = `${rightBottomX} ${rightBottomY}`;
+
+            const bottomCurve = `${rightBottomX + curveOffset} ${
+              rightBottomY - curveOffset
+            } ${leftBottomX - curveOffset} ${
+              leftBottomY - curveOffset
+            } ${leftBottomX} ${leftBottomY}`;
+
+            return `M${start} C${topCurve} L${leftVerticalLine} C${bottomCurve} L${start} Z`;
+          })
+          .attr('fill', `url(#${connectorGradientId})`);
+        /* */
+
+        /* Circle */
+        circleGroup
+          .selectAll('.circle')
+          .data(data)
+          .enter()
+          .append('circle')
+          .attr('cx', circleCx)
+          .attr('cy', circleCy)
+          .attr('r', circleRadius)
+          .attr('stroke', '#0297A7')
+          .attr('stroke-width', (_, i) => data.length - i)
+          .attr('fill', '#fff')
+          .style('filter', 'drop-shadow(rgba(0, 0, 0, 0.25) 4px 6px 8px)');
+        /* */
+
+        /* Percentage Labels for circle */
+        circleGroup
+          .selectAll('.circle')
+          .data(data)
+          .enter()
+          .append('text')
+          .attr('x', (d) => circleCx(d))
+          .attr('y', (d) => circleCy)
+          .attr('fill', '#232323')
+          .attr('text-anchor', 'middle')
+          .style('font-family', fontFamily)
+          .style('font-size', (d) => `${d.percentage_size || "20px"}`)
+          .style('font-weight', 700)
+          .text((d) => `${d.percentage}`);
+        /* */
+
+        /* Percentage Labels for circle */
+        const countryLabelFontSize = xScale.bandwidth() / 12;
+        const maxHorizontalSize = circleRadius * 2 * 0.8;
+
+        const getFontSize = (label, reqSize) => {
+            let reqSizeNum = reqSize?.match(/\d+/)[0];
+
+            // approximate the average letter height / width to be 0.5
+            // better would be: measure them using g.getComputedTextLength() and interpolate
+            let maxSize = maxHorizontalSize / label.length * 2;
+
+            // avoid excessive sizes for very short labels and missing config
+            maxSize = Math.min(maxSize, circleRadius / 2);
+
+            if (reqSizeNum)
+                return Math.min(maxSize, reqSizeNum) + 'px';
+            return maxSize + 'px';
+        };
+
+        circleGroup
+          .selectAll('.circle')
+          .data(data)
+          .enter()
+          .append('text')
+          .attr('x', (d) => circleCx(d))
+          .attr('y', (d) => circleCy)
+          .attr('dy', (d) => `${d.percentage_size || "20px"}`.replace("px", ""))
+          .attr('fill', '#232323')
+          .attr('text-anchor', 'middle')
+          .style('font-family', fontFamily)
+          .style('font-size', (d) => getFontSize(d.name, d.name_size))
+          .text((d) => d.name);
+        /* */
+      };
+
+      const apiUrl = '/api/diagrams';
+      const params = new URLSearchParams(window.location.search);
+      const KEY = 'slug';
+
+      window.onmessage = (e) => {
+        if (e.data?.name === 'parentMessage') {
+          if (e.data.data?.originalData) {
+            render(e.data.data.originalData);
+          }
+        }
+      };
+
+      if (params.has(KEY)) {
+        const key = params.get(KEY);
+        let url = `${apiUrl}/${key}`;
+        if (key.includes("demo_example")) {
+          const type = key.split("?")[1];
+
+          url = `/diagrams/${type}/data.json`;
+        }
+        const fetchData = async () => {
+          try {
+            const response = await fetch(url);
+            const data = await response.json();
+            if (data?.originalData) {
+              render(data.originalData);
+            }
+            if (data?.source?.originalData) {
+              render(data.source.originalData);
+            }
+          } catch (error) {
+            console.error(error);
+          }
+        };
+        fetchData();
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+{
+  "originalData": {
+    "title": "Digital Map of Germany",
+    "backgroundColor": "white",
+    "fontColor": "black",
+    "hoverColor": "#3b729f",
+    "markers": [
+      {
+        "markerOffset": 10,
+        "name": "Hamburg",
+        "coordinates": [10, 53.55],
+        "radius": "2",
+        "fontColor": "black",
+        "tooltip": "Hamburg",
+        "fontSize": "5px"
+      },
+      {
+        "markerOffset": 10,
+        "name": "Berlin",
+        "coordinates": [13.3, 52.50],
+        "radius": "2",
+        "fontColor": "black",
+        "tooltip": "Berlin",
+        "fontSize": "5px"
+      },
+      {
+        "markerOffset": 10,
+        "name": "Munich",
+        "coordinates": [11.2708, 48.2048],
+        "radius": "2",
+        "fontColor": "black",
+        "tooltip": null,
+        "fontSize": "5px"
+      }
+    ],
+    "colors": {
+      "Berlin": "#398bbc",
+      "Hamburg": "#398bbc",
+      "Sachsen": "#398bbc",
+      "Bayern": "#abcfe4",
+      "Rheinland-Pfalz": "#abcfe4",
+      "Saarland": "#398bbc",
+      "Schleswig-Holstein": "#abcfe4",
+      "Niedersachsen": "#abcfe4",
+      "Nordrhein-Westfalen": "#98c3de",
+      "Baden-Württemberg": "#569cc6",
+      "Brandenburg": "#abcfe4",
+      "Mecklenburg-Vorpommern": "#98c3de",
+      "Bremen": "#398bbc",
+      "Hessen": "#398bbc",
+      "Thüringen": "#569cc6",
+      "Sachsen-Anhalt": "#98c3de"
+    }
+  }
+}

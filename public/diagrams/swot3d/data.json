@@ -1,0 +1,36 @@
+{
+  "originalData": {
+    "name": "SWOT chart 3D",
+    "height": 700,
+    "labelColor": "#A9A9A9",
+    "backgroundColor": "#ffffff",
+    "data": {
+      "labels": [
+        "IP",
+        "People",
+        "Media Activity",
+        "RoadMap",
+        "Finance",
+        "BIOF"
+      ],
+      "datasets": [
+        {
+          "label": "Apple",
+          "data": [13, 400, 435, 43, 123, 133]
+        },
+        {
+          "label": "Microsoft",
+          "data": [14, 300, 342, 434, 121, 113]
+        },
+        {
+          "label": "Google",
+          "data": [5, 200, 343, 56, 345, 343]
+        },
+        {
+          "label": "AMD",
+          "data": [19, 0, 34, 78, 87, 623]
+        }
+      ]
+    }
+  }
+}

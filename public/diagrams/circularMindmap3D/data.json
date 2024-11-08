@@ -1,0 +1,2893 @@
+{
+  "originalData": {
+    "name": "Circular Mindmap 3D",
+    "fullscreen": true,
+    "config": {
+      "startAngleY": 0.5
+    },
+    "data": [
+      {
+        "sectorLabel": "Hub",
+        "groups": [
+          {
+            "groupLabel": "Hub",
+            "companies": [
+              {
+                "name": "Broad Institute of MIT and Harvard",
+                "image": "companies/Broad Institute of MIT and Harvard.png",
+                "description": "IBM Watson Health leverages AI and data analytics to help healthcare professionals make better decisions for patient care. Their work includes cancer research, personalized medicine, and imaging analytics, which are areas that often involve the use of biomarkers.",
+                "website": "https://www.broadinstitute.org"
+              },
+              {
+                "name": "Google Health",
+                "image": "companies/Google Health.png",
+                "description": "Google Health does engage in significant research activities that employ AI and machine learning, often in collaboration with other groups within Google, like Google's AI division (Google Brain) and DeepMind.",
+                "website": "https://health.google"
+              },
+              {
+                "name": "Proteomics International",
+                "image": "companies/Proteomics International.png",
+                "description": "Proteomics International uses AI and machine learning in the field of predictive diagnostics and bioinformatics. They work on identifying protein biomarkers for various diseases, aiding in early detection and personalized medicine.",
+                "website": "https://www.proteomics.com.au/"
+              },
+              {
+                "name": "Fitbit (Now part of Google)",
+                "image": "companies/Fitbit (Now part of Google).png",
+                "description": "Apple's Machine Learning Research center focuses on advancing AI and machine learning technologies across various applications, one of them being health and wellness. They utilize AI in the discovery and application of health biomarkers in their devices. By integrating sophisticated AI algorithms with hardware, Apple aims to promote personalized health monitoring and intervention. Their research contributes significantly to the development of real-time, user-friendly, and reliable biomarker detection and analysis, supporting both individual users and the broader health and wellness community.",
+                "website": "https://www.fitbit.com"
+              },
+              {
+                "name": "National Institute on Aging-NIH",
+                "image": "companies/National Institute on Aging-NIH.png",
+                "description": "The National Institute on Aging (NIA), part of the National Institutes of Health (NIH) in the United States, focuses on research related to aging, age-related diseases, and the health and well-being of older adults.",
+                "website": "https://www.nia.nih.gov/"
+              },
+              {
+                "name": "Division of Neurology and the Department of Imaging and Interventional Radiology, The Chineses University",
+                "image": "companies/Division of Neurology and the Department of Imaging and Interventional Radiology, The Chin",
+                "description": "The Division of Neurology and the Department of Imaging and Interventional Radiology at The Chinese University of Hong Kong is involved in research and clinical activities related to neurology, medical imaging, and interventional radiology.",
+                "website": "http://www.diir.cuhk.edu.hk/"
+              },
+              {
+                "name": "Stanford Center for Computational, Evolutionary, and Human Genomics (CEHG)",
+                "image": "companies/Stanford Center for Computational, Evolutionary, and Human Genomics (CEHG).png",
+                "description": "",
+                "website": "https://cehg.stanford.edu/"
+              },
+              {
+                "name": "IBM Watson Health",
+                "image": "companies/IBM Watson Health.png",
+                "description": "In terms of biomarker research, Google's various health initiatives often involve the analysis of health data to identify patterns and correlations that can serve as biomarkers. This includes work in areas like medical imaging, genomics, electronic health record analysis, and wearable technology data.",
+                "website": "https://www.ibm.com/watson-health"
+              },
+              {
+                "name": "Apple Machine Learninng Research",
+                "image": "companies/Apple Machine Learninng Research.png",
+                "description": "Cardiosense is a digital biomarker platform that provides multi-sensor devices and proprietary algorithms to detect early signs of diseases.",
+                "website": "https://machinelearning.apple.com/research?page=1&domain=Health"
+              },
+              {
+                "name": "Stanford Medicine's Center for Artificial Intelligence in Medicine & Imaging (AIMI)",
+                "image": "companies/Stanford Medicine's Center for Artificial Intelligence in Medicine & Imaging (AIMI).png",
+                "description": "Fitbit's Health Research team works on leveraging the rich, continuous data collected from their wearable devices to advance health and wellness understanding. By incorporating machine learning and AI, they focus on the detection and interpretation of various health biomarkers. These technologies power Fitbit's ability to provide real-time insights into metrics like heart rate, sleep patterns, stress levels, and activity levels, thus contributing to preventive healthcare and wellness improvement.",
+                "website": "https://aimi.stanford.edu/"
+              },
+              {
+                "name": "Microsoft (Healthcare)",
+                "image": "companies/Microsoft (Healthcare).png",
+                "description": "Stanford AIMI combines AI with medical imaging to improve diagnostic accuracy and predict patient outcomes. Their research often involves the identification and application of imaging biomarkers.",
+                "website": "https://www.microsoft.com/en-us/industry/health/microsoft-cloud-for-healthcare"
+              },
+              {
+                "name": "Nvidia Healthcare",
+                "image": "companies/Nvidia Healthcare.png",
+                "description": "Microsoft Healthcare uses AI and machine learning to improve health outcomes. Their work spans various areas, including precision medicine, genomics, and medical imaging, all of which involve biomarker research.",
+                "website": "https://www.nvidia.com/en-us/clara/"
+              },
+              {
+                "name": "Biogerontology Research Foundation (BGRF)",
+                "image": "companies/Biogerontology Research Foundation (BGRF).png",
+                "description": "Nvidia's Clara AI platform is used for the development of AI applications in healthcare. This includes the identification and use of biomarkers in medical imaging, genomics, and drug discovery.",
+                "website": "https://www.biogerontology.info"
+              },
+              {
+                "name": "The Broad Institute",
+                "image": "companies/The Broad Institute.png",
+                "description": "The BGRF is a UK-based non-profit research foundation focused on aging research. They use AI to identify and understand aging biomarkers.",
+                "website": "https://www.broadinstitute.org/"
+              },
+              {
+                "name": "Institute for Molecular Medicine Finland (FIMM)",
+                "image": "companies/Institute for Molecular Medicine Finland (FIMM).png",
+                "description": "CEHG explores the intersection of genomics, evolution, and human health, including AI applications in biomarker identification.",
+                "website": "https://www.helsinki.fi/en/hilife-helsinki-institute-life-science/units/fimm"
+              },
+              {
+                "name": "European Institute of Systems Biology and Medicine (EISBM)",
+                "image": "companies/European Institute of Systems Biology and Medicine (EISBM).png",
+                "description": "FIMM combines genomics, medicine, and technology, and their work could encompass AI-driven biomarker discovery.",
+                "website": "http://www.eisbm.org/"
+              },
+              {
+                "name": "Johns Hopkins University - Center for Computational Genomics",
+                "image": "companies/Johns Hopkins University - Center for Computational Genomics.png",
+                "description": "EISBM focuses on systems biology and medicine, and their research might involve AI in biomarker studies.",
+                "website": "https://ccb.jhu.edu/"
+              },
+              {
+                "name": "Institute for Systems Biology (ISB)",
+                "image": "companies/Institute for Systems Biology (ISB).png",
+                "description": "This center is engaged in computational genomics research, which could include AI-based biomarker analysis.",
+                "website": "https://isbscience.org/"
+              },
+              {
+                "name": "Dana-Farber Cancer Institute - Center for Cancer Computational Biology",
+                "image": "companies/Dana-Farber Cancer Institute - Center for Cancer Computational Biology.png",
+                "description": "SB conducts systems biology research, and their work might involve AI applications in biomarker discovery.",
+                "website": "https://www.dana-farber.org/research/departments-centers-and-labs/integrative-research-centers/center-for-cancer-systems-biology/"
+              },
+              {
+                "name": "GE Healthcare",
+                "image": "companies/GE Healthcare.png",
+                "description": "GE Healthcare leverages AI in various aspects of healthcare, including medical imaging and diagnostics. Their work often involves the identification and application of imaging biomarkers.",
+                "website": "https://www.gehealthcare.com/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectorLabel": "Companies",
+        "groups": [
+          {
+            "groupLabel": "Biomarkers Discovery",
+            "companies": [
+              {
+                "name": "Neuroglee",
+                "image": "companies/Neuroglee.png",
+                "description": "",
+                "website": "https://www.neuroglee.com/"
+              },
+              {
+                "name": "Berg",
+                "image": "companies/Berg.png",
+                "description": "BERG is a provider of pharmaceutical and biotechnology products to the medical community.",
+                "website": "http://www.berghealth.com/"
+              },
+              {
+                "name": "Epihunter",
+                "image": "companies/Epihunter.png",
+                "description": "Epihunter builds digital solutions to help normalize the daily life of people with epilepsy.",
+                "website": "https://www.epihunter.com/"
+              },
+              {
+                "name": "BioMarker Pharmaceuticals",
+                "image": "companies/BioMarker Pharmaceuticals.png",
+                "description": "BioMarker is a personalized health and wellness company that provides both products and services.",
+                "website": "http://www.biomarkerinc.com"
+              },
+              {
+                "name": "Ariana Pharma",
+                "image": "companies/Ariana Pharma.png",
+                "description": "Ariana Pharma is a premium provider of advanced, clinical and biomarker data analytics technology.",
+                "website": "http://www.arianapharma.com/"
+              },
+              {
+                "name": "GNS Health",
+                "image": "companies/GNS Health.png",
+                "description": "Sword Health is a digital musculoskeletal therapy provider that pairs its members with a licensed physical therapist.",
+                "website": "https://www.gnshealthcare.com/articles/"
+              },
+              {
+                "name": "iCarbonX",
+                "image": "companies/iCarbonX.png",
+                "description": "iCarbonX is a China-based artificial intelligence platform for health data company.",
+                "website": "https://www.icarbonx.com/"
+              },
+              {
+                "name": "Paige",
+                "image": "companies/Paige.png",
+                "description": "Paige builds software to advance the diagnosis, treatment, and biomarker discovery for cancer.",
+                "website": "https://www.paige.ai"
+              },
+              {
+                "name": "Gina Life",
+                "image": "companies/Gina Life.png",
+                "description": "Gero is a biotechnology company that provides therapeutics against chronic diseases.",
+                "website": "https://www.gero.ai"
+              },
+              {
+                "name": "Buoy Health",
+                "image": "companies/Buoy Health.png",
+                "description": "Buoy is an AI-driven digital assistant that helps patients self-diagnose and triage to the appropriate care.",
+                "website": "https://www.buoyhealth.com"
+              },
+              {
+                "name": "Novai",
+                "image": "companies/Novai.png",
+                "description": "Novai is a disruptive British biotech start-up with an AI supported retinal biomarker for use in glaucoma and AMD clinical trials.",
+                "website": "https://www.novai.co.uk/"
+              },
+              {
+                "name": "Ada Health",
+                "image": "companies/Ada Health.png",
+                "description": "Ada Health is a digital health company that helps to diagnose symptoms and offer treatment advice using an AI-enabled platform.",
+                "website": "https://ada.com/"
+              },
+              {
+                "name": "Centaura",
+                "image": "companies/Centaura.png",
+                "description": "Centaura is a young, global team of ambitious thinkers conducting cutting-edge research in the field of systems and molecular biology",
+                "website": "http://www.centaura.com"
+              },
+              {
+                "name": "SomaLogic",
+                "image": "companies/SomaLogic.png",
+                "description": "SomaLogic is a protein biomarker discovery and clinical diagnostics company, offers SOMAmer technology to improve diagnostic products.",
+                "website": "http://www.somalogic.com"
+              },
+              {
+                "name": "Fern Health",
+                "image": "companies/Fern Health.png",
+                "description": "Global healthcare platform for genomics-driven precision medicine. Fabric' proven AI algorithms power genomic insights.",
+                "website": "https://www.fabricgenomics.com/"
+              },
+              {
+                "name": "Alector",
+                "image": "companies/Alector.png",
+                "description": "Alector is combining state-of-the-art antibody technology and recent discoveries in neuroimmunology and human genetics to develop novel.",
+                "website": "http://alector.com"
+              }
+            ]
+          },
+          {
+            "groupLabel": "Biomarkers for Personalized Medicine",
+            "companies": [
+              {
+                "name": "Deep Longevity",
+                "image": "companies/Deep Longevity.png",
+                "description": "Deep Longevity is a biotechnology company transforming longevity R&D through AI-discovered biomarkers of aging.",
+                "website": "https://deeplongevity.com/"
+              },
+              {
+                "name": "Cambridge Cognition",
+                "image": "companies/Cambridge Cognition.png",
+                "description": "Cognitive assessment software for clinical trials, academic research and healthcare",
+                "website": "http://www.cambridgecognition.com/"
+              },
+              {
+                "name": "Sequencing.com",
+                "image": "companies/Sequencing.com.png",
+                "description": "The world’s largest open OS for DNA innovation.",
+                "website": "https://sequencing.com"
+              },
+              {
+                "name": "Ceretype Neuromedicine",
+                "image": "companies/Ceretype Neuromedicine.png",
+                "description": "Ceretype Neuromedicine is an AI-based fMRI brain biomarker technology to improve drug discovery and patient care.",
+                "website": "http://ceretype.com/"
+              },
+              {
+                "name": "SEQSTER",
+                "image": "companies/SEQSTER.png",
+                "description": "Psychology Software Tools offers solutions for research, assessment and education.",
+                "website": "https://www.seqster.com"
+              },
+              {
+                "name": "DeepMind",
+                "image": "companies/DeepMind.png",
+                "description": "DeepMind aims to research and build safe artificial intelligence system to solve intelligence, to advance science and humanity.",
+                "website": "https://deepmind.com"
+              },
+              {
+                "name": "Calico",
+                "image": "companies/Calico.png",
+                "description": "Calico is a smart production management platform to help brands get to market faster and with fewer production errors.",
+                "website": "https://www.calicoai.com"
+              },
+              {
+                "name": "Gero",
+                "image": "companies/Gero.png",
+                "description": "Gero is a biotechnology company that provides therapeutics against chronic diseases.",
+                "website": "https://www.gero.ai"
+              },
+              {
+                "name": "Babylon",
+                "image": "companies/Babylon.png",
+                "description": "Babylon aims to provide accessible, affordable healthcare by combining AI with doctors.",
+                "website": "https://www.babylonhealth.com"
+              },
+              {
+                "name": "Onegevity Health",
+                "image": "companies/Onegevity Health.png",
+                "description": "Onegevity is a health intelligence company, which combines a multi-omic AI platform with consumer-friendly products and digital services.",
+                "website": "https://www.onegevity.com/"
+              },
+              {
+                "name": "KenSci",
+                "image": "companies/KenSci.png",
+                "description": "Kaia Health is a digital therapeutics company that creates evidence-based treatments for a range of medical disorders.",
+                "website": "http://www.kaiahealth.com"
+              },
+              {
+                "name": "Tempus",
+                "image": "companies/Tempus.png",
+                "description": "Tempus is a technology company advancing precision medicine through the practical application of artificial intelligence in healthcare.",
+                "website": "https://www.tempus.com"
+              }
+            ]
+          },
+          {
+            "groupLabel": "Digital Biomarkers",
+            "companies": [
+              {
+                "name": "Winterlight Labs",
+                "image": "companies/Winterlight Labs.png",
+                "description": "Winterlight builds technology that can quickly and accurately detect signs of cognitive impairment from a sample of speech.",
+                "website": "http://www.winterlightlabs.com/"
+              },
+              {
+                "name": "Resonance Health Ltd",
+                "image": "companies/Resonance Health Ltd.png",
+                "description": "Resonance Health Limited is an Australian healthcare listed company located in Perth, Western Australia, specialising in the provision of",
+                "website": "http://resonancehealth.com"
+              },
+              {
+                "name": "NeuScience",
+                "image": "companies/NeuScience.png",
+                "description": "NeuScience uses computer vision to detect phenotypic signals, resulting in novel, pan-cancer biomarkers.",
+                "website": "https://www.neuscience.co/"
+              },
+              {
+                "name": "Medimsight",
+                "image": "companies/Medimsight.png",
+                "description": "Me Biosciences is a line of nutrition and body care products that uses the highest quality products with no toxins or harmful chemicals.",
+                "website": "https://www.mebiosciences.com/"
+              },
+              {
+                "name": "Neotiv",
+                "image": "companies/Neotiv.png",
+                "description": "Neotiv develops digital solutions for the early detection and follow-up of memory problems.",
+                "website": "https://www.neotiv.com/"
+              },
+              {
+                "name": "CarePredict",
+                "image": "companies/CarePredict.png",
+                "description": "CarePredict develops an AI-driven digital health platform for senior care.",
+                "website": "https://www.carepredict.com"
+              },
+              {
+                "name": "Nourish Balance Thrive",
+                "image": "companies/Nourish Balance Thrive.png",
+                "description": "Nourish Balance Thrive is an online-based company that provides biochemical testing to optimize health in athletes and high performers.",
+                "website": "https://nourishbalancethrive.com"
+              },
+              {
+                "name": "Sword Health",
+                "image": "companies/Sword Health.png",
+                "description": "SkinIO develops a tech-enabled skin cancer screening and skin health monitoring tool.",
+                "website": "http://www.swordhealth.com"
+              },
+              {
+                "name": "Euretos",
+                "image": "companies/Euretos.png",
+                "description": "Epimorphy is a health, wellness & fitness agency specializing in biological age tests services in a laboratory.",
+                "website": "https://www.mydnage.com"
+              },
+              {
+                "name": "Me Biosciences",
+                "image": "companies/Me Biosciences.png",
+                "description": "Lunit is a public company that develops medical AI software that helps conquer cancer.",
+                "website": "https://www.lunit.io"
+              },
+              {
+                "name": "LifeOmic",
+                "image": "companies/LifeOmic.png",
+                "description": "KenSci offers Healthcare AI platfrom & prediction apps that work across Clinical workflows, Cost Mgmt & Hospital Ops. #DeathVsDataScience.",
+                "website": "http://www.kensci.com/"
+              },
+              {
+                "name": "FOXO Technologies",
+                "image": "companies/FOXO Technologies.png",
+                "description": "FOXO Technologies transforms the global longevity insurance industry with a next-generation underwriting protocol.",
+                "website": "https://foxotechnologies.com"
+              },
+              {
+                "name": "Imagene AI",
+                "image": "companies/Imagene AI.png",
+                "description": "Imagene provides AI-based molecular testing for cancer, detecting in real-time, a broad range of cancerous biomarkers from the biopsy image",
+                "website": "https://imagene-ai.com"
+              },
+              {
+                "name": "Elysium",
+                "image": "companies/Elysium.png",
+                "description": "Elysium Health offers health products built with science such as dietary supplements and anti-aging drugs.",
+                "website": "http://www.elysiumhealth.com"
+              },
+              {
+                "name": "Vium",
+                "image": "companies/Vium.png",
+                "description": "Vium is a biotechnology company that develops digital biomarkers to transform preclinical research and animal welfare.",
+                "website": "http://www.vium.com"
+              },
+              {
+                "name": "nQ Medical",
+                "image": "companies/nQ Medical.png",
+                "description": "nQ Medical is a neurotechnology company allowing Data Defined Disease Management via digital biomarkers using AI.",
+                "website": "http://www.nq-medical.com/"
+              },
+              {
+                "name": "Savonix",
+                "image": "companies/Savonix.png",
+                "description": "Savonix brings you the world’s first clinical, evidence-based, all-mobile digital assessment of cognitive and emotional function.",
+                "website": "http://www.savonix.com/"
+              },
+              {
+                "name": "AliveX Biotech",
+                "image": "companies/AliveX Biotech.png",
+                "description": "Application of artificial intelligence, multi-omics data, and digital disease models to enable the next era of target & biomarker R&D.",
+                "website": "https://www.alivexbiotech.com/"
+              },
+              {
+                "name": "Cardiosense",
+                "image": "companies/Cardiosense.png",
+                "description": "Xlife Sciences focuses on the performance and growth of life science technologies.",
+                "website": "https://www.cardiosense.com"
+              },
+              {
+                "name": "Altoida",
+                "image": "companies/Altoida.png",
+                "description": "Altoida is creating a new gold standard in brain health with Precision Neurology.",
+                "website": "http://www.altoida.com"
+              },
+              {
+                "name": "Kaia Health",
+                "image": "companies/Kaia Health.png",
+                "description": "Insilico Medicine develops an AI platform for drug development to treat cancer and age-related diseases.",
+                "website": "http://www.insilico.com"
+              },
+              {
+                "name": "Sonde Health",
+                "image": "companies/Sonde Health.png",
+                "description": "Sonde Health is a digital medicine company.",
+                "website": "https://www.sondehealth.com"
+              },
+              {
+                "name": "Alto Neuroscience",
+                "image": "companies/Alto Neuroscience.png",
+                "description": "Alto Neuroscience is a clinical-stage biopharmaceutical company that creates precision medicines through its AI-driven biomarker platform.",
+                "website": "https://www.altoneuroscience.com/"
+              },
+              {
+                "name": "Psychology Software Tools",
+                "image": "companies/Psychology Software Tools.png",
+                "description": "Workflow automation platform built exclusively for revenue teams",
+                "website": "https://www.pstnet.com/"
+              },
+              {
+                "name": "Fabric Genomics (formerly Omicia)",
+                "image": "companies/Fabric Genomics (formerly Omicia).png",
+                "description": "Eyenuk is a medtech company that develops an artificial intelligence screening tool for risk assessment and disease surveillance.",
+                "website": "http://www.eyenuk.com"
+              }
+            ]
+          },
+          {
+            "groupLabel": "Imaging",
+            "companies": [
+              {
+                "name": "Imagia",
+                "image": "companies/Imagia.png",
+                "description": "Imagene provides AI-based molecular testing for cancer, detecting in real-time, a broad range of cancerous biomarkers from the biopsy image",
+                "website": "https://imagene-ai.com"
+              },
+              {
+                "name": "Zebra Medical Vision",
+                "image": "companies/Zebra Medical Vision.png",
+                "description": "Zebra Medical Vision is a medical imaging and analytics platform.",
+                "website": "http://www.zebra-med.com"
+              },
+              {
+                "name": "Wassa",
+                "image": "companies/Wassa.png",
+                "description": "Wassa is a company specialized in the design of innovative digital solutions with great added value.",
+                "website": "http://www.wassa.io"
+              },
+              {
+                "name": "EVOCAL Health",
+                "image": "companies/EVOCAL Health.png",
+                "description": "Euretos is a bioinformatics company providing a discovery platform for identification and validation of targets and biomarkers.",
+                "website": "http://www.euretos.com"
+              },
+              {
+                "name": "icometrix",
+                "image": "companies/icometrix.png",
+                "description": "iCarbonX is a China-based artificial intelligence platform for health data company.",
+                "website": "https://www.icarbonx.com/"
+              },
+              {
+                "name": "MedQIA",
+                "image": "companies/MedQIA.png",
+                "description": "Medical image triage and biomarkers analysis for precision medicine.",
+                "website": "https://www.medimsight.com"
+              },
+              {
+                "name": "Protea Biosciences",
+                "image": "companies/Protea Biosciences.png",
+                "description": "Protea Biosciences is a biotechnology company that offers a line of mass spectrometry standards and protein sample.",
+                "website": "https://proteabio.com"
+              },
+              {
+                "name": "PathAI",
+                "image": "companies/PathAI.png",
+                "description": "PathAI develops technology that assists pathologists in making accurate diagnoses for every patient, every time.",
+                "website": "http://www.pathai.com"
+              },
+              {
+                "name": "Haut.AI",
+                "image": "companies/Haut.AI.png",
+                "description": "Guided Clarity",
+                "website": "https://www.gclarity.com/"
+              },
+              {
+                "name": "Pixyl",
+                "image": "companies/Pixyl.png",
+                "description": "AI-Powered Brain Image Analysis for Enhanced Patient Care",
+                "website": "https://pixyl.ai/"
+              },
+              {
+                "name": "Lunit",
+                "image": "companies/Lunit.png",
+                "description": "LifeOmic is the software company that offer disruptive solutions to healthcare providers, researchers, health IT companies and patients.",
+                "website": "http://lifeomic.com"
+              },
+              {
+                "name": "Optellum",
+                "image": "companies/Optellum.png",
+                "description": "Optellum develops an imaging biomarker for smart lung cancer detection.",
+                "website": "http://www.optellum.com"
+              },
+              {
+                "name": "AlgoFace",
+                "image": "companies/AlgoFace.png",
+                "description": "AlgoFace develops technology at the intersection of artificial intelligence, computer vision, and augmented reality.",
+                "website": "https://algoface.ai/"
+              },
+              {
+                "name": "BrainScan",
+                "image": "companies/BrainScan.png",
+                "description": "We add value to radiology workflow to prevent under-reporting and prioritizing patients using augmented intelligence",
+                "website": "https://www.brainscan.ai/"
+              },
+              {
+                "name": "Combinostics",
+                "image": "companies/Combinostics.png",
+                "description": "Combinostics is a software tools for diagnostics support.",
+                "website": "http://www.combinostics.com"
+              },
+              {
+                "name": "Brainomix",
+                "image": "companies/Brainomix.png",
+                "description": "Brainomix specializes in the creation of AI-powered imaging biomarkers that enable precision medicine for better treatment decisions",
+                "website": "http://www.brainomix.com"
+              },
+              {
+                "name": "ADM Diagnostics",
+                "image": "companies/ADM Diagnostics.png",
+                "description": "Capitol Health is an Australian public company providing medical diagnostic imaging services.",
+                "website": "http://admdx.com"
+              },
+              {
+                "name": "Skin Analytics",
+                "image": "companies/Skin Analytics.png",
+                "description": "Skin Analytics uses artificial intelligence to screen for melanoma skin cancer.",
+                "website": "http://www.skin-analytics.com"
+              },
+              {
+                "name": "Ultromics",
+                "image": "companies/Ultromics.png",
+                "description": "Ultromics clinicians and engineers working together to set new standards for world-class cardiovascular diagnostic tools.",
+                "website": "http://www.ultromics.com/"
+              },
+              {
+                "name": "QMENTA",
+                "image": "companies/QMENTA.png",
+                "description": "QMENTA is a software development company that offers AI cloud-based solutions for imaging clinical trials and studies.",
+                "website": "http://www.qmenta.com"
+              },
+              {
+                "name": "Perfect",
+                "image": "companies/Perfect.png",
+                "description": "Perfect is an AI and AR tech software solutions provider, helping brands integrate interactive virtual try-on across their consumer journey.",
+                "website": "http://www.perfectcorp.com"
+              },
+              {
+                "name": "PhotoDoc",
+                "image": "companies/PhotoDoc.png",
+                "description": "Neuroglee Therapeutics is a digital therapeutic platform created to treat patients in the early stages of the disease.",
+                "website": "https://photodoc.app/index.html"
+              },
+              {
+                "name": "Metaoptima",
+                "image": "companies/Metaoptima.png",
+                "description": "MedQIA provides technical support and offers research services to the pharmaceutical, biotechnology and medical device industries.",
+                "website": "https://www.medqia.com"
+              },
+              {
+                "name": "SkinVision",
+                "image": "companies/SkinVision.png",
+                "description": "SkinVision is a mobile app that allows you to understand your risk factors for skin cancer and keep track of your moles.",
+                "website": "https://skinvision.com"
+              },
+              {
+                "name": "Aiforia",
+                "image": "companies/Aiforia.png",
+                "description": "Aiforia’s mission is to provide global access to AI-powered image analysis for medical, healthcare professionals and beyond.",
+                "website": "https://www.aiforia.com/"
+              },
+              {
+                "name": "HealthMyne",
+                "image": "companies/HealthMyne.png",
+                "description": "Haut.AI is an innovative SaaS tool designed for tracking vital skin health parameters.",
+                "website": "https://haut.ai"
+              },
+              {
+                "name": "Altis Labs",
+                "image": "companies/Altis Labs.png",
+                "description": "Altis helps biopharma run faster and more successful clinical trials using AI models trained on the world's largest cancer imaging database.",
+                "website": "https://altislabs.com/"
+              },
+              {
+                "name": "ariadne",
+                "image": "companies/ariadne.png",
+                "description": "Ancestry is a web-based platform that helps its users to create their own family tree and help them preserve and share their family history.",
+                "website": "https://www.ariadne.ai"
+              },
+              {
+                "name": "Creyos",
+                "image": "companies/Creyos.png",
+                "description": "ariadne provides automated biomedical image analysis services.",
+                "website": "https://creyos.com"
+              },
+              {
+                "name": "SkinIO",
+                "image": "companies/SkinIO.png",
+                "description": "SEQSTER Powers Clinical Trials,",
+                "website": "https://skinio.com"
+              },
+              {
+                "name": "Quantitative Imaging Solutions, LLC",
+                "image": "companies/Quantitative Imaging Solutions, LLC.png",
+                "description": "Quantitative Imaging Solutions, LLC is a healthcare technology company specializing in AI based imaging analytic, diagnostic and treatment",
+                "website": "http://qis.ai"
+              }
+            ]
+          },
+          {
+            "groupLabel": "Longevity Biomarkers",
+            "companies": [
+              {
+                "name": "Humanity",
+                "image": "companies/Humanity.png",
+                "description": "Humanity is a healthcare company that aims to extend the healthspan of humanity.",
+                "website": "humanity.health/"
+              },
+              {
+                "name": "Spiden",
+                "image": "companies/Spiden.png",
+                "description": "Spiden provides and develops products that enable real-time and continuous monitoring of blood biomarkers.",
+                "website": "https://www.spiden.com"
+              },
+              {
+                "name": "TruDiagnostic",
+                "image": "companies/TruDiagnostic.png",
+                "description": "TruDiagnostic is a biodata research company that offers epigenetic testing and research services.",
+                "website": "https://trudiagnostic.com"
+              },
+              {
+                "name": "Gabi SmartCare",
+                "image": "companies/Gabi SmartCare.png",
+                "description": "Gabi SmartCare improves children's lives thanks to outpatient predictive monitoring tool",
+                "website": "www.gabismartcare.com"
+              },
+              {
+                "name": "InsideTracker",
+                "image": "companies/InsideTracker.png",
+                "description": "InsideTracker features its platform that analyzes and tracks key biochemical and physiological markers.",
+                "website": "http://insideTracker.com"
+              },
+              {
+                "name": "Youth Laboratories",
+                "image": "companies/Youth Laboratories.png",
+                "description": "Artificial Intelligence for the impartial analysis of skin health & testing the efficiency of anti-aging products",
+                "website": "http://beauty.ai/"
+              },
+              {
+                "name": "Momentum",
+                "image": "companies/Momentum.png",
+                "description": "Momentum is the operator of a climbing gym center.",
+                "website": "https://www.momentumclimbing.com/"
+              },
+              {
+                "name": "DotLab",
+                "image": "companies/DotLab.png",
+                "description": "DotLab provides diagnostics using novel biomarkers and machine learning.",
+                "website": "http://www.dotlab.com"
+              },
+              {
+                "name": "Viewmind",
+                "image": "companies/Viewmind.png",
+                "description": "Digital Biomarker / AI Software for the early detection of Alzheimer and MCI",
+                "website": "http://www.viewmind.ai"
+              },
+              {
+                "name": "Guided Clarity",
+                "image": "companies/Guided Clarity.png",
+                "description": "Guided Clarity",
+                "website": "www.gclarity.com/"
+              },
+              {
+                "name": "Brainify.AI",
+                "image": "companies/Brainify.AI.png",
+                "description": "AI EEG biomarker platform improves the likelihood of new drug approval and reduces R&D costs",
+                "website": "https://brainify.ai"
+              },
+              {
+                "name": "Dawako Medtech",
+                "image": "companies/Dawako Medtech.png",
+                "description": "Creyos is a web-based platform offers healthcare professionals and researchers products for mental wellness.",
+                "website": "https://www.dawako.es/"
+              },
+              {
+                "name": "MyDNAge",
+                "image": "companies/MyDNAge.png",
+                "description": "Dawako is a Wearable Ultrasound Imaging Company.",
+                "website": "https://www.momentum.io"
+              },
+              {
+                "name": "Insilico Medicine",
+                "image": "companies/Insilico Medicine.png",
+                "description": "Insilico Medicine develops an AI platform for drug development to treat cancer and age-related diseases.",
+                "website": "http://www.insilico.com"
+              }
+            ]
+          },
+          {
+            "groupLabel": "Omics-Based Biomarkers",
+            "companies": [
+              {
+                "name": "BIOAGE LABS",
+                "image": "companies/BIOAGE LABS.png",
+                "description": "BIOAGE targets aging to develop drugs that treat severe diseases",
+                "website": "https://bioagelabs.com/"
+              },
+              {
+                "name": "Biodesix",
+                "image": "companies/Biodesix.png",
+                "description": "Biodesix is a data-driven diagnostic solutions company that provides lung cancer diagnostic testing and biopharma services.",
+                "website": "http://www.biodesix.com"
+              },
+              {
+                "name": "ToolBox Genomics",
+                "image": "companies/ToolBox Genomics.png",
+                "description": "ToolBox Genomics provides alternative & holistic health service.",
+                "website": "https://www.toolboxgenomics.com/"
+              },
+              {
+                "name": "Congenica",
+                "image": "companies/Congenica.png",
+                "description": "Congenica is a biotechnology company that provides a diagnostic decision support platform.",
+                "website": "https://www.congenica.com/"
+              },
+              {
+                "name": "Flatiron Health",
+                "image": "companies/Flatiron Health.png",
+                "description": "Available through employers, Fern Health is a digitally-delivered program for people who suffer from chronic pain.",
+                "website": "https://www.fernhealth.com/"
+              },
+              {
+                "name": "Eyenuk",
+                "image": "companies/Eyenuk.png",
+                "description": "Eyenuk is a medtech company that develops an artificial intelligence screening tool for risk assessment and disease surveillance.",
+                "website": "http://www.eyenuk.com"
+              },
+              {
+                "name": "Sage Bionetworks",
+                "image": "companies/Sage Bionetworks.png",
+                "description": "Sage Bionetworks is expanding its interdisciplinary team dedicated to advancing the impact of data-driven predictive modeling on human",
+                "website": "https://sagebionetworks.org"
+              },
+              {
+                "name": "Ancestry",
+                "image": "companies/Ancestry.png",
+                "description": "This company is provides cutting edge analysis of brain images to enable disease diagnosis.",
+                "website": "http://ancestry.com"
+              },
+              {
+                "name": "Viome",
+                "image": "companies/Viome.png",
+                "description": "Viome is a provider of comprehensive health insights designed to help people track their gut microbiome health.",
+                "website": "https://www.viome.com"
+              },
+              {
+                "name": "SOPHiA GENETICS",
+                "image": "companies/SOPHiA GENETICS.png",
+                "description": "SOPHiA GENETICS is a biotechnology firm that aims to support healthcare professionals by maximizing the power of data-driven medicine.",
+                "website": "https://www.sophiagenetics.com"
+              },
+              {
+                "name": "Scailyte",
+                "image": "companies/Scailyte.png",
+                "description": "True precision medicine through single-cell science",
+                "website": "http://www.scailyte.com"
+              },
+              {
+                "name": "Xlife Sciences AG",
+                "image": "companies/Xlife Sciences AG.png",
+                "description": "The Broad Institute conducts genomic research, and their work can include AI-driven analysis of biomarkers.",
+                "website": "https://www.xlifesciences.ch/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectorLabel": "Investors",
+        "groups": [
+          {
+            "groupLabel": "Investors",
+            "companies": [
+              {
+                "name": "One Way Ventures",
+                "image": "companies/One Way Ventures.png",
+                "description": "One Way Ventures is a seed-stage fund that invests in immigrant tech founders.",
+                "website": "https://onewayvc.com"
+              },
+              {
+                "name": "Puget Sound Venture Club",
+                "image": "companies/Puget Sound Venture Club.png",
+                "description": "Puget Sound Venture club is to provide a forum to review venture opportunities.",
+                "website": "http://www.pugetsoundvc.com"
+              },
+              {
+                "name": "SL Investment",
+                "image": "companies/SL Investment.png",
+                "description": "SL investment (SLi) aims at a company with global standards through management by principle and transparency.",
+                "website": "http://www.slinvestment.com/eng/index.asp"
+              },
+              {
+                "name": "ProQuest Investments",
+                "image": "companies/ProQuest Investments.png",
+                "description": "ProQuest Investments is a New Jersey-based venture capital firm seeking to finance seed- to late-stage healthcare companies.",
+                "website": "http://www.proquestvc.com"
+              },
+              {
+                "name": "InterVest Co.",
+                "image": "companies/InterVest Co..png",
+                "description": "InterVest Co.is a venture capital firm specializing in startups and early stage businesses and provide pre-initial public offering.",
+                "website": "http://www.intervest.co.kr/html/main.html"
+              },
+              {
+                "name": "Saudi Arabia's Public Investment Fund",
+                "image": "companies/Saudi Arabia's Public Investment Fund.png",
+                "description": "Saudi Arabia's Public Investment Fund facilitates the development of the national economy.",
+                "website": "https://www.pif.gov.sa"
+              },
+              {
+                "name": "Legal & General",
+                "image": "companies/Legal & General.png",
+                "description": "Legal & General provides individual life assurance products and manages retirement risk for pension schemes.",
+                "website": "https://www.legalandgeneral.com/"
+              },
+              {
+                "name": "Venture Investors",
+                "image": "companies/Venture Investors.png",
+                "description": "Venture Investors is a premier provider of seed and early stage venture capital in the Midwest.",
+                "website": "http://www.ventureinvestors.com"
+              },
+              {
+                "name": "Vizille Capital Innovation",
+                "image": "companies/Vizille Capital Innovation.png",
+                "description": "Vizille Capital Innovation, SCR specializes in investments in seed, start-up, post start-up, and growth stages.",
+                "website": "-0"
+              },
+              {
+                "name": "Holnest",
+                "image": "companies/Holnest.png",
+                "description": "Holnest is a venture capital firm.",
+                "website": "https://www.holnest.fr/"
+              },
+              {
+                "name": "Evidity Health Capital",
+                "image": "companies/Evidity Health Capital.png",
+                "description": "Evidity Health Capital is a health care capital company specializes in medical devices, in vitro diagnostics, and disruptive digital health.",
+                "website": "https://www.evidity.com/"
+              },
+              {
+                "name": "Innospark Ventures",
+                "image": "companies/Innospark Ventures.png",
+                "description": "Innospark Ventures is a new breed of early-stage venture capital firm, investing in impact-driven AI startups in Boston/New England.",
+                "website": "https://innosparkventures.com/"
+              },
+              {
+                "name": "Healthcare Venture Partners",
+                "image": "companies/Healthcare Venture Partners.png",
+                "description": "Healthcare & Life Sciences Investment Firm",
+                "website": "https://www.healthcareventurepartners.com"
+              },
+              {
+                "name": "Revolution’s Rise of the Rest Seed Fund",
+                "image": "companies/Revolution’s Rise of the Rest Seed Fund.png",
+                "description": "Revolution’s Rise of the Rest Seed Fund, part of the DC-based venture capital firm Revolution, invests in seed- and early-stage companies.",
+                "website": "https://www.revolution.com/entity/rotr/"
+              },
+              {
+                "name": "Quest Diagnostics",
+                "image": "companies/Quest Diagnostics.png",
+                "description": "Quest Diagnostics is a clinical laboratory that offers diagnostic testing, services, and information.",
+                "website": "https://www.questdiagnostics.com/"
+              },
+              {
+                "name": "Soleus Capital",
+                "image": "companies/Soleus Capital.png",
+                "description": "Soleus Capital is a private equity firm.",
+                "website": "http://www.soleuscapital.com/"
+              },
+              {
+                "name": "PHS Capital",
+                "image": "companies/PHS Capital.png",
+                "description": "PHS is an investment firm that focuses on science based technology enabled solutions that support people to lead a healthier life.",
+                "website": "http://www.phsfund.com"
+              },
+              {
+                "name": "LongeVC",
+                "image": "companies/LongeVC.png",
+                "description": "LongeVC is an early-stage venture firm that focuses on high-impact investments in biotechnology and healthcare.",
+                "website": "http://www.longevc.com/"
+              },
+              {
+                "name": "PureTech Health",
+                "image": "companies/PureTech Health.png",
+                "description": "PureTech Health is a bio pharma company and pushes the boundaries of medicine and changing and converging healthcare ecosystem.",
+                "website": "http://puretechhealth.com/"
+              },
+              {
+                "name": "Fiscus Ventures",
+                "image": "companies/Fiscus Ventures.png",
+                "description": "Fiscus Ventures is an investment firm",
+                "website": ""
+              },
+              {
+                "name": "Hambrecht Healthcare Growth Venture Fund",
+                "image": "companies/Hambrecht Healthcare Growth Venture Fund.png",
+                "description": "Hambrecht Healthcare Growth Venture Fund is an investment firm",
+                "website": ""
+              },
+              {
+                "name": "TYLT Ventures",
+                "image": "companies/TYLT Ventures.png",
+                "description": "TYLT Ventures is focused on identifying, capitalizing, and building high-growth companies.",
+                "website": "http://www.tyltventures.com/"
+              },
+              {
+                "name": "BOND",
+                "image": "companies/BOND.png",
+                "description": "BOND is a mobile-first startup that brings back the powerful personal touch of handwritten communication and the art of the cool.",
+                "website": "https://www.bond.co/"
+              },
+              {
+                "name": "Era Funding Administration",
+                "image": "companies/Era Funding Administration.png",
+                "description": "Era Funding Administration is an investment firm.",
+                "website": "https://unicorn-nest.com/funds/era-funding-administration/"
+              },
+              {
+                "name": "Famillie C (Clarins Family)",
+                "image": "companies/Famillie C (Clarins Family).png",
+                "description": "Famillie C is an investment Family.",
+                "website": "https://famillecventure.com/"
+              },
+              {
+                "name": "BPEA",
+                "image": "companies/BPEA.png",
+                "description": "BPEA is a private equity firm focused on small and lower middle market buyout and growth investing.",
+                "website": "http://www.brookepea.com"
+              },
+              {
+                "name": "WING by Digital Wallonia",
+                "image": "companies/WING by Digital Wallonia.png",
+                "description": "W.IN.G (Wallonia Innovation and Growth) is an investment fund focusing on SAAS, medtech, engineering tech, advanced tech and deep tech",
+                "website": "http://www.wing-digitalwallonia.be/"
+              },
+              {
+                "name": "Cyberlink Corp",
+                "image": "companies/Cyberlink Corp.png",
+                "description": "CyberLink is a developer of world-class video and photo editing software for professional results at all skill levels.",
+                "website": "https://www.cyberlink.com/"
+              },
+              {
+                "name": "Whitecap Venture Partners",
+                "image": "companies/Whitecap Venture Partners.png",
+                "description": "Whitecap is a Canadian-based VC fund investing in early stage B2B Software and MedTech companies.",
+                "website": "http://www.whitecapvp.com/"
+              },
+              {
+                "name": "KT Corp",
+                "image": "companies/KT Corp.png",
+                "description": "KT Corporation is a Korean telecommunications company which provides services to residential and business users across South Korea.",
+                "website": "https://www.kt.com"
+              },
+              {
+                "name": "Lakeside Invest & Consult",
+                "image": "companies/Lakeside Invest & Consult.png",
+                "description": "Lakeside Invest & Consult is angel investment & consulting firm offering seed & growth funding for promising seed & early-stage startups",
+                "website": "https://lakesideinvest.com/"
+              },
+              {
+                "name": "Marubeni",
+                "image": "companies/Marubeni.png",
+                "description": "Marubeni is involved in the handling of products and provision of services in a broad range of sectors.",
+                "website": "https://www.marubeni.com/jp/"
+              },
+              {
+                "name": "Monashee Investment Management",
+                "image": "companies/Monashee Investment Management.png",
+                "description": "Monashee Investment Management is a hedge fund.",
+                "website": "http://www.monasheecap.com"
+              },
+              {
+                "name": "Social Discovery Group",
+                "image": "companies/Social Discovery Group.png",
+                "description": "SDGroup brings together over 50 brands, an investment fund and a venture studio. We invest in social discovery technology startups.",
+                "website": "https://socialdiscoverygroup.com/"
+              },
+              {
+                "name": "Ezaki Glico",
+                "image": "companies/Ezaki Glico.png",
+                "description": "Ezaki Glico delivers confectionery, food, and dairy products.",
+                "website": "https://www.glico.com/global/"
+              },
+              {
+                "name": "Emerging Technology Partners",
+                "image": "companies/Emerging Technology Partners.png",
+                "description": "Emerging Technology Partners is a life sciences focused investment firm.",
+                "website": "http://etpvc.com/"
+              },
+              {
+                "name": "Mirabaud",
+                "image": "companies/Mirabaud.png",
+                "description": "Mirabaud is an international banking and financial group that provides a clientele of private and institutional investors & companies.",
+                "website": "http://www.mirabaud.com"
+              },
+              {
+                "name": "Arizona Tech Investors",
+                "image": "companies/Arizona Tech Investors.png",
+                "description": "Phoenix-based active community of individuals who invest in high-potential tech startups",
+                "website": "http://arizonatechinvestors.com"
+              },
+              {
+                "name": "Capricorn Partners",
+                "image": "companies/Capricorn Partners.png",
+                "description": "Capricorn Partners is a Belgium-based manager of project capital and equity funds which invests in technology companies.",
+                "website": "http://www.capricorn.be"
+              },
+              {
+                "name": "Snap",
+                "image": "companies/Snap.png",
+                "description": "Snap operates as a privately-owned global camera company focusing on multinational technology and social media.",
+                "website": "https://www.snap.com"
+              },
+              {
+                "name": "Eisai Innovation",
+                "image": "companies/Eisai Innovation.png",
+                "description": "Eisai Innovation is a strategic investment organization.",
+                "website": "https://www.eisaiinnovation.com"
+              },
+              {
+                "name": "DCVC",
+                "image": "companies/DCVC.png",
+                "description": "DCVC backs entrepreneurs using deep tech to solve problems and multiply the benefits of capitalism for everyone while reducing its cost.",
+                "website": "http://www.dcvc.com"
+              },
+              {
+                "name": "Mindset Ventures",
+                "image": "companies/Mindset Ventures.png",
+                "description": "Mindset Ventures is an early-stage VC firm that supports entrepreneurs in their growth and international expansion.",
+                "website": "http://www.mindset.ventures"
+              },
+              {
+                "name": "Hitachi Ventures",
+                "image": "companies/Hitachi Ventures.png",
+                "description": "Hitachi Ventures is the global venture capital arm of Hitachi Group",
+                "website": "https://www.hitachi-ventures.com"
+              },
+              {
+                "name": "Las Olas Venture Capital",
+                "image": "companies/Las Olas Venture Capital.png",
+                "description": "Las Olas Venture Capital is an early-stage fund that invests in startups in a variety of industries.",
+                "website": "http://lasolasvc.com"
+              },
+              {
+                "name": "Digital Attraxion",
+                "image": "companies/Digital Attraxion.png",
+                "description": "Digital Attraxion is a digital Startups Accelerator that specializes and focuses on fundraising.",
+                "website": "https://www.digital-attraxion.com"
+              },
+              {
+                "name": "Adage Capital Management",
+                "image": "companies/Adage Capital Management.png",
+                "description": "Adage Capital Management focuses on managing S&P 500 assets predominantly for endowments and foundations.",
+                "website": "http://www.adagecapital.com"
+              },
+              {
+                "name": "MassVentures",
+                "image": "companies/MassVentures.png",
+                "description": "MassVentures is a venture capital firm focused on supporting Massachusetts-based startups to prosper in their businesses.",
+                "website": "http://mass-ventures.com"
+              },
+              {
+                "name": "Digital China Health Technologies Corporation (DCHealth)",
+                "image": "companies/Digital China Health Technologies Corporation (DCHealth).png",
+                "description": "Red Antler is a brand company that works with startups and new ventures.",
+                "website": ""
+              },
+              {
+                "name": "KdT Ventures",
+                "image": "companies/KdT Ventures.png",
+                "description": "KdT Ventures is an early-stage venture capital firm that invests in startups in the data, engineering, and biology sector.",
+                "website": "https://www.kdtvc.com"
+              },
+              {
+                "name": "Qiming Venture Partners",
+                "image": "companies/Qiming Venture Partners.png",
+                "description": "Qiming Venture Partners is a venture capital firm investing in Technology&Consumer and Healthcare industries at the early and growth stages.",
+                "website": "http://www.qimingvc.com"
+              },
+              {
+                "name": "Cambridge Innovation Capital",
+                "image": "companies/Cambridge Innovation Capital.png",
+                "description": "Cambridge Innovation Capital is a European venture capital firm that invests in life sciences and technology startups.",
+                "website": "https://www.cic.vc"
+              },
+              {
+                "name": "Kleiner Perkins",
+                "image": "companies/Kleiner Perkins.png",
+                "description": "Kleiner Perkins is a venture capital firm that specializes in investing in early-stage, incubation, and growth companies.",
+                "website": "https://www.kleinerperkins.com"
+              },
+              {
+                "name": "Altitude Life Science Ventures",
+                "image": "companies/Altitude Life Science Ventures.png",
+                "description": "Philosophy is to focus on life science markets with strong demand and growth potential, and then back the highest-quality entrepreneurs in",
+                "website": "https://www.altitudelsv.com/"
+              },
+              {
+                "name": "Lilly Asia Ventures",
+                "image": "companies/Lilly Asia Ventures.png",
+                "description": "Lilly Asian Ventures is an investment firm that invests in promising life science companies.",
+                "website": "http://www.lillyasiaventures.com"
+              },
+              {
+                "name": "aMoon Fund",
+                "image": "companies/aMoon Fund.png",
+                "description": "aMoon is a leading healthtech & life sciences venture capital firm.",
+                "website": "https://amoon.fund/"
+              },
+              {
+                "name": "Cherubic Ventures",
+                "image": "companies/Cherubic Ventures.png",
+                "description": "Cherubic Ventures is an early-stage venture capital firm that's active in both US and Asia.",
+                "website": "http://www.cherubic.com"
+              },
+              {
+                "name": "Endeavour Vision",
+                "image": "companies/Endeavour Vision.png",
+                "description": "Endeavour Vision is a growth-stage investor that invests in growth-stage medtech and digital health companies in Europe and the US.",
+                "website": "http://www.endeavourvision.com"
+              },
+              {
+                "name": "Boehringer Ingelheim Venture Fund",
+                "image": "companies/Boehringer Ingelheim Venture Fund.png",
+                "description": "Boehringer Ingelheim Venture Fund intends to invest in groundbreaking therapeutic approaches and technologies.",
+                "website": "http://www.boehringer-ingelheim-venture.com"
+              },
+              {
+                "name": "F-Prime Capital",
+                "image": "companies/F-Prime Capital.png",
+                "description": "F-Prime Capital is a venture capital firm investing in healthcare and technology.",
+                "website": "http://www.fprimecapital.com"
+              },
+              {
+                "name": "LabCorp",
+                "image": "companies/LabCorp.png",
+                "description": "Labcorp specializes in providing physicians with laboratory tests.",
+                "website": "https://www.labcorp.com/"
+              },
+              {
+                "name": "Hikma Ventures",
+                "image": "companies/Hikma Ventures.png",
+                "description": "Hikma Ventures operates as the corporate venture capital arm of Hikma Pharmaceuticals.",
+                "website": "https://www.hikmaventures.com"
+              },
+              {
+                "name": "Nina Capital",
+                "image": "companies/Nina Capital.png",
+                "description": "Investing in need-driven founders building health tech companies with international ambitions.",
+                "website": "https://www.nina.capital/"
+              },
+              {
+                "name": "Dementia Discovery Fund",
+                "image": "companies/Dementia Discovery Fund.png",
+                "description": "Dementia Discovery Fund is a specialist venture capital fund that invests in novel science to create meaningful new medicines.",
+                "website": "https://svhealthinvestors.com/"
+              },
+              {
+                "name": "IMM Investment",
+                "image": "companies/IMM Investment.png",
+                "description": "IMM Investment is an independent venture capital firm focused on investments in venture capital, mezzanine, and infrastructure.",
+                "website": "http://imm.co.kr/"
+              },
+              {
+                "name": "Gaingels",
+                "image": "companies/Gaingels.png",
+                "description": "Gaingels represents the LGBT+ community and allies investing in VC-backed companies with diverse and inclusive leadership teams.",
+                "website": "http://www.gaingels.com"
+              },
+              {
+                "name": "ADQ",
+                "image": "companies/ADQ.png",
+                "description": "ADQ is a holding company with a diverse portfolio of major enterprises.",
+                "website": "https://www.adq.ae/"
+              },
+              {
+                "name": "NH Investment & Securities",
+                "image": "companies/NH Investment & Securities.png",
+                "description": "NH Investment & Securities engages in wealth management, investment banking, trading, and equity sales businesses.",
+                "website": "https://www.nhqv.com/"
+              },
+              {
+                "name": "Mossrock Capital",
+                "image": "companies/Mossrock Capital.png",
+                "description": "Mossrock Capital is a venture capital investment firm.",
+                "website": ""
+              },
+              {
+                "name": "Forestay Capital",
+                "image": "companies/Forestay Capital.png",
+                "description": "Forestay Capital is dedicated to investing in the tech sector and reflects Waypoint’s focus on innovative, forward-looking industries.",
+                "website": "https://www.forestay.vc/"
+              },
+              {
+                "name": "Red Sea Ventures",
+                "image": "companies/Red Sea Ventures.png",
+                "description": "Red Sea Ventures is a venture capital firm that specializes in early stage investments based in New York.",
+                "website": "http://www.redseaventures.com"
+              },
+              {
+                "name": "Willoughby Capital",
+                "image": "companies/Willoughby Capital.png",
+                "description": "Willoughby Capital is an investment firm focused on partnering with growth companies across private and public markets.",
+                "website": "https://www.willcapllc.com"
+              },
+              {
+                "name": "Revolution’s Rise of the Rest Seed Fund",
+                "image": "companies/Revolution’s Rise of the Rest Seed Fund.png",
+                "description": "Revolution’s Rise of the Rest Seed Fund, part of the DC-based venture capital firm Revolution, invests in seed- and early-stage companies.",
+                "website": "https://www.revolution.com/entity/rotr/"
+              },
+              {
+                "name": "Bayer G4A",
+                "image": "companies/Bayer G4A.png",
+                "description": "Bayer G4A is a healthcare accelerator that offers investment, mentoring, and networking opportunities for startups and developers.",
+                "website": "https://www.g4a.health"
+              },
+              {
+                "name": "Risk and Return",
+                "image": "companies/Risk and Return.png",
+                "description": "Our venture fund accelerates the solutions and technologies required by high-risk public servants",
+                "website": "http://www.riskandreturn.com"
+              },
+              {
+                "name": "Tybourne Capital Management",
+                "image": "companies/Tybourne Capital Management.png",
+                "description": "Tybourne is a global investment firm with a fundamental approach to equity investing, both public and private",
+                "website": "https://www.tybournecapital.com"
+              },
+              {
+                "name": "West Virginia Jobs Investment Trust",
+                "image": "companies/West Virginia Jobs Investment Trust.png",
+                "description": "West Virginia Jobs Investment Trust invests in early-stage, later-stage, and mature small companies that wish to expand.",
+                "website": "http://www.wvjit.org"
+              },
+              {
+                "name": "Provident Trust Group",
+                "image": "companies/Provident Trust Group.png",
+                "description": "Neoteny 4",
+                "website": "https://trustprovident.com/"
+              },
+              {
+                "name": "Deep Knowledge Group",
+                "image": "companies/Deep Knowledge Group.png",
+                "description": "Data-driven mathematical corporation advancing DeepTech & Longevity Industrialization, building the bridge to the 5th Industrial Revolution",
+                "website": "http://dkv.global/"
+              },
+              {
+                "name": "One Mind Accelerator",
+                "image": "companies/One Mind Accelerator.png",
+                "description": "One Mind Accelerator equips founders with the catalytic resources they need to create strong, and moral businesses, including cash.",
+                "website": "https://onemind.org/accelerator"
+              },
+              {
+                "name": "Infinitas Capital",
+                "image": "companies/Infinitas Capital.png",
+                "description": "Single family office of Peter and Robin Lauber investing in residential Real Estate and Venture Capital opportunities",
+                "website": "https://infinitas-capital.com/"
+              },
+              {
+                "name": "NEOM",
+                "image": "companies/NEOM.png",
+                "description": "NEOM is a government administration firm that offers economic growth, progressive laws, a healthy foundation and innovative solution.",
+                "website": "https://www.neom.com/whatistheline/"
+              },
+              {
+                "name": "Trajectory Ventures",
+                "image": "companies/Trajectory Ventures.png",
+                "description": "Our mission is to advance disruptive innovation driving global digital transformation",
+                "website": "https://TrajectoryVentures.VC"
+              },
+              {
+                "name": "Intuitive Ventures",
+                "image": "companies/Intuitive Ventures.png",
+                "description": "Intuitive Ventures focuses on early-stage start-ups and takes a long-term outlook to support companies to reach their major milestones.",
+                "website": "https://ventures.intuitive.com/"
+              },
+              {
+                "name": "BrightEdge",
+                "image": "companies/BrightEdge.png",
+                "description": "BrightEdge, an SEO platform delivering an uplifted ROI, enables marketers to increase revenue from organic search.",
+                "website": "http://www.brightedge.com"
+              },
+              {
+                "name": "NSG Ventures",
+                "image": "companies/NSG Ventures.png",
+                "description": "NSG Ventures is a biotech venture capital firm.",
+                "website": "https://nsg.ventures"
+              },
+              {
+                "name": "Acequia Capital (AceCap)",
+                "image": "companies/Acequia Capital (AceCap).png",
+                "description": "Acequia Capital is an early-stage venture fund.",
+                "website": "http://acecap.com/"
+              },
+              {
+                "name": "Baidu Ventures",
+                "image": "companies/Baidu Ventures.png",
+                "description": "Baidu Ventures aims to back artificial intelligence, virtual reality, and augmented reality projects.",
+                "website": "https://baidu-venture.com/"
+              },
+              {
+                "name": "Mustard Seed",
+                "image": "companies/Mustard Seed.png",
+                "description": "Mustard Seed invests in world-class early-stage businesses that seek to generate compelling financial and societal returns.",
+                "website": "http://mustardseed.vc/"
+              },
+              {
+                "name": "Goldman Sachs Merchant Banking Division",
+                "image": "companies/Goldman Sachs Merchant Banking Division.png",
+                "description": "Goldman Sachs Merchant Banking Division is a private equity and venture capital firm that provides equity and credit investment.",
+                "website": "https://www.goldmansachs.com/careers/divisions/merchant-banking/"
+              },
+              {
+                "name": "Morningside Group",
+                "image": "companies/Morningside Group.png",
+                "description": "Morningside Group invests in private equity and venture capital opportunities.",
+                "website": "http://www.morningside.com"
+              },
+              {
+                "name": "Correlation Ventures",
+                "image": "companies/Correlation Ventures.png",
+                "description": "Correlation Ventures finances early, seed, and later stage venture, and debt financing investments and is based in California.",
+                "website": "http://correlationvc.com"
+              },
+              {
+                "name": "Topspin Partners",
+                "image": "companies/Topspin Partners.png",
+                "description": "Topspin is the successor fund to the Long Island Venture Fund, a successful venture capital fund which began investing in 1995.",
+                "website": "http://www.topspinpartners.com"
+              },
+              {
+                "name": "VNV Global",
+                "image": "companies/VNV Global.png",
+                "description": "Investing in classifieds, marketplaces, businesses with strong network effects and digital health",
+                "website": "https://vnv.global"
+              },
+              {
+                "name": "Formic Ventures",
+                "image": "companies/Formic Ventures.png",
+                "description": "Formic Ventures is a diversified venture capital firm that makes early-stage investments in biotechnology startups",
+                "website": "http://formic.vc"
+              },
+              {
+                "name": "Hatteras Venture Partners",
+                "image": "companies/Hatteras Venture Partners.png",
+                "description": "Hatteras Venture Partners is a North Carolina-based venture capital firm that finances biomedical companies.",
+                "website": "http://www.hatterasvp.com"
+              },
+              {
+                "name": "FedDev",
+                "image": "companies/FedDev.png",
+                "description": "FedDev Ontario aids the southern Ontario economy by supporting innovation, commercialization, business growth, productivity and communities.",
+                "website": "http://www.feddevontario.gc.ca"
+              },
+              {
+                "name": "Viva Biotech",
+                "image": "companies/Viva Biotech.png",
+                "description": "Viva Biotech is a Healthcare Start Up Based In Shanghai.",
+                "website": "http://www.vivabiotech.com.cn/"
+              },
+              {
+                "name": "OUP (Osage University Partners)",
+                "image": "companies/OUP (Osage University Partners).png",
+                "description": "OUP is a venture capital fund investing in start-ups that commercialize university research.",
+                "website": "https://oup.vc/"
+              },
+              {
+                "name": "Blumberg Capital",
+                "image": "companies/Blumberg Capital.png",
+                "description": "Blumberg Capital is an early-stage venture capital firm.",
+                "website": "http://www.blumbergcapital.com"
+              },
+              {
+                "name": "Elaia",
+                "image": "companies/Elaia.png",
+                "description": "European venture capital firm focused on digital & deep tech startups, from early stage to growth development.",
+                "website": "https://www.elaia.com"
+              },
+              {
+                "name": "Government Of Quebec",
+                "image": "companies/Government Of Quebec.png",
+                "description": "Government Of Quebec is a non profit organisation.",
+                "website": "https://www.quebec.ca/en/"
+              },
+              {
+                "name": "Vega Ventures",
+                "image": "companies/Vega Ventures.png",
+                "description": "Vega Ventures, LLC is a leader and innovator in the next generation of Internet Marketing Concepts.",
+                "website": "http://www.vegaventuresllc.com/"
+              },
+              {
+                "name": "LSI (Life Science Innovations Fund)",
+                "image": "companies/LSI (Life Science Innovations Fund).png",
+                "description": "LSI is a pre-seed and seed stage venture capital in Poland. We invest in early-stage start ups in life science domain.",
+                "website": "https://lsifund.pl/"
+              },
+              {
+                "name": "Munich Re/ERGO Corporate Venture Fund",
+                "image": "companies/Munich Re/ERGO Corporate Venture Fund.png",
+                "description": "Munich Re/ERGO Corporate Venture Fund invests in digital startups.",
+                "website": "https://www.ergo.com"
+              },
+              {
+                "name": "Rubio Impact Ventures",
+                "image": "companies/Rubio Impact Ventures.png",
+                "description": "Rubio Impact Ventures is a venture fund focused on early and growth stage enterprises with a positive impact on society and the environment.",
+                "website": "https://www.rubio.vc"
+              },
+              {
+                "name": "Westlake Village BioPartners",
+                "image": "companies/Westlake Village BioPartners.png",
+                "description": "Westlake Village BioPartners is venture capital firm focused on incubating and building life sciences companies.",
+                "website": "http://westlakebio.com"
+              },
+              {
+                "name": "Nan Fung Life Sciences",
+                "image": "companies/Nan Fung Life Sciences.png",
+                "description": "Nan Fung Life Sciences a global life sciences investment platform with a long-term capital commitment from the Nan Fung Group.",
+                "website": "https://www.nanfunglifesciences.com/"
+              },
+              {
+                "name": "Black Opal Ventures",
+                "image": "companies/Black Opal Ventures.png",
+                "description": "Black Opal is a venture capital investment firm.",
+                "website": "https://www.blackopalventures.com"
+              },
+              {
+                "name": "Pillar VC",
+                "image": "companies/Pillar VC.png",
+                "description": "Pillar VC invests in seed-stage companies, supporting unstoppable founders with capital, connections, coaching, and peer support.",
+                "website": "http://pillar.vc/"
+              },
+              {
+                "name": "Pacific Economic Development Canada",
+                "image": "companies/Pacific Economic Development Canada.png",
+                "description": "Pacific Economic Development Canada is the regional development agency focused on British Columbia’s evolving economy.",
+                "website": "https://www.canada.ca/en/pacific-economic-development.html"
+              },
+              {
+                "name": "LG CNS",
+                "image": "companies/LG CNS.png",
+                "description": "LG CNS is a provider of information technology services including consulting, system integration, network integration.",
+                "website": "http://www.lgcns.com"
+              },
+              {
+                "name": "Otsuka Holdings",
+                "image": "companies/Otsuka Holdings.png",
+                "description": "The Broad Institute conducts research in biomedicine and uses AI in various applications, including genomics, which frequently involves biomarker research.",
+                "website": "https://otsuka.com"
+              },
+              {
+                "name": "Ward Ferry Management",
+                "image": "companies/Ward Ferry Management.png",
+                "description": "Compaq develops and sells computers and related products and services.",
+                "website": "http://wardferry.com"
+              },
+              {
+                "name": "Neoteny 4",
+                "image": "companies/Neoteny 4.png",
+                "description": "Highmark Ventures is a corporate venture arm of Highmark.",
+                "website": ""
+              },
+              {
+                "name": "Prosperity7 Ventures",
+                "image": "companies/Prosperity7 Ventures.png",
+                "description": "Prosperity7 Ventures is a venture capital firm that invests in early and growth-stage startups with a long-term view.",
+                "website": "https://www.prosperity7vc.com"
+              },
+              {
+                "name": "The Gray Insurance Company",
+                "image": "companies/The Gray Insurance Company.png",
+                "description": "AlbaCore Capital focuses on credit investments across capital structures and jurisdictions.",
+                "website": "https://www.grayinsco.com"
+              },
+              {
+                "name": "Cornucopian Capital",
+                "image": "companies/Cornucopian Capital.png",
+                "description": "The Gray Insurance Company is family-owned firm that provides Workers'​ Compensation, Automobile, and General Liability coverage.",
+                "website": "https://www.cornucopiancapital.com/"
+              },
+              {
+                "name": "Amerindo Investment Advisors",
+                "image": "companies/Amerindo Investment Advisors.png",
+                "description": "W Capital Partners, an equity fund, provides exit flexibility for private equity shareholders and growth capital for private companies.",
+                "website": "http://www.amerindo.com"
+              },
+              {
+                "name": "Nomad Capital",
+                "image": "companies/Nomad Capital.png",
+                "description": "Nomad Capital is a seed stage fund that invests in emerging companies that are developing marketplaces and B2B software.",
+                "website": "https://www.nomadcap.vc"
+              },
+              {
+                "name": "Inovia Capital",
+                "image": "companies/Inovia Capital.png",
+                "description": "Inovia Capital is a venture capital firm that works with founders to create influential and permanent businesses.",
+                "website": "https://www.inovia.vc"
+              },
+              {
+                "name": "Deerfield",
+                "image": "companies/Deerfield.png",
+                "description": "Deerfield is an investment firm that transforms healthcare through information, investment, and philanthropy.",
+                "website": "https://deerfield.com"
+              },
+              {
+                "name": "New Leaf Venture Partners",
+                "image": "companies/New Leaf Venture Partners.png",
+                "description": "New Leaf Venture Partners is a venture capital firm focused on investments in healthcare technology companies.",
+                "website": "http://www.nlvpartners.com"
+              },
+              {
+                "name": "HonorHealth",
+                "image": "companies/HonorHealth.png",
+                "description": "HonorHealth represent integrity & honesty and honor your right to personalized, easy-to-navigate healthcare.",
+                "website": "https://www.honorhealth.com"
+              },
+              {
+                "name": "Basis Set Ventures",
+                "image": "companies/Basis Set Ventures.png",
+                "description": "Basis Set Ventures is an early-stage investment firm focused on artificial intelligence and its practical application.",
+                "website": "https://www.basisset.com"
+              },
+              {
+                "name": "Superangel",
+                "image": "companies/Superangel.png",
+                "description": "Early stage investments in the Baltics and Nordics",
+                "website": "https://superangel.io/"
+              },
+              {
+                "name": "Leadout Capital",
+                "image": "companies/Leadout Capital.png",
+                "description": "Leadout Capital is an early-stage venture capital fund.",
+                "website": "https://www.leadoutcapital.com/"
+              },
+              {
+                "name": "Amgen Ventures",
+                "image": "companies/Amgen Ventures.png",
+                "description": "Amgen Ventures is a California-based investment firm focused on early- and late-stage biotechnology companies.",
+                "website": "https://www.amgenbd.com/aboutamgen"
+              },
+              {
+                "name": "Vesalius Biocapital Partners",
+                "image": "companies/Vesalius Biocapital Partners.png",
+                "description": "Vesalius Biocapital Partners invests in companies active in human health through venture capital funds raised since 2007.",
+                "website": "http://www.vesaliusbiocapital.com"
+              },
+              {
+                "name": "Sir Martin & Lady Audrey Wood",
+                "image": "companies/Sir Martin & Lady Audrey Wood.png",
+                "description": "Sir Martin & Lady Audrey Wood is a family office",
+                "website": "https://www.crunchbase.com/organization/sir-martin-lady-audrey-wood"
+              },
+              {
+                "name": "Reimagined Ventures",
+                "image": "companies/Reimagined Ventures.png",
+                "description": "Reimagined Ventures is a Chicago-based family investment office",
+                "website": "http://www.reimaginedventures.com/"
+              },
+              {
+                "name": "Harmonix Fund",
+                "image": "companies/Harmonix Fund.png",
+                "description": "Venture capital fund helping entrepreneurs launch exponential organizations generally with an impact or sustainability element.",
+                "website": "https://harmonixfund.com/"
+              },
+              {
+                "name": "Founder Institute",
+                "image": "companies/Founder Institute.png",
+                "description": "Founder Institute is an education management company that empowers people to build technology businesses.",
+                "website": "http://www.fi.co"
+              },
+              {
+                "name": "Novartis Pharma",
+                "image": "companies/Novartis Pharma.png",
+                "description": "Novartis Pharma is the Japanese subsidiary of Novartis Pharmaceuticals, a world-leading healthcare company based in Basel, Switzerland",
+                "website": "https://www.novartis.co.jp/about-us/novartis-pharma"
+              },
+              {
+                "name": "Xeraya Capital",
+                "image": "companies/Xeraya Capital.png",
+                "description": "Xeraya Capital is a private equity and venture capital firm.",
+                "website": "http://www.xeraya.com/"
+              },
+              {
+                "name": "Epilepsy",
+                "image": "companies/Epilepsy.png",
+                "description": "The Epilepsy Foundation, a national non-profit with 47 affiliated organizations throughout the United States, has led the fight against",
+                "website": "http://www.epilepsy.com"
+              },
+              {
+                "name": "Shinhan Bank",
+                "image": "companies/Shinhan Bank.png",
+                "description": "Shinhan Bank was founded in 1897",
+                "website": "http://www.shinhan.com/en"
+              },
+              {
+                "name": "CSC Upshot",
+                "image": "companies/CSC Upshot.png",
+                "description": "CSC Upshot is an early-stage venture fund focusing on providing seed capital to technology companies at scale.",
+                "website": "https://www.csc-upshot.vc"
+              },
+              {
+                "name": "B Capital Group",
+                "image": "companies/B Capital Group.png",
+                "description": "B Capital Group is a venture capital firm that backs global entrepreneurs in the field of information technology.",
+                "website": "http://www.bcapgroup.com"
+              },
+              {
+                "name": "Kakao Ventures",
+                "image": "companies/Kakao Ventures.png",
+                "description": "The most active & founder-friendly seed VC of Korea (managing external LP based funds as independent subsidiary of Kakao Corp.)",
+                "website": "https://www.kakao.vc/"
+              },
+              {
+                "name": "Sapphire Ventures",
+                "image": "companies/Sapphire Ventures.png",
+                "description": "Sapphire is a venture capital firm that partners with visionary teams and venture funds to build companies.",
+                "website": "https://www.sapphireventures.com"
+              },
+              {
+                "name": "Debiopharm Innovation Fund",
+                "image": "companies/Debiopharm Innovation Fund.png",
+                "description": "Debiopharm Innovation Fund offers a strategic investments in for companies and businesses.",
+                "website": "https://www.debiopharm.com/digital-health/"
+              },
+              {
+                "name": "Pavilion Capital",
+                "image": "companies/Pavilion Capital.png",
+                "description": "Pavilion Capital is providing growth equity to market leading companies.",
+                "website": "http://www.pavilioncapital.com"
+              },
+              {
+                "name": "PKSHA SPARX Algorithm Fund",
+                "image": "companies/PKSHA SPARX Algorithm Fund.png",
+                "description": "PKSHA SPARX Algorithm Fund focuses on start-ups and projects that have machine intelligence, AI-related and robotics technology.",
+                "website": ""
+              },
+              {
+                "name": "Dolby Family Ventures",
+                "image": "companies/Dolby Family Ventures.png",
+                "description": "Dolby Family Ventures is an early stage venture firm focused on building great technology companies.",
+                "website": "http://dolbyventures.com"
+              },
+              {
+                "name": "Alkeon Capital",
+                "image": "companies/Alkeon Capital.png",
+                "description": "Alkeon Capital Management is a service that assists investors with their financial endeavors.",
+                "website": "https://www.alkeoncapital.com/"
+              },
+              {
+                "name": "Puhua Capital",
+                "image": "companies/Puhua Capital.png",
+                "description": "Puhua Capital is an equity investment firm that focuses on early and middle project.",
+                "website": "http://puhuacapital.com/"
+              },
+              {
+                "name": "Ornament Health",
+                "image": "companies/Ornament Health.png",
+                "description": "Ornament Health is a digital health app that helps in the monitoring of lab tests.",
+                "website": "https://www.ornament.health"
+              },
+              {
+                "name": "Perceptive Advisors",
+                "image": "companies/Perceptive Advisors.png",
+                "description": "Perceptive Advisors is a privately owned hedge fund sponsor that finances the public equity markets across the globe.",
+                "website": "http://www.perceptivelife.com"
+              },
+              {
+                "name": "Swisscom Ventures",
+                "image": "companies/Swisscom Ventures.png",
+                "description": "Swisscom Ventures is the corporate venture capital arm of Swisscom, that specializes in early stage tech investments.",
+                "website": "https://ventures.swisscom.com"
+              },
+              {
+                "name": "Bold Capital Partners",
+                "image": "companies/Bold Capital Partners.png",
+                "description": "Bold Capital Partners is an early-stage venture capital firm investing in life sciences, healthcare, and frontier tech companies.",
+                "website": "http://www.boldcapitalpartners.com/"
+              },
+              {
+                "name": "Fairhaven Capital Partners",
+                "image": "companies/Fairhaven Capital Partners.png",
+                "description": "Fairhaven Capital (previously TD Capital) is a Cambridge, MA based venture capital firm investing in early stage technology startups.",
+                "website": "http://www.fairhavencapital.com/"
+              },
+              {
+                "name": "Mission BioCapital",
+                "image": "companies/Mission BioCapital.png",
+                "description": "Mission BioCapital is a life science venture capital firm that invests in early-stage companies.",
+                "website": "http://www.missionbiocapital.com"
+              },
+              {
+                "name": "BASF Venture Capital",
+                "image": "companies/BASF Venture Capital.png",
+                "description": "BASF Venture Capital is the corporate venture capital company of BASF Group.",
+                "website": "http://www.basf.de"
+              },
+              {
+                "name": "The Venture Collective",
+                "image": "companies/The Venture Collective.png",
+                "description": "TVC is a transformational, early-stage venture firm backed by world class entrepreneurs and business leaders.",
+                "website": "https://www.theventurecollective.com/"
+              },
+              {
+                "name": "Wavemaker 360",
+                "image": "companies/Wavemaker 360.png",
+                "description": "Wavemaker Three-Sixty Health is the leading U.S. early-stage (Seed and following on at the Series A) fund focused 100% on healthcare.",
+                "website": "https://www.wavemaker360.com/"
+              },
+              {
+                "name": "Hemex",
+                "image": "companies/Hemex.png",
+                "description": "Hemex AG helps its clients to develop pharmaceuticals and medical devices.",
+                "website": "https://hemex.ch/"
+              },
+              {
+                "name": "Visium Healthcare Partners",
+                "image": "companies/Visium Healthcare Partners.png",
+                "description": "Visium Healthcare Partners",
+                "website": ""
+              },
+              {
+                "name": "RYSE Asset Management",
+                "image": "companies/RYSE Asset Management.png",
+                "description": "Getting to the Future First. Since 2015, RYSE is one of Europe’s leading firms for health, technology, and impact.",
+                "website": "http://www.ryseam.com/"
+              },
+              {
+                "name": "Optum Ventures",
+                "image": "companies/Optum Ventures.png",
+                "description": "Optum Ventures provides capital and strategic guidance to startup companies solving health care's pressing challenges.",
+                "website": "http://www.optumventures.com"
+              },
+              {
+                "name": "London Co-Investment Fund",
+                "image": "companies/London Co-Investment Fund.png",
+                "description": "London Co-Investment Fund is a venture firm that invests in high growth tech, science, and digital startups in London.",
+                "website": "http://lcif.co/"
+              },
+              {
+                "name": "ETP Ventures",
+                "image": "companies/ETP Ventures.png",
+                "description": "ETP Ventures",
+                "website": "http://etpvc.com/"
+              },
+              {
+                "name": "K2VC",
+                "image": "companies/K2VC.png",
+                "description": "K2VC is a venture capital firm investing in early stage technology startups.",
+                "website": "http://www.k2vc.com/"
+              },
+              {
+                "name": "National Institute on Aging",
+                "image": "companies/National Institute on Aging.png",
+                "description": "The National Institute on Aging (NIA) is a research institute focused on understanding the nature of aging and improving the health and well-being of older adults. They support and conduct research to address the challenges and opportunities associated with aging and age-related diseases.",
+                "website": "nia.nih.gov"
+              },
+              {
+                "name": "Geberit",
+                "image": "companies/Geberit.png",
+                "description": "Geberit Group offers sanitary technology and bathroom ceramics.",
+                "website": "http://geberit.com/"
+              },
+              {
+                "name": "Jazz Venture Partners",
+                "image": "companies/Jazz Venture Partners.png",
+                "description": "JAZZ Venture Partners is a venture capital firm focused on technologies that extend the boundaries of human performance.",
+                "website": "http://www.jazzvp.com/"
+              },
+              {
+                "name": "OurCrowd",
+                "image": "companies/OurCrowd.png",
+                "description": "OurCrowd is a venture investing platform that enables institutions and individuals to invest and engage in emerging companies.",
+                "website": "http://www.ourcrowd.com"
+              },
+              {
+                "name": "Amadeus Capital Partners",
+                "image": "companies/Amadeus Capital Partners.png",
+                "description": "Amadeus Capital Partners caters to the technology sector with seed, early, and later stage venture, and private equity investments.",
+                "website": "https://amadeuscapital.com"
+              },
+              {
+                "name": "Bespoke Growth Partners",
+                "image": "companies/Bespoke Growth Partners.png",
+                "description": "Cornucopian Capital is a seeding innovation at the nexus of food and health.",
+                "website": "http://www.123bgp.com/"
+              },
+              {
+                "name": "Generation Investment Management",
+                "image": "companies/Generation Investment Management.png",
+                "description": "Generation Investment Management is a private equity firm that specializes in integrated sustainability research and client alignment.",
+                "website": "http://www.generationim.com"
+              },
+              {
+                "name": "OSF Ventures",
+                "image": "companies/OSF Ventures.png",
+                "description": "OSF strategically invest in the development of technology and devices that could improve health care",
+                "website": "https://www.osfhealthcare.org/ventures/"
+              },
+              {
+                "name": "Foresite Capital",
+                "image": "companies/Foresite Capital.png",
+                "description": "Foresite Capital is a healthcare and life sciences investment firm.",
+                "website": "http://www.foresitecapital.com"
+              },
+              {
+                "name": "Bulba Ventures",
+                "image": "companies/Bulba Ventures.png",
+                "description": "Bulba Ventures is a Belarus-based startup investment company that empowers machine learning startups.",
+                "website": "http://bulba.com/"
+              },
+              {
+                "name": "InnoBio Fund",
+                "image": "companies/InnoBio Fund.png",
+                "description": "InnoBio is a French venture capital fund.",
+                "website": ""
+              },
+              {
+                "name": "UnityPoint Health Ventures",
+                "image": "companies/UnityPoint Health Ventures.png",
+                "description": "UnityPoint Health Ventures is an investment firm committed to investing in ideas and innovative partners.",
+                "website": "https://unitypointhealthventures.org/"
+              },
+              {
+                "name": "AI Fund",
+                "image": "companies/AI Fund.png",
+                "description": "AI Fund is a VC firm made up of AI pioneers, operators, entrepreneurs, and investors, supported by LPs such as NEA, Sequoia and Greylock.",
+                "website": "https://aifund.ai/"
+              },
+              {
+                "name": "s16vc",
+                "image": "companies/s16vc.png",
+                "description": "Community-driven, founder-centric angel fund created and run by active founders and industry professionals.",
+                "website": "https://s16vc.com/"
+              },
+              {
+                "name": "DARPA",
+                "image": "companies/DARPA.png",
+                "description": "DARPA is a central research and development organization for the US Department of Defense.",
+                "website": "http://www.darpa.mil"
+              },
+              {
+                "name": "Seedcamp",
+                "image": "companies/Seedcamp.png",
+                "description": "Seedcamp is a European seed fund that identifies and invests early in founders attacking global markets.",
+                "website": "http://www.seedcamp.com"
+              },
+              {
+                "name": "AXA Investment Managers",
+                "image": "companies/AXA Investment Managers.png",
+                "description": "AXA Investment Managers is a global investment management firm that manages assets on behalf of its institutional and retail clients.",
+                "website": "https://www.axa-im.com"
+              },
+              {
+                "name": "Tencent",
+                "image": "companies/Tencent.png",
+                "description": "Tencent is an internet service portal offering value-added internet, mobile, telecom, and online advertising services.",
+                "website": "https://www.tencent.com/en-us"
+              },
+              {
+                "name": "4490 Ventures",
+                "image": "companies/4490 Ventures.png",
+                "description": "4490 Ventures is an early-stage venture capital investment firm that seeks to invest between $5 million to $8 million per investment.",
+                "website": "http://www.4490ventures.com"
+              },
+              {
+                "name": "Capitol Health",
+                "image": "companies/Capitol Health.png",
+                "description": "Bespoke Growth Partners is a private investment firm.",
+                "website": "http://capitolhealth.com.au/"
+              },
+              {
+                "name": "XRC Ventures",
+                "image": "companies/XRC Ventures.png",
+                "description": "Venture firm & startup accelerator investing in the retail tech, consumer goods & consumer healthtech",
+                "website": "https://xrcventures.com/"
+              },
+              {
+                "name": "Federated Kaufmann Fund",
+                "image": "companies/Federated Kaufmann Fund.png",
+                "description": "Federated Kaufmann Fund specializes in the fields of mutual funds, managed accounts institutional, and separate accounts.",
+                "website": "https://www.federatedinvestors.com/products/mutual-funds/kaufmann/is.do"
+              },
+              {
+                "name": "Mighty Capital",
+                "image": "companies/Mighty Capital.png",
+                "description": "A Silicon Valley venture capital firm that invests in companies building products that transform lives and create value at scale.",
+                "website": "http://mighty.capital/"
+              },
+              {
+                "name": "Kinnevik",
+                "image": "companies/Kinnevik.png",
+                "description": "Kinnevik is an entrepreneurial investment group focused on building digital consumer businesses.",
+                "website": "http://www.kinnevik.com"
+              },
+              {
+                "name": "Portal Innovations",
+                "image": "companies/Portal Innovations.png",
+                "description": "Portal Innovations is a venture capital firm that helps exceptional life sciences innovators build their companies where they live.",
+                "website": "https://www.portalinnovations.com/"
+              },
+              {
+                "name": "St John's College - Oxford",
+                "image": "companies/St John's College - Oxford.png",
+                "description": "St John's College - Oxford is an educational institution that offers undergraduate and graduate programs.",
+                "website": "https://www.sjc.ox.ac.uk/"
+              },
+              {
+                "name": "Ascension Ventures",
+                "image": "companies/Ascension Ventures.png",
+                "description": "Ascension Ventures is a strategic healthcare venture fund and early-stage venture capital firm.",
+                "website": "http://ascensionventures.org/"
+              },
+              {
+                "name": "Casdin Capital",
+                "image": "companies/Casdin Capital.png",
+                "description": "Casdin Capital is a fundamental research investment firm focused on the life sciences and healthcare industry.",
+                "website": "http://www.casdincapital.com"
+              },
+              {
+                "name": "Broadview Ventures",
+                "image": "companies/Broadview Ventures.png",
+                "description": "Broadview Ventures invests in businesses that focus on the development of technology solutions in cardiovascular and neurovascular diseases.",
+                "website": "http://broadviewventures.org"
+              },
+              {
+                "name": "NJF Capital",
+                "image": "companies/NJF Capital.png",
+                "description": "NJF Capital is the venture capital arm of NJF Holdings founded by the entrepreneur turned investor, Nicole Junkermann.",
+                "website": "https://njfcapital.com"
+              },
+              {
+                "name": "Medtech Convergence Fund",
+                "image": "companies/Medtech Convergence Fund.png",
+                "description": "Ward Ferry Management is an investment firm that manages the funds of global investors.",
+                "website": "https://svhealthinvestors.com/funds/medtech-convergence-fund"
+              },
+              {
+                "name": "T&W Medical",
+                "image": "companies/T&W Medical.png",
+                "description": "Provident Trust Group is an independent corporate trust company located in Las Vegas, Nevada.",
+                "website": "http://platform.dkv.global/mind-map/194085"
+              },
+              {
+                "name": "Blue Water Life Science Fund",
+                "image": "companies/Blue Water Life Science Fund.png",
+                "description": "Blue Water Life Science Fund",
+                "website": ""
+              },
+              {
+                "name": "Wilson Sonsini Goodrich & Rosati",
+                "image": "companies/Wilson Sonsini Goodrich & Rosati.png",
+                "description": "Wilson Sonsini Goodrich & Rosati provides legal services for technology, life sciences, and other growth enterprises.",
+                "website": "http://www.wsgr.com"
+              },
+              {
+                "name": "HealthQuest Capital",
+                "image": "companies/HealthQuest Capital.png",
+                "description": "HealthQuest Capital is a growth equity, private equity firm investing in commercial-stage companies across the healthcare industry",
+                "website": "http://healthquestcapital.com"
+              },
+              {
+                "name": "W Capital Partners",
+                "image": "companies/W Capital Partners.png",
+                "description": "The center explores computational approaches in cancer biology, including AI-driven biomarker analysis.",
+                "website": "http://www.wcapgroup.com"
+              },
+              {
+                "name": "Credit Suisse",
+                "image": "companies/Credit Suisse.png",
+                "description": "Credit Suisse Group is a financial services company that advises clients in all aspects of finance.",
+                "website": "http://www.credit-suisse.com"
+              },
+              {
+                "name": "High-Tech Grunderfonds",
+                "image": "companies/High-Tech Grunderfonds.png",
+                "description": "High-Tech Grunderfonds specializes in investments in seed or startups, early venture, seed capital, and mezzanine financing.",
+                "website": "https://www.htgf.de/en"
+              },
+              {
+                "name": "Section 32",
+                "image": "companies/Section 32.png",
+                "description": "Section 32 is a venture capital fund that invests at the cutting edge of technology, healthcare, and life sciences.",
+                "website": "https://www.section32.com"
+              },
+              {
+                "name": "Abingworth",
+                "image": "companies/Abingworth.png",
+                "description": "Abingworth is an international investment group dedicated to collaborating with life sciences entrepreneurs.",
+                "website": "http://www.abingworth.com"
+              },
+              {
+                "name": "Longevity Vision Fund",
+                "image": "companies/Longevity Vision Fund.png",
+                "description": "Longevity Vision Fund invests in technologies that have the potential to disrupt life sciences and extend healthy lifespan.",
+                "website": "https://lvf.vc"
+              },
+              {
+                "name": "Polar Light Ventures",
+                "image": "companies/Polar Light Ventures.png",
+                "description": "Principal Investment Company focusing on early stage technology ventures.",
+                "website": "https://polarlightventures.com/"
+              },
+              {
+                "name": "WuXi AppTec",
+                "image": "companies/WuXi AppTec.png",
+                "description": "WuXi AppTec provides a broad portfolio of R&D and manufacturing services that enable companies in the pharmaceutical.",
+                "website": "https://www.wuxiapptec.com"
+              },
+              {
+                "name": "Fosun Pharma",
+                "image": "companies/Fosun Pharma.png",
+                "description": "Fosun Pharma is a pharmaceutical company.",
+                "website": "http://www.fosunpharma.com/"
+              },
+              {
+                "name": "Breyer Capital",
+                "image": "companies/Breyer Capital.png",
+                "description": "Breyer Capital is a global venture capital and private equity investor that focuses on catalyzing high-impact entrepreneurs.",
+                "website": "http://breyercapital.com"
+              },
+              {
+                "name": "Farallon Capital Management",
+                "image": "companies/Farallon Capital Management.png",
+                "description": "Farallon Capital Management operates as a global institutional asset management firm.",
+                "website": "http://www.faralloncapital.com"
+              },
+              {
+                "name": "Naver",
+                "image": "companies/Naver.png",
+                "description": "Naver operates as a search engine and e-commerce platform providing fintech, digital content, and cloud services.",
+                "website": "http://www.navercorp.com"
+              },
+              {
+                "name": "MassChallenge",
+                "image": "companies/MassChallenge.png",
+                "description": "MassChallenge is a global non-profit startup accelerator and competition with a focus on high-impact, early-stage entrepreneurs.",
+                "website": "https://masschallenge.org/"
+              },
+              {
+                "name": "EPIC Ventures",
+                "image": "companies/EPIC Ventures.png",
+                "description": "EPIC Ventures is an investment company working with driven entrepreneurs to build successful and lasting companies.",
+                "website": "http://www.epicvc.com"
+              },
+              {
+                "name": "D1 Capital Partners",
+                "image": "companies/D1 Capital Partners.png",
+                "description": "D1 Capital Partners is an investment firm that deploys capital in both public and private markets.",
+                "website": "https://www.linkedin.com/company/d1-capital-partners/"
+              },
+              {
+                "name": "StartUp Health",
+                "image": "companies/StartUp Health.png",
+                "description": "StartUp Health is investing in a global army of Health Transformers to achieve health moonshots.",
+                "website": "http://www.startuphealth.com"
+              },
+              {
+                "name": "National Institutes of Health",
+                "image": "companies/National Institutes of Health.png",
+                "description": "National Institutes of Health is a biomedical research facility that focuses on biomedical and health-related research.",
+                "website": "http://www.nih.gov"
+              },
+              {
+                "name": "Physician Partners",
+                "image": "companies/Physician Partners.png",
+                "description": "Physician Partners is a healthcare company.",
+                "website": "http://www.phypartners.com"
+              },
+              {
+                "name": "Pivotal",
+                "image": "companies/Pivotal.png",
+                "description": "Pivotal is a software company that provides digital transformation technology and services.",
+                "website": "http://www.pivotal.io"
+              },
+              {
+                "name": "Google",
+                "image": "companies/Google.png",
+                "description": "Google is a multinational corporation that specializes in Internet-related services and products.",
+                "website": "https://www.google.com"
+              },
+              {
+                "name": "Deerfield Capital Management",
+                "image": "companies/Deerfield Capital Management.png",
+                "description": "Deerfield Capital Management (DCM) is a global fixed-income investment adviser",
+                "website": "http://www.deerfieldcapital.com"
+              },
+              {
+                "name": "Softbank Ventures Asia",
+                "image": "companies/Softbank Ventures Asia.png",
+                "description": "SoftBank Ventures Asia is the corporate venture capital arm of SoftBank Group that specializes in IT startup investment.",
+                "website": "http://www.softbank.co.kr"
+              },
+              {
+                "name": "Alpana Ventures",
+                "image": "companies/Alpana Ventures.png",
+                "description": "Alpana Ventures is a leading Swiss VC focusing on digital transformation. Since 2016 we backed 45 founder teams with 3 Funds",
+                "website": "https://alpana-ventures.ch/"
+              },
+              {
+                "name": "Sozo Ventures",
+                "image": "companies/Sozo Ventures.png",
+                "description": "Sozo Ventures is a cross-border venture fund focusing on assisting US-based technology start-ups in global expansion.",
+                "website": "https://www.sozoventures.com"
+              },
+              {
+                "name": "DHVC",
+                "image": "companies/DHVC.png",
+                "description": "DHVC is a venture capital firm based in Palo Alto, California. We invest in Enterprise, Consumer, FinTech, and Healthcare sectors.",
+                "website": "http://dh.vc/"
+              },
+              {
+                "name": "KOFA Healthcare Investments",
+                "image": "companies/KOFA Healthcare Investments.png",
+                "description": "KOFA Healthcare Investments is a healthcare investment firm investing in early-stage life sciences startups.",
+                "website": "https://www.kofahealthcare.com/"
+              },
+              {
+                "name": "Bpifrance",
+                "image": "companies/Bpifrance.png",
+                "description": "Bpifrance provides financial solutions for companies that are booting up the listing on the stock exchange and credit equity.",
+                "website": "http://bpifrance.fr"
+              },
+              {
+                "name": "Ocgrow Ventures",
+                "image": "companies/Ocgrow Ventures.png",
+                "description": "Ocgrow Ventures is an investment firm that manages assets and venture capital investments.",
+                "website": "https://ocgrowgroup.com/venture-capital"
+              },
+              {
+                "name": "OrbiMed",
+                "image": "companies/OrbiMed.png",
+                "description": "OrbiMed is a healthcare-dedicated investment firm focusing on biopharmaceuticals for medical devices and diagnostics.",
+                "website": "http://www.orbimed.com"
+              },
+              {
+                "name": "Oxford University Innovation",
+                "image": "companies/Oxford University Innovation.png",
+                "description": "Oxford University Innovation manages the university’s technology transfer and consulting activities.",
+                "website": "https://innovation.ox.ac.uk/"
+              },
+              {
+                "name": "Mercia Fund Managers",
+                "image": "companies/Mercia Fund Managers.png",
+                "description": "Mercia Fund Managers helps to scale innovative businesses across the UK regions by providing debt, equity and growth capital.",
+                "website": "https://www.mercia.co.uk"
+              },
+              {
+                "name": "Breega",
+                "image": "companies/Breega.png",
+                "description": "Breega is a European venture capital fund designed to finance startups in the digital economy.",
+                "website": "https://www.breega.com/"
+              },
+              {
+                "name": "Legend Capital",
+                "image": "companies/Legend Capital.png",
+                "description": "Legend Capital, a subsidiary of Legend Holdings Ltd., has a mission to become a top-notch venture capital investor in China.",
+                "website": "http://www.legendcapital.com.cn"
+              },
+              {
+                "name": "Madryn Asset Management",
+                "image": "companies/Madryn Asset Management.png",
+                "description": "Madryn Asset Management is an alternative asset management firm.",
+                "website": "http://madrynlp.com/"
+              },
+              {
+                "name": "Positive Ventures",
+                "image": "companies/Positive Ventures.png",
+                "description": "Positive Ventures is an entrepreneurs-run and B-Certified VC backing tech founders tackling pressing societal challenges, global south first",
+                "website": "http://positive.ventures/"
+              },
+              {
+                "name": "Global Founders Capital",
+                "image": "companies/Global Founders Capital.png",
+                "description": "GFC is a globally oriented, stage agnostic venture fund that empowers gifted entrepreneurs.",
+                "website": "https://www.globalfounderscapital.com"
+              },
+              {
+                "name": "Innosuisse",
+                "image": "companies/Innosuisse.png",
+                "description": "Innosuisse’s role is to promote science-based innovation in the interests of industry and society in Switzerland.",
+                "website": "https://www.innosuisse.ch"
+              },
+              {
+                "name": "Horizon 2020",
+                "image": "companies/Horizon 2020.png",
+                "description": "Horizon 2020 is the biggest EU Research and Innovation program supporting University of Coimbra Olimpiada Economia",
+                "website": "http://ec.europa.eu/programmes/horizon2020/"
+              },
+              {
+                "name": "Apeiron Investment Group",
+                "image": "companies/Apeiron Investment Group.png",
+                "description": "Apeiron focuses on Life Sciences, FinTech & Crypto, FutureTech, and Experiences, Hospitality & Happiness.",
+                "website": "http://www.apeiron-investments.com/"
+              },
+              {
+                "name": "M Ventures",
+                "image": "companies/M Ventures.png",
+                "description": "M Ventures invests in innovative technologies and products with the potential to significantly impact Merck‘s core business areas.",
+                "website": "https://www.m-ventures.com/"
+              },
+              {
+                "name": "AbbVie Biotech Ventures",
+                "image": "companies/AbbVie Biotech Ventures.png",
+                "description": "AbbVie Biotech Ventures, an Illinois-based company, makes investments in emerging biotech and pharmaceutical companies.",
+                "website": "https://www.abbvie.com/partnerships/abbvie-ventures.html"
+              },
+              {
+                "name": "PharmStars",
+                "image": "companies/PharmStars.png",
+                "description": "PharmStars is the pharma-focused accelerator for digital health startups.",
+                "website": "https://www.pharmstars.com/"
+              },
+              {
+                "name": "XLerateHealth",
+                "image": "companies/XLerateHealth.png",
+                "description": "XLerateHealth is enterprise-focused and will help early stage healthcare companies build out their commercialisation strategy.",
+                "website": "http://www.xleratehealth.com"
+              },
+              {
+                "name": "EASME - EU Executive Agency for SMEs",
+                "image": "companies/EASME - EU Executive Agency for SMEs.png",
+                "description": "EASME  is the European Union executive agency for SMEs in charge of Enterprise Europe Network, COSME, and other programs.",
+                "website": "https://ec.europa.eu/easme/en"
+              },
+              {
+                "name": "Shiseido",
+                "image": "companies/Shiseido.png",
+                "description": "Shiseido offers the highest quality products in skincare, makeup, and fragrance.",
+                "website": "http://www.shiseido.com/"
+              },
+              {
+                "name": "Bertelsmann",
+                "image": "companies/Bertelsmann.png",
+                "description": "Bertelsmann is a transnational media corporation that operates in about 50 countries around the world.",
+                "website": "http://www.bertelsmann.com"
+              },
+              {
+                "name": "Merck Global Health Innovation Fund",
+                "image": "companies/Merck Global Health Innovation Fund.png",
+                "description": "Merck Global Health Innovation Fund (Merck GHI) is evolving corporate healthcare venture capital globally by utilizing their healthcare",
+                "website": "http://www.merck.com/ghi"
+              },
+              {
+                "name": "Refactor Capital",
+                "image": "companies/Refactor Capital.png",
+                "description": "Refactor Capital is a seed stage VC firm investing in bio, climate, and health.",
+                "website": "http://www.refactor.com"
+              },
+              {
+                "name": "Mission Bay Capital",
+                "image": "companies/Mission Bay Capital.png",
+                "description": "Mission Bay Capital is a venture capital firm for early-stage investments.",
+                "website": "http://www.missionbaycapital.com"
+              },
+              {
+                "name": "Alium Capital",
+                "image": "companies/Alium Capital.png",
+                "description": "Alium Capital is a cross-over technology investment firm based in Sydney Australia and was founded in 2016.",
+                "website": "https://aliumcap.com"
+              },
+              {
+                "name": "What If Ventures",
+                "image": "companies/What If Ventures.png",
+                "description": "What If Ventures invests in digital healthcare startups from seed to pre-IPO.",
+                "website": "http://whatif.vc"
+              },
+              {
+                "name": "Lightswitch Capital",
+                "image": "companies/Lightswitch Capital.png",
+                "description": "Lightswitch Capital is a venture capital firm.",
+                "website": "https://www.lightswitchcap.com"
+              },
+              {
+                "name": "Google Ventures",
+                "image": "companies/Google Ventures.png",
+                "description": "Google Ventures is an investment arm of Alphabet that provides seed, venture, and growth-stage funding to technology companies.",
+                "website": "http://www.gv.com"
+              },
+              {
+                "name": "Downing Ventures",
+                "image": "companies/Downing Ventures.png",
+                "description": "Downing Ventures, a division of Downing LLP, invests venture capital into early and growth stage technology businesses.",
+                "website": "https://downing.co.uk/ventures/"
+              },
+              {
+                "name": "LocalGlobe",
+                "image": "companies/LocalGlobe.png",
+                "description": "LocalGlobe is a venture capital firm that focuses on seed and impact investments.",
+                "website": "http://www.localglobe.vc"
+              },
+              {
+                "name": "Eurazeo",
+                "image": "companies/Eurazeo.png",
+                "description": "Eurazeo is a private equity and venture capital firm that invests in SMEs and manages a diversified portfolio of assets.",
+                "website": "https://www.eurazeo.com"
+              },
+              {
+                "name": "Warburg Pincus",
+                "image": "companies/Warburg Pincus.png",
+                "description": "Warburg Pincus is a private equity firm focused on growth investing.",
+                "website": "http://www.warburgpincus.com"
+              },
+              {
+                "name": "Bill & Melinda Gates Foundation",
+                "image": "companies/Bill & Melinda Gates Foundation.png",
+                "description": "Bill & Melinda Gates Foundation supports initiatives in education, world health and population, and community giving.",
+                "website": "http://www.gatesfoundation.org"
+              },
+              {
+                "name": "IQ Capital",
+                "image": "companies/IQ Capital.png",
+                "description": "IQ Capital is a Cambridge & London -based VC firm investing in early-stage deeptech companies.",
+                "website": "http://www.iqcapital.vc"
+              },
+              {
+                "name": "Parkwalk Advisors",
+                "image": "companies/Parkwalk Advisors.png",
+                "description": "Parkwalk is an investment management firm focused on UK-based technology companies that are spun out of UK university and research centres.",
+                "website": "http://www.parkwalkadvisors.com"
+              },
+              {
+                "name": "Hoxton Ventures",
+                "image": "companies/Hoxton Ventures.png",
+                "description": "Hoxton Ventures is an early-stage venture capital firm that invests in global tech companies.",
+                "website": "https://www.hoxtonventures.com"
+              },
+              {
+                "name": "bmp Ventures",
+                "image": "companies/bmp Ventures.png",
+                "description": "bmp Ventures is a venture capital firm.",
+                "website": "http://www.bmp.com"
+              },
+              {
+                "name": "Human Longevity and Performance Impact Venture Fund",
+                "image": "companies/Human Longevity and Performance Impact Venture Fund.png",
+                "description": "Human Longevity and Performance Impact Venture Fund is a longevity focused early stage venture capital fund.",
+                "website": "N/A"
+              },
+              {
+                "name": "CooperSurgical",
+                "image": "companies/CooperSurgical.png",
+                "description": "CooperSurgical provides a full portfolio of medical and surgical products.",
+                "website": "http://www.coopersurgical.com"
+              },
+              {
+                "name": "Meusinvest (Noshaq)",
+                "image": "companies/Meusinvest (Noshaq).png",
+                "description": "Meusinvest is a company that provides financing and other services to businesses.",
+                "website": "http://www.meusinvest.be"
+              },
+              {
+                "name": "PeakBridge",
+                "image": "companies/PeakBridge.png",
+                "description": "PeakBridge is an Alternative Investment Fund Manager and Investment Services Firm specialized in FoodTech.",
+                "website": "https://peakbridge.vc"
+              },
+              {
+                "name": "K2 HealthVentures",
+                "image": "companies/K2 HealthVentures.png",
+                "description": "K2 HealthVentures is an alternative investment firm.",
+                "website": "https://k2healthventures.com/"
+              },
+              {
+                "name": "Korify Capital",
+                "image": "companies/Korify Capital.png",
+                "description": "Korify Capital invests in late stage/pre IPO venture opportunities and makes opportunity-driven investments in smaller companies.",
+                "website": "https://korifycapital.com/"
+              },
+              {
+                "name": "b2venture (formerly btov Partners)",
+                "image": "companies/b2venture (formerly btov Partners).png",
+                "description": "b2venture is a venture capital firm focused on early-stage investments in digital and industrial technology companies.",
+                "website": "http://www.b2venture.vc"
+              },
+              {
+                "name": "AlbaCore Capital",
+                "image": "companies/AlbaCore Capital.png",
+                "description": "Otsuka Holdings creates pharmaceuticals, nutraceuticals, and functional foods.",
+                "website": "https://www.albacorecapital.com"
+              },
+              {
+                "name": "AOL",
+                "image": "companies/AOL.png",
+                "description": "Amerindo Investment Advisors was an investment advisory services firm",
+                "website": "http://www.aol.com"
+              },
+              {
+                "name": "Compaq",
+                "image": "companies/Compaq.png",
+                "description": "AOL Lifestream is a web-based application that enables users to keep track of all their comments on social networking sites.",
+                "website": "http://www.compaq.com/"
+              },
+              {
+                "name": "Highmark Ventures",
+                "image": "companies/Highmark Ventures.png",
+                "description": "Medtech Convergence Fund is the convergence of advanced materials science, component miniaturization, sensors and software.",
+                "website": "http://platform.dkv.global/mind-map/194082"
+              },
+              {
+                "name": "Red Antler",
+                "image": "companies/Red Antler.png",
+                "description": "T&W Medical",
+                "website": "http://redantler.com"
+              },
+              {
+                "name": "Alexandria Real Estate Equities",
+                "image": "companies/Alexandria Real Estate Equities.png",
+                "description": "Alexandria Real Estate Equities is a real estate investment company.",
+                "website": "http://www.are.com"
+              },
+              {
+                "name": "Polaris Partners",
+                "image": "companies/Polaris Partners.png",
+                "description": "Polaris Partners is an investment firm that invests in healthcare and biotechnology companies.",
+                "website": "http://polarispartners.com"
+              },
+              {
+                "name": "Wayra",
+                "image": "companies/Wayra.png",
+                "description": "Wayra connects Telefonica and technological disruptors around the world.",
+                "website": "https://www.wayra.com"
+              },
+              {
+                "name": "8VC",
+                "image": "companies/8VC.png",
+                "description": "8VC aims to transform the technology infrastructure behind many industries.",
+                "website": "http://www.8vc.com"
+              },
+              {
+                "name": "Tiger Global Management",
+                "image": "companies/Tiger Global Management.png",
+                "description": "Tiger Global Management is an investment firm that deploys capital globally in both public and private markets.",
+                "website": "http://tigerglobal.com"
+              },
+              {
+                "name": "Future Planet Capital",
+                "image": "companies/Future Planet Capital.png",
+                "description": "Future Planet is an impact-led venture capital firm that invests in technology and life science companies from leading research centres",
+                "website": "https://futureplanetcapital.com"
+              },
+              {
+                "name": "Omnes Capital",
+                "image": "companies/Omnes Capital.png",
+                "description": "Omnes is a leading private equity firm dedicated to energy transition (infrastructure) and innovation (deeptech venture capital).",
+                "website": "https://www.omnescapital.com/en/"
+              },
+              {
+                "name": "Franklin Templeton",
+                "image": "companies/Franklin Templeton.png",
+                "description": "Franklin Templeton India offers some of the best and top mutual funds in India. Buy a wide variety of mutual funds online.",
+                "website": "http://www.franklintempletonindia.com/"
+              },
+              {
+                "name": "South Park Commons",
+                "image": "companies/South Park Commons.png",
+                "description": "South Park Commons brings together talented people to share ideas, explore directions, and realize opportunities.",
+                "website": "http://www.southparkcommons.com"
+              },
+              {
+                "name": "Transformation Capital",
+                "image": "companies/Transformation Capital.png",
+                "description": "Transformation Capital is a growth equity fund focused on innovative healthcare IT and services companies.",
+                "website": "https://www.transformcap.com"
+              },
+              {
+                "name": "Neurotechnology Investors",
+                "image": "companies/Neurotechnology Investors.png",
+                "description": "Neurotechnology Investors provides health care facilities and services.",
+                "website": "https://themdadvantage.com/"
+              },
+              {
+                "name": "Fujifilm",
+                "image": "companies/Fujifilm.png",
+                "description": "Fujifilm develops and sells consumer products and business products related to photography.",
+                "website": "http://www.fujifilm.com"
+              },
+              {
+                "name": "Valor Equity Partners",
+                "image": "companies/Valor Equity Partners.png",
+                "description": "Valor Equity Partners is an operational growth investment firm that focuses on growth companies across various stages of development.",
+                "website": "http://www.valorep.com"
+              },
+              {
+                "name": "Convergence Partners",
+                "image": "companies/Convergence Partners.png",
+                "description": "Digital infrastructure",
+                "website": "http://www.convergencepartners.com"
+              },
+              {
+                "name": "AME Cloud Ventures",
+                "image": "companies/AME Cloud Ventures.png",
+                "description": "AME Cloud Ventures invests in seed to later-stage tech companies that build infrastructure and value chains around data.",
+                "website": "http://www.amecloudventures.com"
+              },
+              {
+                "name": "Euclidean Capital",
+                "image": "companies/Euclidean Capital.png",
+                "description": "Euclidean Capital is an investment firm that invests individual & family services management.",
+                "website": ""
+              },
+              {
+                "name": "Franklin Templeton Investments",
+                "image": "companies/Franklin Templeton Investments.png",
+                "description": "Franklin Templeton Investments is a global investment firm that offers mutual funds for individuals and institutions.",
+                "website": "http://www.franklintempleton.com"
+              },
+              {
+                "name": "Bristol Private Equity Club",
+                "image": "companies/Bristol Private Equity Club.png",
+                "description": "Bristol Private Equity Club is an investment firm that invests in its members with businesses in the schemes SEIS and EIS venture capital.",
+                "website": "http://www.bristolprivateequityclub.com/"
+              },
+              {
+                "name": "ARCH Venture Partners",
+                "image": "companies/ARCH Venture Partners.png",
+                "description": "ARCH is a venture firm that focuses on life science discoveries to prevent, detect, and cure disease.",
+                "website": "http://www.archventure.com"
+              },
+              {
+                "name": "Ares Management",
+                "image": "companies/Ares Management.png",
+                "description": "Ares Management is an alternative asset manager focusing on credit, private equity, and real estate.",
+                "website": "http://www.aresmgmt.com"
+              },
+              {
+                "name": "Bristol Myers Squibb",
+                "image": "companies/Bristol Myers Squibb.png",
+                "description": "Bristol Myers Squibb engages in the discovery, development, licensing, manufacturing, marketing, distribution, and sale of pharmaceuticals.",
+                "website": "http://www.bms.com"
+              },
+              {
+                "name": "Alpha Wave Ventures",
+                "image": "companies/Alpha Wave Ventures.png",
+                "description": "Alpha Wave Ventures is an investment firm.",
+                "website": ""
+              },
+              {
+                "name": "Lerer Hippeau",
+                "image": "companies/Lerer Hippeau.png",
+                "description": "Lerer Hippeau is a seed-stage venture capital firm investing equally across the enterprise and consumer sectors.",
+                "website": "http://www.lererhippeau.com"
+              },
+              {
+                "name": "Lux Capital",
+                "image": "companies/Lux Capital.png",
+                "description": "Lux Capital is an investment firm that invests in counter-conventional, seed-stage science and technology ventures.",
+                "website": "http://www.luxcapital.com"
+              },
+              {
+                "name": "National Science Foundation",
+                "image": "companies/National Science Foundation.png",
+                "description": "America’s Seed Fund at the National Science Foundation awards nearly $200 million annually to startups and small businesses.",
+                "website": "https://www.nsf.gov/"
+              },
+              {
+                "name": "Khosla Ventures",
+                "image": "companies/Khosla Ventures.png",
+                "description": "Khosla Ventures provides venture assistance to entrepreneurs in AI, sustainability, enterprise, consumer, health and frontier technologies.",
+                "website": "http://www.khoslaventures.com"
+              },
+              {
+                "name": "Kaiser Permanente",
+                "image": "companies/Kaiser Permanente.png",
+                "description": "Kaiser Permanente is a healthcare provider of integrated managed care consortium and not-for-profit health plans.",
+                "website": "https://healthy.kaiserpermanente.org"
+              },
+              {
+                "name": "Mucker Capital",
+                "image": "companies/Mucker Capital.png",
+                "description": "MuckerLab is a venture capital firm specializing in incubation, pre-seed, seed, startup, early-stage, and Series A investments.",
+                "website": "https://www.mucker.com/"
+              },
+              {
+                "name": "Luxor Capital Group",
+                "image": "companies/Luxor Capital Group.png",
+                "description": "Luxor Capital Group is a New York-based hedge fund focused on equity and fixed income investments across the globe.",
+                "website": "http://luxorcap.com"
+              },
+              {
+                "name": "7percent Ventures",
+                "image": "companies/7percent Ventures.png",
+                "description": "Ex-founders turned VCs, 7percent invests in early stage transformative and deep-tech startups and teams with moonshot ambitions.",
+                "website": "http://7pc.co"
+              },
+              {
+                "name": "Red River West",
+                "image": "companies/Red River West.png",
+                "description": "RRW is a cross-border hands-on VC firm that supports EU tech start-ups in their growth in the US",
+                "website": "http://www.redriverwest.com/"
+              },
+              {
+                "name": "Revolution Growth",
+                "image": "companies/Revolution Growth.png",
+                "description": "Revolution Growth is part of the venture capital firm Revolution that invests in growth stage companies around the country.",
+                "website": "https://www.revolution.com/entity/growth/"
+              },
+              {
+                "name": "Secocha Ventures",
+                "image": "companies/Secocha Ventures.png",
+                "description": "Secocha Ventures is a venture capital firm focused on early stage startups.",
+                "website": "http://www.secocha.com"
+              },
+              {
+                "name": "Sofinnova Partners",
+                "image": "companies/Sofinnova Partners.png",
+                "description": "Sofinnova Partners is a venture capital firm that invests in the life sciences sector, from seed to later-stage.",
+                "website": "https://www.sofinnovapartners.com"
+              },
+              {
+                "name": "Juvenescence",
+                "image": "companies/Juvenescence.png",
+                "description": "Juvenescence is a biotech company that develops therapies and products to modify aging and help people live longer.",
+                "website": "https://www.juvlabs.com"
+              },
+              {
+                "name": "Windham Venture Partners",
+                "image": "companies/Windham Venture Partners.png",
+                "description": "Founded in 2006, Windham is a New York City based venture capital firm focused on healthcare, with a particular emphasis on medical",
+                "website": "http://www.windhamvp.com"
+              },
+              {
+                "name": "Formation 8",
+                "image": "companies/Formation 8.png",
+                "description": "Formation 8, a California-based technology investment firm, focuses on seed, early, and later stage venture investments.",
+                "website": "http://formation8.com"
+              },
+              {
+                "name": "MP Healthcare Venture Management",
+                "image": "companies/MP Healthcare Venture Management.png",
+                "description": "MPH is the venture capital arm of Mitsubishi Tanabe Pharma Corp",
+                "website": "http://www.mp-healthcare.com"
+              },
+              {
+                "name": "MRL Ventures Fund",
+                "image": "companies/MRL Ventures Fund.png",
+                "description": "MRL Ventures is Merck’s independent early-stage therapeutics venture capital fund.",
+                "website": "http://www.mrlv.com"
+              },
+              {
+                "name": "Sobrato Capital",
+                "image": "companies/Sobrato Capital.png",
+                "description": "Sobrato Capital is an investment company that invests in private and public sector funds and high growth enterprises.",
+                "website": "https://www.sobrato.com/capital/"
+              },
+              {
+                "name": "Johnson & Johnson Robotics and Digital Solutions",
+                "image": "companies/Johnson & Johnson Robotics and Digital Solutions.png",
+                "description": "Johnson & Johnson Innovation collaborates with innovators to incorporate science into healthcare solutions.",
+                "website": "http://www.jnjinnovation.com"
+              },
+              {
+                "name": "Bienville Capital",
+                "image": "companies/Bienville Capital.png",
+                "description": "Bienville is a New York-based investment firm managing capital for select institutional and family office clients.",
+                "website": "https://www.bienvillecapital.com/"
+              },
+              {
+                "name": "Laerdal Million Lives Fund",
+                "image": "companies/Laerdal Million Lives Fund.png",
+                "description": "Laerdal Million Lives Fund is a venture capital firm that focuses on investments in life-saving technologies.",
+                "website": "https://laerdalmillionlives.com/"
+              },
+              {
+                "name": "Biospring Partners",
+                "image": "companies/Biospring Partners.png",
+                "description": "Biospring is a growth equity firm that invests in life sciences technology",
+                "website": "https://www.biospring.com"
+              },
+              {
+                "name": "Decacorn Capital",
+                "image": "companies/Decacorn Capital.png",
+                "description": "Decacorn Capital is a Singapore domiciled cross-border technology venture funding initiative.",
+                "website": "https://www.decacorn.vc/"
+              },
+              {
+                "name": "Kendall Capital Partners",
+                "image": "companies/Kendall Capital Partners.png",
+                "description": "Kendall Capital Partners is an early-stage venture capital firm.",
+                "website": "https://www.kcpventures.com/"
+              },
+              {
+                "name": "Naver Cloud",
+                "image": "companies/Naver Cloud.png",
+                "description": "NAVER Cloud is an IT firm that provides cloud-based solutions to businesses of all sizes, thereby, helping businesses overcome challenges.",
+                "website": "https://www.navercloudcorp.com/"
+              },
+              {
+                "name": "Founders Fund",
+                "image": "companies/Founders Fund.png",
+                "description": "Founders Fund is a venture capital firm investing in companies building revolutionary technologies.",
+                "website": "http://www.foundersfund.com"
+              },
+              {
+                "name": "Faber",
+                "image": "companies/Faber.png",
+                "description": "We invest in teams transforming the world with technology.",
+                "website": "http://faber.vc"
+              },
+              {
+                "name": "Bioverge",
+                "image": "companies/Bioverge.png",
+                "description": "Bioverge is a venture capital firm specializing in emerging healthcare startups.",
+                "website": "https://bioverge.com/"
+              },
+              {
+                "name": "5Y Capital",
+                "image": "companies/5Y Capital.png",
+                "description": "5Y Capital is a firm engaged in providing early-stage venture investments.",
+                "website": "https://www.5ycap.com/en/"
+              },
+              {
+                "name": "New Enterprise Associates",
+                "image": "companies/New Enterprise Associates.png",
+                "description": "New Enterprise Associates is a global venture capital firm investing in technology and healthcare.",
+                "website": "http://www.nea.com"
+              },
+              {
+                "name": "General Catalyst",
+                "image": "companies/General Catalyst.png",
+                "description": "General Catalyst is a venture capital firm that provides early-stage and growth equity investments.",
+                "website": "http://www.generalcatalyst.com"
+              },
+              {
+                "name": "General Atlantic",
+                "image": "companies/General Atlantic.png",
+                "description": "General Atlantic is a private equity firm that provides capital and strategic support for growth companies.",
+                "website": "http://www.generalatlantic.com"
+              },
+              {
+                "name": "Keiretsu Forum",
+                "image": "companies/Keiretsu Forum.png",
+                "description": "Keiretsu Forum is a California-based angel group that offers early, seed, and later stage venture, and debt financing investments.",
+                "website": "http://www.keiretsuforum.com"
+              },
+              {
+                "name": "Presight Capital",
+                "image": "companies/Presight Capital.png",
+                "description": "Presight Capital is a venture capital firm investing in the most ambitious founders across sectors, stages, and geographies.",
+                "website": "https://www.presight.vc/"
+              },
+              {
+                "name": "Nimble Ventures",
+                "image": "companies/Nimble Ventures.png",
+                "description": "Nimble Ventures is a family office that makes venture capital investments.",
+                "website": "https://www.nimble.vc/"
+              },
+              {
+                "name": "IDO Investments",
+                "image": "companies/IDO Investments.png",
+                "description": "Supporting the growth of Oman's economy, IDO Investments is the Sultanate’s technology investment firm.",
+                "website": "http://ido.om"
+              },
+              {
+                "name": "FYRFLY Venture Partners",
+                "image": "companies/FYRFLY Venture Partners.png",
+                "description": "FYRFLY Venture Partners is a venture capital firm that focuses on data and intelligence.",
+                "website": "http://www.fyrfly.vc/"
+              },
+              {
+                "name": "Eight Roads Ventures",
+                "image": "companies/Eight Roads Ventures.png",
+                "description": "Eight Roads Ventures is a global venture capital firm managing $11bn of assets across offices in the UK, China, India, Japan, and the US.",
+                "website": "https://eightroads.com/en/"
+              },
+              {
+                "name": "Baillie Gifford",
+                "image": "companies/Baillie Gifford.png",
+                "description": "Baillie Gifford is an independently owned firm that focuses on investment and asset management.",
+                "website": "https://www.bailliegifford.com"
+              },
+              {
+                "name": "Sound Ventures",
+                "image": "companies/Sound Ventures.png",
+                "description": "Sound Ventures is a venture capital firm that seeks to invest in the technology sector.",
+                "website": "https://www.soundventures.com"
+              },
+              {
+                "name": "Stanford University",
+                "image": "companies/Stanford University.png",
+                "description": "Stanford University is a teaching and research university that focuses on graduate programs in law, medicine, education, and business.",
+                "website": "http://www.stanford.edu"
+              },
+              {
+                "name": "VentureFriends",
+                "image": "companies/VentureFriends.png",
+                "description": "VentureFriends is a venture capital fund that invests in tech-enabled companies.",
+                "website": "http://venturefriends.vc"
+              },
+              {
+                "name": "WestRiver Group",
+                "image": "companies/WestRiver Group.png",
+                "description": "WestRiver Group is an investment firm providing integrated capital solutions to the global innovation economy.",
+                "website": "http://www.wrg.vc"
+              },
+              {
+                "name": "Vine Ventures",
+                "image": "companies/Vine Ventures.png",
+                "description": "Vine Ventures is a NYC-based, early stage, software-focused venture capital fund that invests in the U.S., Latin America, and Israel",
+                "website": "https://www.vineventures.com/"
+              },
+              {
+                "name": "SFC Capital",
+                "image": "companies/SFC Capital.png",
+                "description": "Early-stage investor combining its own angel syndicate & seed funds to provide investors with diversified exposure to SEIS/EIS businesses.",
+                "website": "http://www.sfccapital.com/"
+              },
+              {
+                "name": "NHS England",
+                "image": "companies/NHS England.png",
+                "description": "Aim of NHS England is to improve the health outcomes for people in England.",
+                "website": "http://www.england.nhs.uk/"
+              },
+              {
+                "name": "Bethnal Green Ventures",
+                "image": "companies/Bethnal Green Ventures.png",
+                "description": "Bethnal Green Ventures (BGV) is Europe’s leading early stage tech for good VC.",
+                "website": "https://bethnalgreenventures.com/apply"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "type": "circularMindmap3D"
+}

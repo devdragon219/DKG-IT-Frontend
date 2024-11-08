@@ -1,0 +1,70 @@
+export const mockData = {
+  originalData: {
+    headerData: [
+      {
+        name: "About",
+        fontColor: "",
+        backgroundColor: "",
+        hasSubItems: false,
+        subItems: [],
+      },
+      {
+        name: "News",
+        fontColor: "",
+        backgroundColor: "",
+        hasSubItems: false,
+        subItems: [],
+      },
+      {
+        name: "Startups Library",
+        fontColor: "",
+        backgroundColor: "",
+        hasSubItems: false,
+        subItems: [],
+      },
+      {
+        name: "AI Ecosystem Professional Club",
+        fontColor: "",
+        backgroundColor: "",
+        hasSubItems: false,
+        subItems: [],
+      },
+      {
+        name: "AI Knowledge Hub",
+        fontColor: "",
+        backgroundColor: "",
+        hasSubItems: false,
+        subItems: [],
+      },
+      {
+        name: "AI Industry Analytics",
+        fontColor: "",
+        backgroundColor: "",
+        hasSubItems: false,
+        subItems: [],
+      },
+      {
+        name: "AI Industry Framework",
+        fontColor: "",
+        backgroundColor: "",
+        hasSubItems: false,
+        subItems: [],
+      },
+      {
+        name: "Contact us",
+        fontColor: "",
+        backgroundColor: "",
+        hasSubItems: false,
+        subItems: [],
+      },
+      {
+        name: "Become a Partner",
+        fontColor: "",
+        backgroundColor: "",
+        hasSubItems: false,
+        subItems: [],
+      },
+    ],
+    logoBase64: "",
+  },
+};

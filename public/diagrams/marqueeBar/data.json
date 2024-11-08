@@ -1,0 +1,30 @@
+{
+  "originalData": {
+    "data": [
+      {
+        "title": "APL",
+        "progress": 1.01
+      },
+      {
+        "title": "NJK",
+        "progress": 2.01
+      },
+      {
+        "title": "DFGT",
+        "progress": -1.01
+      },
+      {
+        "title": "VBU",
+        "progress": 1.01
+      },
+      {
+        "title": "VBU",
+        "progress": 1.01
+      },
+      {
+        "title": "VBU",
+        "progress": -1.01
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+.recharts-wrapper > svg > g > g {
+  outline: none !important;
+  outline-color: none !important;
+  outline-style: none !important;
+  outline-width: none !important;
+}
+
+.recharts-layer.recharts-pie,
+.recharts-sector:focus {
+  outline: none !important;
+  outline-color: none !important;
+  outline-style: none !important;
+  outline-width: none !important;
+}
+
+.pie-label .recharts-surface {
+  transform: scale(1.4);
+}
+
+.recharts-layer.recharts-pie {
+  transform: translateY(8%);
+}

@@ -1,0 +1,47 @@
+{
+  "originalData": {
+    "title": "Doughnut Chart",
+    "titleFontSize": "1em",
+    "titleFontColor": "#0c5393",
+    "width": 600,
+    "height": 600,
+    "colorTitle": "#03294A",
+    "colorRangeStart": "red",
+    "colorRangeFinish": "yellow",
+    "isDisplayLegend": "true",
+    "labelsColor": "#03294A",
+    "isDisplayDataLabels": "true",
+    "colorDataLabels": "#03294A",
+    "bgColorDataLabels": "#ccc",
+    "fontSizeDataLabels": "20",
+    "borderRadiusDataLabels": "3",
+    "data": {
+      "labels": [
+        "United States",
+        "United Kingdom",
+        "Germany",
+        "Italy",
+        "France",
+        "Spain",
+        "Australia",
+        "Other"
+      ],
+      "datasets": [
+        {
+          "label": "Clinics by country",
+          "data": [3836, 2555, 877, 746, 617, 535, 494, 3198],
+          "backgroundColor": [
+            "rgba(255, 99, 132, 0.5)",
+            "rgba(54, 162, 235, 0.2)",
+            "rgba(255, 206, 86, 0.2)",
+            "rgba(75, 192, 192, 0.2)",
+            "rgba(255, 99, 132, 0.5)",
+            "rgba(54, 162, 235, 0.2)",
+            "rgba(255, 206, 86, 0.2)",
+            "red"
+          ]
+        }
+      ]
+    }
+  }
+}

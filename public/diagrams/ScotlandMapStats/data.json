@@ -1,0 +1,1258 @@
+{
+  "originalData": {
+    "mapTitle": "Digital Map of Scotland",
+    "map_and_stats_connected": true,
+    "colors": {
+      "Clackmannanshire": "#398bbc",
+      "Dumfries and Galloway": "#398bbc",
+      "East Ayrshire": "#398bbc",
+      "East Lothian": "#abcfe4",
+      "East Renfrewshire": "#abcfe4",
+      "Eilean Siar": "#398bbc",
+      "Falkirk": "#abcfe4",
+      "Fife": "#abcfe4",
+      "Highland": "#98c3de",
+      "Inverclyde": "#569cc6",
+      "Moray": "#abcfe4",
+      "North Ayrshire": "#98c3de",
+      "Orkney Islands": "#398bbc",
+      "Perth and Kinross": "#398bbc",
+      "Scottish Borders": "#569cc6",
+      "Shetland Islands": "#98c3de",
+      "South Ayrshire": "#398bbc",
+      "South Lanarkshire": "#398bbc",
+      "Stirling": "#398bbc",
+      "Aberdeen City": "#abcfe4",
+      "Aberdeenshire": "#abcfe4",
+      "Argyll and Bute": "#398bbc",
+      "City of Edinburgh": "#abcfe4",
+      "West Dunbartonshire": "#abcfe4",
+      "West Lothian": "#98c3de",
+      "Angus": "#569cc6",
+      "Dundee City": "#abcfe4",
+      "North Lanarkshire": "#98c3de",
+      "East Dunbartonshire": "#398bbc",
+      "Glasgow City": "#398bbc",
+      "Renfrewshire": "#398bbc",
+      "Midlothian": "#398bbc"
+    },
+    "markers": [
+      {
+        "markerOffset": 0,
+        "name": "Aberdeen City",
+        "coordinates": [-2.52404, 57.6665],
+        "radius": "2",
+        "fontColor": "black",
+        "tooltip": "Aberdeen City",
+        "fontSize": "5px"
+      },
+      {
+        "markerOffset": 0,
+        "name": "Ayrshire",
+        "coordinates": [-4.668, 55.365],
+        "radius": "2",
+        "fontColor": "black",
+        "tooltip": "Ayrshire",
+        "fontSize": "5px"
+      },
+      {
+        "markerOffset": 0,
+        "name": "Edinburgh",
+        "coordinates": [-3.1883, 55.9533],
+        "radius": "2",
+        "fontColor": "black",
+        "tooltip": "Edinburgh",
+        "fontSize": "5px"
+      }
+    ],
+    "stats": [
+      {
+        "label": "Companies",
+        "value": "8900",
+        "iconBackground": "rgba(115, 103, 240, 0.12)",
+        "icon": "bag"
+      },
+      {
+        "label": "Total Investors",
+        "value": "4100",
+        "iconBackground": "rgba(115, 103, 240, 0.12)",
+        "icon": "fourSquares"
+      },
+      {
+        "label": "Investors based in UK",
+        "value": "600",
+        "iconBackground": "rgba(40, 199, 111, 0.12)",
+        "icon": "flower"
+      },
+      {
+        "label": "Leaders",
+        "value": "1600",
+        "iconBackground": "rgba(0, 207, 232, 0.12)",
+        "icon": "person"
+      },
+      {
+        "label": "Hubs",
+        "value": "300",
+        "iconBackground": "rgba(234, 84, 85, 0.12)",
+        "icon": "cube"
+      },
+      {
+        "label": "Public Companies",
+        "value": "70",
+        "iconBackground": "rgba(115, 103, 240, 0.12)",
+        "icon": "arrow"
+      }
+    ],
+    "dataForBArChart": {
+      "Clackmannanshire": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Dumfries and Galloway": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "East Ayrshire": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "East Lothian": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "East Renfrewshire": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Eilean Siar": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Falkirk": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Fife": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Highland": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Inverclyde": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Moray": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "North Ayrshire": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Orkney Islands": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Perth and Kinross": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Scottish Borders": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Shetland Islands": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "South Ayrshire": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "South Lanarkshire": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Stirling": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Aberdeen City": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Aberdeenshire": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Argyll and Bute": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "City of Edinburgh": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "West Dunbartonshire": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "West Lothian": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Angus": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Dundee City": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "North Lanarkshire": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "East Dunbartonshire": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Glasgow City": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Renfrewshire": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      },
+      "Midlothian": {
+        "height": "700px",
+        "labels": { "value1": "Companies", "value2": "R&D Centres" },
+        "colors": { "value1": "#66b1c9", "value2": "#548cd8" },
+        "data": [
+          { "name": "Page A", "value1": 23, "value2": 26 },
+          { "name": "Page B", "value1": 23, "value2": 11 },
+          { "name": "Page C", "value1": 6, "value2": 1 },
+          { "name": "Page D", "value1": 5, "value2": 3 },
+          { "name": "Page E", "value1": 4, "value2": 3 },
+          { "name": "Page F", "value1": 2, "value2": 2 }
+        ]
+      }
+    },
+    "dataForPolarChart": {
+      "Clackmannanshire": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Dumfries and Galloway": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [2, 5, 1, 3, 3]
+      },
+      "East Ayrshire": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [172, 515, 441, 123, 293]
+      },
+      "East Lothian": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "East Renfrewshire": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Eilean Siar": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Falkirk": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Fife": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Highland": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Inverclyde": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Moray": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "North Ayrshire": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Orkney Islands": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Perth and Kinross": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Scottish Borders": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Shetland Islands": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "South Ayrshire": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "South Lanarkshire": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Stirling": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Aberdeen City": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Aberdeenshire": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Argyll and Bute": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "City of Edinburgh": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "West Dunbartonshire": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "West Lothian": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Angus": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Dundee City": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "North Lanarkshire": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "East Dunbartonshire": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Glasgow City": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Renfrewshire": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "Midlothian": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      }
+    },
+    "dataForKeyIndicator": {
+      "Clackmannanshire": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Dumfries and Galloway": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "East Ayrshire": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "East Lothian": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "East Renfrewshire": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Eilean Siar": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Falkirk": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Fife": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Highland": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Inverclyde": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Moray": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "North Ayrshire": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Orkney Islands": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Perth and Kinross": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Scottish Borders": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Shetland Islands": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "South Ayrshire": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "South Lanarkshire": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Stirling": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Aberdeen City": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Aberdeenshire": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Argyll and Bute": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "City of Edinburgh": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "West Dunbartonshire": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "West Lothian": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Angus": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Dundee City": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "North Lanarkshire": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "East Dunbartonshire": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Glasgow City": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Renfrewshire": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      },
+      "Midlothian": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      }
+    },
+    "defaultData": {
+      "polarData": {
+        "title": "Number of Hubs by Type",
+        "labels": [
+          "Accelerators",
+          "Government Offices",
+          "Incubators",
+          "Industrials Hubs",
+          "R & D Hubs"
+        ],
+        "data": [12, 15, 41, 13, 23]
+      },
+      "keyIndicatorData": {
+        "title": "Companies and Investors Split",
+        "indicators": [
+          { "header": "Technology", "value": "31812" },
+          { "header": "Consulting", "value": "24793" },
+          { "header": "Infrastructure and Others", "value": "34275" },
+          { "header": "Institutional", "value": "525" },
+          { "header": "Investment Funds", "value": "4903" },
+          { "header": "Others", "value": "883" }
+        ]
+      }
+    }
+  },
+  "type": "ManchesterMapStats"
+}

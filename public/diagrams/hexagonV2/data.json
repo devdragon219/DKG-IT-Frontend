@@ -1,0 +1,345 @@
+{
+  "originalData": {
+    "name": "hexagonV2",
+    "data": {
+      "outerHexagon": [
+        {
+          "hexagon": [
+            {
+              "id": 1,
+              "text": "Image Generation",
+              "extraInfo": "Image Generation Models: Explore a comprehensive list of models for generating images. This resource provides an overview of various techniques, architectures, and applications in the field of image generation."
+            },
+            {
+              "id": 2,
+              "text": "Education Assistants",
+              "extraInfo": "Education Assistants: Discover how AI-powered education assistants are transforming learning. This section offers insights into the innovative technologies and applications that enhance the educational experience."
+            },
+            {
+              "id": 3,
+              "text": "3D",
+              "extraInfo": "3D: Delve into the realm of three-dimensional art and technology. Explore the fascinating world of 3D modeling, animation, and innovative applications that bring depth and dimension to visual experiences."
+            },
+            {
+              "id": 4,
+              "text": "AI Tools",
+              "extraInfo": "AI Tools Overview: Discover a comprehensive guide to various AI tools and software, including their applications, features, and the latest advancements in the field of artificial intelligence."
+            },
+            {
+              "id": 5,
+              "text": "ChatBots",
+              "extraInfo": "Chatbot Landscape: Explore a diverse collection of diagrams showcasing a multitude of chatbots. These visual representations provide an overview of the ever-evolving chatbot ecosystem, highlighting different designs, use cases, and technologies employed in the world of conversational AI."
+            },
+            {
+              "id": 6,
+              "text": "Article Writing",
+              "extraInfo": "Article Writing Tools: Discover a range of tools and resources designed to assist with various aspects of article writing, from research and content generation to editing and optimization."
+            },
+            {
+              "id": 7,
+              "text": "Healthcare",
+              "extraInfo": "AI in Healthcare: Explore the intersection of artificial intelligence and healthcare. Learn about innovative applications, technologies, and advancements in the field of AI that are transforming healthcare delivery, diagnosis, and patient care."
+            }
+          ],
+          "color": [
+            "#0eb169",
+            "#9ce458",
+            "#04a3c3",
+            "",
+            "#ff7075",
+            "#ffa7e2",
+            "#287caa"
+          ]
+        },
+        {
+          "hexagon": [
+            {
+              "id": 109,
+              "text": "Image Generation",
+              "extraInfo": "Image Generation Models: Explore a comprehensive list of models for generating images. This resource provides an overview of various techniques, architectures, and applications in the field of image generation."
+            },
+            {
+              "id": 110,
+              "text": "Education Assistants",
+              "extraInfo": "Education Assistants: Discover how AI-powered education assistants are transforming learning. This section offers insights into the innovative technologies and applications that enhance the educational experience."
+            },
+            {
+              "id": 111,
+              "text": "3D",
+              "extraInfo": "3D: Delve into the realm of three-dimensional art and technology. Explore the fascinating world of 3D modeling, animation, and innovative applications that bring depth and dimension to visual experiences."
+            },
+            {
+              "id": 114,
+              "text": "AI Tools",
+              "extraInfo": "AI Tools Overview: Discover a comprehensive guide to various AI tools and software, including their applications, features, and the latest advancements in the field of artificial intelligence."
+            },
+            {
+              "id": 113,
+              "text": "ChatBots",
+              "extraInfo": "Chatbot Landscape: Explore a diverse collection of diagrams showcasing a multitude of chatbots. These visual representations provide an overview of the ever-evolving chatbot ecosystem, highlighting different designs, use cases, and technologies employed in the world of conversational AI."
+            },
+            {
+              "id": 114,
+              "text": "Article Writing",
+              "extraInfo": "Article Writing Tools: Discover a range of tools and resources designed to assist with various aspects of article writing, from research and content generation to editing and optimization."
+            },
+            {
+              "id": 115,
+              "text": "Healthcare",
+              "extraInfo": "AI in Healthcare: Explore the intersection of artificial intelligence and healthcare. Learn about innovative applications, technologies, and advancements in the field of AI that are transforming healthcare delivery, diagnosis, and patient care."
+            }
+          ],
+          "color": [
+            "#0eb169",
+            "#9ce458",
+            "#04a3c3",
+            "",
+            "#ff7075",
+            "#ffa7e2",
+            "#287caa"
+          ]
+        },
+        {
+          "hexagon": [
+            {
+              "id": 109,
+              "text": "Image Generation",
+              "extraInfo": "Image Generation Models: Explore a comprehensive list of models for generating images. This resource provides an overview of various techniques, architectures, and applications in the field of image generation."
+            },
+            {
+              "id": 110,
+              "text": "Education Assistants",
+              "extraInfo": "Education Assistants: Discover how AI-powered education assistants are transforming learning. This section offers insights into the innovative technologies and applications that enhance the educational experience."
+            },
+            {
+              "id": 111,
+              "text": "3D",
+              "extraInfo": "3D: Delve into the realm of three-dimensional art and technology. Explore the fascinating world of 3D modeling, animation, and innovative applications that bring depth and dimension to visual experiences."
+            },
+            {
+              "id": 114,
+              "text": "AI Tools",
+              "extraInfo": "AI Tools Overview: Discover a comprehensive guide to various AI tools and software, including their applications, features, and the latest advancements in the field of artificial intelligence."
+            },
+            {
+              "id": 113,
+              "text": "ChatBots",
+              "extraInfo": "Chatbot Landscape: Explore a diverse collection of diagrams showcasing a multitude of chatbots. These visual representations provide an overview of the ever-evolving chatbot ecosystem, highlighting different designs, use cases, and technologies employed in the world of conversational AI."
+            },
+            {
+              "id": 114,
+              "text": "Article Writing",
+              "extraInfo": "Article Writing Tools: Discover a range of tools and resources designed to assist with various aspects of article writing, from research and content generation to editing and optimization."
+            },
+            {
+              "id": 115,
+              "text": "Healthcare",
+              "extraInfo": "AI in Healthcare: Explore the intersection of artificial intelligence and healthcare. Learn about innovative applications, technologies, and advancements in the field of AI that are transforming healthcare delivery, diagnosis, and patient care."
+            }
+          ],
+          "color": [
+            "#0eb169",
+            "#9ce458",
+            "#04a3c3",
+            "",
+            "#ff7075",
+            "#ffa7e2",
+            "#287caa"
+          ]
+        },
+        {
+          "hexagon": [
+            {
+              "id": 109,
+              "text": "Image Generation",
+              "extraInfo": "Image Generation Models: Explore a comprehensive list of models for generating images. This resource provides an overview of various techniques, architectures, and applications in the field of image generation."
+            },
+            {
+              "id": 110,
+              "text": "Education Assistants",
+              "extraInfo": "Education Assistants: Discover how AI-powered education assistants are transforming learning. This section offers insights into the innovative technologies and applications that enhance the educational experience."
+            },
+            {
+              "id": 111,
+              "text": "3D",
+              "extraInfo": "3D: Delve into the realm of three-dimensional art and technology. Explore the fascinating world of 3D modeling, animation, and innovative applications that bring depth and dimension to visual experiences."
+            },
+            {
+              "id": 114,
+              "text": "AI Tools",
+              "extraInfo": "AI Tools Overview: Discover a comprehensive guide to various AI tools and software, including their applications, features, and the latest advancements in the field of artificial intelligence."
+            },
+            {
+              "id": 113,
+              "text": "ChatBots",
+              "extraInfo": "Chatbot Landscape: Explore a diverse collection of diagrams showcasing a multitude of chatbots. These visual representations provide an overview of the ever-evolving chatbot ecosystem, highlighting different designs, use cases, and technologies employed in the world of conversational AI."
+            },
+            {
+              "id": 114,
+              "text": "Article Writing",
+              "extraInfo": "Article Writing Tools: Discover a range of tools and resources designed to assist with various aspects of article writing, from research and content generation to editing and optimization."
+            },
+            {
+              "id": 115,
+              "text": "Healthcare",
+              "extraInfo": "AI in Healthcare: Explore the intersection of artificial intelligence and healthcare. Learn about innovative applications, technologies, and advancements in the field of AI that are transforming healthcare delivery, diagnosis, and patient care."
+            }
+          ],
+          "color": [
+            "#0eb169",
+            "#9ce458",
+            "#04a3c3",
+            "",
+            "#ff7075",
+            "#ffa7e2",
+            "#287caa"
+          ]
+        },
+        {
+          "hexagon": [
+            {
+              "id": 109,
+              "text": "Image Generation",
+              "extraInfo": "Image Generation Models: Explore a comprehensive list of models for generating images. This resource provides an overview of various techniques, architectures, and applications in the field of image generation."
+            },
+            {
+              "id": 110,
+              "text": "Education Assistants",
+              "extraInfo": "Education Assistants: Discover how AI-powered education assistants are transforming learning. This section offers insights into the innovative technologies and applications that enhance the educational experience."
+            },
+            {
+              "id": 111,
+              "text": "3D",
+              "extraInfo": "3D: Delve into the realm of three-dimensional art and technology. Explore the fascinating world of 3D modeling, animation, and innovative applications that bring depth and dimension to visual experiences."
+            },
+            {
+              "id": 114,
+              "text": "AI Tools",
+              "extraInfo": "AI Tools Overview: Discover a comprehensive guide to various AI tools and software, including their applications, features, and the latest advancements in the field of artificial intelligence."
+            },
+            {
+              "id": 113,
+              "text": "ChatBots"
+            },
+            {
+              "id": 114,
+              "text": "Article Writing",
+              "extraInfo": "Article Writing Tools: Discover a range of tools and resources designed to assist with various aspects of article writing, from research and content generation to editing and optimization."
+            },
+            {
+              "id": 115,
+              "text": "Healthcare",
+              "extraInfo": "AI in Healthcare: Explore the intersection of artificial intelligence and healthcare. Learn about innovative applications, technologies, and advancements in the field of AI that are transforming healthcare delivery, diagnosis, and patient care."
+            }
+          ],
+          "color": [
+            "#0eb169",
+            "#9ce458",
+            "#04a3c3",
+            "",
+            "#ff7075",
+            "#ffa7e2",
+            "#287caa"
+          ]
+        },
+        {
+          "hexagon": [
+            {
+              "id": 109,
+              "text": "Image Generation",
+              "extraInfo": "Image Generation Models: Explore a comprehensive list of models for generating images. This resource provides an overview of various techniques, architectures, and applications in the field of image generation."
+            },
+            {
+              "id": 110,
+              "text": "Education Assistants",
+              "extraInfo": "Education Assistants: Discover how AI-powered education assistants are transforming learning. This section offers insights into the innovative technologies and applications that enhance the educational experience."
+            },
+            {
+              "id": 111,
+              "text": "3D",
+              "extraInfo": "3D: Delve into the realm of three-dimensional art and technology. Explore the fascinating world of 3D modeling, animation, and innovative applications that bring depth and dimension to visual experiences."
+            },
+            {
+              "id": 114,
+              "text": "AI Tools",
+              "extraInfo": "AI Tools Overview: Discover a comprehensive guide to various AI tools and software, including their applications, features, and the latest advancements in the field of artificial intelligence."
+            },
+            {
+              "id": 113,
+              "text": "ChatBots",
+              "extraInfo": "Chatbot Landscape: Explore a diverse collection of diagrams showcasing a multitude of chatbots. These visual representations provide an overview of the ever-evolving chatbot ecosystem, highlighting different designs, use cases, and technologies employed in the world of conversational AI."
+            },
+            {
+              "id": 114,
+              "text": "Article Writing",
+              "extraInfo": "Article Writing Tools: Discover a range of tools and resources designed to assist with various aspects of article writing, from research and content generation to editing and optimization."
+            },
+            {
+              "id": 115,
+              "text": "Healthcare",
+              "extraInfo": "AI in Healthcare: Explore the intersection of artificial intelligence and healthcare. Learn about innovative applications, technologies, and advancements in the field of AI that are transforming healthcare delivery, diagnosis, and patient care."
+            }
+          ],
+          "color": [
+            "#0eb169",
+            "#9ce458",
+            "#04a3c3",
+            "",
+            "#ff7075",
+            "#ffa7e2",
+            "#287caa"
+          ]
+        }
+      ],
+      "centerHexagon": {
+        "hexagon": [
+          {
+            "id": 109,
+            "text": "Image Generation",
+            "extraInfo": "Image Generation Models: Explore a comprehensive list of models for generating images. This resource provides an overview of various techniques, architectures, and applications in the field of image generation."
+          },
+          {
+            "id": 110,
+            "text": "Education Assistants",
+            "extraInfo": "Education Assistants: Discover how AI-powered education assistants are transforming learning. This section offers insights into the innovative technologies and applications that enhance the educational experience."
+          },
+          {
+            "id": 111,
+            "text": "3D",
+            "extraInfo": "3D: Delve into the realm of three-dimensional art and technology. Explore the fascinating world of 3D modeling, animation, and innovative applications that bring depth and dimension to visual experiences."
+          },
+          {
+            "id": 114,
+            "text": "AI Tools",
+            "extraInfo": "AI Tools Overview: Discover a comprehensive guide to various AI tools and software, including their applications, features, and the latest advancements in the field of artificial intelligence."
+          },
+          {
+            "id": 113,
+            "text": "ChatBots",
+            "extraInfo": "Chatbot Landscape: Explore a diverse collection of diagrams showcasing a multitude of chatbots. These visual representations provide an overview of the ever-evolving chatbot ecosystem, highlighting different designs, use cases, and technologies employed in the world of conversational AI."
+          },
+          {
+            "id": 114,
+            "text": "Article Writing",
+            "extraInfo": "Article Writing Tools: Discover a range of tools and resources designed to assist with various aspects of article writing, from research and content generation to editing and optimization."
+          },
+          {
+            "id": 115,
+            "text": "Healthcare",
+            "extraInfo": "AI in Healthcare: Explore the intersection of artificial intelligence and healthcare. Learn about innovative applications, technologies, and advancements in the field of AI that are transforming healthcare delivery, diagnosis, and patient care."
+          }
+        ],
+        "color": [
+          "#0eb169",
+          "#9ce458",
+          "#04a3c3",
+          "",
+          "#ff7075",
+          "#ffa7e2",
+          "#287caa"
+        ]
+      }
+    }
+  },
+  "type": "hexagon"
+}

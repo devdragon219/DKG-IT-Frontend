@@ -1,0 +1,16 @@
+.ant-menu {
+  background: transparent !important;
+}
+
+/* .ant-menu-dark {
+  color: var(--ant-menu-submenu-title) !important;
+} */
+
+.ant-menu-item-selected {
+  background-color: var(--ant-menu-item-selected) !important;
+  /* color: var(--ant-menu-submenu-title) !important; */
+}
+
+/* .ant-menu-submenu-title {
+  color: var(--ant-menu-submenu-title) !important;
+} */

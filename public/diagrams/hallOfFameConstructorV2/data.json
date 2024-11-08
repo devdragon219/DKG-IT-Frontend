@@ -1,0 +1,301 @@
+{
+  "originalData": {
+    "title": "DEMO TITLE",
+    "textColor": "#fff",
+    "borderColor": "#fff",
+    "backgroundColor": "#1D3556",
+    "numCols": 8,
+    "isHorisontal": false,
+    "gapSize": 0,
+    "bricksData": [
+      {
+        "name": "Alice Smith1",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 0,
+        "col": 0
+      },
+      {
+        "name": "Alice Smith2",
+        "field": "Chemistry",
+        "country": "Canada",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 0,
+        "col": 1
+      },
+      {
+        "name": "Alice Smith3",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 0,
+        "col": 2
+      },
+      {
+        "name": "Alice Smith4",
+        "field": "Chemistry",
+        "country": "Canada",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 0,
+        "col": 3
+      },
+      {
+        "name": "Alice Smith5",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 0,
+        "col": 4
+      },
+      {
+        "name": "Alice Smith6",
+        "field": "Chemistry",
+        "country": "Canada",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 0,
+        "col": 5
+      },
+      {
+        "name": "Alice Smith7",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 0,
+        "col": 6
+      },
+      {
+        "name": "Alice Smith8",
+        "field": "Chemistry",
+        "country": "Canada",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 0,
+        "col": 7
+      },
+      {
+        "name": "Alice Smith9",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 1,
+        "col": 0
+      },
+      {
+        "name": "Alice Smith1",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 1,
+        "col": 1
+      },
+      {
+        "name": "Alice Smith2",
+        "field": "Chemistry",
+        "country": "Canada",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 1,
+        "col": 2
+      },
+      {
+        "name": "Alice Smith3",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 1,
+        "col": 3
+      },
+      {
+        "name": "Alice Smith4",
+        "field": "Chemistry",
+        "country": "Canada",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 1,
+        "col": 4
+      },
+      {
+        "name": "Alice Smith5",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 1,
+        "col": 5
+      },
+      {
+        "name": "Alice Smith6",
+        "field": "Chemistry",
+        "country": "Canada",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 1,
+        "col": 6
+      },
+      {
+        "name": "Alice Smith7",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 2,
+        "col": 0
+      },
+      {
+        "name": "Alice Smith8",
+        "field": "Chemistry",
+        "country": "Canada",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 2,
+        "col": 1
+      },
+      {
+        "name": "Alice Smith9",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 2,
+        "col": 2
+      },
+      {
+        "name": "Alice Smith1",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 2,
+        "col": 3
+      },
+      {
+        "name": "Alice Smith2",
+        "field": "Chemistry",
+        "country": "Canada",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 2,
+        "col": 4
+      },
+      {
+        "name": "Alice Smith3",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 2,
+        "col": 5
+      },
+      {
+        "name": "Alice Smith4",
+        "field": "Chemistry",
+        "country": "Canada",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 2,
+        "col": 6
+      },
+      {
+        "name": "Alice Smith5",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 2,
+        "col": 7
+      },
+      {
+        "name": "Alice Smith6",
+        "field": "Chemistry",
+        "country": "Canada",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 3,
+        "col": 0
+      },
+      {
+        "name": "Alice Smith7",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 3,
+        "col": 1
+      },
+      {
+        "name": "Alice Smith8",
+        "field": "Chemistry",
+        "country": "Canada",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 3,
+        "col": 2
+      },
+      {
+        "name": "Alice Smith9",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 3,
+        "col": 3
+      },
+      {
+        "name": "Alice Smith1",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 3,
+        "col": 4
+      },
+      {
+        "name": "Alice Smith2",
+        "field": "Chemistry",
+        "country": "Canada",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 3,
+        "col": 5
+      },
+      {
+        "name": "Alice Smith3",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 3,
+        "col": 6
+      },
+      {
+        "name": "Alice Smith4",
+        "field": "Chemistry",
+        "country": "Canada",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 4,
+        "col": 0
+      },
+      {
+        "name": "Alice Smith5",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 4,
+        "col": 1
+      },
+      {
+        "name": "Alice Smith6",
+        "field": "Chemistry",
+        "country": "Canada",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 4,
+        "col": 2
+      },
+      {
+        "name": "Alice Smith7",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 4,
+        "col": 3
+      },
+      {
+        "name": "Alice Smith8",
+        "field": "Chemistry",
+        "country": "Canada",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 4,
+        "col": 4
+      },
+      {
+        "name": "Alice Smith9",
+        "field": "Biology",
+        "country": "USA",
+        "logo": "https://t0.gstatic.com/images?q=tbn:ANd9GcS7La67pwXxpB3SRfeDWGvS_6ZHWA4pWIpmvPnmHotqQZEgDbFIXBWFybdQ_ADy6twwrTIl",
+        "row": 4,
+        "col": 5
+      }
+    ]
+  }
+}

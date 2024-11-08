@@ -1,0 +1,59 @@
+{
+  "originalData": {
+    "legendDisplay": false,
+    "legendWidth": 80,
+    "textColorAxis": "blue",
+    "fontSizeYAxis": "12px",
+    "fontSizeXAxis": "15px",
+    "fontWeightYAxis": "700",
+    "fontWeightXAxis": "700",
+    "labels": {
+      "value1": "Publicssd",
+      "value2": "Private"
+    },
+    "colors": {
+      "value1": "#7234de",
+      "value2": "#548cd8"
+    },
+    "height": 700,
+    "titleFontSize": "14px", 
+    "title": "Title Text",
+    "data": [
+      {
+        "name": "Page A",
+        "value1": 4000,
+        "value2": 2400
+      },
+      {
+        "name": "Page B",
+        "value1": 3000,
+        "value2": 1398
+      },
+      {
+        "name": "Page C",
+        "value1": 2000,
+        "value2": 9800
+      },
+      {
+        "name": "Page D",
+        "value1": 2780,
+        "value2": 3908
+      },
+      {
+        "name": "Page E",
+        "value1": 1890,
+        "value2": 4800
+      },
+      {
+        "name": "Page F",
+        "value1": 2390,
+        "value2": 3800
+      },
+      {
+        "name": "Page G",
+        "value1": 3490,
+        "value2": 4300
+      }
+    ]
+  }
+}

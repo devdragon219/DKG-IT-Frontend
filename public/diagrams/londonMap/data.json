@@ -1,0 +1,647 @@
+{
+  "originalData": {
+    "title": "Digital Map of London",
+    "backgroundColor": "white",
+    "fontColor": "black",
+    "hoverColor": "#3b729f",
+    "width": "40%",
+    "showMarkers": true,
+    "markers": [
+      {
+        "coordinates": [-0.17476881534353658, 51.533436112222596],
+        "tooltip": "St John & St Elizabeth Hospital",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14711690000000005, 51.51990716467692],
+        "tooltip": "Echelon Health",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.17444115767176827, 51.51776832105214],
+        "tooltip": "Imperial Private Healthcare",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.2268250423282316, 51.510189095713514],
+        "tooltip": "PAAR",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1486739711641159, 51.521821599858875],
+        "tooltip": "Medical Express Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1480568466004241, 51.52067441538855],
+        "tooltip": "The Harley Street Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.13315629768778167, 51.51539261986937],
+        "tooltip": "Atlas Biomed",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-2.6083597528327016, 55.390938827039136],
+        "tooltip": "Healthpath",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-2.1813360865076525, 51.71879289878862],
+        "tooltip": "Invivo Healthcare",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.20464341534353653, 51.65441846483056],
+        "tooltip": "Skin care network",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.15080288337508854, 51.52305164952135],
+        "tooltip": "The London Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14591917700966223, 51.52324996046177],
+        "tooltip": "London Allergy and Immunology Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1900063288358842, 51.40888397478395],
+        "tooltip": "Chronomics",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.10146197116411586, 51.5130920701141],
+        "tooltip": "Harpal Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14746542054627393, 51.523295639422855],
+        "tooltip": "London centre for functional medicine",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.612756506915009, 51.48400520705094],
+        "tooltip": "Mr. Rishi Chana, Hip & Knee Surgeon",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-2.8931474196095897, 56.15225659157511],
+        "tooltip": "The Harley Street Skin Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14944147116411582, 51.518433094651975],
+        "tooltip": "Life Plus Stem Cells",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1796238441794208, 51.51736759894705],
+        "tooltip": "The regenerative clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14838154417942073, 51.51737386991252],
+        "tooltip": "Aria Fertility",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-1.1791808441794207, 52.94996755314351],
+        "tooltip": "Stem Protect",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.45944713599152354, 51.509404228639376],
+        "tooltip": "Smart Cells",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14923196280575413, 50.96447645909981],
+        "tooltip": "Cells4Life",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.4510164580514413, 51.96457858806182],
+        "tooltip": "Better2Know",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1516501995159103, 51.532856081412966],
+        "tooltip": "London Medical",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-1.6244451865061293, 54.97346487352191],
+        "tooltip": "GlycanAge",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.16577607357268268, 51.49914815062895],
+        "tooltip": "Omniya Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.31092524472888416, 51.08901735716457],
+        "tooltip": "Assurity Consulting check the quality of indoor air and asbestos levels;",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-3.118954513493871, 53.40977288818634],
+        "tooltip": "Water analysis services",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.08605189999999999, 51.506394536540334],
+        "tooltip": "London Bridge Hospital",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14653994232924705, 51.51713812165371],
+        "tooltip": "The Phoenix Hospital Group's private sleep clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.19124975767075292, 51.49521277306733],
+        "tooltip": "Cromwell Hospital",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.17539507513446034, 51.504520109787954],
+        "tooltip": "Royal Brompton and Harefield Hospital",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1480296558231177, 51.520857240383506],
+        "tooltip": "LOC Leaders in Oncology Care",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.08612700184763523, 51.506414570296585],
+        "tooltip": "The London Bridge Hospital",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-2.4751710029800784, 53.916089023578095],
+        "tooltip": "Everything Genetic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-71.08933548861752, 42.53661915821391],
+        "tooltip": "Invitae",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.15702941534150583, 51.57721397646489],
+        "tooltip": "The Hamlet Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14704809887915216, 51.52049369790165],
+        "tooltip": "London Psychiatry Center",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14717168465849417, 51.5189987694687],
+        "tooltip": "London Psychiatry Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.17657136014014568, 51.54672878987756],
+        "tooltip": "The Blue Tree Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14422415767075292, 51.52316578491672],
+        "tooltip": "The Portland Hospital",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14758801349387057,51.520981143249394],
+        "tooltip": "Hormone Health",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1235842,51.51503055661124],
+        "tooltip": "Optimale",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14600249999999998,51.51748123930678],
+        "tooltip": "British Allergy Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14737112312037828,51.52051999792689],
+        "tooltip": "The Harley Street Eye Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14818651461136872,51.51862394106573],
+        "tooltip": "Eye Clinic London",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.176139,51.62217658471005],
+        "tooltip": "My-iClinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14806762698755335,51.518654674947825],
+        "tooltip": "Focus Clinics",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.13922240816607684,51.535754187999814],
+        "tooltip": "Hearing Clinic London",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [ -0.14702850704848483,51.5189189075356],
+        "tooltip": "London ENT Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [ 1.4386386613665245,51.361200212745445],
+        "tooltip": "Regain Hearing",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [0.05833198650622333,51.514937217009155],
+        "tooltip": "Beckton Dental Clinics",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1743212441770388,51.51770267801784],
+        "tooltip": "The London Ear, Nose & Throat Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.18612273068326216,51.529882511243166],
+        "tooltip": "Elgin Dental care and implant clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1764134,51.51191418235992],
+        "tooltip": "Hyde park Dental Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14871411349377667,51.519909315154315],
+        "tooltip": "Bost clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1369204134937767,51.51583373093023],
+        "tooltip": "AI beauty clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.029238486506223314,51.5125221258589],
+        "tooltip": "Rejuvence clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1470301288354078,51.52207178572087],
+        "tooltip": "The Devonshire clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.16186627301244663,51.519318940497904],
+        "tooltip": "London Clinic of Nutrition",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.09672039999999998,51.53584192502241],
+        "tooltip": "Health Nutritionist",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.146404342595566,51.51774815777895],
+        "tooltip": "The nutritional therapy clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [0.1849199288354077,51.57611572500961],
+        "tooltip": "Neil Livemore Consulting",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14743337116459224,51.51702430382222],
+        "tooltip": "Raquel Britzke",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1463459153416311,51.51734867915941],
+        "tooltip": "Carolina Capellari Simon",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1465927018478544,51.5175889783845],
+        "tooltip": "MRI scans London",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.26744788991563884,51.40852519455407],
+        "tooltip": "Top MRI",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1150133964420556,51.52328980268476],
+        "tooltip": "Vista Health",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.02644927292671343,51.506690529317005],
+        "tooltip": "Full Body Scan",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1433810948437665,51.521351996518725],
+        "tooltip": "Prescan",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.20594538465836892,51.475810736134115],
+        "tooltip": "Coyne Medical",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14940758208025218,51.51856668919386],
+        "tooltip": "London Private Ultrasound",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14661077645401646,51.52113816386596],
+        "tooltip": "Sonoworld",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.21642976248411633,51.32640083733346],
+        "tooltip": "Phoenix Ultrasound",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1465176,51.51760233094143],
+        "tooltip": "Harley Street Physicians",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1360058779114806,51.52272638847358],
+        "tooltip": "the Institute of Sport, Exercise and Health",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.08688197503176737,51.50424966621129],
+        "tooltip": "London Bridge Sports Medicine",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.18762967116459228,51.49550057006662],
+        "tooltip": "Pure Sports Medicine",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14991731716805218,51.516326967726386],
+        "tooltip": "Schoen clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.327769986334757,51.44677423508528],
+        "tooltip": "London Doctors Clinic Private GP",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1482574783845434,51.51810364417617],
+        "tooltip": "ROC Private Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [ -0.28406403652536116,51.54000191966662],
+        "tooltip": "Clinica Private Healthcare",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.23071171277575686,51.506523882959115],
+        "tooltip": "Private Walk in Clinic (Same Day Doctor)",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [0.298529457404434,51.620501332918856],
+        "tooltip": "Essex Private Clinic - Hair, Skin & Ultrasound Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.3558682891532221,51.6581495931032],
+        "tooltip": "Private Medical Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.1818875846583689,51.550116201935424],
+        "tooltip": "Doctor Today Private Medical Centre",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [ -0.14762074521195837,51.522075212631364],
+        "tooltip": "The Private Clinic of Harley Street",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [ -0.13003837301244664,51.5147106109441],
+        "tooltip": "Private GP Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.08474254254349996,51.520363077590055],
+        "tooltip": "Private Walk-In Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.08891168650622333,51.5165488581926],
+        "tooltip": "One5 Health City | Private GP Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.15762149186755545,51.58137645870076],
+        "tooltip": "Same Day Doctor Private GP",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.09433506322049996,51.514252535711584],
+        "tooltip": "DocTap Private GP",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14852307116459224,51.52189431853704],
+        "tooltip": "Walk In Clinic - Private GP and Full Medical Check up",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [0.3011700552197682,51.61874167162058],
+        "tooltip": "Essex Private Doctors",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.11008847142485245,51.61751132936681],
+        "tooltip": "Palmers Green Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.340626247036806,51.77416934270648],
+        "tooltip": "Private GP Services",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.13114660406622225,51.27538494927796],
+        "tooltip": "The Wells Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [0.011756544177038846,51.568908444055104],
+        "tooltip": "Medazur Medical Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.24939068465836883,51.53779135990714],
+        "tooltip": "Murakami Medical Centre",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.29881977116459224,51.46603433158941],
+        "tooltip": "Bodyvie",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.16617495105405727,51.44557442605577],
+        "tooltip": "The Smart Clinics - Wandsworth",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.3177892288354078,51.45429095455453],
+        "tooltip": "Hinchley Medical Private GP Clinic Esher",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.3349134605520417,51.43848386885399],
+        "tooltip": "Dr Shilpa Davé Private GP Surgery",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.19148260000000003,51.473015239249435],
+        "tooltip": "The GP Surgery - Private GP Fulham Broadway",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14629076398903798,51.51712492714495],
+        "tooltip": "Private Therapy Clinic",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14810475767081557,51.52087059198227],
+        "tooltip": "LOC part of HCA Healthcare UK",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.22165218465836886,51.48783815496675],
+        "tooltip": "Maggie's West London",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.15077157116459222,51.523102858639646],
+        "tooltip": "The London Clinic Cancer Centre",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.21685643186966708,51.46953268849229],
+        "tooltip": "Nuffield Health Cancer Centre",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.19487777695455533,51.5347810659216],
+        "tooltip": "GenesisCare",
+        "markerColor": "#ff0000"
+      },
+      {
+        "coordinates": [-0.14607191534163105,51.516440152685526],
+        "tooltip": "The Royal Marsden Private Care at Cavendish Square",
+        "markerColor": "#ff0000"
+      }
+    ],
+    "colors": {
+      "Barking": "#569cc6",
+      "Battersea": "#abcfe4",
+      "Beckenham": "#398bbc",
+      "Bermondsey and Old Southwark": "#abcfe4",
+      "Bethnal Green and Bow": "#98c3de",
+      "Bexleyheath and Crayford": "#abcfe4",
+      "Brent Central": "#98c3de",
+      "Brent North": "#abcfe4",
+      "Brentford and Isleworth": "#398bbc",
+      "Bromley and Chislehurst": "#98c3de",
+      "Camberwell and Peckham": "#398bbc",
+      "Carshalton and Wallington": "#98c3de",
+      "Chelsea and Fulham": "#abcfe4",
+      "Chingford and Woodford Green": "#98c3de",
+      "Chipping Barnet": "#abcfe4",
+      "Cities of London and Westminster": "#569cc6",
+      "Croydon Central": "#abcfe4",
+      "Croydon North": "#398bbc",
+      "Croydon South": "#98c3de",
+      "Dagenham and Rainham": "#569cc6",
+      "Dulwich and West Norwood": "#98c3de",
+      "Ealing Central and Acton": "#abcfe4",
+      "Ealing North": "#569cc6",
+      "Ealing, Southall": "#98c3de",
+      "East Ham": "#98c3de",
+      "Edmonton": "#abcfe4",
+      "Eltham": "#98c3de",
+      "Enfield North": "#abcfe4",
+      "Enfield, Southgate": "#398bbc",
+      "Erith and Thamesmead": "#569cc6",
+      "Feltham and Heston": "#abcfe4",
+      "Finchley and Golders Green": "#398bbc",
+      "Greenwich and Woolwich": "#98c3de",
+      "Hackney North and Stoke Newington": "#abcfe4",
+      "Hackney South and Shoreditch": "#98c3de",
+      "Hammersmith": "#abcfe4",
+      "Hampstead and Kilburn": "#398bbc",
+      "Harrow East": "#569cc6",
+      "Harrow West": "#98c3de",
+      "Hayes and Harlington": "#abcfe4",
+      "Hendon": "#398bbc",
+      "Holborn and St Pancras": "#569cc6",
+      "Hornchurch and Upminster": "#98c3de",
+      "Hornsey and Wood Green": "#abcfe4",
+      "Ilford North": "#398bbc",
+      "Ilford South": "#569cc6",
+      "Islington North": "#98c3de",
+      "Islington South and Finsbury": "#abcfe4",
+      "Kensington": "#398bbc",
+      "Kingston and Surbiton": "#569cc6",
+      "Lewisham East": "#569cc6",
+      "Lewisham West and Penge": "#98c3de",
+      "Lewisham, Deptford": "#abcfe4",
+      "Leyton and Wanstead": "#398bbc",
+      "Mitcham and Morden": "#569cc6",
+      "Old Bexley and Sidcup": "#98c3de",
+      "Orpington": "#abcfe4",
+      "Poplar and Limehouse": "#398bbc",
+      "Putney": "#569cc6",
+      "Richmond Park": "#98c3de",
+      "Romford": "#abcfe4",
+      "Ruislip, Northwood and Pinner": "#398bbc",
+      "Streatham": "#569cc6",
+      "Sutton and Cheam": "#98c3de",
+      "Tooting": "#abcfe4",
+      "Tottenham": "#398bbc",
+      "Twickenham": "#569cc6",
+      "Uxbridge and South Ruislip": "#98c3de",
+      "Vauxhall": "#abcfe4",
+      "Walthamstow": "#398bbc",
+      "West Ham": "#569cc6",
+      "Westminster North": "#98c3de",
+      "Wimbledon": "#abcfe4"
+    }
+  }
+}

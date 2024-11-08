@@ -1,0 +1,209 @@
+{
+  "originalData": {
+    "fullscreen": true,
+    "data": {
+      "entities": [
+        {
+          "icon": "https://platform.dkv.global/files/DKVentures.png",
+          "label": "Deep Knowledge Ventures",
+          "connections": [11, 17, 18],
+          "uuid": "670aa6cc-db1d-4a44-9b8d-4a84b28a4734"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Longevity_Financial_Club.png",
+          "label": "Longevity Financial Club",
+          "connections": [2, 6, 7],
+          "uuid": "337a047a-3dca-4adc-a9d4-e30d64c5bbfb"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Deep_Knowledge_Analytics.png",
+          "label": "Deep Knowledge Analytics",
+          "connections": [3, 5, 9],
+          "uuid": "fa3896f1-9ad5-4979-b7ca-a045d38ab756"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/5th_Industrial_Revolution_Institute.png",
+          "label": "5th Industrial Revolution Institute",
+          "connections": [4, 6, 10, 12],
+          "uuid": "3b0743b6-2e50-45e0-b440-ff8cd8f30b76"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/InvestTech_Patfrom.png",
+          "label": "InvestTech Patfrom",
+          "connections": [0, 2, 11, 13],
+          "uuid": "bd90f129-1a9f-4fef-acf2-b1d5d97b2ed8"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/FemTech_Analytics.png",
+          "label": "FemTech Analytics",
+          "connections": [4, 6, 17, 5],
+          "uuid": "6dfe7d78-8ccd-4655-a0c9-b8208d8fd61e"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Big_Data_Analytics_Department.png",
+          "label": "Big Data Analytics Department",
+          "connections": [7, 10, 13, 14],
+          "uuid": "2f91723f-3f24-47de-b153-8c19db668e5d"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Biogerontology_Research_Foundation.png",
+          "label": "Biogerontology Research Foundation",
+          "connections": [3, 16, 13, 18],
+          "uuid": "bce47f4d-5eff-407f-8296-b77feea1317e"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/SpaceTech_Analytics.png",
+          "label": "SpaceTech Analytics",
+          "connections": [8, 12, 16],
+          "uuid": "89d4b149-fb1c-4812-b891-40fa7f56e5c5"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/DeepTech_and_Longevity_Industry_Financial_Advisors.png",
+          "label": "DeepTech and Longevity Industry Financial Advisors",
+          "connections": [9, 13, 18],
+          "uuid": "772febd5-394a-4ea8-97b2-6807713ed7e9"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/GovTech_Analytics.png",
+          "label": "GovTech Analytics",
+          "connections": [2, 9, 11],
+          "uuid": "ec894b7d-3f02-4b10-b117-501e11ab2c5f"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Longevity_Swiss_Foundation.png",
+          "label": "Longevity Swiss Foundation",
+          "connections": [4, 10, 13],
+          "uuid": "9c0de034-3032-4645-80d2-701ab63a0611"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/NeuroTech_Analytics.png",
+          "label": "NeuroTech Analytics",
+          "connections": [5, 8, 15],
+          "uuid": "042b3715-b0a8-4889-bd5c-fddf7af3b452"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/ATLAS%20logo%20(black).png",
+          "label": "ATLAS",
+          "connections": [9, 5]
+        },
+        {
+          "icon": "https://platform.dkv.global/files/LONGEVITY_INTERNATIONAL.png",
+          "label": "Longevity international",
+          "connections": [1, 9, 17],
+          "uuid": "42896fdd-9259-449e-84d7-c9a91883d32c"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Aging_Analytics_Agency.png",
+          "label": "Aging Analytics Agency",
+          "connections": [0, 5, 15],
+          "uuid": "8a570b3b-0127-44b4-a410-612ad636c434"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Deep_Pharma_Intelligence.png",
+          "label": "Deep Pharma Intelligence",
+          "connections": [2, 8, 16],
+          "uuid": "be43375f-adec-4dc6-ad85-50eff6e79728"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Longevity_Card.png",
+          "label": "Longevity Card",
+          "connections": [3, 6, 12],
+          "uuid": "d477f807-b613-4931-86da-91dd3f2d2fbc"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Deep_Knowledge_Philanthropy.png",
+          "label": "Deep Knowledge Philanthropy",
+          "connections": [4, 8, 12],
+          "uuid": "bb80f99d-29a8-4781-8c92-a7d1d15de022"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Longevity_Capital.png",
+          "label": "Longevity Capital",
+          "connections": [7, 9, 13],
+          "uuid": "3a3b3c96-f0ef-489b-9451-26cfe513b875"
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Longevity_Network.png",
+          "label": "Longevity Network",
+          "connections": [7, 9, 13]
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Quant_Biomarkers.png",
+          "label": "Quant Biomarkers",
+          "connections": [3, 11, 15]
+        },
+        {
+          "icon": "https://platform.dkv.global/files/InvestTech_Advanced_Solutions.png",
+          "label": "InvestTech Advanced Solutions",
+          "connections": [3, 11, 18]
+        },
+        {
+          "icon": "https://platform.dkv.global/files/longevity_club.png",
+          "label": "longevity club",
+          "connections": [1, 5, 19]
+        },
+        {
+          "icon": "https://platform.dkv.global/files/invest_in_ukraine_tech.png",
+          "label": "Invest in Ukraine Tech",
+          "connections": [1, 5, 19]
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Longevity_Capital.png",
+          "label": "Longevity Capital",
+          "connections": [1, 7, 20]
+        },
+        {
+          "icon": "https://platform.dkv.global/files/DeepTech_and_AI_Association_of_Ukraine.png",
+          "label": "DeepTech and AI Association of Ukraine",
+          "connections": [0, 21]
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Innovation_Eye.png",
+          "label": "Innovation Eye",
+          "connections": [1, 5]
+        },
+        {
+          "icon": "https://platform.dkv.global/files/DeepTech_Platform.png",
+          "label": "DeepTech Platform",
+          "connections": [10, 15]
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Philanthropy_International.png",
+          "label": "Philanthropy International",
+          "connections": [12, 18]
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Global_AI_Ecosystem.png",
+          "label": "Global AI Ecosystem",
+          "connections": [14, 22]
+        },
+        {
+          "icon": "https://platform.dkv.global/files/AI_Industry_Analytics.png",
+          "label": "AI Industry Analytics",
+          "connections": [16, 24]
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Longevity_Nation_Logo.png",
+          "label": "Longevity Nation Logo",
+          "connections": [12, 25]
+        },
+        {
+          "icon": "https://platform.dkv.global/files/Extraterrestrial_Institute.png",
+          "label": "Extraterrestrial Institute",
+          "connections": [13, 26]
+        },
+        {
+          "icon": "https://platform.dkv.global/files/COVID19_Analytics.png",
+          "label": "COVID 19 Analytics",
+          "connections": [14, 28]
+        },
+        {
+          "icon": "https://platform.dkv.global/files/FUTURE_FINTECH_ANALYTICAL_AGENCY.png",
+          "label": "FUTURE FINTECH ANALYTICAL AGENCY",
+          "connections": [16, 30]
+        }
+      ]
+    }
+  },
+  "type": "multiCube3D"
+}

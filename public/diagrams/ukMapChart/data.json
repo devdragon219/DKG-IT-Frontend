@@ -1,0 +1,51 @@
+{
+  "originalData": {
+    "backgroundColor": "#FFFFFF",
+    "colors": {
+        "Wales": "#F5F8CA",
+        "Scotland": "#14A9DB",
+        "Northern Ireland": "#14A9DB",
+        "South West": "#CDC8F7",
+        "South East": "#002760",
+        "London": "#D62F6C",
+        "East of England": "#4130D6",
+        "West Midlands": "#002760",
+        "East Midlands": "#CDC8F7",
+        "North West": "#147BDB",
+        "North East": "#F5F8CA",
+        "Yorkshire and The Humber": "#4130D6"
+    },
+    "borderEnabled": false,
+    "title": "Life Expectancy At Birth in UK, 2020",
+    "legendItems": [
+        {
+            "color": "#002760",
+            "text": "> 83"
+        },
+        {
+            "color": "#14A9DB",
+            "text": "81 - < 83"
+        },
+        {
+            "color": "#147BDB",
+            "text": "77 - < 79"
+        },
+        {
+            "color": "#F5F8CA",
+            "text": " 69 - < 60"
+        },
+        {
+            "color": "#CDC8F7",
+            "text": " 62 - < 58"
+        },
+        {
+            "color": "#4130D6",
+            "text": "57 - < 51"
+        },
+        {
+            "color": "#D62F6C",
+            "text": "> 90"
+        }
+    ]
+  }  
+}

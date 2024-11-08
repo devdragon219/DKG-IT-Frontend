@@ -1,0 +1,38 @@
+{
+  "originalData": {
+    "name": "switzerlandmap",
+    "data": {
+      "headerText": "Digital Map of Switzerland",
+      "headerFontColor": "white",
+      "mapBackgroundColor": "black",
+      "mapData": {
+        "geneve": "Geneve Test",
+        "jura": "Jura",
+        "neuchatel": "Neuchatel",
+        "aargau": "Aargau",
+        "luzern": "Luzern",
+        "nidwalden": "Nidwalden",
+        "valais": "Valais",
+        "appenzellAusserrhoden": "Appenzell Ausserrhoden",
+        "sanktGallen": "Sankt Gallen",
+        "ticino": "Ticino",
+        "glarus": "Glarus",
+        "graubünden": "Graubünden",
+        "schaffhausen": "Schaffhausen",
+        "schwyz": "Schwyz",
+        "thurgau": "Thurgau",
+        "uri": "Uri",
+        "zurich": "Zurich",
+        "zug": "Zug",
+        "fribourg": "Fribourg",
+        "vaud": "Vaud",
+        "baselLandschaft": "Basel-Landschaft",
+        "bern": "Bern",
+        "baselStadt": "Basel-Stadt",
+        "solothurn": "Solothurn",
+        "obwalden": "Obwalden",
+        "appenzellInnerrhoden": "Appenzell Innerrhoden"
+      }
+    }
+  }
+}

@@ -1,0 +1,1169 @@
+{
+  "originalData": {
+    "data": {
+      "title": "Bubble Chart", 
+      "Ylabel": "Ylabel",
+      "Xlabel": "Xlabel",
+      "colorTitle": "#3993E1",
+      "fontSizeTitle": "1em",
+      "colorAxis": "#3993E1",
+      "colorRangeStart": "#3993E1",
+      "colorRangeFinish": "#03294A",
+      "colorText": "white",
+      "width": 400,
+      "height": 400,
+      "rangeScaleStart": 2,
+      "rangeScaleFinish": 30,
+      "categoryList": [
+        {
+          "category": "Asia",
+          "categoryColor": "yellow"
+        },
+        {
+          "category": "Europe",
+          "categoryColor": "green"
+        },        
+        {
+          "category": "Americas",
+          "categoryColor": "orange"
+        },        
+        {
+          "category": "Africa",
+          "categoryColor": "red"
+        },        
+        {
+          "category": "Oceania",
+          "categoryColor": "blue"
+        }
+      ],
+      "children": [
+        {
+          "item": "Afghanistan",
+          "category": "Asia",
+          "xValue": 43.828,
+          "pop": 31889923,
+          "yValue": 974.5803384,
+          "description": "Any info"
+        },
+        {
+          "item": "Albania",
+          "category": "Europe",
+          "xValue": 76.423,
+          "pop": 3600523,
+          "yValue": 5937.029526,
+          "description": "Any info"
+        },
+        {
+          "item": "Algeria",
+          "category": "Africa",
+          "xValue": 72.301,
+          "pop": 33333216,
+          "yValue": 6223.367465,
+          "description": "Any info"
+        },
+        {
+          "item": "Argentina",
+          "category": "Americas",
+          "xValue": 75.32,
+          "pop": 40301927,
+          "yValue": 12779.37964,
+          "description": "Any info"
+        },
+        {
+          "item": "Australia",
+          "category": "Oceania",
+          "xValue": 81.235,
+          "pop": 20434176,
+          "yValue": 34435.36744,
+          "description": "Any info"
+        },
+        {
+          "item": "Austria",
+          "category": "Europe",
+          "xValue": 79.829,
+          "pop": 8199783,
+          "yValue": 36126.4927,
+          "description": "Any info"
+        },
+        {
+          "item": "Bahrain",
+          "category": "Asia",
+          "xValue": 75.635,
+          "pop": 708573,
+          "yValue": 29796.04834,
+          "description": "Any info"
+        },
+        {
+          "item": "Bangladesh",
+          "category": "Asia",
+          "xValue": 64.062,
+          "pop": 150448339,
+          "yValue": 1391.253792,
+          "description": "Any info"
+        },
+        {
+          "item": "Belgium",
+          "category": "Europe",
+          "xValue": 79.441,
+          "pop": 10392226,
+          "yValue": 33692.60508,
+          "description": "Any info"
+        },
+        {
+          "item": "Benin",
+          "category": "Africa",
+          "xValue": 56.728,
+          "pop": 8078314,
+          "yValue": 1441.284873,
+          "description": "Any info"
+        },
+        {
+          "item": "Bolivia",
+          "category": "Americas",
+          "xValue": 65.554,
+          "pop": 9119152,
+          "yValue": 3822.137084,
+          "description": "Any info"
+        },
+        {
+          "item": "Bosnia and Herzegovina",
+          "category": "Europe",
+          "xValue": 74.852,
+          "pop": 4552198,
+          "yValue": 7446.298803,
+          "description": "Any info"
+        },
+        {
+          "item": "Botswana",
+          "category": "Africa",
+          "xValue": 50.728,
+          "pop": 1639131,
+          "yValue": 12569.85177,
+          "description": "Any info"
+        },
+        {
+          "item": "Brazil",
+          "category": "Americas",
+          "xValue": 72.39,
+          "pop": 190010647,
+          "yValue": 9065.800825,
+          "description": "Any info"
+        },
+        {
+          "item": "Bulgaria",
+          "category": "Europe",
+          "xValue": 73.005,
+          "pop": 7322858,
+          "yValue": 10680.79282,
+          "description": "Any info"
+        },
+        {
+          "item": "Burkina Faso",
+          "category": "Africa",
+          "xValue": 52.295,
+          "pop": 14326203,
+          "yValue": 1217.032994,
+          "description": "Any info"
+        },
+        {
+          "item": "Burundi",
+          "category": "Africa",
+          "xValue": 49.58,
+          "pop": 8390505,
+          "yValue": 430.0706916,
+          "description": "Any info"
+        },
+        {
+          "item": "Cambodia",
+          "category": "Asia",
+          "xValue": 59.723,
+          "pop": 14131858,
+          "yValue": 1713.778686,
+          "description": "Any info"
+        },
+        {
+          "item": "Cameroon",
+          "category": "Africa",
+          "xValue": 50.43,
+          "pop": 17696293,
+          "yValue": 2042.09524,
+          "description": "Any info"
+        },
+        {
+          "item": "Canada",
+          "category": "Americas",
+          "xValue": 80.653,
+          "pop": 33390141,
+          "yValue": 36319.23501,
+          "description": "Any info"
+        },
+        {
+          "item": "Central African Republic",
+          "category": "Africa",
+          "xValue": 44.741,
+          "pop": 4369038,
+          "yValue": 706.016537,
+          "description": "Any info"
+        },
+        {
+          "item": "Chad",
+          "category": "Africa",
+          "xValue": 50.651,
+          "pop": 10238807,
+          "yValue": 1704.063724,
+          "description": "Any info"
+        },
+        {
+          "item": "Chile",
+          "category": "Americas",
+          "xValue": 78.553,
+          "pop": 16284741,
+          "yValue": 13171.63885,
+          "description": "Any info"
+        },
+        {
+          "item": "China",
+          "category": "Asia",
+          "xValue": 72.961,
+          "pop": 1318683096,
+          "yValue": 4959.114854,
+          "description": "Any info"
+        },
+        {
+          "item": "Colombia",
+          "category": "Americas",
+          "xValue": 72.889,
+          "pop": 44227550,
+          "yValue": 7006.580419,
+          "description": "Any info"
+        },
+        {
+          "item": "Comoros",
+          "category": "Africa",
+          "xValue": 65.152,
+          "pop": 710960,
+          "yValue": 986.1478792,
+          "description": "Any info"
+        },
+        {
+          "item": "Congo, Dem. Rep.",
+          "category": "Africa",
+          "xValue": 46.462,
+          "pop": 64606759,
+          "yValue": 277.5518587,
+          "description": "Any info"
+        },
+        {
+          "item": "Congo, Rep.",
+          "category": "Africa",
+          "xValue": 55.322,
+          "pop": 3800610,
+          "yValue": 3632.557798,
+          "description": "Any info"
+        },
+        {
+          "item": "Costa Rica",
+          "category": "Americas",
+          "xValue": 78.782,
+          "pop": 4133884,
+          "yValue": 9645.06142,
+          "description": "Any info"
+        },
+        {
+          "item": "Cote d'Ivoire",
+          "category": "Africa",
+          "xValue": 48.328,
+          "pop": 18013409,
+          "yValue": 1544.750112,
+          "description": "Any info"
+        },
+        {
+          "item": "Croatia",
+          "category": "Europe",
+          "xValue": 75.748,
+          "pop": 4493312,
+          "yValue": 14619.22272,
+          "description": "Any info"
+        },
+        {
+          "item": "Cuba",
+          "category": "Americas",
+          "xValue": 78.273,
+          "pop": 11416987,
+          "yValue": 8948.102923,
+          "description": "Any info"
+        },
+        {
+          "item": "Czech Republic",
+          "category": "Europe",
+          "xValue": 76.486,
+          "pop": 10228744,
+          "yValue": 22833.30851,
+          "description": "Any info"
+        },
+        {
+          "item": "Denmark",
+          "category": "Europe",
+          "xValue": 78.332,
+          "pop": 5468120,
+          "yValue": 35278.41874,
+          "description": "Any info"
+        },
+        {
+          "item": "Djibouti",
+          "category": "Africa",
+          "xValue": 54.791,
+          "pop": 496374,
+          "yValue": 2082.481567,
+          "description": "Any info"
+        },
+        {
+          "item": "Dominican Republic",
+          "category": "Americas",
+          "xValue": 72.235,
+          "pop": 9319622,
+          "yValue": 6025.374752,
+          "description": "Any info"
+        },
+        {
+          "item": "Ecuador",
+          "category": "Americas",
+          "xValue": 74.994,
+          "pop": 13755680,
+          "yValue": 6873.262326,
+          "description": "Any info"
+        },
+        {
+          "item": "Egypt",
+          "category": "Africa",
+          "xValue": 71.338,
+          "pop": 80264543,
+          "yValue": 5581.180998,
+          "description": "Any info"
+        },
+        {
+          "item": "El Salvador",
+          "category": "Americas",
+          "xValue": 71.878,
+          "pop": 6939688,
+          "yValue": 5728.353514,
+          "description": "Any info"
+        },
+        {
+          "item": "Equatorial Guinea",
+          "category": "Africa",
+          "xValue": 51.579,
+          "pop": 551201,
+          "yValue": 12154.08975,
+          "description": "Any info"
+        },
+        {
+          "item": "Eritrea",
+          "category": "Africa",
+          "xValue": 58.04,
+          "pop": 4906585,
+          "yValue": 641.3695236,
+          "description": "Any info"
+        },
+        {
+          "item": "Ethiopia",
+          "category": "Africa",
+          "xValue": 52.947,
+          "pop": 76511887,
+          "yValue": 690.8055759,
+          "description": "Any info"
+        },
+        {
+          "item": "Finland",
+          "category": "Europe",
+          "xValue": 79.313,
+          "pop": 5238460,
+          "yValue": 33207.0844,
+          "description": "Any info"
+        },
+        {
+          "item": "France",
+          "category": "Europe",
+          "xValue": 80.657,
+          "pop": 61083916,
+          "yValue": 30470.0167,
+          "description": "Any info"
+        },
+        {
+          "item": "Gabon",
+          "category": "Africa",
+          "xValue": 56.735,
+          "pop": 1454867,
+          "yValue": 13206.48452,
+          "description": "Any info"
+        },
+        {
+          "item": "Gambia",
+          "category": "Africa",
+          "xValue": 59.448,
+          "pop": 1688359,
+          "yValue": 752.7497265,
+          "description": "Any info"
+        },
+        {
+          "item": "Germany",
+          "category": "Europe",
+          "xValue": 79.406,
+          "pop": 82400996,
+          "yValue": 32170.37442,
+          "description": "Any info"
+        },
+        {
+          "item": "Ghana",
+          "category": "Africa",
+          "xValue": 60.022,
+          "pop": 22873338,
+          "yValue": 1327.60891,
+          "description": "Any info"
+        },
+        {
+          "item": "Greece",
+          "category": "Europe",
+          "xValue": 79.483,
+          "pop": 10706290,
+          "yValue": 27538.41188,
+          "description": "Any info"
+        },
+        {
+          "item": "Guatemala",
+          "category": "Americas",
+          "xValue": 70.259,
+          "pop": 12572928,
+          "yValue": 5186.050003,
+          "description": "Any info"
+        },
+        {
+          "item": "Guinea",
+          "category": "Africa",
+          "xValue": 56.007,
+          "pop": 9947814,
+          "yValue": 942.6542111,
+          "description": "Any info"
+        },
+        {
+          "item": "Guinea-Bissau",
+          "category": "Africa",
+          "xValue": 46.388,
+          "pop": 1472041,
+          "yValue": 579.231743,
+          "description": "Any info"
+        },
+        {
+          "item": "Haiti",
+          "category": "Americas",
+          "xValue": 60.916,
+          "pop": 8502814,
+          "yValue": 1201.637154,
+          "description": "Any info"
+        },
+        {
+          "item": "Honduras",
+          "category": "Americas",
+          "xValue": 70.198,
+          "pop": 7483763,
+          "yValue": 3548.330846,
+          "description": "Any info"
+        },
+        {
+          "item": "Hong Kong, China",
+          "category": "Asia",
+          "xValue": 82.208,
+          "pop": 6980412,
+          "yValue": 39724.97867,
+          "description": "Any info"
+        },
+        {
+          "item": "Hungary",
+          "category": "Europe",
+          "xValue": 73.338,
+          "pop": 9956108,
+          "yValue": 18008.94444,
+          "description": "Any info"
+        },{
+          "item": "Iceland",
+          "category": "Europe",
+          "xValue": 81.757,
+          "pop": 301931,
+          "yValue": 36180.78919,
+          "description": "Any info"
+        },
+        {
+          "item": "India",
+          "category": "Asia",
+          "xValue": 64.698,
+          "pop": 1110396331,
+          "yValue": 2452.210407,
+          "description": "Any info"
+        },
+        {
+          "item": "Indonesia",
+          "category": "Asia",
+          "xValue": 70.65,
+          "pop": 223547000,
+          "yValue": 3540.651564,
+          "description": "Any info"
+        },
+        {
+          "item": "Iran",
+          "category": "Asia",
+          "xValue": 70.964,
+          "pop": 69453570,
+          "yValue": 11605.71449,
+          "description": "Any info"
+        },
+        {
+          "item": "Iraq",
+          "category": "Asia",
+          "xValue": 59.545,
+          "pop": 27499638,
+          "yValue": 4471.061906,
+          "description": "Any info"
+        },
+        {
+          "item": "Ireland",
+          "category": "Europe",
+          "xValue": 78.885,
+          "pop": 4109086,
+          "yValue": 40675.99635,
+          "description": "Any info"
+        },
+        {
+          "item": "Israel",
+          "category": "Asia",
+          "xValue": 80.745,
+          "pop": 6426679,
+          "yValue": 25523.2771,
+          "description": "Any info"
+        },
+        {
+          "item": "Italy",
+          "category": "Europe",
+          "xValue": 80.546,
+          "pop": 58147733,
+          "yValue": 28569.7197,
+          "description": "Any info"
+        },
+        {
+          "item": "Jamaica",
+          "category": "Americas",
+          "xValue": 72.567,
+          "pop": 2780132,
+          "yValue": 7320.880262,
+          "description": "Any info"
+        },
+        {
+          "item": "Japan",
+          "category": "Asia",
+          "xValue": 82.603,
+          "pop": 127467972,
+          "yValue": 31656.06806,
+          "description": "Any info"
+        },
+        {
+          "item": "Jordan",
+          "category": "Asia",
+          "xValue": 72.535,
+          "pop": 6053193,
+          "yValue": 4519.461171,
+          "description": "Any info"
+        },
+        {
+          "item": "Kenya",
+          "category": "Africa",
+          "xValue": 54.11,
+          "pop": 35610177,
+          "yValue": 1463.249282,
+          "description": "Any info"
+        },
+        {
+          "item": "Korea, Dem. Rep.",
+          "category": "Asia",
+          "xValue": 67.297,
+          "pop": 23301725,
+          "yValue": 1593.06548,
+          "description": "Any info"
+        },
+        {
+          "item": "Korea, Rep.",
+          "category": "Asia",
+          "xValue": 78.623,
+          "pop": 49044790,
+          "yValue": 23348.13973,
+          "description": "Any info"
+        },
+        {
+          "item": "Kuwait",
+          "category": "Asia",
+          "xValue": 77.588,
+          "pop": 2505559,
+          "yValue": 47306.98978,
+          "description": "Any info"
+        },
+        {
+          "item": "Lebanon",
+          "category": "Asia",
+          "xValue": 71.993,
+          "pop": 3921278,
+          "yValue": 10461.05868,
+          "description": "Any info"
+        },
+        {
+          "item": "Lesotho",
+          "category": "Africa",
+          "xValue": 42.592,
+          "pop": 2012649,
+          "yValue": 1569.331442,
+          "description": "Any info"
+        },
+        {
+          "item": "Liberia",
+          "category": "Africa",
+          "xValue": 45.678,
+          "pop": 3193942,
+          "yValue": 414.5073415,
+          "description": "Any info"
+        },
+        {
+          "item": "Libya",
+          "category": "Africa",
+          "xValue": 73.952,
+          "pop": 6036914,
+          "yValue": 12057.49928,
+          "description": "Any info"
+        },{
+          "item": "Madagascar",
+          "category": "Africa",
+          "xValue": 59.443,
+          "pop": 19167654,
+          "yValue": 1044.770126,
+          "description": "Any info"
+        },
+        {
+          "item": "Malawi",
+          "category": "Africa",
+          "xValue": 48.303,
+          "pop": 13327079,
+          "yValue": 759.3499101,
+          "description": "Any info"
+        },
+        {
+          "item": "Malaysia",
+          "category": "Asia",
+          "xValue": 74.241,
+          "pop": 24821286,
+          "yValue": 12451.6558,
+          "description": "Any info"
+        },
+        {
+          "item": "Mali",
+          "category": "Africa",
+          "xValue": 54.467,
+          "pop": 12031795,
+          "yValue": 1042.581557,
+          "description": "Any info"
+        },
+        {
+          "item": "Mauritania",
+          "category": "Africa",
+          "xValue": 64.164,
+          "pop": 3270065,
+          "yValue": 1803.151496,
+          "description": "Any info"
+        },
+        {
+          "item": "Mauritius",
+          "category": "Africa",
+          "xValue": 72.801,
+          "pop": 1250882,
+          "yValue": 10956.99112,
+          "description": "Any info"
+        },
+        {
+          "item": "Mexico",
+          "category": "Americas",
+          "xValue": 76.195,
+          "pop": 108700891,
+          "yValue": 11977.57496,
+          "description": "Any info"
+        },
+        {
+          "item": "Mongolia",
+          "category": "Asia",
+          "xValue": 66.803,
+          "pop": 2874127,
+          "yValue": 3095.772271,
+          "description": "Any info"
+        },
+        {
+          "item": "Montenegro",
+          "category": "Europe",
+          "xValue": 74.543,
+          "pop": 684736,
+          "yValue": 9253.896111,
+          "description": "Any info"
+        },
+        {
+          "item": "Morocco",
+          "category": "Africa",
+          "xValue": 71.164,
+          "pop": 33757175,
+          "yValue": 3820.17523,
+          "description": "Any info"
+        },
+        {
+          "item": "Mozambique",
+          "category": "Africa",
+          "xValue": 42.082,
+          "pop": 19951656,
+          "yValue": 823.6856205,
+          "description": "Any info"
+        },
+        {
+          "item": "Myanmar",
+          "category": "Asia",
+          "xValue": 62.069,
+          "pop": 47761980,
+          "yValue": 944,
+          "description": "Any info"
+        },
+        {
+          "item": "Namibia",
+          "category": "Africa",
+          "xValue": 52.906,
+          "pop": 2055080,
+          "yValue": 4811.060429,
+          "description": "Any info"
+        },
+        {
+          "item": "Nepal",
+          "category": "Asia",
+          "xValue": 63.785,
+          "pop": 28901790,
+          "yValue": 1091.359778,
+          "description": "Any info"
+        },
+        {
+          "item": "Netherlands",
+          "category": "Europe",
+          "xValue": 79.762,
+          "pop": 16570613,
+          "yValue": 36797.93332,
+          "description": "Any info"
+        },
+        {
+          "item": "New Zealand",
+          "category": "Oceania",
+          "xValue": 80.204,
+          "pop": 4115771,
+          "yValue": 25185.00911,
+          "description": "Any info"
+        },
+        {
+          "item": "Nicaragua",
+          "category": "Americas",
+          "xValue": 72.899,
+          "pop": 5675356,
+          "yValue": 2749.320965,
+          "description": "Any info"
+        },
+        {
+          "item": "Niger",
+          "category": "Africa",
+          "xValue": 56.867,
+          "pop": 12894865,
+          "yValue": 619.6768924,
+          "description": "Any info"
+        },
+        {
+          "item": "Nigeria",
+          "category": "Africa",
+          "xValue": 46.859,
+          "pop": 135031164,
+          "yValue": 2013.977305,
+          "description": "Any info"
+        },
+        {
+          "item": "Norway",
+          "category": "Europe",
+          "xValue": 80.196,
+          "pop": 4627926,
+          "yValue": 49357.19017,
+          "description": "Any info"
+        },
+        {
+          "item": "Oman",
+          "category": "Asia",
+          "xValue": 75.64,
+          "pop": 3204897,
+          "yValue": 22316.19287,
+          "description": "Any info"
+        },
+        {
+          "item": "Pakistan",
+          "category": "Asia",
+          "xValue": 65.483,
+          "pop": 169270617,
+          "yValue": 2605.94758,
+          "description": "Any info"
+        },
+        {
+          "item": "Panama",
+          "category": "Americas",
+          "xValue": 75.537,
+          "pop": 3242173,
+          "yValue": 9809.185636,
+          "description": "Any info"
+        },
+        {
+          "item": "Paraguay",
+          "category": "Americas",
+          "xValue": 71.752,
+          "pop": 6667147,
+          "yValue": 4172.838464,
+          "description": "Any info"
+        },
+        {
+          "item": "Peru",
+          "category": "Americas",
+          "xValue": 71.421,
+          "pop": 28674757,
+          "yValue": 7408.905561,
+          "description": "Any info"
+        },
+        {
+          "item": "Philippines",
+          "category": "Asia",
+          "xValue": 71.688,
+          "pop": 91077287,
+          "yValue": 3190.481016,
+          "description": "Any info"
+        },
+        {
+          "item": "Poland",
+          "category": "Europe",
+          "xValue": 75.563,
+          "pop": 38518241,
+          "yValue": 15389.92468,
+          "description": "Any info"
+        },
+        {
+          "item": "Portugal",
+          "category": "Europe",
+          "xValue": 78.098,
+          "pop": 10642836,
+          "yValue": 20509.64777,
+          "description": "Any info"
+        },
+        {
+          "item": "Puerto Rico",
+          "category": "Americas",
+          "xValue": 78.746,
+          "pop": 3942491,
+          "yValue": 19328.70901,
+          "description": "Any info"
+        },{
+          "item": "Reunion",
+          "category": "Africa",
+          "xValue": 76.442,
+          "pop": 798094,
+          "yValue": 7670.122558,
+          "description": "Any info"
+        },
+        {
+          "item": "Romania",
+          "category": "Europe",
+          "xValue": 72.476,
+          "pop": 22276056,
+          "yValue": 10808.47561,
+          "description": "Any info"
+        },
+        {
+          "item": "Rwanda",
+          "category": "Africa",
+          "xValue": 46.242,
+          "pop": 8860588,
+          "yValue": 863.0884639,
+          "description": "Any info"
+        },
+        {
+          "item": "Sao Tome and Principe",
+          "category": "Africa",
+          "xValue": 65.528,
+          "pop": 199579,
+          "yValue": 1598.435089,
+          "description": "Any info"
+        },
+        {
+          "item": "Saudi Arabia",
+          "category": "Asia",
+          "xValue": 72.777,
+          "pop": 27601038,
+          "yValue": 21654.83194,
+          "description": "Any info"
+        },
+        {
+          "item": "Senegal",
+          "category": "Africa",
+          "xValue": 63.062,
+          "pop": 12267493,
+          "yValue": 1712.472136,
+          "description": "Any info"
+        },
+        {
+          "item": "Serbia",
+          "category": "Europe",
+          "xValue": 74.002,
+          "pop": 10150265,
+          "yValue": 9786.534714,
+          "description": "Any info"
+        },
+        {
+          "item": "Sierra Leone",
+          "category": "Africa",
+          "xValue": 42.568,
+          "pop": 6144562,
+          "yValue": 862.5407561,
+          "description": "Any info"
+        },
+        {
+          "item": "Singapore",
+          "category": "Asia",
+          "xValue": 79.972,
+          "pop": 4553009,
+          "yValue": 47143.17964,
+          "description": "Any info"
+        },
+        {
+          "item": "Slovak Republic",
+          "category": "Europe",
+          "xValue": 74.663,
+          "pop": 5447502,
+          "yValue": 18678.31435,
+          "description": "Any info"
+        },
+        {
+          "item": "Slovenia",
+          "category": "Europe",
+          "xValue": 77.926,
+          "pop": 2009245,
+          "yValue": 25768.25759,
+          "description": "Any info"
+        },
+        {
+          "item": "Somalia",
+          "category": "Africa",
+          "xValue": 48.159,
+          "pop": 9118773,
+          "yValue": 926.1410683,
+          "description": "Any info"
+        },
+        {
+          "item": "South Africa",
+          "category": "Africa",
+          "xValue": 49.339,
+          "pop": 43997828,
+          "yValue": 9269.657808,
+          "description": "Any info"
+        },
+        {
+          "item": "Spain",
+          "category": "Europe",
+          "xValue": 80.941,
+          "pop": 40448191,
+          "yValue": 28821.0637,
+          "description": "Any info"
+        },
+        {
+          "item": "Sri Lanka",
+          "category": "Asia",
+          "xValue": 72.396,
+          "pop": 20378239,
+          "yValue": 3970.095407,
+          "description": "Any info"
+        },
+        {
+          "item": "Sudan",
+          "category": "Africa",
+          "xValue": 58.556,
+          "pop": 42292929,
+          "yValue": 2602.394995,
+          "description": "Any info"
+        },
+        {
+          "item": "Swaziland",
+          "category": "Africa",
+          "xValue": 39.613,
+          "pop": 1133066,
+          "yValue": 4513.480643,
+          "description": "Any info"
+        },
+        {
+          "item": "Sweden",
+          "category": "Europe",
+          "xValue": 80.884,
+          "pop": 9031088,
+          "yValue": 33859.74835,
+          "description": "Any info"
+        },
+        {
+          "item": "Switzerland",
+          "category": "Europe",
+          "xValue": 81.701,
+          "pop": 7554661,
+          "yValue": 37506.41907,
+          "description": "Any info"
+        },
+        {
+          "item": "Syria",
+          "category": "Asia",
+          "xValue": 74.143,
+          "pop": 19314747,
+          "yValue": 4184.548089,
+          "description": "Any info"
+        },
+        {
+          "item": "Taiwan",
+          "category": "Asia",
+          "xValue": 78.4,
+          "pop": 23174294,
+          "yValue": 28718.27684,
+          "description": "Any info"
+        },
+        {
+          "item": "Tanzania",
+          "category": "Africa",
+          "xValue": 52.517,
+          "pop": 38139640,
+          "yValue": 1107.482182,
+          "description": "Any info"
+        },
+        {
+          "item": "Thailand",
+          "category": "Asia",
+          "xValue": 70.616,
+          "pop": 65068149,
+          "yValue": 7458.396327,
+          "description": "Any info"
+        },
+        {
+          "item": "Togo",
+          "category": "Africa",
+          "xValue": 58.42,
+          "pop": 5701579,
+          "yValue": 882.9699438,
+          "description": "Any info"
+        },
+        {
+          "item": "Trinidad and Tobago",
+          "category": "Americas",
+          "xValue": 69.819,
+          "pop": 1056608,
+          "yValue": 18008.50924,
+          "description": "Any info"
+        },
+        {
+          "item": "Tunisia",
+          "category": "Africa",
+          "xValue": 73.923,
+          "pop": 10276158,
+          "yValue": 7092.923025,
+          "description": "Any info"
+        },
+        {
+          "item": "Turkey",
+          "category": "Europe",
+          "xValue": 71.777,
+          "pop": 71158647,
+          "yValue": 8458.276384,
+          "description": "Any info"
+        },
+        {
+          "item": "Uganda",
+          "category": "Africa",
+          "xValue": 51.542,
+          "pop": 29170398,
+          "yValue": 1056.380121,
+          "description": "Any info"
+        },
+        {
+          "item": "United Kingdom",
+          "category": "Europe",
+          "xValue": 79.425,
+          "pop": 60776238,
+          "yValue": 33203.26128,
+          "description": "Any info"
+        },
+        {
+          "item": "United States",
+          "category": "Americas",
+          "xValue": 78.242,
+          "pop": 301139947,
+          "yValue": 42951.65309,
+          "description": "Any info"
+        },
+        {
+          "item": "Uruguay",
+          "category": "Americas",
+          "xValue": 76.384,
+          "pop": 3447496,
+          "yValue": 10611.46299,
+          "description": "Any info"
+        },
+        {
+          "item": "Venezuela",
+          "category": "Americas",
+          "xValue": 73.747,
+          "pop": 26084662,
+          "yValue": 11415.80569,
+          "description": "Any info"
+        },
+        {
+          "item": "Vietnam",
+          "category": "Asia",
+          "xValue": 74.249,
+          "pop": 85262356,
+          "yValue": 2441.576404,
+          "description": "Any info"
+        },
+        {
+          "item": "West Bank and Gaza",
+          "category": "Asia",
+          "xValue": 73.422,
+          "pop": 4018332,
+          "yValue": 3025.349798,
+          "description": "Any info"
+        },
+        {
+          "item": "Yemen, Rep.",
+          "category": "Asia",
+          "xValue": 62.698,
+          "pop": 22211743,
+          "yValue": 2280.769906,
+          "description": "Any info"
+        },
+        {
+          "item": "Zambia",
+          "category": "Africa",
+          "xValue": 42.384,
+          "pop": 11746035,
+          "yValue": 1271.211593,
+          "description": "Any info"
+        },
+        {
+          "item": "Zimbabwe",
+          "category": "Africa",
+          "xValue": 43.487,
+          "pop": 12311143,
+          "yValue": 469.7092981,
+          "description": "Any info"
+        }
+      ]
+    }
+  }
+}
+

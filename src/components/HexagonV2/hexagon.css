@@ -1,0 +1,44 @@
+.circle {
+    display: grid;
+    grid-template-areas: "layer";
+    place-items: center;
+    --radius: 285px;
+    padding: 19% 0;
+    width: 67%;
+  }
+  
+  .stat {
+    grid-area: layer;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: #185adb;
+    font-weight: bold;
+    font-size: 3vmin;
+    --d: calc(var(--i) / var(--total));
+    --r-offset: -0.333turn;
+    --r-amount: 1turn;
+    --r: calc((var(--r-amount) * var(--d)) + var(--r-offset));
+    --transform: rotate(var(--r)) translate(var(--radius)) rotate(calc(-1 * var(--r)));
+    transform: var(--transform);
+    transition: transform 1.5s ease-in-out;
+  }
+  
+.extra-info {
+    width: 28%;
+    border: 1px solid black;
+    margin: 20px;
+    background: white;
+    border-radius: 1px;
+    padding: 20px;
+    height: 400px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.stat:first-child {
+  --transform: rotate(0deg);
+}

@@ -1,0 +1,92 @@
+{
+  "originalData": {
+    "logoBase64": "",
+    "headerData": [
+      {
+        "w": 2,
+        "h": 2,
+        "x": 0,
+        "y": 0,
+        "i": "b96ee564-5560-42a3-ba70-67d24adbd3cb",
+        "moved": false,
+        "static": false,
+        "data": {
+          "name": "Contact Us",
+          "fontColor": "#000000",
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#073863",
+          "link": ""
+        },
+        "type": "HeaderButtonComponent"
+      },
+      {
+        "w": 2,
+        "h": 2,
+        "x": 2,
+        "y": 0,
+        "i": "19d63b95-7987-4747-a3a9-08f2b161a3df",
+        "moved": false,
+        "static": false,
+        "data": {
+          "name": "About Us",
+          "fontColor": "#000000",
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#073863",
+          "link": ""
+        },
+        "type": "HeaderButtonComponent"
+      },
+      {
+        "w": 2,
+        "h": 2,
+        "x": 4,
+        "y": 0,
+        "i": "22026fb1-1adc-4b08-a789-693ed5774671",
+        "moved": false,
+        "static": false,
+        "data": {
+          "name": "Startups Library",
+          "fontColor": "#000000",
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#073863",
+          "link": ""
+        },
+        "type": "HeaderButtonComponent"
+      }
+    ],
+    "dataSource": [
+      {
+        "w": 12,
+        "h": 8,
+        "x": 0,
+        "y": 0,
+        "i": "3589e8c0-4175-4155-bdaf-6ba111d5435d",
+        "moved": false,
+        "static": false,
+        "data": {
+          "image": [
+            {
+              "url": "https://dkvtools.blob.core.windows.net/it-tools/files/Screenshot_2024-07-05_at_12.51.14_am.png",
+              "id": "ae409a25-ddd7-4938-af56-df7fa833293a",
+              "name": "Screenshot 2024-07-05 at 12.51.14 am.png"
+            }
+          ]
+        },
+        "type": "ImageSection"
+      },
+      {
+        "w": 12,
+        "h": 15,
+        "x": 0,
+        "y": 9,
+        "i": "69cbeeb0-45e0-40db-9e77-5ead70132336",
+        "moved": false,
+        "static": false,
+        "data": { "slug": "DPI_Dashboard_3_0" },
+        "type": "iframeComponent"
+      }
+    ]
+  },
+  "configs": {},
+  "type": "pageBuilder"
+}

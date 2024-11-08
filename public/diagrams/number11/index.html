@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chart Number 11</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      const sliceArray = (arr, start, end) => arr.slice(start, end);
+
+      const splitArray = (arr, chunkSize) => {
+        let result = [];
+        for (let i = 0; i < arr.length; i += chunkSize) {
+          let chunk = arr.slice(i, i + chunkSize);
+          result.push(chunk);
+        }
+        return result;
+      };
+
+      const render = (originalData) => {
+        const fontFamily = "Roboto";
+
+        const originalWidth = 1400;
+        const originalHeight = 800;
+        const margin = originalHeight * 0.3;
+
+        const width = originalWidth - margin;
+        const height = originalHeight - margin;
+
+        const itemsInColumn = 17;
+        const numberOfColumns = 3;
+
+        // TODO: Remove
+        const top_number = 50;
+
+        /* Svg */
+        var svg = d3
+          .select("body")
+          .append("svg")
+          .attr("xmlns", "http://www.w3.org/2000/svg")
+          .attr("width", originalWidth)
+          .attr("height", originalHeight)
+          .attr("viewBox", `0 0 ${originalWidth} ${originalHeight}`)
+          .style("max-width", "100%")
+          .style("height", "auto");
+        /* */
+
+        /* Defs */
+        const defs = svg.append("defs");
+        /* */
+
+        /* Load "Roboto" font */
+        defs
+          .append("style")
+          .attr("type", "text/css")
+          .text(
+            "@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700')"
+          );
+        /* */
+
+        /* Gradients */
+        const numberGradientId = "numberGradient";
+        const numberGradient = defs
+          .append("linearGradient")
+          .attr("x1", 0)
+          .attr("y1", "100%")
+          .attr("x2", 0)
+          .attr("y2", 0)
+          .attr("id", numberGradientId);
+        numberGradient
+          .append("stop")
+          .attr("offset", "0%")
+          .attr("stop-color", "#448BC1");
+        numberGradient
+          .append("stop")
+          .attr("offset", "100%")
+          .attr("stop-color", "#104E81");
+
+        const barGradientId = "barGradient";
+        const barGradient = defs
+          .append("linearGradient")
+
+          .attr("id", barGradientId);
+        barGradient
+          .append("stop")
+          .attr("offset", "0%")
+          .attr("stop-color", "#F7F7F7");
+        barGradient
+          .append("stop")
+          .attr("offset", "100%")
+          .attr("stop-color", "#E8E8E8");
+        /* */
+
+        /* Main title */
+        const titleFontSize = height * 0.05;
+        svg
+          .append("text")
+          .attr("x", 0)
+          .attr("y", titleFontSize)
+          .style("font-size", `${titleFontSize}px`)
+          .attr("font-weight", 700)
+          .attr("font-family", fontFamily)
+          .attr("fill", "#0d5295")
+          .text(originalData.name);
+        /* */
+
+        /* Main group */
+        var g = svg
+          .append("g")
+          .attr("transform", `translate(${margin / 2} ${margin / 2})`);
+        /* */
+
+        const slicedData = sliceArray(
+          originalData.data,
+          0,
+          itemsInColumn * numberOfColumns
+        );
+        const columns = splitArray(slicedData, itemsInColumn);
+
+        const barHorizontalPadding = (width / numberOfColumns) * 0.25;
+        const barVerticalPadding = (height / itemsInColumn) * 0.1;
+
+        const barWidth =
+          (width - barHorizontalPadding * (numberOfColumns - 1)) /
+          numberOfColumns;
+        const barHeight = height / itemsInColumn - barVerticalPadding;
+
+        const numberBarWidth = barWidth / 5;
+
+        columns.forEach((columnItems, columnIndex) => {
+          columnItems.forEach((item, itemIndex) => {
+            /* Bar group */
+            const barGroup = g.append("g");
+            /* */
+
+            /* Text bar */
+            barGroup
+              .append("rect")
+              .attr("x", (barWidth + barHorizontalPadding) * columnIndex)
+              .attr("y", (barHeight + barVerticalPadding) * itemIndex)
+              .attr("width", barWidth)
+              .attr("height", barHeight)
+              .style("fill", `url(#${barGradientId})`);
+            /* */
+
+            /* Text label */
+            const nameTextLeftPadding = height * 0.025;
+            const nameTextFontSize = height * 0.0275;
+            barGroup
+              .append("text")
+              .text(item.name)
+              .attr(
+                "x",
+                (barWidth + barHorizontalPadding) * columnIndex +
+                  nameTextLeftPadding
+              )
+              .attr(
+                "y",
+                (barHeight + barVerticalPadding) * itemIndex +
+                  barHeight / 2 +
+                  nameTextFontSize / 3
+              )
+              .style("fill", "#0d5295")
+              .style("font-size", `${nameTextFontSize}px`)
+              .attr("font-family", fontFamily)
+              .attr("font-weight", 300);
+            /* */
+
+            /* Number bar */
+            barGroup
+              .append("rect")
+              .attr(
+                "x",
+                (barWidth + barHorizontalPadding) * columnIndex - numberBarWidth
+              )
+              .attr("y", (barHeight + barVerticalPadding) * itemIndex)
+              .attr("width", numberBarWidth)
+              .attr("height", barHeight)
+              .style("fill", `url(#${numberGradientId})`);
+            /* */
+
+            /* Number label */
+            const numberTextFontSize = height * 0.035;
+            barGroup
+              .append("text")
+              .text(originalData.data.indexOf(item) + 1)
+              .attr(
+                "x",
+                (barWidth + barHorizontalPadding) * columnIndex -
+                  numberBarWidth / 2
+              )
+              .attr(
+                "y",
+                (barHeight + barVerticalPadding) * itemIndex +
+                  barHeight / 2 +
+                  nameTextFontSize / 3
+              )
+              .style("fill", "#fff")
+              .style("font-size", `${nameTextFontSize}px`)
+              .attr("font-family", fontFamily)
+              .attr("text-anchor", "middle");
+            /* */
+          });
+        });
+      };
+
+      const apiUrl = "/api/diagrams";
+      const params = new URLSearchParams(window.location.search);
+      const KEY = "slug";
+
+      window.onmessage = (e) => {
+        if (e.data?.name === "parentMessage") {
+          if (e.data.data?.originalData) {
+            render(e.data.data.originalData);
+          }
+        }
+      };
+
+      if (params.has(KEY)) {
+        const key = params.get(KEY);
+        let url = `${apiUrl}/${key}`;
+        if (key.includes("demo_example")) {
+          const type = key.split("?")[1];
+
+          url = `/diagrams/${type}/data.json`;
+        }
+        const fetchData = async () => {
+          try {
+            const response = await fetch(url);
+            const data = await response.json();
+            if (data?.originalData) {
+              render(data.originalData);
+            }
+            if (data?.source?.originalData) {
+              render(data.source.originalData);
+            }
+          } catch (error) {
+            console.error(error);
+          }
+        };
+        fetchData();
+      }
+    </script>
+  </body>
+</html>

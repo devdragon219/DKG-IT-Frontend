@@ -1,0 +1,137 @@
+{
+  "originalData": {
+    "name": "Al in Drug Discovery Companies Focus on Oncology: Leadership by Funding Level",
+    "startPoint": 20,
+    "zoomLevel": "0.17",
+    "links": {
+      "Machine Learning": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/",
+      "Supervised/Unsupervised Learning": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=359",
+      "Unsupervised Learning": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=361",
+      "Reinforcement Learning": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=362",
+      "Classical Supervised Learning": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=363",
+      "Deep Supervised Learning": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=364",
+      "Classical Unsupervised Learning": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=365",
+      "Deep Unsupervised Learning": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=360",
+      "Classical Reinforcement Learning": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=366",
+      "Deep Reinforcement Learning": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=367",
+      "Linear Regression": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=390",
+      "CART": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=383",
+      "Logistic Regression": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=391",
+      "Random Forest": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=396",
+      "SVM": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=382",
+      "XGBoost": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=400",
+      "kNN": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=380",
+      "LightGBM": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=401",
+      "VGG-Net": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=427",
+      "LSTM": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=407",
+      "ResNet": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=429",
+      "GRU": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=408",
+      "3D-CNN": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=504",
+      "GNN": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=416",
+      "Two-Stream CNN": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=507",
+      "Siamese network": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=419",
+      "K-means": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=436",
+      "PCA": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=488",
+      "DBSCAN": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=438",
+      "ICA": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=491",
+      "Gaussian Mixture Model": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=379",
+      "LDA": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=490",
+      "LOF": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=485",
+      "Isolation Forest": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=484",
+      "Autoencoder": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=458",
+      "BERT": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=469",
+      "Variational Autoencoder": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=462",
+      "LLaMA": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=480",
+      "LDM": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=457",
+      "GPT-3": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=475",
+      "GAN": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=448",
+      "GPT-4": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=479",
+      "Thompson Sampling": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=512",
+      "Q-Learning": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=494",
+      "UCB": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=511",
+      "SARSA": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=495",
+      "Value Iteration": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=523",
+      "REINFORCE": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=532",
+      "Monte Carlo": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=526",
+      "PPO": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=534",
+      "DQN": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=498",
+      "A2C": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=501",
+      "Dueling DQN": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=500",
+      "A3C": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=502",
+      "NAF": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=549",
+      "SAC": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=503",
+      "Deep TRPO": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=497",
+      "Deep Dyna-Q": "https://platform.dkv.global/dashboards/projects-circle-ai-tech-library/?node=551"
+    },
+    "data": {
+      "Machine Learning": {
+        "Supervised/Unsupervised Learning": {
+          "Classical Supervised Learning": {
+            "Linear Regression": {},
+            "CART": {},
+            "Logistic Regression": {},
+            "Random Forest": {},
+            "SVM": {},
+            "XGBoost": {},
+            "kNN": {},
+            "LightGBM": {}
+          },
+          "Deep Supervised Learning": {
+            "VGG-Net": {},
+            "LSTM": {},
+            "ResNet": {},
+            "GRU": {},
+            "3D-CNN": {},
+            "GNN": {},
+            "Two-Stream CNN": {},
+            "Siamese network": {}
+          }
+        },
+        "Unsupervised Learning": {
+          "Classical Unsupervised Learning": {
+            "K-means": {},
+            "PCA": {},
+            "DBSCAN": {},
+            "ICA": {},
+            "Gaussian Mixture Model": {},
+            "LDA": {},
+            "LOF": {},
+            "Isolation Forest": {}
+          },
+          "Deep Unsupervised Learning": {
+            "Autoencoder": {},
+            "BERT": {},
+            "Variational Autoencoder": {},
+            "LLaMA": {},
+            "LDM": {},
+            "GPT-3": {},
+            "GAN": {},
+            "GPT-4": {}
+          }
+        },
+        "Reinforcement Learning": {
+          "Classical Reinforcement Learning": {
+            "Thompson Sampling": {},
+            "Q-Learning": {},
+            "UCB": {},
+            "SARSA": {},
+            "Value Iteration": {},
+            "REINFORCE": {},
+            "Monte Carlo": {},
+            "PPO": {}
+          },
+          "Deep Reinforcement Learning": {
+            "DQN": {},
+            "A2C": {},
+            "Dueling DQN": {},
+            "A3C": {},
+            "NAF": {},
+            "SAC": {},
+            "Deep TRPO": {},
+            "Deep Dyna-Q": {}
+          }
+        }
+      }
+    }
+  }
+}

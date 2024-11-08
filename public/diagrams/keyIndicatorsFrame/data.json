@@ -1,0 +1,84 @@
+{
+  "originalData": {
+    "backgroundColor": "white",
+    "titleColor": "#0c5392",
+    "rows": [
+      [
+        {
+          "value": "Longevity Governance Index",
+          "shadowColor": "black",
+          "backgroundColor": "#0c5391",
+          "borderColor": "#0c5391",
+          "textColor": "white",
+          "link": "https://www.google.com/",
+          "fontSize": "0.032em",
+          "textAlign": "justify"
+        }
+      ],
+      [
+        {
+          "value": "24th place",
+          "shadowColor": "red",
+          "backgroundColor": "white",
+          "borderColor": "none",
+          "textColor": "#0c5391",
+          "link": "https://www.google.com/",
+          "fontSize": "0.032em",
+          "textAlign": "none"
+        },
+        {
+          "value": "19th place",
+          "shadowColor": "black",
+          "backgroundColor": "white",
+          "borderColor": "none",
+          "textColor": "#0c5391",
+          "link": "https://www.google.com/",
+          "fontSize": "0.032em",
+          "textAlign": "none"
+        },
+        {
+          "value": "19th place",
+          "shadowColor": "black",
+          "backgroundColor": "white",
+          "borderColor": "none",
+          "textColor": "#0c5391",
+          "link": "https://www.google.com/",
+          "fontSize": "0.032em",
+          "textAlign": "none"
+        }
+      ],
+      [
+        {
+          "value": "13th place",
+          "shadowColor": "black",
+          "backgroundColor": "white",
+          "borderColor": "none",
+          "textColor": "#0c5391",
+          "link": "https://www.google.com/",
+          "fontSize": "0.032em",
+          "textAlign": "none"
+        },
+        {
+          "value": "68th place",
+          "shadowColor": "black",
+          "backgroundColor": "white",
+          "borderColor": "none",
+          "textColor": "#0c5391",
+          "link": "https://www.google.com/",
+          "fontSize": "0.032em",
+          "textAlign": "none"
+        },
+        {
+          "value": "13th place",
+          "shadowColor": "black",
+          "backgroundColor": "white",
+          "borderColor": "none",
+          "textColor": "#0c5391",
+          "link": "https://www.google.com/",
+          "fontSize": "0.032em",
+          "textAlign": "none"
+        }
+      ]
+    ]
+  }
+}

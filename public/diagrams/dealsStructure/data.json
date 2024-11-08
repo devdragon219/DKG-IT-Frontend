@@ -1,0 +1,634 @@
+{
+  "originalData": {
+    "data": {
+      "title": "Selected Pharma AI Deals Structure",
+      "colorTitle": "#3993E1",
+      "colorHeader": "white",
+      "table": [
+        {
+          "headers": [
+            {
+              "label": "AI Companies",
+              "width": "40%",
+              "align": "right",
+              "colorEven": "#5CA6E6",
+              "colorOdd": "#137CD8",
+              "bgColorHeader": "#035298"
+            },
+            {
+              "label": "Pharma Corporations",
+              "width": "20%",
+              "align": "center",
+              "colorEven": "#EFA9D8",
+              "colorOdd": "#E389C5",
+              "bgColorHeader": "#930865"
+            },
+            {
+              "label": "AI Companies",
+              "width": "40%",
+              "align": "left",
+              "colorEven": "#5CA6E6",
+              "colorOdd": "#137CD8",
+              "bgColorHeader": "#035298"
+            }
+          ]
+        },
+        {
+          "data": [
+            [
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://tadviser.com/images/e/eb/Trans-Oil_Group_logo_2021.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://acem.md/wp-content/uploads/2021/06/eLogo.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://acem.md/wp-content/uploads/2023/07/MicrosoftTeams-image.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ],
+            [
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ],
+            [
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://tadviser.com/images/e/eb/Trans-Oil_Group_logo_2021.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://acem.md/wp-content/uploads/2021/06/eLogo.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://acem.md/wp-content/uploads/2023/07/MicrosoftTeams-image.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ]
+          ]
+        },
+        {
+          "data": [
+            [
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://tadviser.com/images/e/eb/Trans-Oil_Group_logo_2021.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://acem.md/wp-content/uploads/2021/06/eLogo.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://acem.md/wp-content/uploads/2023/07/MicrosoftTeams-image.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ],
+            [
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ],
+            [
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://tadviser.com/images/e/eb/Trans-Oil_Group_logo_2021.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://acem.md/wp-content/uploads/2021/06/eLogo.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://acem.md/wp-content/uploads/2023/07/MicrosoftTeams-image.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ]
+          ]
+        },
+        {
+          "data": [
+            [
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://tadviser.com/images/e/eb/Trans-Oil_Group_logo_2021.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://acem.md/wp-content/uploads/2021/06/eLogo.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://acem.md/wp-content/uploads/2023/07/MicrosoftTeams-image.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ],
+            [
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ],
+            [
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://tadviser.com/images/e/eb/Trans-Oil_Group_logo_2021.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://acem.md/wp-content/uploads/2021/06/eLogo.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://acem.md/wp-content/uploads/2023/07/MicrosoftTeams-image.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ]
+          ]
+        },
+        {
+          "data": [
+            [
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://tadviser.com/images/e/eb/Trans-Oil_Group_logo_2021.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://acem.md/wp-content/uploads/2021/06/eLogo.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://acem.md/wp-content/uploads/2023/07/MicrosoftTeams-image.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ],
+            [
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ],
+            [
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://tadviser.com/images/e/eb/Trans-Oil_Group_logo_2021.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://acem.md/wp-content/uploads/2021/06/eLogo.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://acem.md/wp-content/uploads/2023/07/MicrosoftTeams-image.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ]
+          ]
+        },
+        {
+          "data": [
+            [
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://tadviser.com/images/e/eb/Trans-Oil_Group_logo_2021.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ],
+            [
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ],
+            [
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://tadviser.com/images/e/eb/Trans-Oil_Group_logo_2021.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ]
+          ]
+        },
+        {
+          "data": [
+            [
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://tadviser.com/images/e/eb/Trans-Oil_Group_logo_2021.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ],
+            [
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ],
+            [
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://tadviser.com/images/e/eb/Trans-Oil_Group_logo_2021.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ]
+          ]
+        },
+        {
+          "data": [
+            [
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://tadviser.com/images/e/eb/Trans-Oil_Group_logo_2021.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ],
+            [
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ],
+            [
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://tadviser.com/images/e/eb/Trans-Oil_Group_logo_2021.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ]
+          ]
+        },
+        {
+          "data": [
+            [
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://tadviser.com/images/e/eb/Trans-Oil_Group_logo_2021.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ],
+            [
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ],
+            [
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://tadviser.com/images/e/eb/Trans-Oil_Group_logo_2021.jpg",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://usm.md/wp-content/uploads/cropped-logo_dark_22.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://www.delucru.md/upload/company/4d07f74f1ff092766fc8195753d76999.png",
+                "link": "https://tools.dkv.global/"
+              },
+              {
+                "url": "https://mechatronics-center.com/wp-content/uploads/2019/08/logo_mechatronics_innovation_center_whitebackground1.png",
+                "link": "https://tools.dkv.global/"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}
